@@ -1,0 +1,209 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/home.css';
+
+const relay = [
+  ['01', 'Request by email', 'A request arrives outside the process.'],
+  ['02', 'Budget in a file', 'The same details are entered again.'],
+  ['03', 'Approval in an inbox', 'Status depends on a reply.'],
+  ['04', 'Order in the ERP', 'Approved data is copied once more.'],
+  ['05', 'Status by email', 'People ask where the request stands.'],
+];
+
+const steps = [
+  { number: '01', role: 'Human', kind: 'human', title: 'Request submitted', detail: 'A person supplies the need, owner and supporting information.', note: 'Input' },
+  { number: '02', role: 'System', kind: 'validation', title: 'Budget checked', detail: 'Defined rules check the request before it moves forward.', note: 'Validation' },
+  { number: '03', role: 'Human', kind: 'checkpoint', title: 'Manager decision', detail: 'An authorised person approves, declines or asks for a change.', note: 'Approval' },
+  { number: '04', role: 'Human', kind: 'human', title: 'Supplier selected', detail: 'Judgement stays with the person responsible for the purchase.', note: 'Decision' },
+  { number: '05', role: 'System', kind: 'system', title: 'Purchase order recorded', detail: 'Approved information can pass into the existing ERP.', note: 'Output' },
+  { number: '06', role: 'System', kind: 'waiting', title: 'Await shipment; update stock', detail: 'The route pauses until delivery information arrives, then updates inventory.', note: 'Waiting' },
+  { number: '07', role: 'System', kind: 'validation', title: 'Invoice checked', detail: 'Documents are checked against the order; mismatches need review.', note: 'Validation' },
+  { number: '08', role: 'System', kind: 'complete', title: 'KPI / SLA record updated', detail: 'The completed route leaves a trace for later review.', note: 'Completed' },
+];
+---
+
+<BaseLayout
+  title="Optimix — Business process optimization"
+  description="Optimix helps operations teams redesign repeated handoffs into controlled workflows, with people responsible for approvals and exceptions."
+>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="wordmark" href="#top" aria-label="Optimix, back to top" translate="no">optimix<span aria-hidden="true">.</span></a>
+      <nav class="primary-nav" aria-label="Main navigation">
+        <a class="nav-optional" href="#workflow">Process example</a>
+        <a class="nav-optional" href="#approach">Approach</a>
+        <a class="nav-contact" href="#contact">Prepare a process brief <span aria-hidden="true">↗</span></a>
+      </nav>
+      <details class="mobile-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="#workflow">Process example</a>
+          <a href="#approach">Approach</a>
+          <a href="#contact">Prepare a process brief</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="top" aria-labelledby="hero-title">
+      <p class="eyebrow hero-eyebrow">Business process optimization</p>
+      <h1 id="hero-title">Routine steps move. <br />People decide.</h1>
+      <div class="hero-lower">
+        <div class="hero-intro">
+          <p class="body-large">For growing operations teams, Optimix redesigns repeated handoffs between people and systems. Routine steps can be automated; approvals and exceptions stay visible to the people responsible.</p>
+          <div class="hero-actions">
+            <a class="button-primary" href="#contact">Prepare a process brief <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#workflow">See a process example</a>
+          </div>
+        </div>
+        <div class="route-preview" aria-label="Illustrative purchase request sequence">
+          <div class="route-preview-head">
+            <strong>A purchase request</strong>
+            <span>Illustrative workflow</span>
+          </div>
+          <ol>
+            <li><span class="mono-number">01</span><span>Request submitted</span><b>Human</b></li>
+            <li><span class="mono-number">02</span><span>Budget checked</span><b>System</b></li>
+            <li><span class="mono-number">03</span><span>Manager approval</span><b>Human</b></li>
+            <li><span class="mono-number">04</span><span>Order recorded</span><b>System</b></li>
+          </ol>
+          <p class="route-preview-exception"><span aria-hidden="true">↳</span> If a check fails, the route returns to a person. This sequence is illustrative.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="recognition" id="problem" aria-labelledby="problem-title">
+      <div class="container">
+        <div class="section-heading recognition-heading">
+          <p class="eyebrow">Recognise the handoff</p>
+          <div>
+            <h2 class="section-title" id="problem-title">The work moves. The context does not.</h2>
+            <p class="body-large muted">One request can pass through several tools and inboxes. Each transfer creates another place to wait, copy or ask for status.</p>
+          </div>
+        </div>
+        <ol class="relay" aria-label="Illustrative manual purchase request relay">
+          {relay.map(([number, title, detail]) => (
+            <li>
+              <span class="relay-number mono-number">{number}</span>
+              <strong>{title}</strong>
+              <span>{detail}</span>
+            </li>
+          ))}
+        </ol>
+        <p class="example-note">Illustrative pattern, not a description of a client’s operation.</p>
+      </div>
+    </section>
+
+    <section class="change container" id="change" aria-labelledby="change-title">
+      <div class="change-lead">
+        <p class="eyebrow">What changes</p>
+        <h2 class="section-title" id="change-title">Make the route explicit before automating it.</h2>
+        <p class="body-large muted">The aim is a process people can follow, question and measure, across the systems already in use.</p>
+      </div>
+      <div class="change-sequence" aria-label="Proposed structure for process improvement">
+        <div class="change-row">
+          <span class="change-index mono-number">01 / Map</span>
+          <div><h3>See the actual handoffs.</h3><p>Identify inputs, owners, approvals, repeated entry and where work waits.</p></div>
+        </div>
+        <div class="change-row">
+          <span class="change-index mono-number">02 / Route</span>
+          <div><h3>Connect repeatable steps.</h3><p>Use rules and validation to move routine work through existing tools where appropriate.</p></div>
+        </div>
+        <div class="change-row">
+          <span class="change-index mono-number">03 / Control</span>
+          <div><h3>Keep decisions accountable.</h3><p>Send ambiguous cases and exceptions to the right person, and record what happened.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="workflow-scene" id="workflow" aria-labelledby="workflow-title">
+      <div class="container workflow-grid">
+        <div class="workflow-intro">
+          <p class="eyebrow">A process in view</p>
+          <h2 class="section-title" id="workflow-title">Follow one request.</h2>
+          <p class="body-large">A purchase request gives the route a concrete shape: input, validation, human decisions, system actions and a recorded outcome.</p>
+          <p class="workflow-disclosure">Illustrative reference flow. It is not a client case or a verified depiction of Optimix’s existing demonstration. Actual steps depend on the organisation.</p>
+          <div class="workflow-legend" aria-label="Workflow notation">
+            <span><i class="legend-marker human" aria-hidden="true"></i> Human</span>
+            <span><i class="legend-marker system" aria-hidden="true"></i> System</span>
+            <span><i class="legend-marker checkpoint" aria-hidden="true"></i> Checkpoint</span>
+          </div>
+          <p class="workflow-bottomline">A failed check should lead to a decision, not a silent handoff.</p>
+        </div>
+        <div class="workflow-route">
+          <ol class="workflow-steps">
+            {steps.map((step, index) => (
+              <li class:list={['workflow-step', `is-${step.kind}`]}>
+                <span class="workflow-marker" aria-hidden="true"></span>
+                <div class="workflow-step-top">
+                  <span class="mono-number">{step.number}</span>
+                  <span>{step.role} / {step.note}</span>
+                </div>
+                <h3>{step.title}</h3>
+                <p>{step.detail}</p>
+                {index === 1 && (
+                  <aside class="exception-route" aria-label="Exception route from budget check">
+                    <span class="exception-heading">↳ Exception / human review</span>
+                    <p>If budget or information fails a check, the request pauses. A manager reviews the issue, records a decision and either returns it to the route or stops it.</p>
+                  </aside>
+                )}
+              </li>
+            ))}
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="value container" id="value" aria-labelledby="value-title">
+      <div class="value-heading">
+        <p class="eyebrow">Business value</p>
+        <h2 class="section-title" id="value-title">The case has to work on paper, too.</h2>
+      </div>
+      <div class="value-model" aria-label="Illustrative economic evaluation model">
+        <div class="value-line"><span>01 / Current effort</span><p>Process volume <em>×</em> handling time <em>×</em> labour cost</p></div>
+        <div class="value-line"><span>02 / Other exposure</span><p>Errors <em>+</em> delays <em>+</em> the cost of scaling</p></div>
+        <div class="value-line"><span>03 / Cost to change</span><p>Implementation <em>+</em> software / API / infrastructure <em>+</em> upkeep</p></div>
+        <div class="value-result"><span>Decision</span><p>Is the measurable value greater than the cost and risk of changing the process?</p></div>
+      </div>
+      <p class="value-footnote">Time released is capacity. It becomes a cash saving only when the business can actually reduce cost or redeploy that capacity. Any estimate needs the company’s own baseline.</p>
+    </section>
+
+    <section class="approach" id="approach" aria-labelledby="approach-title">
+      <div class="container approach-grid">
+        <div>
+          <p class="eyebrow">Operating principles</p>
+          <h2 class="section-title" id="approach-title">Start with the process, then choose the mechanism.</h2>
+          <p class="body-large muted">A sensible engagement would begin by observing the work, agreeing where control belongs, and testing whether the proposed change is worth maintaining.</p>
+          <p class="approach-note">Proposed approach, not a fixed delivery promise.</p>
+        </div>
+        <div class="principles">
+          <div><span class="mono-number">01</span><p><strong>Know the baseline.</strong> Record volumes, delays, errors and the systems involved before making a value claim.</p></div>
+          <div><span class="mono-number">02</span><p><strong>Define control.</strong> Specify permissions, approvals, exceptions and escalation before automating a path.</p></div>
+          <div><span class="mono-number">03</span><p><strong>Keep a trace.</strong> Log decisions and monitor the route so failures can be found and addressed.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <div>
+          <p class="eyebrow">The first step</p>
+          <h2 class="section-title" id="contact-title">Bring one process.</h2>
+        </div>
+        <div class="contact-detail">
+          <p class="body-large">Describe the repeated work, who takes part, which tools it crosses and where it stalls. That is enough to begin a useful assessment of whether changing it makes economic sense.</p>
+          <p class="contact-status">The inquiry form and its privacy details belong to a later implementation phase. This visual prototype does not collect submissions.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="wordmark" translate="no">optimix<span aria-hidden="true">.</span></span>
+      <span>Business process optimization</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+</BaseLayout>

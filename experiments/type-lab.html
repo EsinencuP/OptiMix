@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Optimix · Onest multilingual type lab</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="../node_modules/@fontsource-variable/onest/wght.css" />
+    <style>
+      :root { font-family: "Onest Variable", Arial, sans-serif; color: #172328; background: #f5f7f4; font-synthesis: none; }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      .wrap { width: min(100% - 96px, 1320px); margin-inline: auto; }
+      header { display: flex; justify-content: space-between; align-items: center; min-height: 80px; border-bottom: 1px solid #ced8d3; gap: 24px; }
+      .brand { font-size: 22px; font-weight: 730; letter-spacing: -.07em; }
+      nav { display: flex; gap: 28px; font-size: 14px; font-weight: 590; }
+      .intro { padding-block: 76px 68px; border-bottom: 1px solid #ced8d3; }
+      .eyebrow { font-size: 12px; line-height: 1.3; font-weight: 690; letter-spacing: .1em; text-transform: uppercase; color: #54645f; }
+      h1 { max-width: 1100px; margin: 24px 0 25px; font-size: clamp(44px, 6.3vw, 92px); line-height: .99; letter-spacing: -.065em; font-weight: 650; }
+      .intro p { max-width: 640px; margin: 0; font-size: 19px; line-height: 1.55; color: #45544f; }
+      .button { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; margin-top: 28px; padding: 0 22px; background: #125d50; color: white; border-radius: 5px; font-size: 15px; font-weight: 650; text-decoration: none; }
+      .language-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 56px; }
+      article { min-width: 0; padding: 56px 0 62px; border-bottom: 1px solid #ced8d3; }
+      article h2 { max-width: 680px; margin: 22px 0 20px; font-size: clamp(36px, 4vw, 56px); line-height: 1.08; letter-spacing: -.05em; font-weight: 620; overflow-wrap: anywhere; }
+      .body { max-width: 630px; margin: 0 0 30px; color: #40514b; font-size: 17px; line-height: 1.65; }
+      .samples { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 24px; }
+      .sample { min-width: 0; padding: 18px 0 0; border-top: 1px solid #b9c8c0; }
+      .sample-label { display: block; margin-bottom: 11px; color: #617069; font-size: 11px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; }
+      .sample-text { display: block; font-size: 15px; font-weight: 570; line-height: 1.45; overflow-wrap: anywhere; }
+      .form-demo { display: grid; gap: 7px; }
+      .form-demo label { font-size: 13px; font-weight: 650; }
+      .form-demo input { width: 100%; min-height: 42px; padding: 8px 11px; font: inherit; font-size: 14px; background: white; color: #172328; border: 1px solid #a6b8ae; border-radius: 3px; }
+      .workflow { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline; color: #244f45; font-size: 14px; font-weight: 620; line-height: 1.5; }
+      .workflow b { font-weight: 500; color: #83918a; }
+      .figures { margin-top: 46px; padding: 25px 0 48px; border-top: 1px solid #ced8d3; }
+      .figure-grid { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: 14px; margin-top: 25px; }
+      .figure { border-top: 1px solid #b9c8c0; padding-top: 12px; }
+      .figure strong { display: block; font-size: clamp(27px,3vw,42px); line-height: 1.1; letter-spacing: -.045em; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+      .figure small { display: block; margin-top: 7px; color: #5e6e67; font-size: 12px; }
+      footer { padding: 25px 0 35px; border-top: 1px solid #ced8d3; color: #617069; font-size: 12px; }
+      @media (max-width: 800px) { .wrap { width: min(100% - 48px, 1320px); } nav { gap: 14px; } .language-grid { grid-template-columns: 1fr; } .figure-grid { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 28px 18px; } }
+      @media (max-width: 480px) { .wrap { width: min(100% - 36px, 1320px); } header { min-height: 68px; } .brand { font-size: 20px; } nav { font-size: 12px; gap: 9px; } .intro { padding-block: 54px; } h1 { font-size: clamp(44px, 12vw, 62px); } .intro p { font-size: 16px; } article { padding-block: 48px; } article h2 { font-size: clamp(36px, 10vw, 45px); } .samples { grid-template-columns: 1fr; gap: 18px; } .figure strong { font-size: 24px; } }
+      @media (max-width: 360px) { .figure-grid { grid-template-columns: 1fr; gap: 18px; } }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="brand">optimix</div>
+        <nav aria-label="Typography navigation examples"><span>How it works</span><span>Approach</span><span>Contact</span></nav>
+      </header>
+      <main>
+        <section class="intro" lang="en">
+          <div class="eyebrow">English · display / body / action</div>
+          <h1>Optimize the handoff</h1>
+          <p>Turn repetitive transfers between people and systems into a controlled workflow. Keep decisions and exceptions visible to the people responsible.</p>
+          <a class="button" href="#romanian">Discuss a process →</a>
+        </section>
+        <section class="language-grid" aria-label="Multilingual type samples">
+          <article id="romanian" lang="ro">
+            <div class="eyebrow">Română · display / body / controls</div>
+            <h2>Cerere → aprobare → comandă</h2>
+            <p class="body">O cerere ajunge la persoana potrivită, este verificată și aprobată înainte ca sistemul să continue. Excepțiile revin la un responsabil, cu decizia păstrată în flux.</p>
+            <div class="samples">
+              <div class="sample"><span class="sample-label">Diacritice / labels</span><span class="sample-text">Ș ș Ț ț Ă ă Â â Î î<br>Solicitare · Aprobare · În așteptare</span></div>
+              <div class="sample"><span class="sample-label">Navigation</span><span class="sample-text">Cum funcționează · Abordare · Contact</span></div>
+              <div class="sample"><span class="sample-label">Form label</span><div class="form-demo"><label for="process-ro">Descrieți procesul</label><input id="process-ro" value="Aprobare achiziție" readonly /></div></div>
+              <div class="sample"><span class="sample-label">Workflow notation</span><span class="workflow">Cerere <b>→</b> Verificare buget <b>→</b> Aprobare <b>→</b> Comandă</span></div>
+            </div>
+          </article>
+          <article lang="ru">
+            <div class="eyebrow">Русский · display / body / controls</div>
+            <h2>Запрос → согласование → заказ</h2>
+            <p class="body">Заявка поступает ответственному человеку, проходит проверку и согласование. При исключении система останавливает обычный маршрут и передаёт решение человеку.</p>
+            <div class="samples">
+              <div class="sample"><span class="sample-label">Буквы / подписи</span><span class="sample-text">Ё ё<br>Заявка · Согласование · Завершено</span></div>
+              <div class="sample"><span class="sample-label">Навигация</span><span class="sample-text">Как это работает · Подход · Контакты</span></div>
+              <div class="sample"><span class="sample-label">Поле формы</span><div class="form-demo"><label for="process-ru">Опишите процесс</label><input id="process-ru" value="Закупка и согласование" readonly /></div></div>
+              <div class="sample"><span class="sample-label">Обозначение процесса</span><span class="workflow">Запрос <b>→</b> Проверка бюджета <b>→</b> Решение <b>→</b> Заказ</span></div>
+            </div>
+          </article>
+        </section>
+        <section class="figures" aria-label="Numerals and symbols">
+          <div class="eyebrow">Figures · tabular / currency / percentage</div>
+          <div class="figure-grid">
+            <div class="figure"><strong>01 → 08</strong><small>Workflow step numerals</small></div>
+            <div class="figure"><strong>1 250,50 lei</strong><small>Romanian currency</small></div>
+            <div class="figure"><strong>€ 12,450.00</strong><small>English currency</small></div>
+            <div class="figure"><strong>12,5% / 12.5%</strong><small>Percent notation</small></div>
+          </div>
+        </section>
+      </main>
+      <footer>Standalone typography experiment · Onest Variable · EN / RO / RU · no production copy approval implied</footer>
+    </div>
+  </body>
+</html>

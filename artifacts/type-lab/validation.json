@@ -1,0 +1,683 @@
+[
+  {
+    "width": 1440,
+    "viewport": 1440,
+    "documentWidth": 1440,
+    "loadedFonts": [
+      "Onest Variable/100 900",
+      "Onest Variable/100 900",
+      "Onest Variable/100 900",
+      "Onest Variable/100 900"
+    ],
+    "fontChecks": {
+      "en": true,
+      "ro": false,
+      "ru": false
+    },
+    "glyphChecks": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "5": true,
+      "Ș": true,
+      "ș": true,
+      "Ț": true,
+      "ț": true,
+      "Ă": false,
+      "ă": false,
+      "Â": true,
+      "â": true,
+      "Î": true,
+      "î": true,
+      "Ё": true,
+      "ё": true,
+      "З": true,
+      "а": true,
+      "п": true,
+      "р": true,
+      "о": true,
+      "с": true,
+      "→": false,
+      ",": true,
+      "l": true,
+      "e": true,
+      "i": true,
+      "€": true,
+      "%": true
+    },
+    "overflowElements": [],
+    "headings": [
+      {
+        "text": "Optimize the handoff",
+        "width": 1100,
+        "scrollWidth": 1100,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "90.72px"
+      },
+      {
+        "text": "Cerere → aprobare → comandă",
+        "width": 632,
+        "scrollWidth": 632,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "56px"
+      },
+      {
+        "text": "Запрос → согласование → заказ",
+        "width": 632,
+        "scrollWidth": 632,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "56px"
+      }
+    ],
+    "samples": [
+      {
+        "text": "Ș ș Ț ț Ă ă Â â Î îSolicitare · Aprobare · În așteptare",
+        "width": 304,
+        "scrollWidth": 304,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Cum funcționează · Abordare · Contact",
+        "width": 304,
+        "scrollWidth": 304,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Cerere → Verificare buget → Aprobare → Comandă",
+        "width": 304,
+        "scrollWidth": 304,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "14px"
+      },
+      {
+        "text": "Ё ёЗаявка · Согласование · Завершено",
+        "width": 304,
+        "scrollWidth": 304,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Как это работает · Подход · Контакты",
+        "width": 304,
+        "scrollWidth": 304,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Запрос → Проверка бюджета → Решение → Заказ",
+        "width": 304,
+        "scrollWidth": 304,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "14px"
+      }
+    ],
+    "figures": [
+      {
+        "text": "01 → 08",
+        "width": 320,
+        "scrollWidth": 320,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "42px"
+      },
+      {
+        "text": "1 250,50 lei",
+        "width": 320,
+        "scrollWidth": 320,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "42px"
+      },
+      {
+        "text": "€ 12,450.00",
+        "width": 320,
+        "scrollWidth": 320,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "42px"
+      },
+      {
+        "text": "12,5% / 12.5%",
+        "width": 320,
+        "scrollWidth": 320,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "42px"
+      }
+    ],
+    "fontResources": [
+      {
+        "name": "onest-latin-wght-normal.woff2",
+        "transferSize": 34060,
+        "decodedBodySize": 33760
+      },
+      {
+        "name": "onest-symbols-wght-normal.woff2",
+        "transferSize": 18468,
+        "decodedBodySize": 18168
+      },
+      {
+        "name": "onest-latin-ext-wght-normal.woff2",
+        "transferSize": 28752,
+        "decodedBodySize": 28452
+      },
+      {
+        "name": "onest-cyrillic-wght-normal.woff2",
+        "transferSize": 16160,
+        "decodedBodySize": 15860
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 768,
+    "viewport": 768,
+    "documentWidth": 768,
+    "loadedFonts": [
+      "Onest Variable/100 900",
+      "Onest Variable/100 900",
+      "Onest Variable/100 900",
+      "Onest Variable/100 900"
+    ],
+    "fontChecks": {
+      "en": true,
+      "ro": false,
+      "ru": false
+    },
+    "glyphChecks": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "5": true,
+      "Ș": true,
+      "ș": true,
+      "Ț": true,
+      "ț": true,
+      "Ă": false,
+      "ă": false,
+      "Â": true,
+      "â": true,
+      "Î": true,
+      "î": true,
+      "Ё": true,
+      "ё": true,
+      "З": true,
+      "а": true,
+      "п": true,
+      "р": true,
+      "о": true,
+      "с": true,
+      "→": false,
+      ",": true,
+      "l": true,
+      "e": true,
+      "i": true,
+      "€": true,
+      "%": true
+    },
+    "overflowElements": [],
+    "headings": [
+      {
+        "text": "Optimize the handoff",
+        "width": 720,
+        "scrollWidth": 720,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "48.384px"
+      },
+      {
+        "text": "Cerere → aprobare → comandă",
+        "width": 680,
+        "scrollWidth": 680,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "36px"
+      },
+      {
+        "text": "Запрос → согласование → заказ",
+        "width": 680,
+        "scrollWidth": 680,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "36px"
+      }
+    ],
+    "samples": [
+      {
+        "text": "Ș ș Ț ț Ă ă Â â Î îSolicitare · Aprobare · În așteptare",
+        "width": 348,
+        "scrollWidth": 348,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Cum funcționează · Abordare · Contact",
+        "width": 348,
+        "scrollWidth": 348,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Cerere → Verificare buget → Aprobare → Comandă",
+        "width": 348,
+        "scrollWidth": 348,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "14px"
+      },
+      {
+        "text": "Ё ёЗаявка · Согласование · Завершено",
+        "width": 348,
+        "scrollWidth": 348,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Как это работает · Подход · Контакты",
+        "width": 348,
+        "scrollWidth": 348,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Запрос → Проверка бюджета → Решение → Заказ",
+        "width": 348,
+        "scrollWidth": 348,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "14px"
+      }
+    ],
+    "figures": [
+      {
+        "text": "01 → 08",
+        "width": 351,
+        "scrollWidth": 351,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "27px"
+      },
+      {
+        "text": "1 250,50 lei",
+        "width": 351,
+        "scrollWidth": 351,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "27px"
+      },
+      {
+        "text": "€ 12,450.00",
+        "width": 351,
+        "scrollWidth": 351,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "27px"
+      },
+      {
+        "text": "12,5% / 12.5%",
+        "width": 351,
+        "scrollWidth": 351,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "27px"
+      }
+    ],
+    "fontResources": [
+      {
+        "name": "onest-latin-wght-normal.woff2",
+        "transferSize": 34060,
+        "decodedBodySize": 33760
+      },
+      {
+        "name": "onest-symbols-wght-normal.woff2",
+        "transferSize": 18468,
+        "decodedBodySize": 18168
+      },
+      {
+        "name": "onest-latin-ext-wght-normal.woff2",
+        "transferSize": 28752,
+        "decodedBodySize": 28452
+      },
+      {
+        "name": "onest-cyrillic-wght-normal.woff2",
+        "transferSize": 16160,
+        "decodedBodySize": 15860
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 390,
+    "viewport": 390,
+    "documentWidth": 390,
+    "loadedFonts": [
+      "Onest Variable/100 900",
+      "Onest Variable/100 900",
+      "Onest Variable/100 900",
+      "Onest Variable/100 900"
+    ],
+    "fontChecks": {
+      "en": true,
+      "ro": false,
+      "ru": false
+    },
+    "glyphChecks": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "5": true,
+      "Ș": true,
+      "ș": true,
+      "Ț": true,
+      "ț": true,
+      "Ă": false,
+      "ă": false,
+      "Â": true,
+      "â": true,
+      "Î": true,
+      "î": true,
+      "Ё": true,
+      "ё": true,
+      "З": true,
+      "а": true,
+      "п": true,
+      "р": true,
+      "о": true,
+      "с": true,
+      "→": false,
+      ",": true,
+      "l": true,
+      "e": true,
+      "i": true,
+      "€": true,
+      "%": true
+    },
+    "overflowElements": [],
+    "headings": [
+      {
+        "text": "Optimize the handoff",
+        "width": 354,
+        "scrollWidth": 354,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "46.8px"
+      },
+      {
+        "text": "Cerere → aprobare → comandă",
+        "width": 354,
+        "scrollWidth": 354,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "39px"
+      },
+      {
+        "text": "Запрос → согласование → заказ",
+        "width": 354,
+        "scrollWidth": 354,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "39px"
+      }
+    ],
+    "samples": [
+      {
+        "text": "Ș ș Ț ț Ă ă Â â Î îSolicitare · Aprobare · În așteptare",
+        "width": 354,
+        "scrollWidth": 354,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Cum funcționează · Abordare · Contact",
+        "width": 354,
+        "scrollWidth": 354,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Cerere → Verificare buget → Aprobare → Comandă",
+        "width": 354,
+        "scrollWidth": 354,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "14px"
+      },
+      {
+        "text": "Ё ёЗаявка · Согласование · Завершено",
+        "width": 354,
+        "scrollWidth": 354,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Как это работает · Подход · Контакты",
+        "width": 354,
+        "scrollWidth": 354,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Запрос → Проверка бюджета → Решение → Заказ",
+        "width": 354,
+        "scrollWidth": 354,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "14px"
+      }
+    ],
+    "figures": [
+      {
+        "text": "01 → 08",
+        "width": 168,
+        "scrollWidth": 168,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "24px"
+      },
+      {
+        "text": "1 250,50 lei",
+        "width": 168,
+        "scrollWidth": 168,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "24px"
+      },
+      {
+        "text": "€ 12,450.00",
+        "width": 168,
+        "scrollWidth": 168,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "24px"
+      },
+      {
+        "text": "12,5% / 12.5%",
+        "width": 168,
+        "scrollWidth": 168,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "24px"
+      }
+    ],
+    "fontResources": [
+      {
+        "name": "onest-latin-wght-normal.woff2",
+        "transferSize": 34060,
+        "decodedBodySize": 33760
+      },
+      {
+        "name": "onest-symbols-wght-normal.woff2",
+        "transferSize": 18468,
+        "decodedBodySize": 18168
+      },
+      {
+        "name": "onest-latin-ext-wght-normal.woff2",
+        "transferSize": 28752,
+        "decodedBodySize": 28452
+      },
+      {
+        "name": "onest-cyrillic-wght-normal.woff2",
+        "transferSize": 16160,
+        "decodedBodySize": 15860
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "width": 320,
+    "viewport": 320,
+    "documentWidth": 320,
+    "loadedFonts": [
+      "Onest Variable/100 900",
+      "Onest Variable/100 900",
+      "Onest Variable/100 900",
+      "Onest Variable/100 900"
+    ],
+    "fontChecks": {
+      "en": true,
+      "ro": false,
+      "ru": false
+    },
+    "glyphChecks": {
+      "0": true,
+      "1": true,
+      "2": true,
+      "5": true,
+      "Ș": true,
+      "ș": true,
+      "Ț": true,
+      "ț": true,
+      "Ă": false,
+      "ă": false,
+      "Â": true,
+      "â": true,
+      "Î": true,
+      "î": true,
+      "Ё": true,
+      "ё": true,
+      "З": true,
+      "а": true,
+      "п": true,
+      "р": true,
+      "о": true,
+      "с": true,
+      "→": false,
+      ",": true,
+      "l": true,
+      "e": true,
+      "i": true,
+      "€": true,
+      "%": true
+    },
+    "overflowElements": [],
+    "headings": [
+      {
+        "text": "Optimize the handoff",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "44px"
+      },
+      {
+        "text": "Cerere → aprobare → comandă",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "36px"
+      },
+      {
+        "text": "Запрос → согласование → заказ",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "36px"
+      }
+    ],
+    "samples": [
+      {
+        "text": "Ș ș Ț ț Ă ă Â â Î îSolicitare · Aprobare · În așteptare",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Cum funcționează · Abordare · Contact",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Cerere → Verificare buget → Aprobare → Comandă",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "14px"
+      },
+      {
+        "text": "Ё ёЗаявка · Согласование · Завершено",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Как это работает · Подход · Контакты",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "15px"
+      },
+      {
+        "text": "Запрос → Проверка бюджета → Решение → Заказ",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "14px"
+      }
+    ],
+    "figures": [
+      {
+        "text": "01 → 08",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "24px"
+      },
+      {
+        "text": "1 250,50 lei",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "24px"
+      },
+      {
+        "text": "€ 12,450.00",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "24px"
+      },
+      {
+        "text": "12,5% / 12.5%",
+        "width": 284,
+        "scrollWidth": 284,
+        "font": "\"Onest Variable\", Arial, sans-serif",
+        "fontSize": "24px"
+      }
+    ],
+    "fontResources": [
+      {
+        "name": "onest-latin-wght-normal.woff2",
+        "transferSize": 34060,
+        "decodedBodySize": 33760
+      },
+      {
+        "name": "onest-symbols-wght-normal.woff2",
+        "transferSize": 18468,
+        "decodedBodySize": 18168
+      },
+      {
+        "name": "onest-latin-ext-wght-normal.woff2",
+        "transferSize": 28752,
+        "decodedBodySize": 28452
+      },
+      {
+        "name": "onest-cyrillic-wght-normal.woff2",
+        "transferSize": 16160,
+        "decodedBodySize": 15860
+      }
+    ],
+    "errors": [],
+    "failedResponses": []
+  },
+  {
+    "mode": "Chrome mobile emulation",
+    "viewport": 390,
+    "documentWidth": 390
+  }
+]

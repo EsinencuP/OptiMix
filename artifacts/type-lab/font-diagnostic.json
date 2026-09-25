@@ -1,0 +1,97 @@
+{
+  "before": {
+    "loaded": [
+      "U+301, U+400-45F, U+490-491, U+4B0-4B1, ",
+      "U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+2",
+      "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2",
+      "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2"
+    ],
+    "checks": {
+      "Ă": false,
+      "ă": false,
+      "→": false,
+      "Ș": true,
+      "Ё": true
+    },
+    "widths": {
+      "Ă": 33.59999084472656,
+      "ă": 27.071990966796875,
+      "→": 35.183990478515625,
+      "Ș": 31.583999633789062,
+      "Ё": 29.663986206054688
+    },
+    "glyphPixels": {
+      "Ă": 45961512,
+      "ă": 3643991212,
+      "→": 2529799932,
+      "Ș": 2756572356,
+      "Ё": 2402232232
+    },
+    "arialGlyphPixels": {
+      "Ă": 2919137427,
+      "ă": 697678625,
+      "→": 823847639,
+      "Ș": 2673473517,
+      "Ё": 2745871969
+    },
+    "resources": [
+      "onest-latin-wght-normal.woff2",
+      "onest-symbols-wght-normal.woff2",
+      "onest-latin-ext-wght-normal.woff2",
+      "onest-cyrillic-wght-normal.woff2"
+    ]
+  },
+  "requested": [
+    "U+302-303, U+305, U+307-308, U+310, U+31",
+    "U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+2",
+    "U+102-103, U+110-111, U+128-129, U+168-1",
+    "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2",
+    "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2"
+  ],
+  "after": {
+    "loaded": [
+      "U+301, U+400-45F, U+490-491, U+4B0-4B1, ",
+      "U+302-303, U+305, U+307-308, U+310, U+31",
+      "U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+2",
+      "U+102-103, U+110-111, U+128-129, U+168-1",
+      "U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2",
+      "U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2"
+    ],
+    "checks": {
+      "Ă": true,
+      "ă": true,
+      "→": true,
+      "Ș": true,
+      "Ё": true
+    },
+    "widths": {
+      "Ă": 33.59999084472656,
+      "ă": 27.071990966796875,
+      "→": 35.183990478515625,
+      "Ș": 31.583999633789062,
+      "Ё": 29.663986206054688
+    },
+    "glyphPixels": {
+      "Ă": 45961512,
+      "ă": 3643991212,
+      "→": 2529799932,
+      "Ș": 2756572356,
+      "Ё": 2402232232
+    },
+    "arialGlyphPixels": {
+      "Ă": 2919137427,
+      "ă": 697678625,
+      "→": 823847639,
+      "Ș": 2673473517,
+      "Ё": 2745871969
+    },
+    "resources": [
+      "onest-latin-wght-normal.woff2",
+      "onest-symbols-wght-normal.woff2",
+      "onest-latin-ext-wght-normal.woff2",
+      "onest-cyrillic-wght-normal.woff2",
+      "onest-math-wght-normal.woff2",
+      "onest-vietnamese-wght-normal.woff2"
+    ]
+  }
+}

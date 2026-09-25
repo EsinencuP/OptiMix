@@ -1,0 +1,31 @@
+:root {
+  /* Phase 05 hypotheses: these are prototype choices, not approved brand assets. */
+  --font-sans: 'Onest Variable', Arial, sans-serif;
+
+  --color-paper: #f8f9f6;
+  --color-white: #ffffff;
+  --color-ink: #182321;
+  --color-muted: #53625d;
+  --color-line: #d6ded9;
+  --color-wash: #edf2ee;
+  --color-accent: #175449;
+  --color-accent-hover: #103c34;
+  --color-dark: #16312d;
+  --color-dark-muted: #c4d1cb;
+  --page-gutter: clamp(20px, 4.4vw, 64px);
+  --container-wide: 84rem;
+  --section-space: clamp(5.5rem, 10vw, 10rem);
+
+  --radius-control: 0.25rem;
+  --border-hairline: 1px solid var(--color-line);
+  --shadow-raised: 0 1.25rem 3.5rem rgb(22 49 45 / 8%);
+
+  --motion-quick: 180ms;
+  --ease-precise: cubic-bezier(.22, .61, .36, 1);
+}
+
+@media (max-width: 48rem) {
+  :root {
+    --section-space: 5.5rem;
+  }
+}

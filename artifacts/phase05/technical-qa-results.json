@@ -1,0 +1,878 @@
+{
+  "timestamp": "2026-09-24T20:31:04.493Z",
+  "baseUrl": "http://127.0.0.1:4321/",
+  "viewports": [
+    {
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "viewportWidth": 1440,
+      "docWidth": 1440,
+      "onest": true,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "interactive": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        },
+        {
+          "text": "optimix.",
+          "tag": "A",
+          "width": 84.7,
+          "height": 44,
+          "x": 63.4,
+          "y": 20
+        },
+        {
+          "text": "Process example",
+          "tag": "A",
+          "width": 106.4,
+          "height": 44,
+          "x": 950.7,
+          "y": 20
+        },
+        {
+          "text": "Approach",
+          "tag": "A",
+          "width": 61.6,
+          "height": 44,
+          "x": 1100.4,
+          "y": 20
+        },
+        {
+          "text": "Prepare a process brief ↗",
+          "tag": "A",
+          "width": 171.5,
+          "height": 44,
+          "x": 1205.2,
+          "y": 20
+        },
+        {
+          "text": "Prepare a process brief ↗",
+          "tag": "A",
+          "width": 240.1,
+          "height": 56,
+          "x": 63.4,
+          "y": 740.8
+        },
+        {
+          "text": "See a process example",
+          "tag": "A",
+          "width": 157.6,
+          "height": 44,
+          "x": 327.4,
+          "y": 746.8
+        },
+        {
+          "text": "Back to top ↑",
+          "tag": "A",
+          "width": 79.6,
+          "height": 44,
+          "x": 1297,
+          "y": 6497
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "errors": [],
+      "viewportWidth": 1280,
+      "docWidth": 1280,
+      "onest": true,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "interactive": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        },
+        {
+          "text": "optimix.",
+          "tag": "A",
+          "width": 84.7,
+          "height": 44,
+          "x": 56.3,
+          "y": 20
+        },
+        {
+          "text": "Process example",
+          "tag": "A",
+          "width": 106.4,
+          "height": 44,
+          "x": 807.4,
+          "y": 20
+        },
+        {
+          "text": "Approach",
+          "tag": "A",
+          "width": 61.6,
+          "height": 44,
+          "x": 952.2,
+          "y": 20
+        },
+        {
+          "text": "Prepare a process brief ↗",
+          "tag": "A",
+          "width": 171.5,
+          "height": 44,
+          "x": 1052.2,
+          "y": 20
+        },
+        {
+          "text": "Prepare a process brief ↗",
+          "tag": "A",
+          "width": 240.1,
+          "height": 56,
+          "x": 56.3,
+          "y": 674.2
+        },
+        {
+          "text": "See a process example",
+          "tag": "A",
+          "width": 157.6,
+          "height": 44,
+          "x": 320.4,
+          "y": 680.2
+        },
+        {
+          "text": "Back to top ↑",
+          "tag": "A",
+          "width": 79.6,
+          "height": 44,
+          "x": 1144,
+          "y": 5994.9
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "viewportWidth": 768,
+      "docWidth": 768,
+      "onest": true,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "interactive": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        },
+        {
+          "text": "optimix.",
+          "tag": "A",
+          "width": 84.7,
+          "height": 44,
+          "x": 33.8,
+          "y": 14
+        },
+        {
+          "text": "Menu",
+          "tag": "SUMMARY",
+          "width": 56.8,
+          "height": 44,
+          "x": 677.4,
+          "y": 14
+        },
+        {
+          "text": "Process example",
+          "tag": "A",
+          "width": 250.8,
+          "height": 48,
+          "x": 464.8,
+          "y": 76.6
+        },
+        {
+          "text": "Approach",
+          "tag": "A",
+          "width": 250.8,
+          "height": 48,
+          "x": 464.8,
+          "y": 124.6
+        },
+        {
+          "text": "Prepare a process brief",
+          "tag": "A",
+          "width": 250.8,
+          "height": 48,
+          "x": 464.8,
+          "y": 172.6
+        },
+        {
+          "text": "Prepare a process brief ↗",
+          "tag": "A",
+          "width": 240.1,
+          "height": 56,
+          "x": 33.8,
+          "y": 486
+        },
+        {
+          "text": "See a process example",
+          "tag": "A",
+          "width": 157.6,
+          "height": 44,
+          "x": 297.9,
+          "y": 492
+        },
+        {
+          "text": "Back to top ↑",
+          "tag": "A",
+          "width": 79.6,
+          "height": 44,
+          "x": 654.6,
+          "y": 6705
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "viewportWidth": 390,
+      "docWidth": 390,
+      "onest": true,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "interactive": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        },
+        {
+          "text": "optimix.",
+          "tag": "A",
+          "width": 67.3,
+          "height": 44,
+          "x": 20,
+          "y": 14
+        },
+        {
+          "text": "Menu",
+          "tag": "SUMMARY",
+          "width": 52.8,
+          "height": 44,
+          "x": 317.2,
+          "y": 14
+        },
+        {
+          "text": "Process example",
+          "tag": "A",
+          "width": 250.8,
+          "height": 48,
+          "x": 100.6,
+          "y": 76.6
+        },
+        {
+          "text": "Approach",
+          "tag": "A",
+          "width": 250.8,
+          "height": 48,
+          "x": 100.6,
+          "y": 124.6
+        },
+        {
+          "text": "Prepare a process brief",
+          "tag": "A",
+          "width": 250.8,
+          "height": 48,
+          "x": 100.6,
+          "y": 172.6
+        },
+        {
+          "text": "Prepare a process brief ↗",
+          "tag": "A",
+          "width": 240.1,
+          "height": 52.8,
+          "x": 20,
+          "y": 560.8
+        },
+        {
+          "text": "See a process example",
+          "tag": "A",
+          "width": 157.6,
+          "height": 44,
+          "x": 20,
+          "y": 629.5
+        },
+        {
+          "text": "Back to top ↑",
+          "tag": "A",
+          "width": 79.6,
+          "height": 44,
+          "x": 290.4,
+          "y": 7897.7
+        }
+      ],
+      "clipped": []
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "errors": [],
+      "viewportWidth": 320,
+      "docWidth": 320,
+      "onest": true,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "interactive": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        },
+        {
+          "text": "optimix.",
+          "tag": "A",
+          "width": 67.3,
+          "height": 44,
+          "x": 20,
+          "y": 14
+        },
+        {
+          "text": "Menu",
+          "tag": "SUMMARY",
+          "width": 52.8,
+          "height": 44,
+          "x": 247.2,
+          "y": 14
+        },
+        {
+          "text": "Process example",
+          "tag": "A",
+          "width": 242.8,
+          "height": 48,
+          "x": 38.6,
+          "y": 76.6
+        },
+        {
+          "text": "Approach",
+          "tag": "A",
+          "width": 242.8,
+          "height": 48,
+          "x": 38.6,
+          "y": 124.6
+        },
+        {
+          "text": "Prepare a process brief",
+          "tag": "A",
+          "width": 242.8,
+          "height": 48,
+          "x": 38.6,
+          "y": 172.6
+        },
+        {
+          "text": "Prepare a process brief ↗",
+          "tag": "A",
+          "width": 240.1,
+          "height": 52.8,
+          "x": 20,
+          "y": 672.3
+        },
+        {
+          "text": "See a process example",
+          "tag": "A",
+          "width": 157.6,
+          "height": 44,
+          "x": 20,
+          "y": 741.1
+        },
+        {
+          "text": "Back to top ↑",
+          "tag": "A",
+          "width": 79.6,
+          "height": 44,
+          "x": 220.4,
+          "y": 8677.1
+        }
+      ],
+      "clipped": []
+    }
+  ],
+  "keyboard": {
+    "skipBefore": {
+      "text": "Skip to content",
+      "href": "#main",
+      "x": 12,
+      "y": 12,
+      "width": 147.125,
+      "height": 45,
+      "outline": "rgb(23, 84, 73) solid 3px",
+      "visible": true
+    },
+    "skipAfter": {
+      "hash": "#main",
+      "activeTag": "BODY",
+      "activeId": "",
+      "mainTop": 85
+    },
+    "afterSkipTab": {
+      "text": "Prepare a process brief ↗",
+      "outline": "rgb(23, 84, 73) solid 3px"
+    },
+    "mobileSummaryFocus": {
+      "tag": "SUMMARY",
+      "outline": "rgb(23, 84, 73) solid 3px"
+    },
+    "mobileMenuOpened": true,
+    "mobileFirstLink": {
+      "text": "Process example",
+      "href": "#workflow",
+      "outline": "rgb(23, 84, 73) solid 3px"
+    },
+    "mobileNavAfterEnter": {
+      "hash": "#workflow",
+      "workflowTop": 162.71875,
+      "menuStillOpen": true
+    }
+  },
+  "semantics": {
+    "lang": "en",
+    "h1Count": 1,
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Routine steps move. People decide."
+      },
+      {
+        "tag": "H2",
+        "text": "The work moves. The context does not."
+      },
+      {
+        "tag": "H2",
+        "text": "Make the route explicit before automating it."
+      },
+      {
+        "tag": "H3",
+        "text": "See the actual handoffs."
+      },
+      {
+        "tag": "H3",
+        "text": "Connect repeatable steps."
+      },
+      {
+        "tag": "H3",
+        "text": "Keep decisions accountable."
+      },
+      {
+        "tag": "H2",
+        "text": "Follow one request."
+      },
+      {
+        "tag": "H3",
+        "text": "Request submitted"
+      },
+      {
+        "tag": "H3",
+        "text": "Budget checked"
+      },
+      {
+        "tag": "H3",
+        "text": "Manager decision"
+      },
+      {
+        "tag": "H3",
+        "text": "Supplier selected"
+      },
+      {
+        "tag": "H3",
+        "text": "Purchase order recorded"
+      },
+      {
+        "tag": "H3",
+        "text": "Await shipment; update stock"
+      },
+      {
+        "tag": "H3",
+        "text": "Invoice checked"
+      },
+      {
+        "tag": "H3",
+        "text": "KPI / SLA record updated"
+      },
+      {
+        "tag": "H2",
+        "text": "The case has to work on paper, too."
+      },
+      {
+        "tag": "H2",
+        "text": "Start with the process, then choose the mechanism."
+      },
+      {
+        "tag": "H2",
+        "text": "Bring one process."
+      }
+    ],
+    "landmarks": {
+      "header": 1,
+      "main": 1,
+      "footer": 1,
+      "nav": 2
+    },
+    "brokenAnchors": [],
+    "nonDescriptiveLinks": []
+  },
+  "reducedMotion": {
+    "matches": true,
+    "scrollBehavior": "auto",
+    "buttonTransition": "1e-05s",
+    "navTransition": "1e-05s"
+  },
+  "resize200": {
+    "320": {
+      "viewportWidth": 320,
+      "docWidth": 320,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 20,
+          "width": 280,
+          "right": 300,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 20,
+          "width": 280,
+          "right": 300,
+          "columns": "none"
+        },
+        {
+          "selector": ".change",
+          "x": 20,
+          "width": 280,
+          "right": 300,
+          "columns": "280px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 20,
+          "width": 280,
+          "right": 300,
+          "columns": "280px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 20,
+          "width": 280,
+          "right": 300,
+          "columns": "280px"
+        }
+      ],
+      "overflowing": []
+    },
+    "390": {
+      "viewportWidth": 390,
+      "docWidth": 390,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 20,
+          "width": 350,
+          "right": 370,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 20,
+          "width": 350,
+          "right": 370,
+          "columns": "none"
+        },
+        {
+          "selector": ".change",
+          "x": 20,
+          "width": 350,
+          "right": 370,
+          "columns": "350px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 20,
+          "width": 350,
+          "right": 370,
+          "columns": "350px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 20,
+          "width": 350,
+          "right": 370,
+          "columns": "350px"
+        }
+      ],
+      "overflowing": []
+    },
+    "768": {
+      "viewportWidth": 768,
+      "docWidth": 768,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 33.8,
+          "width": 700.4,
+          "right": 734.2,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 33.8,
+          "width": 700.4,
+          "right": 734.2,
+          "columns": "none"
+        },
+        {
+          "selector": ".change",
+          "x": 33.8,
+          "width": 700.4,
+          "right": 734.2,
+          "columns": "700.406px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 33.8,
+          "width": 700.4,
+          "right": 734.2,
+          "columns": "700.406px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 33.8,
+          "width": 700.4,
+          "right": 734.2,
+          "columns": "700.406px"
+        }
+      ],
+      "overflowing": []
+    },
+    "1280": {
+      "viewportWidth": 1280,
+      "docWidth": 1280,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 56.3,
+          "width": 1167.4,
+          "right": 1223.7,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 56.3,
+          "width": 1167.4,
+          "right": 1223.7,
+          "columns": "none"
+        },
+        {
+          "selector": ".change",
+          "x": 56.3,
+          "width": 1167.4,
+          "right": 1223.7,
+          "columns": "519.672px 519.688px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 56.3,
+          "width": 1167.4,
+          "right": 1223.7,
+          "columns": "561.812px 477.531px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 56.3,
+          "width": 1167.4,
+          "right": 1223.7,
+          "columns": "577.422px 461.938px"
+        }
+      ],
+      "overflowing": []
+    },
+    "1440": {
+      "viewportWidth": 1440,
+      "docWidth": 1440,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 63.4,
+          "width": 1313.3,
+          "right": 1376.6,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 63.4,
+          "width": 1313.3,
+          "right": 1376.6,
+          "columns": "none"
+        },
+        {
+          "selector": ".change",
+          "x": 63.4,
+          "width": 1313.3,
+          "right": 1376.6,
+          "columns": "591.828px 591.844px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 63.4,
+          "width": 1313.3,
+          "right": 1376.6,
+          "columns": "639.812px 543.859px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 63.4,
+          "width": 1313.3,
+          "right": 1376.6,
+          "columns": "658.469px 526.797px"
+        }
+      ],
+      "overflowing": []
+    }
+  },
+  "contrast": [
+    {
+      "label": "body on paper",
+      "fore": "rgb(24, 35, 33)",
+      "back": "rgb(248, 249, 246)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 15.27
+    },
+    {
+      "label": "muted on paper",
+      "fore": "rgb(24, 35, 33)",
+      "back": "rgb(248, 249, 246)",
+      "fontSize": "21.6px",
+      "fontWeight": "400",
+      "ratio": 15.27
+    },
+    {
+      "label": "accent eyebrow on paper",
+      "fore": "rgb(23, 84, 73)",
+      "back": "rgb(248, 249, 246)",
+      "fontSize": "12px",
+      "fontWeight": "720",
+      "ratio": 8.28
+    },
+    {
+      "label": "button text on accent",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(23, 84, 73)",
+      "fontSize": "14.4px",
+      "fontWeight": "670",
+      "ratio": 8.75
+    },
+    {
+      "label": "dark scene intro",
+      "fore": "rgb(233, 241, 237)",
+      "back": "rgb(22, 49, 45)",
+      "fontSize": "21.6px",
+      "fontWeight": "400",
+      "ratio": 12.09
+    },
+    {
+      "label": "dark scene muted disclosure",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(22, 49, 45)",
+      "fontSize": "13.12px",
+      "fontWeight": "400",
+      "ratio": 8.82
+    },
+    {
+      "label": "dark scene step detail",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(22, 49, 45)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 8.82
+    },
+    {
+      "label": "exception text",
+      "fore": "rgb(237, 245, 241)",
+      "back": "rgb(35, 66, 60)",
+      "fontSize": "14.24px",
+      "fontWeight": "400",
+      "ratio": 9.88
+    },
+    {
+      "label": "muted on wash",
+      "fore": "rgb(83, 98, 93)",
+      "back": "rgb(237, 242, 238)",
+      "fontSize": "21.6px",
+      "fontWeight": "400",
+      "ratio": 5.66
+    },
+    {
+      "label": "nav contact on paper",
+      "fore": "rgb(23, 84, 73)",
+      "back": "rgb(248, 249, 246)",
+      "fontSize": "13.28px",
+      "fontWeight": "620",
+      "ratio": 8.28
+    }
+  ],
+  "lowContrast": [],
+  "resources": {
+    "entries": [
+      {
+        "name": "http://127.0.0.1:4321/_astro/index.CgsTqnvt.css",
+        "initiatorType": "link",
+        "transferSize": 5815,
+        "encodedBodySize": 5515,
+        "decodedBodySize": 19980,
+        "duration": 9.5
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/onest-latin-wght-normal.Dun_Rd-l.woff2",
+        "initiatorType": "css",
+        "transferSize": 34060,
+        "encodedBodySize": 33760,
+        "decodedBodySize": 33760,
+        "duration": 175.1
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/onest-symbols-wght-normal.DxQzqQfC.woff2",
+        "initiatorType": "css",
+        "transferSize": 18468,
+        "encodedBodySize": 18168,
+        "decodedBodySize": 18168,
+        "duration": 156.7
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/onest-math-wght-normal.Bl4ZGkZl.woff2",
+        "initiatorType": "css",
+        "transferSize": 25780,
+        "encodedBodySize": 25480,
+        "decodedBodySize": 25480,
+        "duration": 94.9
+      }
+    ],
+    "domNodes": 246,
+    "images": 0,
+    "scripts": 0
+  }
+}

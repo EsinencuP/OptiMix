@@ -1,0 +1,659 @@
+{
+  "results": [
+    {
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "documentWidth": 1440,
+      "viewportWidth": 1440,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "onestLoaded": true,
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Routine steps move. People decide."
+        },
+        {
+          "level": "H2",
+          "text": "The work moves. The context does not."
+        },
+        {
+          "level": "H2",
+          "text": "Make the route explicit before automating it."
+        },
+        {
+          "level": "H3",
+          "text": "See the actual handoffs."
+        },
+        {
+          "level": "H3",
+          "text": "Connect repeatable steps."
+        },
+        {
+          "level": "H3",
+          "text": "Keep decisions accountable."
+        },
+        {
+          "level": "H2",
+          "text": "Follow one request."
+        },
+        {
+          "level": "H3",
+          "text": "Request submitted"
+        },
+        {
+          "level": "H3",
+          "text": "Budget checked"
+        },
+        {
+          "level": "H3",
+          "text": "Manager decision"
+        },
+        {
+          "level": "H3",
+          "text": "Supplier selected"
+        },
+        {
+          "level": "H3",
+          "text": "Purchase order recorded"
+        },
+        {
+          "level": "H3",
+          "text": "Await shipment; update stock"
+        },
+        {
+          "level": "H3",
+          "text": "Invoice checked"
+        },
+        {
+          "level": "H3",
+          "text": "KPI / SLA record updated"
+        },
+        {
+          "level": "H2",
+          "text": "The case has to work on paper, too."
+        },
+        {
+          "level": "H2",
+          "text": "Start with the process, then choose the mechanism."
+        },
+        {
+          "level": "H2",
+          "text": "Bring one process."
+        }
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        }
+      ],
+      "rootFontSize": "16px"
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "errors": [],
+      "documentWidth": 1280,
+      "viewportWidth": 1280,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "onestLoaded": true,
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Routine steps move. People decide."
+        },
+        {
+          "level": "H2",
+          "text": "The work moves. The context does not."
+        },
+        {
+          "level": "H2",
+          "text": "Make the route explicit before automating it."
+        },
+        {
+          "level": "H3",
+          "text": "See the actual handoffs."
+        },
+        {
+          "level": "H3",
+          "text": "Connect repeatable steps."
+        },
+        {
+          "level": "H3",
+          "text": "Keep decisions accountable."
+        },
+        {
+          "level": "H2",
+          "text": "Follow one request."
+        },
+        {
+          "level": "H3",
+          "text": "Request submitted"
+        },
+        {
+          "level": "H3",
+          "text": "Budget checked"
+        },
+        {
+          "level": "H3",
+          "text": "Manager decision"
+        },
+        {
+          "level": "H3",
+          "text": "Supplier selected"
+        },
+        {
+          "level": "H3",
+          "text": "Purchase order recorded"
+        },
+        {
+          "level": "H3",
+          "text": "Await shipment; update stock"
+        },
+        {
+          "level": "H3",
+          "text": "Invoice checked"
+        },
+        {
+          "level": "H3",
+          "text": "KPI / SLA record updated"
+        },
+        {
+          "level": "H2",
+          "text": "The case has to work on paper, too."
+        },
+        {
+          "level": "H2",
+          "text": "Start with the process, then choose the mechanism."
+        },
+        {
+          "level": "H2",
+          "text": "Bring one process."
+        }
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        }
+      ],
+      "rootFontSize": "16px"
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "documentWidth": 768,
+      "viewportWidth": 768,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "onestLoaded": true,
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Routine steps move. People decide."
+        },
+        {
+          "level": "H2",
+          "text": "The work moves. The context does not."
+        },
+        {
+          "level": "H2",
+          "text": "Make the route explicit before automating it."
+        },
+        {
+          "level": "H3",
+          "text": "See the actual handoffs."
+        },
+        {
+          "level": "H3",
+          "text": "Connect repeatable steps."
+        },
+        {
+          "level": "H3",
+          "text": "Keep decisions accountable."
+        },
+        {
+          "level": "H2",
+          "text": "Follow one request."
+        },
+        {
+          "level": "H3",
+          "text": "Request submitted"
+        },
+        {
+          "level": "H3",
+          "text": "Budget checked"
+        },
+        {
+          "level": "H3",
+          "text": "Manager decision"
+        },
+        {
+          "level": "H3",
+          "text": "Supplier selected"
+        },
+        {
+          "level": "H3",
+          "text": "Purchase order recorded"
+        },
+        {
+          "level": "H3",
+          "text": "Await shipment; update stock"
+        },
+        {
+          "level": "H3",
+          "text": "Invoice checked"
+        },
+        {
+          "level": "H3",
+          "text": "KPI / SLA record updated"
+        },
+        {
+          "level": "H2",
+          "text": "The case has to work on paper, too."
+        },
+        {
+          "level": "H2",
+          "text": "Start with the process, then choose the mechanism."
+        },
+        {
+          "level": "H2",
+          "text": "Bring one process."
+        }
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        }
+      ],
+      "rootFontSize": "16px"
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "documentWidth": 390,
+      "viewportWidth": 390,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "onestLoaded": true,
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Routine steps move. People decide."
+        },
+        {
+          "level": "H2",
+          "text": "The work moves. The context does not."
+        },
+        {
+          "level": "H2",
+          "text": "Make the route explicit before automating it."
+        },
+        {
+          "level": "H3",
+          "text": "See the actual handoffs."
+        },
+        {
+          "level": "H3",
+          "text": "Connect repeatable steps."
+        },
+        {
+          "level": "H3",
+          "text": "Keep decisions accountable."
+        },
+        {
+          "level": "H2",
+          "text": "Follow one request."
+        },
+        {
+          "level": "H3",
+          "text": "Request submitted"
+        },
+        {
+          "level": "H3",
+          "text": "Budget checked"
+        },
+        {
+          "level": "H3",
+          "text": "Manager decision"
+        },
+        {
+          "level": "H3",
+          "text": "Supplier selected"
+        },
+        {
+          "level": "H3",
+          "text": "Purchase order recorded"
+        },
+        {
+          "level": "H3",
+          "text": "Await shipment; update stock"
+        },
+        {
+          "level": "H3",
+          "text": "Invoice checked"
+        },
+        {
+          "level": "H3",
+          "text": "KPI / SLA record updated"
+        },
+        {
+          "level": "H2",
+          "text": "The case has to work on paper, too."
+        },
+        {
+          "level": "H2",
+          "text": "Start with the process, then choose the mechanism."
+        },
+        {
+          "level": "H2",
+          "text": "Bring one process."
+        }
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        }
+      ],
+      "rootFontSize": "16px"
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "errors": [],
+      "documentWidth": 320,
+      "viewportWidth": 320,
+      "fontFamily": "\"Onest Variable\", Arial, sans-serif",
+      "onestLoaded": true,
+      "headings": [
+        {
+          "level": "H1",
+          "text": "Routine steps move. People decide."
+        },
+        {
+          "level": "H2",
+          "text": "The work moves. The context does not."
+        },
+        {
+          "level": "H2",
+          "text": "Make the route explicit before automating it."
+        },
+        {
+          "level": "H3",
+          "text": "See the actual handoffs."
+        },
+        {
+          "level": "H3",
+          "text": "Connect repeatable steps."
+        },
+        {
+          "level": "H3",
+          "text": "Keep decisions accountable."
+        },
+        {
+          "level": "H2",
+          "text": "Follow one request."
+        },
+        {
+          "level": "H3",
+          "text": "Request submitted"
+        },
+        {
+          "level": "H3",
+          "text": "Budget checked"
+        },
+        {
+          "level": "H3",
+          "text": "Manager decision"
+        },
+        {
+          "level": "H3",
+          "text": "Supplier selected"
+        },
+        {
+          "level": "H3",
+          "text": "Purchase order recorded"
+        },
+        {
+          "level": "H3",
+          "text": "Await shipment; update stock"
+        },
+        {
+          "level": "H3",
+          "text": "Invoice checked"
+        },
+        {
+          "level": "H3",
+          "text": "KPI / SLA record updated"
+        },
+        {
+          "level": "H2",
+          "text": "The case has to work on paper, too."
+        },
+        {
+          "level": "H2",
+          "text": "Start with the process, then choose the mechanism."
+        },
+        {
+          "level": "H2",
+          "text": "Bring one process."
+        }
+      ],
+      "links": [
+        {
+          "href": "#main",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#approach",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#contact",
+          "exists": true
+        },
+        {
+          "href": "#workflow",
+          "exists": true
+        },
+        {
+          "href": "#top",
+          "exists": true
+        }
+      ],
+      "rootFontSize": "16px"
+    }
+  ],
+  "reducedData": {
+    "scrollBehavior": "auto",
+    "buttonTransition": "1e-05s",
+    "routeVisible": true
+  }
+}
