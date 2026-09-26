@@ -1,0 +1,56 @@
+{
+  "delayMs": 3000,
+  "early": {
+    "relayDisplay": "grid",
+    "sectionHeight": 1319.125,
+    "sectionBackground": "rgb(233, 238, 230)",
+    "deferredMedia": "print"
+  },
+  "late": {
+    "relayDisplay": "grid",
+    "sectionHeight": 1319.125,
+    "sectionBackground": "rgb(233, 238, 230)",
+    "deferredMedia": "all"
+  },
+  "anchorChecks": [
+    {
+      "route": "/",
+      "id": "workflow",
+      "top": 96
+    },
+    {
+      "route": "/",
+      "id": "approach",
+      "top": 96
+    },
+    {
+      "route": "/ro/",
+      "id": "workflow",
+      "top": 96
+    },
+    {
+      "route": "/ro/",
+      "id": "approach",
+      "top": 96
+    },
+    {
+      "route": "/ru/",
+      "id": "workflow",
+      "top": 96
+    },
+    {
+      "route": "/ru/",
+      "id": "approach",
+      "top": 96
+    }
+  ],
+  "manual": {
+    "scrollY": 0
+  },
+  "clicked": {
+    "top": 96,
+    "hash": "#workflow",
+    "interrupted": "false"
+  },
+  "failures": []
+}

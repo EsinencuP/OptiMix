@@ -1,0 +1,324 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "width": 320,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 320,
+      "viewport": 320,
+      "quoteCount": 3,
+      "workflowDirection": "block",
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": true,
+      "routeMoved": null
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 390,
+      "viewport": 390,
+      "quoteCount": 3,
+      "workflowDirection": "block",
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": true,
+      "routeMoved": null
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 768,
+      "viewport": 768,
+      "quoteCount": 3,
+      "workflowDirection": "block",
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": true,
+      "routeMoved": null
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "quoteCount": 3,
+      "workflowDirection": "flex",
+      "relayOverflow": false,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": false,
+      "routeMoved": true
+    },
+    {
+      "locale": "ro",
+      "width": 320,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 320,
+      "viewport": 320,
+      "quoteCount": 3,
+      "workflowDirection": "block",
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": true,
+      "routeMoved": null
+    },
+    {
+      "locale": "ro",
+      "width": 390,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 390,
+      "viewport": 390,
+      "quoteCount": 3,
+      "workflowDirection": "block",
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": true,
+      "routeMoved": null
+    },
+    {
+      "locale": "ro",
+      "width": 768,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 768,
+      "viewport": 768,
+      "quoteCount": 3,
+      "workflowDirection": "block",
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": true,
+      "routeMoved": null
+    },
+    {
+      "locale": "ro",
+      "width": 1440,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "quoteCount": 3,
+      "workflowDirection": "flex",
+      "relayOverflow": false,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": false,
+      "routeMoved": true
+    },
+    {
+      "locale": "ru",
+      "width": 320,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 320,
+      "viewport": 320,
+      "quoteCount": 3,
+      "workflowDirection": "block",
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": true,
+      "routeMoved": null
+    },
+    {
+      "locale": "ru",
+      "width": 390,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 390,
+      "viewport": 390,
+      "quoteCount": 3,
+      "workflowDirection": "block",
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": true,
+      "routeMoved": null
+    },
+    {
+      "locale": "ru",
+      "width": 768,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 768,
+      "viewport": 768,
+      "quoteCount": 3,
+      "workflowDirection": "block",
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": true,
+      "routeMoved": null
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "keyboardToggle": true,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "quoteCount": 3,
+      "workflowDirection": "flex",
+      "relayOverflow": false,
+      "footerLanguageCount": 3,
+      "overflowElements": [],
+      "relayMoved": false,
+      "routeMoved": true
+    }
+  ],
+  "innerResults": [
+    {
+      "locale": "en",
+      "kind": "contact",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "localeTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ],
+      "expectedTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ]
+    },
+    {
+      "locale": "en",
+      "kind": "privacy",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "localeTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ],
+      "expectedTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ]
+    },
+    {
+      "locale": "ro",
+      "kind": "contact",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "localeTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ],
+      "expectedTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ]
+    },
+    {
+      "locale": "ro",
+      "kind": "privacy",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "localeTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ],
+      "expectedTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "kind": "contact",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "localeTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ],
+      "expectedTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "kind": "privacy",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "localeTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ],
+      "expectedTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ]
+    }
+  ],
+  "zoomResults": [
+    {
+      "locale": "en",
+      "width": 390,
+      "viewport": 390
+    },
+    {
+      "locale": "ro",
+      "width": 390,
+      "viewport": 390
+    },
+    {
+      "locale": "ru",
+      "width": 390,
+      "viewport": 390
+    }
+  ],
+  "errors": []
+}

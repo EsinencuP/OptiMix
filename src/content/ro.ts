@@ -14,6 +14,8 @@ export const ro: typeof en = {
     brief: 'Descrie un proces', briefShort: 'Descrie procesul', menu: 'Meniu', language: 'Limbă',
     backTop: 'Înapoi sus', home: 'Acasă', privacy: 'Confidențialitate',
     footerLine: 'Îmbunătățirea proceselor prin fluxuri digitale controlate.',
+    footerIndex: 'Explorează', footerLanguages: 'Limbi', footerNote: 'Optimix · 2026',
+    previous: 'Pasul anterior', next: 'Pasul următor',
   },
   hero: {
     eyebrow: 'Proiectarea proceselor operaționale',
@@ -23,6 +25,11 @@ export const ro: typeof en = {
     preview: ['Cerere primită', 'Reguli verificate', 'Persoană aprobă', 'Decizie înregistrată'],
     credit: 'Imagine conceptuală pentru evaluarea designului. Nu este un proiect al unui client.',
     artAlt: 'Birou de achiziții ilustrativ, cu persoane care analizează documente; imagine generată, nu un proiect al unui client Optimix.',
+  },
+  quotes: {
+    first: 'Pașii de rutină avansează. Oamenii decid.',
+    second: 'O verificare nereușită trebuie să ducă la o decizie, nu la un transfer invizibil.',
+    third: 'Timpul eliberat înseamnă capacitate, nu economii automate.',
   },
   problem: {
     eyebrow: 'Recunoaște transferul', title: 'Activitatea avansează. Contextul rămâne în urmă.',
@@ -36,6 +43,7 @@ export const ro: typeof en = {
     ],
     note: 'Model ilustrativ, nu descrierea activității unui client.',
     relayLabel: 'Transfer manual ilustrativ al unei cereri de achiziție',
+    swipeHint: 'Glisează pentru a urmări transferurile',
   },
   change: {
     eyebrow: 'Ce se schimbă', title: 'Definește traseul înainte de automatizare.',
@@ -50,6 +58,7 @@ export const ro: typeof en = {
     after: 'După / traseu controlat',
     afterSteps: ['Intrare', 'Validare', 'Direcționare', 'Decizie umană', 'Execuție', 'Înregistrare'],
     afterNote: 'Excepțiile revin la o persoană. Traseul real depinde de organizație.',
+    compareLabel: 'Compară traseul actual cu cel propus', beforeTab: 'Înainte', afterTab: 'După',
   },
   workflow: {
     eyebrow: 'Un proces la vedere', title: 'Urmărește o cerere.',
@@ -69,6 +78,7 @@ export const ro: typeof en = {
     ],
     exceptionLabel: 'Excepție / analiză umană',
     exceptionDetail: 'Dacă bugetul sau informațiile nu trec verificarea, cererea se oprește. Un manager analizează problema, înregistrează decizia și o reintroduce în traseu sau o oprește.',
+    routeHint: 'Derulează pentru a urmări traseul',
   },
   value: {
     eyebrow: 'Valoare pentru afacere', title: 'Justificarea trebuie să reziste și pe hârtie.',
@@ -76,6 +86,7 @@ export const ro: typeof en = {
     currentFormula: 'Volumul procesului × timpul de lucru × costul muncii',
     otherExposure: '02 / Alte costuri', otherFormula: 'Erori + întârzieri + costul extinderii',
     changeCost: '03 / Costul schimbării', changeFormula: 'Implementare + integrare + instruire + întreținere + responsabilitatea procesului',
+    versus: 'Comparativ cu',
     decision: 'Decizie', decisionQuestion: 'Valoarea măsurabilă depășește costul și riscul schimbării procesului?',
     footnote: 'Timpul eliberat înseamnă capacitate. Devine economie financiară doar dacă organizația poate reduce efectiv costuri sau poate redirecționa capacitatea. Orice estimare cere datele inițiale ale companiei.',
   },

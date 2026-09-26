@@ -1,0 +1,11 @@
+{
+  "hero": {
+    "traceOffset": "0px",
+    "layout": "605.062px 650.609px"
+  },
+  "approach": {
+    "cardPosition": "sticky",
+    "cardCount": 6
+  },
+  "errors": []
+}

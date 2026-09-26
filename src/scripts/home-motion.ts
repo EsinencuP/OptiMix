@@ -5,10 +5,6 @@ import { motionConfig } from '../lib/animation/motionConfig';
 gsap.registerPlugin(ScrollTrigger);
 
 export function startHomeMotion({ animateHero }: { animateHero: boolean }): () => void {
-  let removeGuideRefresh: (() => void) | undefined;
-  let resetGuide: (() => void) | undefined;
-  let resetRouteState: (() => void) | undefined;
-
   const motion = gsap.context(() => {
     const hero = document.querySelector<HTMLElement>('.hero');
     if (animateHero && hero && hero.getBoundingClientRect().top > -window.innerHeight * 0.25) {
@@ -20,7 +16,8 @@ export function startHomeMotion({ animateHero }: { animateHero: boolean }): () =
         .from('.hero-intro .body-large', { y: 18, autoAlpha: 0, duration: motionConfig.content }, 0.64)
         .from('.hero-actions', { y: 14, autoAlpha: 0, duration: motionConfig.content }, 0.82)
         .from('.hero-footer', { y: 20, autoAlpha: 0, duration: 0.72 }, 0.62)
-        .from('.route-preview li', { x: 12, autoAlpha: 0, duration: 0.42, stagger: 0.07 }, 0.94);
+        .from('.route-preview li', { x: 12, autoAlpha: 0, duration: 0.42, stagger: 0.07 }, 0.94)
+        .fromTo('.hero-process-trace', { strokeDashoffset: 428 }, { strokeDashoffset: 0, duration: 1.2, ease: 'power2.inOut' }, 0.72);
     }
 
     gsap.timeline({
@@ -31,75 +28,17 @@ export function startHomeMotion({ animateHero }: { animateHero: boolean }): () =
       .from('.recognition-heading .section-title', { y: 25, duration: 0.68 }, '-=0.22')
       .from('.recognition-heading .body-large', { y: 16, duration: motionConfig.content }, '-=0.38');
 
-    gsap.from('.workflow-step', {
-      x: -12,
-      stagger: 0.06,
-      duration: 0.48,
+    gsap.from('.value-line', {
+      y: 22, autoAlpha: 0, stagger: 0.14, duration: 0.55,
       ease: motionConfig.ease,
-      scrollTrigger: { trigger: '.workflow-route', start: 'top 70%', once: true },
+      scrollTrigger: { trigger: '.value-model', start: 'top 72%', once: true },
     });
 
-    const route = document.querySelector<HTMLElement>('.workflow-route');
-    const line = route?.querySelector<HTMLElement>('.workflow-progress-line');
-    const steps = route?.querySelectorAll<HTMLElement>('.workflow-step');
-    const position = document.querySelector<HTMLElement>('[data-route-position]');
-    const scene = document.querySelector<HTMLElement>('.workflow-scene');
-    const guide = scene?.querySelector<HTMLElement>('.workflow-guide');
-
-    if (route && line && steps?.length) {
-      gsap.fromTo(line, { scaleY: 0 }, {
-        scaleY: 1,
-        ease: motionConfig.scrollEase,
-        scrollTrigger: {
-          trigger: route,
-          start: 'top 52%',
-          end: 'bottom 55%',
-          scrub: true,
-          invalidateOnRefresh: true,
-        },
-      });
-
-      let activeIndex = -1;
-      const guidePosition = (index: number) => {
-        const label = steps[index].querySelector<HTMLElement>('.workflow-step-top');
-        return label && scene ? label.getBoundingClientRect().bottom - scene.getBoundingClientRect().top : 0;
-      };
-      const activate = (index: number) => {
-        if (index === activeIndex) return;
-        const firstPosition = activeIndex === -1;
-        activeIndex = index;
-        steps.forEach((step, stepIndex) => step.classList.toggle('is-current', stepIndex === index));
-        if (position) position.textContent = String(index + 1).padStart(2, '0');
-        if (guide) {
-          const target = { y: guidePosition(index), autoAlpha: 0.38 };
-          if (firstPosition) gsap.set(guide, target);
-          else gsap.to(guide, { ...target, duration: motionConfig.content, ease: 'power2.out', overwrite: 'auto' });
-        }
-      };
-
-      activate(0);
-      resetRouteState = () => {
-        steps.forEach((step) => step.classList.remove('is-current'));
-        if (position) position.textContent = '01';
-      };
-      if (guide) {
-        const syncGuide = () => gsap.set(guide, { y: guidePosition(activeIndex) });
-        ScrollTrigger.addEventListener('refresh', syncGuide);
-        removeGuideRefresh = () => ScrollTrigger.removeEventListener('refresh', syncGuide);
-        resetGuide = () => {
-          gsap.killTweensOf(guide);
-          gsap.set(guide, { clearProps: 'transform,visibility,opacity' });
-        };
-      }
-      steps.forEach((step, index) => {
-        ScrollTrigger.create({
-          trigger: step,
-          start: 'top 55%',
-          onEnter: () => activate(index),
-          onEnterBack: () => activate(index),
-        });
-      });
-    }
+    gsap.from('.principles li', {
+      y: 16, autoAlpha: 0, stagger: 0.09, duration: 0.45,
+      ease: motionConfig.ease,
+      scrollTrigger: { trigger: '.principles', start: 'top 80%', once: true },
+    });
   }, document.body);
 
   const media = gsap.matchMedia();
@@ -156,10 +95,7 @@ export function startHomeMotion({ animateHero }: { animateHero: boolean }): () =
 
   return () => {
     active = false;
-    removeGuideRefresh?.();
     media.revert();
     motion.revert();
-    resetGuide?.();
-    resetRouteState?.();
   };
 }

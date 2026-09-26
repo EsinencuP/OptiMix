@@ -9,7 +9,7 @@ const approachUrl = page === 'home' ? '#approach' : homeAnchor(locale, 'approach
 const contactUrl = pathFor(locale, 'contact');
 const homeUrl = page === 'home' ? '#top' : pathFor(locale, 'home');
 ---
-<header class:list={['site-header', variant === 'inner' && 'site-header-inner']}>
+<header id={page === 'home' ? undefined : 'top'} class:list={['site-header', variant === 'inner' && 'site-header-inner']}>
   <div class="container header-inner">
     <a class="wordmark" href={homeUrl} aria-label={`Optimix — ${t.home}`} translate="no">OPTI<span>MIX</span></a>
     <nav class="primary-nav" aria-label={t.menu}>

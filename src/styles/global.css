@@ -4,7 +4,7 @@
 *::before,
 *::after { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; scroll-padding-top: 6rem; }
 html.lenis { scroll-behavior: auto; }
 
 body {
@@ -32,7 +32,7 @@ summary:focus-visible {
   outline-offset: 4px;
 }
 
-::selection { color: var(--color-white); background: var(--color-accent); }
+::selection { color: var(--color-ink); background: var(--color-signal); }
 
 img,
 svg { display: block; max-width: 100%; }

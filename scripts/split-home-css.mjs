@@ -9,9 +9,9 @@ const deferredPath = path.join(root, 'src/styles/home-deferred.generated.css');
 const criticalPrefixes = [
   '.site-header', '.header-inner', '.wordmark', '.primary-nav', '.language-switch',
   '.mobile-languages', '.nav-contact', '.mobile-contact', '.mobile-menu',
-  '.mobile-nav-popover', '.hero', '.route-preview', '.button-primary', '.text-link',
-  '.motion-fallback', '.recognition', '.section-heading', '.relay', '.relay-number',
-  '.example-note',
+  '.mobile-nav-popover', '.hero', '.route-preview', '.route-node', '.button-primary', '.text-link',
+  '.motion-fallback', '.editorial-break', '.recognition', '.section-heading', '.relay', '.relay-viewport', '.relay-number',
+  '.example-note', '.track-controls',
 ];
 
 function isCritical(selector) {

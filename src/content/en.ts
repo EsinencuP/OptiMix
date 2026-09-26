@@ -20,6 +20,10 @@ export const en = {
     home: 'Home',
     privacy: 'Privacy',
     footerLine: 'Business process improvement through controlled digital workflows.',
+    footerIndex: 'Explore',
+    footerLanguages: 'Languages',
+    footerNote: 'Optimix · 2026',
+    previous: 'Previous step', next: 'Next step',
   },
   hero: {
     eyebrow: 'Operational process design',
@@ -30,6 +34,11 @@ export const en = {
     preview: ['Request received', 'Rules checked', 'Person approves', 'Decision recorded'],
     credit: 'Concept image for design evaluation. Not a client project.',
     artAlt: 'Illustrative procurement desk with people reviewing documents; generated concept image, not an Optimix client project.',
+  },
+  quotes: {
+    first: 'Routine steps move. People decide.',
+    second: 'A failed check should lead to a decision, not a silent handoff.',
+    third: 'Time released is capacity, not automatic savings.',
   },
   problem: {
     eyebrow: 'Recognise the handoff',
@@ -44,6 +53,7 @@ export const en = {
     ],
     note: 'Illustrative pattern, not a description of a client’s operation.',
     relayLabel: 'Illustrative manual purchase request relay',
+    swipeHint: 'Swipe to follow the handoffs',
   },
   change: {
     eyebrow: 'What changes',
@@ -59,6 +69,9 @@ export const en = {
     after: 'After / controlled route',
     afterSteps: ['Input', 'Validate', 'Route', 'Human decision', 'Execute', 'Record'],
     afterNote: 'Exceptions return to a person. The actual route depends on the organisation.',
+    compareLabel: 'Compare the current and proposed route',
+    beforeTab: 'Before',
+    afterTab: 'After',
   },
   workflow: {
     eyebrow: 'A process in view',
@@ -82,6 +95,7 @@ export const en = {
     ],
     exceptionLabel: 'Exception / human review',
     exceptionDetail: 'If budget or information fails a check, the request pauses. A manager reviews the issue, records a decision and either returns it to the route or stops it.',
+    routeHint: 'Scroll to follow the route',
   },
   value: {
     eyebrow: 'Business value',
@@ -92,6 +106,7 @@ export const en = {
     otherExposure: '02 / Other exposure',
     otherFormula: 'Errors + delays + the cost of scaling',
     changeCost: '03 / Cost to change',
+    versus: 'Compared with',
     changeFormula: 'Implementation + integration + training + upkeep + process ownership',
     decision: 'Decision',
     decisionQuestion: 'Is the measurable value greater than the cost and risk of changing the process?',

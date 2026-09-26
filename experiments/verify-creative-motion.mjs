@@ -1,0 +1,25 @@
+import { createRequire } from 'node:module';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+
+const require = createRequire(import.meta.url);
+const { chromium } = require('C:/Users/User.DESKTOP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, reducedMotion: 'no-preference' });
+const errors = [];
+page.on('pageerror', (error) => errors.push(error.message));
+page.on('console', (message) => { if (message.type() === 'error') errors.push(message.text()); });
+await page.goto(process.env.OPTIMIX_TEST_URL || 'http://127.0.0.1:4321/', { waitUntil: 'networkidle' });
+await page.waitForTimeout(1700);
+const hero = await page.evaluate(() => ({ traceOffset: getComputedStyle(document.querySelector('.hero-process-trace')).strokeDashoffset, layout: getComputedStyle(document.querySelector('.hero-layout')).gridTemplateColumns }));
+await page.locator('.approach').scrollIntoViewIfNeeded();
+await page.waitForTimeout(700);
+const approach = await page.evaluate(() => ({ cardPosition: getComputedStyle(document.querySelector('.principles li')).position, cardCount: document.querySelectorAll('.principles li').length }));
+const output = path.resolve('artifacts/creative-audit-2026-09-26');
+await fs.mkdir(output, { recursive: true });
+await page.screenshot({ path: path.join(output, 'approach-motion-1440.png') });
+await browser.close();
+const result = { hero, approach, errors };
+await fs.writeFile(path.join(output, 'motion-result.json'), JSON.stringify(result, null, 2));
+console.log(JSON.stringify(result, null, 2));
+if (errors.length || approach.cardPosition !== 'sticky' || approach.cardCount !== 6 || Number.parseFloat(hero.traceOffset) !== 0) process.exitCode = 1;
