@@ -1,0 +1,185 @@
+{
+  "errors": [],
+  "desktopInitial": {
+    "lenis": true,
+    "heading": "Every handoff should move work forward.",
+    "width": 1440,
+    "viewport": 1440,
+    "layoutShift": 0,
+    "largestContentfulPaint": 460,
+    "lcpCandidates": [
+      {
+        "time": 460,
+        "tag": "SPAN",
+        "text": "should move work"
+      }
+    ],
+    "loadedScripts": [
+      "ClientRouter.astro_astro_type_script_index_0_lang.CYDbzu1r.js",
+      "HomePage.astro_astro_type_script_index_0_lang.YMS4p6p5.js",
+      "home-motion.BIPzPYbJ.js",
+      "lenis.BX3lQZJB.js"
+    ]
+  },
+  "workflow": {
+    "position": "04",
+    "activeStep": 4,
+    "lineTransform": "matrix(1, 0, 0, 0.4313, 0, 0)",
+    "stickyIntro": "sticky"
+  },
+  "resized": {
+    "lenis": false,
+    "width": 390,
+    "viewport": 390,
+    "stickyIntro": "static"
+  },
+  "liveReduced": {
+    "lenis": false,
+    "headlineVisible": "visible",
+    "routeVisible": "visible"
+  },
+  "afterPagehide": false,
+  "memoryLifecycle": {
+    "listenersBefore": {
+      "window": 34,
+      "document": 20,
+      "hero": 2
+    },
+    "listenersAfter": {
+      "window": 34,
+      "document": 20,
+      "hero": 2
+    }
+  },
+  "desktopAnchor": {
+    "path": "/contact/",
+    "disabledForm": true
+  },
+  "mobileData": {
+    "lenis": false,
+    "width": 390,
+    "viewport": 390,
+    "heading": "Every handoff should move work forward.",
+    "loadedScripts": [
+      "ClientRouter.astro_astro_type_script_index_0_lang.CYDbzu1r.js",
+      "HomePage.astro_astro_type_script_index_0_lang.YMS4p6p5.js",
+      "home-motion.BIPzPYbJ.js"
+    ]
+  },
+  "menuVisible": true,
+  "mobileFirstLink": "#workflow",
+  "mobileAnchor": {
+    "hash": "#workflow",
+    "workflowTop": 96
+  },
+  "responsive": [
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "clippedText": []
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "clippedText": []
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "clippedText": []
+    },
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "clippedText": []
+    }
+  ],
+  "zoom200": [
+    {
+      "width": 1280,
+      "documentWidth": 1280,
+      "headlineHeight": 357.078125,
+      "offscreen": [
+        {
+          "tag": "IMG",
+          "className": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "headlineHeight": 456.90625,
+      "offscreen": [
+        {
+          "tag": "IMG",
+          "className": "",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "headlineHeight": 371.5,
+      "offscreen": []
+    },
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "headlineHeight": 443.5,
+      "offscreen": []
+    }
+  ],
+  "reducedData": {
+    "lenis": false,
+    "headlineVisible": "visible",
+    "scrollBehavior": "auto",
+    "loadedScripts": [
+      "ClientRouter.astro_astro_type_script_index_0_lang.CYDbzu1r.js",
+      "HomePage.astro_astro_type_script_index_0_lang.YMS4p6p5.js"
+    ]
+  },
+  "skipFocused": {
+    "href": "#main",
+    "visible": true,
+    "outline": "solid"
+  },
+  "skipTarget": {
+    "hash": "#main",
+    "mainTop": 0
+  },
+  "lateMotion": {
+    "headlineVisible": "visible",
+    "headlineTransform": "none",
+    "lenis": true
+  },
+  "webkitData": [
+    {
+      "width": 1440,
+      "status": 200,
+      "reducedMotion": false,
+      "documentWidth": 1440,
+      "lenis": true,
+      "headlineVisible": "visible",
+      "activeStep": "04"
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "reducedMotion": false,
+      "documentWidth": 390,
+      "lenis": false,
+      "headlineVisible": "visible"
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "reducedMotion": true,
+      "documentWidth": 390,
+      "lenis": false,
+      "headlineVisible": "visible"
+    }
+  ]
+}

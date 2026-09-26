@@ -4,11 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "predev": "node scripts/split-home-css.mjs",
     "dev": "astro dev --host 127.0.0.1",
+    "prebuild": "node scripts/split-home-css.mjs",
     "build": "astro build",
     "preview": "astro preview --host 127.0.0.1",
+    "precheck": "node scripts/split-home-css.mjs",
     "check": "astro check",
-    "lint": "eslint astro.config.mjs eslint.config.js \"src/**/*.{astro,ts}\" experiments/verify-motion.mjs experiments/verify-ia.mjs"
+    "lint": "eslint astro.config.mjs eslint.config.js \"src/**/*.{astro,ts}\" experiments/verify-motion.mjs experiments/verify-ia.mjs experiments/verify-guidebook.mjs experiments/measure-interactions.mjs experiments/audit-hero-contrast.mjs experiments/verify-css-delivery.mjs scripts/split-home-css.mjs"
   },
   "dependencies": {
     "@fontsource-variable/onest": "^5.3.1",
@@ -23,6 +26,7 @@
     "eslint-plugin-astro": "3.2.1",
     "eslint-plugin-jsx-a11y-x": "0.2.0",
     "globals": "17.12.0",
+    "postcss": "^8.5.28",
     "shadcn": "4.21.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "8.70.1"

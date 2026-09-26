@@ -7,7 +7,7 @@ export default [
   { ignores: ['dist/**', '.astro/**', 'node_modules/**', 'artifacts/**'] },
   {
     ...js.configs.recommended,
-    files: ['astro.config.mjs', 'eslint.config.js', 'experiments/verify-motion.mjs'],
+    files: ['astro.config.mjs', 'eslint.config.js', 'experiments/verify-motion.mjs', 'experiments/audit-hero-contrast.mjs', 'experiments/verify-css-delivery.mjs', 'scripts/split-home-css.mjs'],
     languageOptions: { globals: { ...globals.browser, ...globals.node } },
   },
   ...tseslint.configs.recommended.map((config) => ({ ...config, files: ['src/**/*.ts'] })),

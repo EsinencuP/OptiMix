@@ -1,5 +1,7 @@
 # Optimix motion system
 
+> **26 September 2026 update:** The site now has nine EN/RO/RU routes and Astro `ClientRouter`. `src/components/HomePage.astro` owns the home structure. The manual relay stays visible before scroll; its cards use CSS hover feedback. `motion-entry.ts` also disposes GSAP on client-side page swaps. The historical implementation review below describes the earlier single-page phase.
+
 **Implementation review, 25 September 2026.** This extends the owner-selected variant **A — Operational Cinema**. The service claims, sample process, concept image and brand colors retain the provisional status described in `PHASE05_DESIGN_SYSTEM.md`.
 
 ## Project analysis

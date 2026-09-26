@@ -48,15 +48,18 @@ for (const locale of ['en', 'ro', 'ru']) {
 
 const navigation = await browser.newPage({ viewport: { width: 390, height: 844 } });
 await navigation.goto(base + '/ro/contact/', { waitUntil: 'networkidle' });
-await navigation.locator('.mobile-menu summary').click();
-const mobileMenuVisible = await navigation.locator('.mobile-menu nav').isVisible();
+await navigation.locator('.mobile-menu-trigger').click();
+const mobileMenuVisible = await navigation.locator('.mobile-nav-popover').isVisible();
+await navigation.evaluate(() => { window.__clientNavigationProbe = 'preserved'; });
 await navigation.locator('.mobile-languages a[lang="ru"]').click();
+await navigation.waitForURL('**/ru/contact/');
 const languageTarget = new URL(navigation.url()).pathname;
+const clientNavigation = await navigation.evaluate(() => window.__clientNavigationProbe === 'preserved');
 await navigation.close();
 await browser.close();
 
 const failures = results.filter((item) => item.status !== 200 || item.lang !== (item.route.startsWith('/ro/') ? 'ro' : item.route.startsWith('/ru/') ? 'ru' : 'en') || item.horizontalOverflow > 1 || item.zoomOverflow > 1 || item.activeLanguage !== item.lang || !item.hasHeader || !item.hasFooter || (item.route.includes('contact') && item.disabledForm !== true));
-if (!mobileMenuVisible || languageTarget !== '/ru/contact/') failures.push({ mobileMenuVisible, languageTarget });
+if (!mobileMenuVisible || languageTarget !== '/ru/contact/' || !clientNavigation) failures.push({ mobileMenuVisible, languageTarget, clientNavigation });
 if (errors.length) failures.push(...errors);
 console.log(JSON.stringify({ count: results.length, failures, results }, null, 2));
 if (failures.length) process.exitCode = 1;

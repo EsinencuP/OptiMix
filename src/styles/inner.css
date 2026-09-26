@@ -1,10 +1,12 @@
-.site-header-inner { position: relative; inset: auto; background: var(--color-light); border-bottom: var(--border-hairline); color: var(--color-ink); }
+.site-header-inner { position: sticky; top: 0; inset: 0 0 auto; background: var(--color-light); border-bottom: var(--border-hairline); color: var(--color-ink); }
+.site-header-inner.is-scrolled { background: rgb(247 245 239 / 94%); border-bottom-color: var(--color-line); color: var(--color-ink); }
+.site-header-inner .wordmark span { color: var(--color-accent); }
 .site-header-inner .language-switch { border-left-color: var(--color-muted); }
 .site-header-inner .language-switch a[aria-current="page"] { color: var(--color-accent); }
 .site-header-inner .nav-contact { border-color: var(--color-ink); }
 .site-header-inner .nav-contact:hover { background: var(--color-ink); color: var(--color-light) !important; }
 .site-header-inner .mobile-contact { border-color: var(--color-ink); }
-.site-header-inner .mobile-menu summary { color: var(--color-ink); }
+.site-header-inner .mobile-menu-trigger { color: var(--color-ink); }
 .inner-main { min-height: 68svh; padding-block: clamp(4rem, 9vw, 8rem); }
 .inner-heading { display: grid; grid-template-columns: minmax(11rem, .35fr) minmax(0, 1fr); gap: 1rem 3rem; align-items: start; }
 .inner-heading h1, .privacy-content h1 { max-width: 15ch; font-size: clamp(3rem, 6vw, 6rem); font-weight: 620; line-height: 1; letter-spacing: -.065em; }
@@ -14,7 +16,7 @@
 .brief-status { align-self: start; padding: 1.5rem; background: var(--color-wash); border-top: 2px solid var(--color-accent); }
 .brief-status strong { display: block; font-size: clamp(1.1rem, 1.8vw, 1.45rem); font-weight: 620; line-height: 1.35; }
 .brief-status p { margin-top: 1rem; color: var(--color-muted); font-size: .9rem; line-height: 1.5; }
-.brief-status a { display: inline-block; margin-top: 1.5rem; color: var(--color-accent); font-size: .86rem; font-weight: 680; }
+.brief-status a { display: inline-flex; align-items: center; min-height: 2.75rem; margin-top: 1.5rem; color: var(--color-accent); font-size: .86rem; font-weight: 680; }
 .brief-status { overflow-wrap: anywhere; }
 .brief-form fieldset { display: grid; grid-template-columns: minmax(0, 1fr); gap: 1.3rem; margin: 0; padding: 0; border: 0; opacity: .78; }
 .form-two { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.3rem; }

@@ -27,10 +27,17 @@ export function startHomeMotion({ animateHero }: { animateHero: boolean }): () =
       defaults: { ease: motionConfig.ease },
       scrollTrigger: { trigger: '.recognition', start: 'top 75%', once: true },
     })
-      .from('.recognition-heading .eyebrow', { y: 14, autoAlpha: 0, duration: 0.42 })
-      .from('.recognition-heading .section-title', { y: 25, autoAlpha: 0, duration: 0.68 }, '-=0.22')
-      .from('.recognition-heading .body-large', { y: 16, autoAlpha: 0, duration: motionConfig.content }, '-=0.38')
-      .from('.relay li', { x: 18, autoAlpha: 0, duration: motionConfig.content, stagger: 0.11 }, '-=0.18');
+      .from('.recognition-heading .eyebrow', { y: 14, duration: 0.42 })
+      .from('.recognition-heading .section-title', { y: 25, duration: 0.68 }, '-=0.22')
+      .from('.recognition-heading .body-large', { y: 16, duration: motionConfig.content }, '-=0.38');
+
+    gsap.from('.workflow-step', {
+      x: -12,
+      stagger: 0.06,
+      duration: 0.48,
+      ease: motionConfig.ease,
+      scrollTrigger: { trigger: '.workflow-route', start: 'top 70%', once: true },
+    });
 
     const route = document.querySelector<HTMLElement>('.workflow-route');
     const line = route?.querySelector<HTMLElement>('.workflow-progress-line');

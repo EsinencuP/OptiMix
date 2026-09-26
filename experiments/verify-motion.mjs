@@ -4,7 +4,7 @@ import path from 'node:path';
 
 const require = createRequire(import.meta.url);
 const { chromium, webkit } = require('C:/Users/User.DESKTOP/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
-const output = path.resolve('artifacts/motion-2026-09-25');
+const output = path.resolve('artifacts/guidebook-2026-09-26/motion');
 await fs.mkdir(output, { recursive: true });
 
 const browser = await chromium.launch({ headless: true, executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe' });
@@ -131,9 +131,9 @@ const mobileData = await mobile.evaluate(() => ({
   heading: document.querySelector('h1')?.textContent?.replace(/\s+/g, ' ').trim(),
   loadedScripts: performance.getEntriesByType('resource').filter((entry) => entry.name.endsWith('.js')).map((entry) => entry.name.split('/').pop()),
 }));
-await mobile.locator('.mobile-menu summary').focus();
+await mobile.locator('.mobile-menu-trigger').focus();
 await mobile.keyboard.press('Enter');
-const menuVisible = await mobile.locator('.mobile-menu nav').isVisible();
+const menuVisible = await mobile.locator('.mobile-nav-popover').isVisible();
 await mobile.keyboard.press('Tab');
 const mobileFirstLink = await mobile.evaluate(() => document.activeElement?.getAttribute('href'));
 await mobile.keyboard.press('Enter');

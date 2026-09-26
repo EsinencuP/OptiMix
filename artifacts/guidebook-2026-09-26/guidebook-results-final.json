@@ -1,0 +1,271 @@
+{
+  "failures": [],
+  "visibleProblem": {
+    "jsEnabled": true,
+    "jsDisabled": true
+  },
+  "hero": {
+    "visibleWithin2s": true
+  },
+  "header": {
+    "initial": {
+      "position": "fixed",
+      "scrolled": false
+    },
+    "scrolled": {
+      "scrolled": true,
+      "backdrop": "blur(12px) saturate(1.4)"
+    },
+    "inner": {
+      "position": "sticky",
+      "scrolled": true
+    }
+  },
+  "menu": {
+    "opened": true,
+    "transition": "opacity, transform, display, overlay",
+    "closedOutside": true,
+    "closedAnchor": true
+  },
+  "relay": {
+    "before": "rgba(22, 49, 45, 0.04) 0px 1px 3px 0px",
+    "after": "rgba(22, 49, 45, 0.06) 0px 4px 12px 0px"
+  },
+  "layout": [
+    {
+      "width": 1440,
+      "relayColumns": 5,
+      "documentWidth": 1440
+    },
+    {
+      "width": 768,
+      "relayColumns": 2,
+      "documentWidth": 768
+    },
+    {
+      "width": 390,
+      "relayColumns": 1,
+      "documentWidth": 390
+    }
+  ],
+  "touchTargets": [
+    {
+      "route": "/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ro/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ro/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ro/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ru/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ru/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ru/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/contact/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ro/contact/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ro/contact/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ro/contact/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ru/contact/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ru/contact/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ru/contact/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/privacy/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/privacy/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/privacy/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ro/privacy/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ro/privacy/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ro/privacy/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ru/privacy/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ru/privacy/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ru/privacy/",
+      "width": 320,
+      "small": []
+    }
+  ],
+  "metadata": {
+    "icon": "/favicon.svg",
+    "ogTitle": "Optimix — Business process optimization",
+    "ogDescription": "Optimix helps operations teams redesign repeated handoffs into controlled workflows, with people responsible for approvals and exceptions.",
+    "ogLocale": "en_GB",
+    "imagePreload": true,
+    "fontPreload": true,
+    "transition": true
+  },
+  "metadataPages": [
+    {
+      "route": "/",
+      "icon": "/favicon.svg",
+      "title": "Optimix — Business process optimization",
+      "description": "Optimix helps operations teams redesign repeated handoffs into controlled workflows, with people responsible for approvals and exceptions.",
+      "type": "website",
+      "locale": "en_GB"
+    },
+    {
+      "route": "/ro/",
+      "icon": "/favicon.svg",
+      "title": "Optimix — Optimizarea proceselor de afaceri",
+      "description": "Optimix ajută echipele să transforme transferurile manuale repetate în fluxuri controlate, păstrând deciziile și excepțiile la oameni.",
+      "type": "website",
+      "locale": "ro_RO"
+    },
+    {
+      "route": "/ru/",
+      "icon": "/favicon.svg",
+      "title": "Optimix — Оптимизация бизнес-процессов",
+      "description": "Optimix помогает командам превращать повторяющиеся ручные передачи задач в управляемые процессы, сохраняя решения и исключения за людьми.",
+      "type": "website",
+      "locale": "ru_RU"
+    },
+    {
+      "route": "/contact/",
+      "icon": "/favicon.svg",
+      "title": "Prepare a process brief — Optimix",
+      "description": "Describe one repeated business process, the people and systems involved, and where work slows down.",
+      "type": "website",
+      "locale": "en_GB"
+    },
+    {
+      "route": "/ro/contact/",
+      "icon": "/favicon.svg",
+      "title": "Pregătește descrierea unui proces — Optimix",
+      "description": "Descrie un proces repetitiv, persoanele și sistemele implicate și locurile unde activitatea încetinește.",
+      "type": "website",
+      "locale": "ro_RO"
+    },
+    {
+      "route": "/ru/contact/",
+      "icon": "/favicon.svg",
+      "title": "Опишите процесс — Optimix",
+      "description": "Опишите повторяющийся процесс, участников, системы и этапы, на которых работа замедляется.",
+      "type": "website",
+      "locale": "ru_RU"
+    },
+    {
+      "route": "/privacy/",
+      "icon": "/favicon.svg",
+      "title": "Privacy information — Optimix",
+      "description": "Information about the current status of the Optimix inquiry form and privacy notice.",
+      "type": "website",
+      "locale": "en_GB"
+    },
+    {
+      "route": "/ro/privacy/",
+      "icon": "/favicon.svg",
+      "title": "Informații privind confidențialitatea — Optimix",
+      "description": "Stadiul formularului de contact și al informării privind confidențialitatea Optimix.",
+      "type": "website",
+      "locale": "ro_RO"
+    },
+    {
+      "route": "/ru/privacy/",
+      "icon": "/favicon.svg",
+      "title": "Информация о конфиденциальности — Optimix",
+      "description": "Текущий статус формы заявки и информации о конфиденциальности Optimix.",
+      "type": "website",
+      "locale": "ru_RU"
+    }
+  ]
+}

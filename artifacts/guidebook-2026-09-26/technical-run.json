@@ -1,0 +1,1107 @@
+{
+  "viewports": [
+    {
+      "width": 1440,
+      "status": 200,
+      "errors": [],
+      "docWidth": 1440,
+      "viewportWidth": 1440,
+      "onest": true,
+      "clipped": [
+        {
+          "tag": "IMG",
+          "text": "",
+          "x": -28.8,
+          "right": 1468.8
+        }
+      ],
+      "smallTargets": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "errors": [],
+      "docWidth": 1280,
+      "viewportWidth": 1280,
+      "onest": true,
+      "clipped": [
+        {
+          "tag": "IMG",
+          "text": "",
+          "x": -25.6,
+          "right": 1305.6
+        }
+      ],
+      "smallTargets": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "errors": [],
+      "docWidth": 768,
+      "viewportWidth": 768,
+      "onest": true,
+      "clipped": [
+        {
+          "tag": "IMG",
+          "text": "",
+          "x": -15.4,
+          "right": 783.4
+        }
+      ],
+      "smallTargets": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "errors": [],
+      "docWidth": 390,
+      "viewportWidth": 390,
+      "onest": true,
+      "clipped": [],
+      "smallTargets": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "errors": [],
+      "docWidth": 320,
+      "viewportWidth": 320,
+      "onest": true,
+      "clipped": [],
+      "smallTargets": [
+        {
+          "text": "Skip to content",
+          "tag": "A",
+          "width": 1,
+          "height": 1,
+          "x": 12,
+          "y": 0
+        }
+      ]
+    }
+  ],
+  "semantics": {
+    "lang": "en",
+    "h1Count": 1,
+    "headings": [
+      {
+        "tag": "H1",
+        "text": "Every handoff should move work forward."
+      },
+      {
+        "tag": "H2",
+        "text": "The work moves. The context does not."
+      },
+      {
+        "tag": "H2",
+        "text": "Make the route explicit before automating it."
+      },
+      {
+        "tag": "H3",
+        "text": "See the actual handoffs."
+      },
+      {
+        "tag": "H3",
+        "text": "Connect repeatable steps."
+      },
+      {
+        "tag": "H3",
+        "text": "Keep decisions accountable."
+      },
+      {
+        "tag": "H3",
+        "text": "Before / fragmented handoffs"
+      },
+      {
+        "tag": "H3",
+        "text": "After / controlled route"
+      },
+      {
+        "tag": "H2",
+        "text": "Follow one request."
+      },
+      {
+        "tag": "H3",
+        "text": "Request submitted"
+      },
+      {
+        "tag": "H3",
+        "text": "Budget checked"
+      },
+      {
+        "tag": "H3",
+        "text": "Manager decision"
+      },
+      {
+        "tag": "H3",
+        "text": "Supplier selected"
+      },
+      {
+        "tag": "H3",
+        "text": "Purchase order recorded"
+      },
+      {
+        "tag": "H3",
+        "text": "Await shipment; update stock"
+      },
+      {
+        "tag": "H3",
+        "text": "Invoice checked"
+      },
+      {
+        "tag": "H3",
+        "text": "KPI / SLA record updated"
+      },
+      {
+        "tag": "H2",
+        "text": "The case has to work on paper, too."
+      },
+      {
+        "tag": "H2",
+        "text": "Start with the process, then choose the mechanism."
+      },
+      {
+        "tag": "H2",
+        "text": "Bring one process."
+      }
+    ],
+    "landmarks": {
+      "header": 1,
+      "main": 1,
+      "footer": 1,
+      "nav": 3
+    },
+    "brokenAnchors": [],
+    "nonDescriptiveLinks": []
+  },
+  "keyboard": {
+    "skipBefore": {
+      "text": "Skip to content",
+      "href": "#main",
+      "x": 12,
+      "y": 12,
+      "width": 147.125,
+      "height": 45,
+      "outline": "rgb(23, 84, 73) solid 3px",
+      "visible": true
+    },
+    "skipAfter": {
+      "hash": "#main",
+      "activeTag": "BODY",
+      "activeId": "",
+      "mainTop": 0
+    },
+    "afterSkipTab": {
+      "text": "Prepare a process brief ↗",
+      "outline": "rgb(23, 84, 73) solid 3px"
+    },
+    "mobileSummaryFocus": {
+      "tag": "BUTTON",
+      "outline": "rgb(198, 215, 186) solid 3px"
+    },
+    "mobileMenuOpened": true,
+    "mobileFirstLink": {
+      "text": "Process",
+      "href": "#workflow",
+      "outline": "rgb(198, 215, 186) solid 3px"
+    },
+    "mobileNavAfterEnter": {
+      "hash": "#workflow",
+      "workflowTop": 343.484375,
+      "menuStillOpen": false
+    }
+  },
+  "reducedMotion": {
+    "matches": true,
+    "scrollBehavior": "auto",
+    "buttonTransition": "1e-05s",
+    "navTransition": "1e-05s"
+  },
+  "contrast": [
+    {
+      "label": "body on paper",
+      "fore": "rgb(28, 32, 30)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "ratio": 14.46
+    },
+    {
+      "label": "muted on paper",
+      "fore": "rgb(237, 240, 235)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "22px",
+      "fontWeight": "390",
+      "ratio": 1.01
+    },
+    {
+      "label": "accent eyebrow on paper",
+      "fore": "rgb(229, 235, 224)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "720",
+      "ratio": 1.07
+    },
+    {
+      "label": "button text on accent",
+      "fore": "rgb(28, 32, 30)",
+      "back": "rgb(198, 215, 186)",
+      "fontSize": "14.4px",
+      "fontWeight": "670",
+      "ratio": 10.85
+    },
+    {
+      "label": "dark scene intro",
+      "fore": "rgb(233, 241, 237)",
+      "back": "rgba(0, 0, 0, 0)",
+      "fontSize": "21.6px",
+      "fontWeight": "400",
+      "ratio": 18.27
+    },
+    {
+      "label": "dark scene muted disclosure",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgba(0, 0, 0, 0)",
+      "fontSize": "13.12px",
+      "fontWeight": "400",
+      "ratio": 13.33
+    },
+    {
+      "label": "dark scene step detail",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgba(0, 0, 0, 0)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 13.33
+    },
+    {
+      "label": "exception text",
+      "fore": "rgb(237, 245, 241)",
+      "back": "rgb(35, 66, 60)",
+      "fontSize": "14.24px",
+      "fontWeight": "400",
+      "ratio": 9.88
+    },
+    {
+      "label": "muted on wash",
+      "fore": "rgb(77, 88, 80)",
+      "back": "rgb(233, 238, 230)",
+      "fontSize": "21.6px",
+      "fontWeight": "400",
+      "ratio": 6.31
+    },
+    {
+      "label": "nav contact on paper",
+      "fore": "rgb(247, 245, 239)",
+      "back": "rgba(0, 0, 0, 0)",
+      "fontSize": "14px",
+      "fontWeight": "560",
+      "ratio": 19.26
+    }
+  ],
+  "lowContrast": [
+    {
+      "tag": "P",
+      "text": "A purchase request gives the route a concrete shape: input, ",
+      "fore": "rgb(233, 241, 237)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "21.6px",
+      "fontWeight": "400",
+      "ratio": 1.01
+    },
+    {
+      "tag": "A",
+      "text": "Process",
+      "fore": "rgb(247, 245, 239)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14px",
+      "fontWeight": "560",
+      "ratio": 1.05
+    },
+    {
+      "tag": "A",
+      "text": "Approach",
+      "fore": "rgb(247, 245, 239)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14px",
+      "fontWeight": "560",
+      "ratio": 1.05
+    },
+    {
+      "tag": "A",
+      "text": "Contact",
+      "fore": "rgb(247, 245, 239)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14px",
+      "fontWeight": "560",
+      "ratio": 1.05
+    },
+    {
+      "tag": "A",
+      "text": "RO",
+      "fore": "rgb(247, 245, 239)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "11.2px",
+      "fontWeight": "730",
+      "ratio": 1.05
+    },
+    {
+      "tag": "A",
+      "text": "RU",
+      "fore": "rgb(247, 245, 239)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "11.2px",
+      "fontWeight": "730",
+      "ratio": 1.05
+    },
+    {
+      "tag": "SPAN",
+      "text": "↗",
+      "fore": "rgb(247, 245, 239)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "16.8px",
+      "fontWeight": "560",
+      "ratio": 1.05
+    },
+    {
+      "tag": "P",
+      "text": "A failed check should lead to a decision, not a silent hando",
+      "fore": "rgb(215, 231, 223)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "36px",
+      "fontWeight": "510",
+      "ratio": 1.12
+    },
+    {
+      "tag": "H2",
+      "text": "Follow one request.",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "72px",
+      "fontWeight": "570",
+      "ratio": 1.14
+    },
+    {
+      "tag": "SPAN",
+      "text": "01",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "43.2px",
+      "fontWeight": "510",
+      "ratio": 1.14
+    },
+    {
+      "tag": "H3",
+      "text": "Request submitted",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "28.8px",
+      "fontWeight": "570",
+      "ratio": 1.14
+    },
+    {
+      "tag": "H3",
+      "text": "Budget checked",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "28.8px",
+      "fontWeight": "570",
+      "ratio": 1.14
+    },
+    {
+      "tag": "H3",
+      "text": "Manager decision",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "28.8px",
+      "fontWeight": "570",
+      "ratio": 1.14
+    },
+    {
+      "tag": "H3",
+      "text": "Supplier selected",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "28.8px",
+      "fontWeight": "570",
+      "ratio": 1.14
+    },
+    {
+      "tag": "H3",
+      "text": "Purchase order recorded",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "28.8px",
+      "fontWeight": "570",
+      "ratio": 1.14
+    },
+    {
+      "tag": "H3",
+      "text": "Await shipment; update stock",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "28.8px",
+      "fontWeight": "570",
+      "ratio": 1.14
+    },
+    {
+      "tag": "H3",
+      "text": "Invoice checked",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "28.8px",
+      "fontWeight": "570",
+      "ratio": 1.14
+    },
+    {
+      "tag": "H3",
+      "text": "KPI / SLA record updated",
+      "fore": "rgb(255, 255, 255)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "28.8px",
+      "fontWeight": "570",
+      "ratio": 1.14
+    },
+    {
+      "tag": "SPAN",
+      "text": "Route position",
+      "fore": "rgb(184, 227, 215)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "11.52px",
+      "fontWeight": "700",
+      "ratio": 1.23
+    },
+    {
+      "tag": "SPAN",
+      "text": "MIX",
+      "fore": "rgb(198, 215, 186)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "23.2px",
+      "fontWeight": "750",
+      "ratio": 1.33
+    },
+    {
+      "tag": "A",
+      "text": "EN",
+      "fore": "rgb(198, 215, 186)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "11.2px",
+      "fontWeight": "730",
+      "ratio": 1.33
+    },
+    {
+      "tag": "P",
+      "text": "A process in view",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "720",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "01",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "Human / Input",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "02",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "System / Validation",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "03",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "Human / Approval",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "04",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "Human / Decision",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "05",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "System / Output",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "06",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "System / Waiting",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "07",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "System / Validation",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "08",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "SPAN",
+      "text": "System / Completed",
+      "fore": "rgb(166, 217, 204)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "12px",
+      "fontWeight": "690",
+      "ratio": 1.37
+    },
+    {
+      "tag": "P",
+      "text": "Illustrative reference flow. It is not a client case or a ve",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "13.12px",
+      "fontWeight": "400",
+      "ratio": 1.38
+    },
+    {
+      "tag": "SMALL",
+      "text": "/ 08",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "19.872px",
+      "fontWeight": "510",
+      "ratio": 1.38
+    },
+    {
+      "tag": "P",
+      "text": "A person supplies the need, owner and supporting information",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 1.38
+    },
+    {
+      "tag": "P",
+      "text": "Defined rules check the request before it moves forward.",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 1.38
+    },
+    {
+      "tag": "P",
+      "text": "An authorised person approves, declines or asks for a change",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 1.38
+    },
+    {
+      "tag": "P",
+      "text": "Judgement stays with the person responsible for the purchase",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 1.38
+    },
+    {
+      "tag": "P",
+      "text": "Approved information can pass into the existing ERP.",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 1.38
+    },
+    {
+      "tag": "P",
+      "text": "The route pauses until delivery information arrives, then up",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 1.38
+    },
+    {
+      "tag": "P",
+      "text": "Documents are checked against the order; mismatches need rev",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 1.38
+    },
+    {
+      "tag": "P",
+      "text": "The completed route leaves a trace for later review.",
+      "fore": "rgb(196, 209, 203)",
+      "back": "rgb(242, 240, 234)",
+      "fontSize": "14.72px",
+      "fontWeight": "400",
+      "ratio": 1.38
+    },
+    {
+      "tag": "SPAN",
+      "text": "MIX",
+      "fore": "rgb(198, 215, 186)",
+      "back": "rgb(247, 245, 239)",
+      "fontSize": "23.2px",
+      "fontWeight": "750",
+      "ratio": 1.39
+    }
+  ],
+  "resize200": {
+    "320": {
+      "viewportWidth": 320,
+      "docWidth": 320,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 20,
+          "width": 280,
+          "right": 300,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 0,
+          "width": 320,
+          "right": 320,
+          "columns": "none"
+        },
+        {
+          "selector": ".change",
+          "x": 20,
+          "width": 280,
+          "right": 300,
+          "columns": "280px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 20,
+          "width": 280,
+          "right": 300,
+          "columns": "280px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 20,
+          "width": 280,
+          "right": 300,
+          "columns": "280px"
+        }
+      ],
+      "overflowing": []
+    },
+    "390": {
+      "viewportWidth": 390,
+      "docWidth": 390,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 20,
+          "width": 350,
+          "right": 370,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 0,
+          "width": 390,
+          "right": 390,
+          "columns": "none"
+        },
+        {
+          "selector": ".change",
+          "x": 20,
+          "width": 350,
+          "right": 370,
+          "columns": "350px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 20,
+          "width": 350,
+          "right": 370,
+          "columns": "350px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 20,
+          "width": 350,
+          "right": 370,
+          "columns": "350px"
+        }
+      ],
+      "overflowing": []
+    },
+    "768": {
+      "viewportWidth": 768,
+      "docWidth": 768,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 33.8,
+          "width": 700.4,
+          "right": 734.2,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 0,
+          "width": 768,
+          "right": 768,
+          "columns": "768px"
+        },
+        {
+          "selector": ".change",
+          "x": 33.8,
+          "width": 700.4,
+          "right": 734.2,
+          "columns": "700.406px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 33.8,
+          "width": 700.4,
+          "right": 734.2,
+          "columns": "700.406px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 33.8,
+          "width": 700.4,
+          "right": 734.2,
+          "columns": "700.406px"
+        }
+      ],
+      "overflowing": [
+        {
+          "tag": "IMG",
+          "text": "",
+          "x": -15.4,
+          "right": 783.4
+        }
+      ]
+    },
+    "1280": {
+      "viewportWidth": 1280,
+      "docWidth": 1280,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 56.3,
+          "width": 1167.4,
+          "right": 1223.7,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 0,
+          "width": 1280,
+          "right": 1280,
+          "columns": "1280px"
+        },
+        {
+          "selector": ".change",
+          "x": 56.3,
+          "width": 1167.4,
+          "right": 1223.7,
+          "columns": "519.672px 519.688px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 56.3,
+          "width": 1167.4,
+          "right": 1223.7,
+          "columns": "561.812px 477.531px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 56.3,
+          "width": 1167.4,
+          "right": 1223.7,
+          "columns": "577.422px 461.938px"
+        }
+      ],
+      "overflowing": [
+        {
+          "tag": "IMG",
+          "text": "",
+          "x": -25.6,
+          "right": 1305.6
+        }
+      ]
+    },
+    "1440": {
+      "viewportWidth": 1440,
+      "docWidth": 1440,
+      "rootFontSize": "32px",
+      "grids": [
+        {
+          "selector": ".header-inner",
+          "x": 63.4,
+          "width": 1313.3,
+          "right": 1376.6,
+          "columns": "none"
+        },
+        {
+          "selector": ".hero",
+          "x": 0,
+          "width": 1440,
+          "right": 1440,
+          "columns": "1440px"
+        },
+        {
+          "selector": ".change",
+          "x": 63.4,
+          "width": 1313.3,
+          "right": 1376.6,
+          "columns": "591.828px 591.844px"
+        },
+        {
+          "selector": ".approach-grid",
+          "x": 63.4,
+          "width": 1313.3,
+          "right": 1376.6,
+          "columns": "639.812px 543.859px"
+        },
+        {
+          "selector": ".contact-inner",
+          "x": 63.4,
+          "width": 1313.3,
+          "right": 1376.6,
+          "columns": "658.469px 526.797px"
+        }
+      ],
+      "overflowing": [
+        {
+          "tag": "IMG",
+          "text": "",
+          "x": -28.8,
+          "right": 1468.8
+        }
+      ]
+    }
+  },
+  "resources": {
+    "entries": [
+      {
+        "name": "http://127.0.0.1:4321/_astro/onest-latin-wght-normal.Dun_Rd-l.woff2",
+        "initiatorType": "link",
+        "transferSize": 34060,
+        "encodedBodySize": 33760,
+        "decodedBodySize": 33760,
+        "duration": 10.7
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/hero-procurement-concept.CCsY3Q5Q.webp",
+        "initiatorType": "link",
+        "transferSize": 64380,
+        "encodedBodySize": 64080,
+        "decodedBodySize": 64080,
+        "duration": 14.9
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/ClientRouter.astro_astro_type_script_index_0_lang.CYDbzu1r.js",
+        "initiatorType": "script",
+        "transferSize": 5862,
+        "encodedBodySize": 5562,
+        "decodedBodySize": 16357,
+        "duration": 15.8
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/home.BXtnuPcX.css",
+        "initiatorType": "link",
+        "transferSize": 7960,
+        "encodedBodySize": 7660,
+        "decodedBodySize": 29549,
+        "duration": 16.3
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/HomePage.astro_astro_type_script_index_0_lang.Crs3KK1P.js",
+        "initiatorType": "script",
+        "transferSize": 1408,
+        "encodedBodySize": 1108,
+        "decodedBodySize": 2236,
+        "duration": 16.2
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/onest-symbols-wght-normal.DxQzqQfC.woff2",
+        "initiatorType": "css",
+        "transferSize": 18468,
+        "encodedBodySize": 18168,
+        "decodedBodySize": 18168,
+        "duration": 176.4
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/onest-math-wght-normal.Bl4ZGkZl.woff2",
+        "initiatorType": "css",
+        "transferSize": 25780,
+        "encodedBodySize": 25480,
+        "decodedBodySize": 25480,
+        "duration": 89.9
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/home-motion.sR0ugjCc.js",
+        "initiatorType": "script",
+        "transferSize": 45586,
+        "encodedBodySize": 45286,
+        "decodedBodySize": 116623,
+        "duration": 8.5
+      },
+      {
+        "name": "http://127.0.0.1:4321/favicon.svg",
+        "initiatorType": "other",
+        "transferSize": 596,
+        "encodedBodySize": 296,
+        "decodedBodySize": 296,
+        "duration": 2.6
+      },
+      {
+        "name": "http://127.0.0.1:4321/_astro/lenis.BX3lQZJB.js",
+        "initiatorType": "script",
+        "transferSize": 5783,
+        "encodedBodySize": 5483,
+        "decodedBodySize": 18901,
+        "duration": 3.4
+      }
+    ],
+    "domNodes": 315,
+    "images": 1,
+    "scripts": 3
+  }
+}

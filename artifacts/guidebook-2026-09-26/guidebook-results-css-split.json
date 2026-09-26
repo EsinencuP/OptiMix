@@ -1,0 +1,197 @@
+{
+  "failures": [],
+  "visibleProblem": {
+    "jsEnabled": true,
+    "jsDisabled": true
+  },
+  "hero": {
+    "visibleWithin2s": true
+  },
+  "header": {
+    "initial": {
+      "position": "fixed",
+      "scrolled": false
+    },
+    "scrolled": {
+      "scrolled": true,
+      "backdrop": "blur(12px) saturate(1.4)"
+    },
+    "inner": {
+      "position": "sticky",
+      "scrolled": true
+    }
+  },
+  "menu": {
+    "opened": true,
+    "transition": "opacity, transform, display, overlay",
+    "closedOutside": true,
+    "closedAnchor": true
+  },
+  "relay": {
+    "before": "rgba(22, 49, 45, 0.04) 0px 1px 3px 0px",
+    "after": "rgba(22, 49, 45, 0.06) 0px 4px 12px 0px"
+  },
+  "layout": [
+    {
+      "width": 1440,
+      "relayColumns": 5,
+      "documentWidth": 1440
+    },
+    {
+      "width": 768,
+      "relayColumns": 2,
+      "documentWidth": 768
+    },
+    {
+      "width": 390,
+      "relayColumns": 1,
+      "documentWidth": 390
+    }
+  ],
+  "touchTargets": [
+    {
+      "route": "/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ro/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ro/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ro/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ru/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ru/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ru/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/contact/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/contact/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ro/contact/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ro/contact/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ro/contact/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ru/contact/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ru/contact/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ru/contact/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/privacy/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/privacy/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/privacy/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ro/privacy/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ro/privacy/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ro/privacy/",
+      "width": 320,
+      "small": []
+    },
+    {
+      "route": "/ru/privacy/",
+      "width": 1280,
+      "small": []
+    },
+    {
+      "route": "/ru/privacy/",
+      "width": 390,
+      "small": []
+    },
+    {
+      "route": "/ru/privacy/",
+      "width": 320,
+      "small": []
+    }
+  ],
+  "metadata": {
+    "icon": "/favicon.svg",
+    "ogTitle": "Optimix — Business process optimization",
+    "ogDescription": "Optimix helps operations teams redesign repeated handoffs into controlled workflows, with people responsible for approvals and exceptions.",
+    "ogLocale": "en_GB",
+    "imagePreload": true,
+    "fontPreload": true,
+    "transition": true
+  }
+}

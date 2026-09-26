@@ -21,8 +21,14 @@
   --radius-control: 0;
   --border-hairline: 1px solid var(--color-line);
   --shadow-raised: 0 1.25rem 3.5rem rgb(22 49 45 / 8%);
+  --shadow-subtle: 0 1px 3px rgb(22 49 45 / 4%);
+  --shadow-card: 0 4px 12px rgb(22 49 45 / 6%);
+  --gradient-paper-to-wash: linear-gradient(180deg, var(--color-paper), var(--color-wash));
+  --gradient-contact: linear-gradient(180deg, var(--color-white), color-mix(in oklch, var(--color-signal), transparent 88%));
 
   --motion-quick: 180ms;
+  --motion-content: 580ms;
+  --motion-hero: 1020ms;
   --ease-precise: cubic-bezier(.22, .61, .36, 1);
 }
 

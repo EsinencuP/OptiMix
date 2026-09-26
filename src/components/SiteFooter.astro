@@ -13,7 +13,7 @@ const t = content[locale].ui;
       <a href={homeAnchor(locale, 'approach')}>{t.approach}</a>
       <a href={pathFor(locale, 'contact')}>{t.contact}</a>
       <a href={pathFor(locale, 'privacy')}>{t.privacy}</a>
-      <a href={homeAnchor(locale, 'top')}>{t.backTop} ↑</a>
+      <a class="footer-top-link" href={homeAnchor(locale, 'top')}><span class="footer-top-icon" aria-hidden="true">↑</span>{t.backTop}</a>
     </nav>
   </div>
 </footer>

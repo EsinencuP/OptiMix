@@ -123,16 +123,16 @@ await desktop.close();
 
 const mobile = await browser.newPage({ viewport: { width: 390, height: 844 } });
 await mobile.goto(baseUrl, { waitUntil: 'networkidle' });
-const summary = mobile.locator('.mobile-menu summary');
+  const summary = mobile.locator('.mobile-menu-trigger');
 await summary.focus();
 results.keyboard.mobileSummaryFocus = await mobile.evaluate(() => ({ tag: document.activeElement.tagName, outline: getComputedStyle(document.activeElement).outline }));
 await mobile.keyboard.press('Enter');
-results.keyboard.mobileMenuOpened = await mobile.locator('.mobile-menu').evaluate(n => n.open);
+results.keyboard.mobileMenuOpened = await mobile.locator('.mobile-nav-popover').evaluate(n => n.matches(':popover-open'));
 await mobile.keyboard.press('Tab');
 results.keyboard.mobileFirstLink = await mobile.evaluate(() => ({ text: document.activeElement?.textContent?.trim(), href: document.activeElement?.getAttribute('href'), outline: getComputedStyle(document.activeElement).outline }));
 await mobile.keyboard.press('Enter');
 await mobile.waitForTimeout(700);
-results.keyboard.mobileNavAfterEnter = await mobile.evaluate(() => ({ hash: location.hash, workflowTop: document.querySelector('#workflow').getBoundingClientRect().top, menuStillOpen: document.querySelector('.mobile-menu').open }));
+results.keyboard.mobileNavAfterEnter = await mobile.evaluate(() => ({ hash: location.hash, workflowTop: document.querySelector('#workflow').getBoundingClientRect().top, menuStillOpen: document.querySelector('.mobile-nav-popover').matches(':popover-open') }));
 await mobile.close();
 
 const reduced = await browser.newPage({ viewport: { width: 390, height: 844 }, reducedMotion: 'reduce' });

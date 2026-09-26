@@ -1,0 +1,203 @@
+{
+  "methodology": "Playwright Chrome mobile viewport with 4x CPU throttle; Event Timing API, three menu and anchor interactions per locale. Lab proxy only, not field INP.",
+  "results": [
+    {
+      "route": "/",
+      "maxEventDurationMs": 72,
+      "events": [
+        {
+          "name": "pointerdown",
+          "duration": 64,
+          "interactionId": 3827
+        },
+        {
+          "name": "pointerup",
+          "duration": 64,
+          "interactionId": 3827
+        },
+        {
+          "name": "click",
+          "duration": 64,
+          "interactionId": 3827
+        },
+        {
+          "name": "pointerdown",
+          "duration": 48,
+          "interactionId": 3834
+        },
+        {
+          "name": "pointerup",
+          "duration": 48,
+          "interactionId": 3834
+        },
+        {
+          "name": "click",
+          "duration": 48,
+          "interactionId": 3834
+        },
+        {
+          "name": "pointerdown",
+          "duration": 32,
+          "interactionId": 3841
+        },
+        {
+          "name": "pointerup",
+          "duration": 32,
+          "interactionId": 3841
+        },
+        {
+          "name": "click",
+          "duration": 32,
+          "interactionId": 3841
+        },
+        {
+          "name": "pointerdown",
+          "duration": 72,
+          "interactionId": 3848
+        },
+        {
+          "name": "pointerup",
+          "duration": 72,
+          "interactionId": 3848
+        },
+        {
+          "name": "click",
+          "duration": 72,
+          "interactionId": 3848
+        }
+      ]
+    },
+    {
+      "route": "/ro/",
+      "maxEventDurationMs": 64,
+      "events": [
+        {
+          "name": "pointerdown",
+          "duration": 64,
+          "interactionId": 4415
+        },
+        {
+          "name": "pointerup",
+          "duration": 64,
+          "interactionId": 4415
+        },
+        {
+          "name": "click",
+          "duration": 64,
+          "interactionId": 4415
+        },
+        {
+          "name": "pointerdown",
+          "duration": 32,
+          "interactionId": 4422
+        },
+        {
+          "name": "pointerup",
+          "duration": 32,
+          "interactionId": 4422
+        },
+        {
+          "name": "click",
+          "duration": 32,
+          "interactionId": 4422
+        },
+        {
+          "name": "pointerdown",
+          "duration": 32,
+          "interactionId": 4429
+        },
+        {
+          "name": "pointerup",
+          "duration": 32,
+          "interactionId": 4429
+        },
+        {
+          "name": "click",
+          "duration": 32,
+          "interactionId": 4429
+        },
+        {
+          "name": "pointerdown",
+          "duration": 64,
+          "interactionId": 4436
+        },
+        {
+          "name": "pointerup",
+          "duration": 64,
+          "interactionId": 4436
+        },
+        {
+          "name": "click",
+          "duration": 64,
+          "interactionId": 4436
+        }
+      ]
+    },
+    {
+      "route": "/ru/",
+      "maxEventDurationMs": 56,
+      "events": [
+        {
+          "name": "pointerdown",
+          "duration": 56,
+          "interactionId": 9439
+        },
+        {
+          "name": "pointerup",
+          "duration": 56,
+          "interactionId": 9439
+        },
+        {
+          "name": "click",
+          "duration": 56,
+          "interactionId": 9439
+        },
+        {
+          "name": "pointerdown",
+          "duration": 32,
+          "interactionId": 9446
+        },
+        {
+          "name": "pointerup",
+          "duration": 32,
+          "interactionId": 9446
+        },
+        {
+          "name": "click",
+          "duration": 32,
+          "interactionId": 9446
+        },
+        {
+          "name": "pointerdown",
+          "duration": 40,
+          "interactionId": 9453
+        },
+        {
+          "name": "pointerup",
+          "duration": 40,
+          "interactionId": 9453
+        },
+        {
+          "name": "click",
+          "duration": 40,
+          "interactionId": 9453
+        },
+        {
+          "name": "pointerdown",
+          "duration": 48,
+          "interactionId": 9460
+        },
+        {
+          "name": "pointerup",
+          "duration": 48,
+          "interactionId": 9460
+        },
+        {
+          "name": "click",
+          "duration": 48,
+          "interactionId": 9460
+        }
+      ]
+    }
+  ]
+}

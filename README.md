@@ -30,6 +30,16 @@ The homepage now uses a small entry script to load GSAP and ScrollTrigger only w
 
 For route, language, menu and responsive checks run `node experiments/verify-ia.mjs` against the same preview.
 
+The guidebook changes and verification results are recorded in [`docs/GUIDEBOOK_IMPLEMENTATION.md`](docs/GUIDEBOOK_IMPLEMENTATION.md). Run `node experiments/verify-guidebook.mjs` for visibility, popover, sticky-header, touch-target and metadata checks. The visual header and hero stay on variant A.
+
+Homepage CSS is authored in `src/styles/home.css`. The `predev`, `precheck`, and `prebuild` scripts generate an inlined stylesheet for the header, hero and first content section plus an asynchronously loaded stylesheet for the remaining sections. Edit the source file, not the generated CSS files.
+
+Run `node experiments/audit-hero-contrast.mjs` to sample header contrast over the hero photograph at seven widths in all three languages. Run `node experiments/verify-css-delivery.mjs` to check the first content section and hash navigation with a simulated three-second delay of the deferred stylesheet.
+
+For a local interaction-latency proxy, run `node experiments/measure-interactions.mjs`; it is not a substitute for field INP data.
+
+When a production origin is confirmed, build with `PUBLIC_SITE_URL` set to that absolute origin to emit valid language alternates. Without it, the prototype omits `hreflang` links. All routes remain `noindex` until the form, legal notice and release requirements are completed.
+
 ## Animate UI registry in Codex
 
 This project exposes the Animate UI registry as `@animate-ui` in `components.json` and includes the shadcn CLI as a development dependency. In Codex, install the shadcn MCP server once:

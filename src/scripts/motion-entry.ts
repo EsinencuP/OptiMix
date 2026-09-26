@@ -3,6 +3,7 @@ const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 let dispose: (() => void) | undefined;
 let requestId = 0;
 let firstRun = !reducedMotion.matches;
+const heroFallbackTimer = window.setTimeout(() => document.documentElement.classList.add('motion-fallback'), 2000);
 
 async function syncMotion() {
   const currentRequest = ++requestId;
@@ -30,9 +31,22 @@ void syncMotion();
 reducedMotion.addEventListener('change', syncMotion);
 
 window.addEventListener('pagehide', () => {
+  window.clearTimeout(heroFallbackTimer);
   requestId += 1;
   dispose?.();
   dispose = undefined;
+});
+
+document.addEventListener('astro:before-swap', () => {
+  requestId += 1;
+  window.clearTimeout(heroFallbackTimer);
+  document.documentElement.classList.remove('motion-fallback');
+  dispose?.();
+  dispose = undefined;
+});
+
+document.addEventListener('astro:page-load', () => {
+  if (document.querySelector('.hero') && !dispose) void syncMotion();
 });
 
 window.addEventListener('pageshow', (event) => {
