@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import { content, pathFor, type Locale } from '../content';
+import '../styles/home.css';
+import '../styles/inner.css';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = content[locale];
+---
+<BaseLayout title={t.meta.privacyTitle} description={t.meta.privacyDescription} locale={locale} page="privacy">
+  <SiteHeader locale={locale} page="privacy" variant="inner" />
+  <main id="main" class="inner-main privacy-main"><div class="container privacy-content"><p class="eyebrow">{t.privacyPage.eyebrow}</p><h1>{t.privacyPage.title}</h1><p class="body-large">{t.privacyPage.lead}</p><p class="privacy-detail">{t.privacyPage.detail}</p><a class="button-primary" href={pathFor(locale, 'contact')}>{t.privacyPage.back} <span aria-hidden="true">↗</span></a></div></main>
+  <SiteFooter locale={locale} />
+</BaseLayout>

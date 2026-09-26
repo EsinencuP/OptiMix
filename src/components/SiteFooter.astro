@@ -1,0 +1,19 @@
+---
+import { content, homeAnchor, pathFor, type Locale } from '../content';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = content[locale].ui;
+---
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a class="wordmark" href={pathFor(locale, 'home')} translate="no">OPTI<span>MIX</span></a>
+    <span>{t.footerLine}</span>
+    <nav class="footer-nav" aria-label={t.menu}>
+      <a href={homeAnchor(locale, 'workflow')}>{t.process}</a>
+      <a href={homeAnchor(locale, 'approach')}>{t.approach}</a>
+      <a href={pathFor(locale, 'contact')}>{t.contact}</a>
+      <a href={pathFor(locale, 'privacy')}>{t.privacy}</a>
+      <a href={homeAnchor(locale, 'top')}>{t.backTop} ↑</a>
+    </nav>
+  </div>
+</footer>

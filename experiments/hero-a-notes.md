@@ -1,10 +1,12 @@
 # Hero A — Operational Cinema
 
+> **Current status, 25 September 2026:** The owner selected A as the target visual foundation. Its composition has moved into `src/pages/index.astro`; the standalone HTML remains the source study. The structure and interaction are expected to evolve. The AI-generated photograph is still a provisional, visibly disclosed concept and cannot represent client work.
+
 ## Concept and role
 
 A photographic editorial first screen. It treats the procurement handoff as a human and operational event, not as an equipment catalogue or imaginary software product. The headline, explanatory sentence and action carry the meaning without the image. A four-step illustrative sequence follows the image, with a person explicitly responsible for approval.
 
-This is an **experiment**, not the selected Optimix direction or a production page. The page contains a brief continuation so reviewers can judge the transition from the dark hero to the light editorial system. Its `Discuss a process` links scroll to an informational section; there is no working lead form in this study.
+This standalone experiment is the source study for the selected direction, not a production page. It contains a brief continuation so reviewers can judge the transition from the dark hero to the light editorial system. Its `Discuss a process` links scroll to an informational section; there is no working lead form in this study. The working homepage uses the more accurate action label `Prepare a process brief`.
 
 ## Asset provenance
 
@@ -36,4 +38,4 @@ At 390 px, the header retains the primary action, the heading and explanation ap
 
 ## Status
 
-Ready for comparison with hero B and C. The photograph is temporary and must not be promoted to a claim about a customer or Optimix delivery.
+Selected as the visual foundation and transferred to the working homepage. The photograph is temporary and must not be promoted to a claim about a customer or Optimix delivery.

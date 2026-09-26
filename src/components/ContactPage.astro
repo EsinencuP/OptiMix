@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import { content, pathFor, type Locale } from '../content';
+import '../styles/home.css';
+import '../styles/inner.css';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = content[locale];
+---
+<BaseLayout title={t.meta.contactTitle} description={t.meta.contactDescription} locale={locale} page="contact">
+  <SiteHeader locale={locale} page="contact" variant="inner" />
+  <main id="main" class="inner-main">
+    <div class="container inner-heading"><p class="eyebrow">{t.contactPage.eyebrow}</p><h1>{t.contactPage.title}</h1><p class="body-large muted">{t.contactPage.lead}</p></div>
+    <div class="container brief-layout">
+      <div class="brief-status" role="status"><strong>{t.contactPage.status}</strong><p>{t.contactPage.details}</p><a href={pathFor(locale, 'privacy')}>{t.contactPage.privacyLink} ↗</a></div>
+      <form class="brief-form" aria-describedby="form-unavailable">
+        <fieldset disabled>
+          <div class="form-two"><label>{t.contactPage.name}<input type="text" name="name" autocomplete="name" /></label><label>{t.contactPage.company}<input type="text" name="company" autocomplete="organization" /></label></div>
+          <div class="form-two"><label>{t.contactPage.email}<input type="email" name="email" autocomplete="email" /></label><label>{t.contactPage.process}<input type="text" name="process" /></label></div>
+          <label>{t.contactPage.description}<textarea name="description" rows="5"></textarea></label>
+          <div class="form-two"><label>{t.contactPage.systems}<input type="text" name="systems" /></label><label>{t.contactPage.frequency}<input type="text" name="frequency" /></label></div>
+          <label>{t.contactPage.problem}<textarea name="problem" rows="3"></textarea></label>
+          <button class="button-primary" type="submit">{t.contactPage.send} <span aria-hidden="true">↗</span></button>
+        </fieldset>
+        <p id="form-unavailable" class="form-unavailable">{t.contactPage.disabled}</p>
+      </form>
+    </div>
+  </main>
+  <SiteFooter locale={locale} />
+</BaseLayout>

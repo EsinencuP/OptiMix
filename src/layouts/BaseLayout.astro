@@ -1,17 +1,20 @@
 ---
 import '@fontsource-variable/onest/wght.css';
 import '../styles/global.css';
+import { content, locales, pathFor, type Locale, type PageKind } from '../content';
 
 interface Props {
   title: string;
   description: string;
+  locale: Locale;
+  page: PageKind;
 }
 
-const { title, description } = Astro.props;
+const { title, description, locale, page } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={locale}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,10 +22,12 @@ const { title, description } = Astro.props;
     <link rel="icon" href="data:," />
     <meta name="robots" content="noindex, nofollow" />
     <meta name="description" content={description} />
+    {locales.map((target) => <link rel="alternate" hreflang={target} href={pathFor(target, page)} />)}
+    <link rel="alternate" hreflang="x-default" href={pathFor('en', page)} />
     <title>{title}</title>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main">{content[locale].ui.skip}</a>
     <slot />
   </body>
 </html>

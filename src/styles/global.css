@@ -5,6 +5,7 @@
 *::after { box-sizing: border-box; }
 
 html { scroll-behavior: smooth; }
+html.lenis { scroll-behavior: auto; }
 
 body {
   margin: 0;
@@ -89,6 +90,9 @@ p { text-wrap: pretty; }
 
 .eyebrow {
   display: inline-flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   align-items: center;
   gap: .7rem;
   color: var(--color-accent);

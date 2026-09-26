@@ -1,22 +1,24 @@
 :root {
-  /* Phase 05 hypotheses: these are prototype choices, not approved brand assets. */
+  /* Variant A working palette; these remain prototype choices, not approved brand assets. */
   --font-sans: 'Onest Variable', Arial, sans-serif;
 
-  --color-paper: #f8f9f6;
+  --color-paper: #f2f0ea;
   --color-white: #ffffff;
-  --color-ink: #182321;
-  --color-muted: #53625d;
-  --color-line: #d6ded9;
-  --color-wash: #edf2ee;
+  --color-light: #f7f5ef;
+  --color-signal: #c6d7ba;
+  --color-ink: #1c201e;
+  --color-muted: #4d5850;
+  --color-line: #cbd0c7;
+  --color-wash: #e9eee6;
   --color-accent: #175449;
   --color-accent-hover: #103c34;
-  --color-dark: #16312d;
+  --color-dark: #1d3730;
   --color-dark-muted: #c4d1cb;
   --page-gutter: clamp(20px, 4.4vw, 64px);
   --container-wide: 84rem;
   --section-space: clamp(5.5rem, 10vw, 10rem);
 
-  --radius-control: 0.25rem;
+  --radius-control: 0;
   --border-hairline: 1px solid var(--color-line);
   --shadow-raised: 0 1.25rem 3.5rem rgb(22 49 45 / 8%);
 
