@@ -4,4 +4,5 @@ export default defineConfig({
   output: 'static',
   site: process.env.PUBLIC_SITE_URL || undefined,
   build: { inlineStylesheets: 'always' },
+  devToolbar: { enabled: false },
 });

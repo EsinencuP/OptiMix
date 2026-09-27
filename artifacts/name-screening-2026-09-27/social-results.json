@@ -1,0 +1,842 @@
+[
+  {
+    "name": "thrediva",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/thrediva/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/thrediva/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:19:58.876Z"
+  },
+  {
+    "name": "thredvia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/thredvia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/thredvia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:19:59.140Z"
+  },
+  {
+    "name": "thredelis",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/thredelis/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/thredelis/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:19:59.261Z"
+  },
+  {
+    "name": "thredovia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/thredovia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/thredovia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:19:59.557Z"
+  },
+  {
+    "name": "threadelis",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/threadelis/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/threadelis/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:19:59.759Z"
+  },
+  {
+    "name": "threadentra",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/threadentra/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/threadentra/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:19:59.819Z"
+  },
+  {
+    "name": "weavelis",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/weavelis/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/weavelis/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:00.365Z"
+  },
+  {
+    "name": "weavento",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/weavento/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/weavento/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:00.370Z"
+  },
+  {
+    "name": "weavendra",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/weavendra/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/weavendra/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:00.458Z"
+  },
+  {
+    "name": "weavertia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/weavertia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/weavertia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:01.156Z"
+  },
+  {
+    "name": "loomcenta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/loomcenta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/loomcenta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:01.111Z"
+  },
+  {
+    "name": "loomentia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/loomentia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/loomentia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:01.154Z"
+  },
+  {
+    "name": "loomeris",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/loomeris/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/loomeris/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:01.917Z"
+  },
+  {
+    "name": "loomancia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/loomancia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/loomancia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:01.905Z"
+  },
+  {
+    "name": "loopcerta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/loopcerta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/loopcerta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:01.836Z"
+  },
+  {
+    "name": "loopmeria",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/loopmeria/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/loopmeria/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:02.468Z"
+  },
+  {
+    "name": "loopertia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/loopertia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/loopertia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:02.533Z"
+  },
+  {
+    "name": "loopcenta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/loopcenta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/loopcenta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:03.274Z"
+  },
+  {
+    "name": "routecerta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/routecerta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/routecerta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:03.097Z"
+  },
+  {
+    "name": "routentia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/routentia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/routentia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:03.293Z"
+  },
+  {
+    "name": "routemera",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/routemera/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/routemera/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:04.174Z"
+  },
+  {
+    "name": "routelinea",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/routelinea/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/routelinea/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:03.854Z"
+  },
+  {
+    "name": "routelora",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/routelora/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/routelora/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:04.142Z"
+  },
+  {
+    "name": "routoventa",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/routoventa/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/routoventa/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:04.522Z"
+  },
+  {
+    "name": "arcocerta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/arcocerta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/arcocerta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:04.981Z"
+  },
+  {
+    "name": "arceture",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/arceture/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/arceture/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:04.909Z"
+  },
+  {
+    "name": "arcomeris",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/arcomeris/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/arcomeris/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:05.591Z"
+  },
+  {
+    "name": "arcoentra",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/arcoentra/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/arcoentra/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:05.724Z"
+  },
+  {
+    "name": "arcalora",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/arcalora/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/arcalora/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:05.663Z"
+  },
+  {
+    "name": "gatecerta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/gatecerta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/gatecerta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:06.487Z"
+  },
+  {
+    "name": "gatentia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/gatentia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/gatentia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:06.244Z"
+  },
+  {
+    "name": "gateentra",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/gateentra/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/gateentra/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:06.348Z"
+  },
+  {
+    "name": "gatelora",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/gatelora/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/gatelora/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:06.917Z"
+  },
+  {
+    "name": "gateventa",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/gateventa/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/gateventa/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:06.960Z"
+  },
+  {
+    "name": "praxivis",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/praxivis/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/praxivis/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:07.247Z"
+  },
+  {
+    "name": "praxicerta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/praxicerta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/praxicerta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:07.619Z"
+  },
+  {
+    "name": "praximeris",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/praximeris/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/praximeris/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:07.722Z"
+  },
+  {
+    "name": "praxielis",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/praxielis/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/praxielis/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:07.790Z"
+  },
+  {
+    "name": "praxinora",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/praxinora/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/praxinora/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:08.266Z"
+  },
+  {
+    "name": "opercerta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/opercerta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/opercerta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:08.259Z"
+  },
+  {
+    "name": "operevia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/operevia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/operevia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:08.366Z"
+  },
+  {
+    "name": "opermeris",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/opermeris/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/opermeris/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:08.854Z"
+  },
+  {
+    "name": "operelora",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/operelora/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/operelora/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:09.109Z"
+  },
+  {
+    "name": "opercenta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/opercenta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/opercenta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:09.057Z"
+  },
+  {
+    "name": "ichnora",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ichnora/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ichnora/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:09.375Z"
+  },
+  {
+    "name": "ichnelis",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ichnelis/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ichnelis/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:09.777Z"
+  },
+  {
+    "name": "ichnaris",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ichnaris/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ichnaris/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:09.842Z"
+  },
+  {
+    "name": "ichnentra",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ichnentra/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ichnentra/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:10.129Z"
+  },
+  {
+    "name": "ichnovista",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ichnovista/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ichnovista/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:10.394Z"
+  },
+  {
+    "name": "daedovia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/daedovia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/daedovia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:10.907Z"
+  },
+  {
+    "name": "daedentra",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/daedentra/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/daedentra/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:11.157Z"
+  },
+  {
+    "name": "ariadova",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ariadova/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ariadova/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:11.117Z"
+  },
+  {
+    "name": "ariadentra",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ariadentra/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ariadentra/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:11.555Z"
+  },
+  {
+    "name": "ariadelora",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ariadelora/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ariadelora/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:11.766Z"
+  },
+  {
+    "name": "tracearis",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/tracearis/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/tracearis/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:11.893Z"
+  },
+  {
+    "name": "tracecerta",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/tracecerta/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/tracecerta/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:12.581Z"
+  },
+  {
+    "name": "traceentra",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/traceentra/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/traceentra/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:12.602Z"
+  },
+  {
+    "name": "clariovia",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/clariovia/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/clariovia/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:12.380Z"
+  },
+  {
+    "name": "clarimeris",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/clarimeris/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/clarimeris/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:12.991Z"
+  },
+  {
+    "name": "clarinoria",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/clarinoria/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/clarinoria/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:20:13.439Z"
+  }
+]

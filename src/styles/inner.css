@@ -8,9 +8,9 @@
 .site-header-inner .mobile-contact { border-color: var(--color-ink); }
 .site-header-inner .mobile-menu-trigger { color: var(--color-ink); }
 .inner-main { min-height: 68svh; padding-block: clamp(4rem, 9vw, 8rem); }
-.inner-heading { display: grid; grid-template-columns: minmax(11rem, .35fr) minmax(0, 1fr); gap: 1rem 3rem; align-items: start; }
+.inner-heading { display: block; }
 .inner-heading h1, .privacy-content h1 { max-width: 15ch; font-size: clamp(3rem, 6vw, 6rem); font-weight: 620; line-height: 1; letter-spacing: -.065em; }
-.inner-heading .body-large { grid-column: 2; max-width: 42rem; margin-top: 1.5rem; }
+.inner-heading .body-large { max-width: 42rem; margin-top: 1.5rem; }
 .brief-layout { display: grid; grid-template-columns: minmax(15rem, .7fr) minmax(0, 1.3fr); gap: clamp(3rem, 7vw, 7rem); margin-top: clamp(4rem, 8vw, 7rem); }
 .brief-layout > *, .brief-form fieldset, .form-two > * { min-width: 0; }
 .brief-status { align-self: start; padding: 1.5rem; background: var(--color-wash); border-top: 2px solid var(--color-accent); }
@@ -26,7 +26,7 @@
 .brief-form .button-primary { justify-self: start; margin-top: .5rem; cursor: not-allowed; }
 .form-unavailable { margin-top: 1rem; color: var(--color-muted); font-size: .82rem; line-height: 1.5; }
 .privacy-content { max-width: 70rem; }
-.privacy-content h1 { margin-top: 2rem; }
+.privacy-content h1 { margin-top: 0; }
 .privacy-content .body-large { max-width: 42rem; margin-top: 2.5rem; }
 .privacy-detail { max-width: 42rem; margin-top: 2rem; color: var(--color-muted); font-size: 1rem; line-height: 1.65; }
 .privacy-detail { overflow-wrap: anywhere; }

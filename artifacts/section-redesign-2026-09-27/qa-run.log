@@ -1,0 +1,711 @@
+{
+  "results": [
+    {
+      "locale": "en",
+      "width": 320,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 320,
+      "viewport": 320,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 1,
+      "workflowOverflow": false,
+      "routeCurves": 7,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": true
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 390,
+      "viewport": 390,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 1,
+      "workflowOverflow": false,
+      "routeCurves": 7,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": true
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 768,
+      "viewport": 768,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 1,
+      "workflowOverflow": false,
+      "routeCurves": 7,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": true
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 4,
+      "workflowOverflow": false,
+      "routeCurves": 9,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": false,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": false
+    },
+    {
+      "locale": "ro",
+      "width": 320,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 320,
+      "viewport": 320,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 1,
+      "workflowOverflow": false,
+      "routeCurves": 7,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": true
+    },
+    {
+      "locale": "ro",
+      "width": 390,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 390,
+      "viewport": 390,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 1,
+      "workflowOverflow": false,
+      "routeCurves": 7,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": true
+    },
+    {
+      "locale": "ro",
+      "width": 768,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 768,
+      "viewport": 768,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 1,
+      "workflowOverflow": false,
+      "routeCurves": 7,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": true
+    },
+    {
+      "locale": "ro",
+      "width": 1440,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 4,
+      "workflowOverflow": false,
+      "routeCurves": 9,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": false,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": false
+    },
+    {
+      "locale": "ru",
+      "width": 320,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 320,
+      "viewport": 320,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 1,
+      "workflowOverflow": false,
+      "routeCurves": 7,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": true
+    },
+    {
+      "locale": "ru",
+      "width": 390,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 390,
+      "viewport": 390,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 1,
+      "workflowOverflow": false,
+      "routeCurves": 7,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": true
+    },
+    {
+      "locale": "ru",
+      "width": 768,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 768,
+      "viewport": 768,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 1,
+      "workflowOverflow": false,
+      "routeCurves": 7,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": true,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": true
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "afterVisible": true,
+      "beforeVisible": true,
+      "workflowKeyboardExpanded": true,
+      "relayExpanded": true,
+      "documentWidth": 1440,
+      "viewport": 1440,
+      "quoteCount": 3,
+      "workflowDirection": "grid",
+      "workflowColumns": 4,
+      "workflowOverflow": false,
+      "routeCurves": 9,
+      "workflowArrowCount": 0,
+      "comparisonItemCounts": [
+        5,
+        6
+      ],
+      "comparisonNumberCount": 0,
+      "valueFormulaSymbols": 0,
+      "relayOverflow": false,
+      "footerLanguageCount": 3,
+      "eyebrowCount": 0,
+      "relayNumberCount": 0,
+      "relayIllustrationCount": 5,
+      "overflowElements": [],
+      "relayMoved": false
+    }
+  ],
+  "innerResults": [
+    {
+      "locale": "en",
+      "kind": "contact",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "eyebrowCount": 0,
+      "localeTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ],
+      "expectedTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ]
+    },
+    {
+      "locale": "en",
+      "kind": "privacy",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "eyebrowCount": 0,
+      "localeTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ],
+      "expectedTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ]
+    },
+    {
+      "locale": "ro",
+      "kind": "contact",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "eyebrowCount": 0,
+      "localeTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ],
+      "expectedTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ]
+    },
+    {
+      "locale": "ro",
+      "kind": "privacy",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "eyebrowCount": 0,
+      "localeTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ],
+      "expectedTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "kind": "contact",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "eyebrowCount": 0,
+      "localeTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ],
+      "expectedTargets": [
+        "/contact/",
+        "/ro/contact/",
+        "/ru/contact/"
+      ]
+    },
+    {
+      "locale": "ru",
+      "kind": "privacy",
+      "width": 390,
+      "viewport": 390,
+      "backTop": "#top",
+      "topExists": true,
+      "eyebrowCount": 0,
+      "localeTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ],
+      "expectedTargets": [
+        "/privacy/",
+        "/ro/privacy/",
+        "/ru/privacy/"
+      ]
+    }
+  ],
+  "zoomResults": [
+    {
+      "locale": "en",
+      "width": 390,
+      "viewport": 390,
+      "overflowElements": [
+        {
+          "tag": "LI",
+          "className": "relay-item relay-item-2",
+          "right": 707.6
+        },
+        {
+          "tag": "DETAILS",
+          "className": "relay-card",
+          "right": 707.6
+        },
+        {
+          "tag": "SUMMARY",
+          "className": "",
+          "right": 706.6
+        },
+        {
+          "tag": "SPAN",
+          "className": "relay-art",
+          "right": 682.6
+        },
+        {
+          "tag": "svg",
+          "className": "",
+          "right": 682.6
+        },
+        {
+          "tag": "rect",
+          "className": "",
+          "right": 583.7
+        },
+        {
+          "tag": "path",
+          "className": "",
+          "right": 546.6
+        },
+        {
+          "tag": "g",
+          "className": "",
+          "right": 630.9
+        },
+        {
+          "tag": "rect",
+          "className": "",
+          "right": 630.9
+        },
+        {
+          "tag": "path",
+          "className": "",
+          "right": 610.6
+        },
+        {
+          "tag": "path",
+          "className": "",
+          "right": 606.2
+        },
+        {
+          "tag": "SPAN",
+          "className": "relay-copy",
+          "right": 666.6
+        }
+      ]
+    },
+    {
+      "locale": "ro",
+      "width": 390,
+      "viewport": 390,
+      "overflowElements": [
+        {
+          "tag": "LI",
+          "className": "relay-item relay-item-2",
+          "right": 683.6
+        },
+        {
+          "tag": "DETAILS",
+          "className": "relay-card",
+          "right": 683.6
+        },
+        {
+          "tag": "SUMMARY",
+          "className": "",
+          "right": 682.6
+        },
+        {
+          "tag": "SPAN",
+          "className": "relay-art",
+          "right": 670.6
+        },
+        {
+          "tag": "svg",
+          "className": "",
+          "right": 643.7
+        },
+        {
+          "tag": "rect",
+          "className": "",
+          "right": 555.7
+        },
+        {
+          "tag": "path",
+          "className": "",
+          "right": 522.7
+        },
+        {
+          "tag": "g",
+          "className": "",
+          "right": 597.7
+        },
+        {
+          "tag": "rect",
+          "className": "",
+          "right": 597.7
+        },
+        {
+          "tag": "path",
+          "className": "",
+          "right": 579.7
+        },
+        {
+          "tag": "path",
+          "className": "",
+          "right": 575.7
+        },
+        {
+          "tag": "SPAN",
+          "className": "relay-copy",
+          "right": 662.6
+        }
+      ]
+    },
+    {
+      "locale": "ru",
+      "width": 390,
+      "viewport": 390,
+      "overflowElements": [
+        {
+          "tag": "LI",
+          "className": "relay-item relay-item-2",
+          "right": 707.6
+        },
+        {
+          "tag": "DETAILS",
+          "className": "relay-card",
+          "right": 707.6
+        },
+        {
+          "tag": "SUMMARY",
+          "className": "",
+          "right": 706.6
+        },
+        {
+          "tag": "SPAN",
+          "className": "relay-art",
+          "right": 682.6
+        },
+        {
+          "tag": "svg",
+          "className": "",
+          "right": 682.6
+        },
+        {
+          "tag": "rect",
+          "className": "",
+          "right": 583.7
+        },
+        {
+          "tag": "path",
+          "className": "",
+          "right": 546.6
+        },
+        {
+          "tag": "g",
+          "className": "",
+          "right": 630.9
+        },
+        {
+          "tag": "rect",
+          "className": "",
+          "right": 630.9
+        },
+        {
+          "tag": "path",
+          "className": "",
+          "right": 610.6
+        },
+        {
+          "tag": "path",
+          "className": "",
+          "right": 606.2
+        },
+        {
+          "tag": "SPAN",
+          "className": "relay-copy",
+          "right": 666.6
+        }
+      ]
+    }
+  ],
+  "motionResult": {
+    "illustrationMoved": true,
+    "cardStationary": true,
+    "relayExit": [
+      {
+        "card": 1,
+        "originStable": true,
+        "exitInRange": true,
+        "returned": true
+      },
+      {
+        "card": 2,
+        "originStable": true,
+        "exitInRange": true,
+        "returned": true
+      },
+      {
+        "card": 3,
+        "originStable": true,
+        "exitInRange": true,
+        "returned": true
+      },
+      {
+        "card": 4,
+        "originStable": true,
+        "exitInRange": true,
+        "returned": true
+      },
+      {
+        "card": 5,
+        "originStable": true,
+        "exitInRange": true,
+        "returned": true
+      }
+    ],
+    "workflowIconMoved": true,
+    "valuePointerResponded": true,
+    "keyboardExpanded": true
+  },
+  "errors": []
+}

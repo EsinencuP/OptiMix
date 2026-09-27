@@ -1,0 +1,4601 @@
+[
+  {
+    "name": "threadora",
+    "domain": "threadora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.203Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadora.com"
+  },
+  {
+    "name": "thrediva",
+    "domain": "thrediva.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:16.217Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thrediva.com"
+  },
+  {
+    "name": "thredora",
+    "domain": "thredora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.226Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredora.com"
+  },
+  {
+    "name": "thredvia",
+    "domain": "thredvia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:16.221Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredvia.com"
+  },
+  {
+    "name": "thredance",
+    "domain": "thredance.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:16.228Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredance.com"
+  },
+  {
+    "name": "thredancea",
+    "domain": "thredancea.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:16.231Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredancea.com"
+  },
+  {
+    "name": "thredivis",
+    "domain": "thredivis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:16.233Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredivis.com"
+  },
+  {
+    "name": "weaventra",
+    "domain": "weaventra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.223Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weaventra.com"
+  },
+  {
+    "name": "weavora",
+    "domain": "weavora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.505Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavora.com"
+  },
+  {
+    "name": "weaventrax",
+    "domain": "weaventrax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:16.501Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weaventrax.com"
+  },
+  {
+    "name": "weavelo",
+    "domain": "weavelo.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.506Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavelo.com"
+  },
+  {
+    "name": "weavelis",
+    "domain": "weavelis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:16.511Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavelis.com"
+  },
+  {
+    "name": "weavion",
+    "domain": "weavion.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.510Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavion.com"
+  },
+  {
+    "name": "weavaris",
+    "domain": "weavaris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:16.508Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavaris.com"
+  },
+  {
+    "name": "weavento",
+    "domain": "weavento.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:16.507Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavento.com"
+  },
+  {
+    "name": "weaventa",
+    "domain": "weaventa.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.512Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weaventa.com"
+  },
+  {
+    "name": "weavepath",
+    "domain": "weavepath.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.764Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavepath.com"
+  },
+  {
+    "name": "weaveroute",
+    "domain": "weaveroute.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.758Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weaveroute.com"
+  },
+  {
+    "name": "loomvia",
+    "domain": "loomvia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.762Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomvia.com"
+  },
+  {
+    "name": "loomvera",
+    "domain": "loomvera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.768Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomvera.com"
+  },
+  {
+    "name": "loomara",
+    "domain": "loomara.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.767Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomara.com"
+  },
+  {
+    "name": "loomaris",
+    "domain": "loomaris.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.770Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomaris.com"
+  },
+  {
+    "name": "loometra",
+    "domain": "loometra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.750Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loometra.com"
+  },
+  {
+    "name": "loomora",
+    "domain": "loomora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:16.769Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomora.com"
+  },
+  {
+    "name": "loomwise",
+    "domain": "loomwise.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.115Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomwise.com"
+  },
+  {
+    "name": "loompath",
+    "domain": "loompath.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.118Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loompath.com"
+  },
+  {
+    "name": "loomcenta",
+    "domain": "loomcenta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:17.119Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomcenta.com"
+  },
+  {
+    "name": "loomcerta",
+    "domain": "loomcerta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.123Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomcerta.com"
+  },
+  {
+    "name": "loomnexa",
+    "domain": "loomnexa.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.116Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomnexa.com"
+  },
+  {
+    "name": "loomentia",
+    "domain": "loomentia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:17.120Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomentia.com"
+  },
+  {
+    "name": "loopvera",
+    "domain": "loopvera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.121Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopvera.com"
+  },
+  {
+    "name": "loopvia",
+    "domain": "loopvia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.122Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopvia.com"
+  },
+  {
+    "name": "loopora",
+    "domain": "loopora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.386Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopora.com"
+  },
+  {
+    "name": "loopenta",
+    "domain": "loopenta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.394Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopenta.com"
+  },
+  {
+    "name": "looparis",
+    "domain": "looparis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.381Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/looparis.com"
+  },
+  {
+    "name": "loopcerta",
+    "domain": "loopcerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:17.388Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopcerta.com"
+  },
+  {
+    "name": "loopaxis",
+    "domain": "loopaxis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.392Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopaxis.com"
+  },
+  {
+    "name": "loopstruct",
+    "domain": "loopstruct.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.400Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopstruct.com"
+  },
+  {
+    "name": "looplane",
+    "domain": "looplane.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.395Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/looplane.com"
+  },
+  {
+    "name": "loopwright",
+    "domain": "loopwright.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.402Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopwright.com"
+  },
+  {
+    "name": "taskora",
+    "domain": "taskora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.578Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskora.com"
+  },
+  {
+    "name": "taskentra",
+    "domain": "taskentra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.583Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskentra.com"
+  },
+  {
+    "name": "taskoria",
+    "domain": "taskoria.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.581Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskoria.com"
+  },
+  {
+    "name": "taskvera",
+    "domain": "taskvera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.594Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskvera.com"
+  },
+  {
+    "name": "taskvia",
+    "domain": "taskvia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.591Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskvia.com"
+  },
+  {
+    "name": "taskaris",
+    "domain": "taskaris.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.597Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskaris.com"
+  },
+  {
+    "name": "taskentia",
+    "domain": "taskentia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.600Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskentia.com"
+  },
+  {
+    "name": "tasklume",
+    "domain": "tasklume.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.596Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tasklume.com"
+  },
+  {
+    "name": "taskspire",
+    "domain": "taskspire.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.769Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskspire.com"
+  },
+  {
+    "name": "tasknexa",
+    "domain": "tasknexa.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.787Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tasknexa.com"
+  },
+  {
+    "name": "routevia",
+    "domain": "routevia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.790Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routevia.com"
+  },
+  {
+    "name": "routevera",
+    "domain": "routevera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.792Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routevera.com"
+  },
+  {
+    "name": "routeora",
+    "domain": "routeora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.793Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routeora.com"
+  },
+  {
+    "name": "routecerta",
+    "domain": "routecerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:17.798Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routecerta.com"
+  },
+  {
+    "name": "routearis",
+    "domain": "routearis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:17.799Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routearis.com"
+  },
+  {
+    "name": "routelis",
+    "domain": "routelis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.801Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routelis.com"
+  },
+  {
+    "name": "routentia",
+    "domain": "routentia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:17.958Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routentia.com"
+  },
+  {
+    "name": "routora",
+    "domain": "routora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.976Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routora.com"
+  },
+  {
+    "name": "routiva",
+    "domain": "routiva.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.979Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routiva.com"
+  },
+  {
+    "name": "routemera",
+    "domain": "routemera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:17.982Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routemera.com"
+  },
+  {
+    "name": "routemind",
+    "domain": "routemind.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.984Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routemind.com"
+  },
+  {
+    "name": "routelinea",
+    "domain": "routelinea.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:17.989Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routelinea.com"
+  },
+  {
+    "name": "arcora",
+    "domain": "arcora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.991Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcora.com"
+  },
+  {
+    "name": "arcovia",
+    "domain": "arcovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:17.994Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcovia.com"
+  },
+  {
+    "name": "arcocerta",
+    "domain": "arcocerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:18.145Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcocerta.com"
+  },
+  {
+    "name": "arcovent",
+    "domain": "arcovent.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.167Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcovent.com"
+  },
+  {
+    "name": "arcentia",
+    "domain": "arcentia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.170Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcentia.com"
+  },
+  {
+    "name": "arcendra",
+    "domain": "arcendra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.172Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcendra.com"
+  },
+  {
+    "name": "arcovara",
+    "domain": "arcovara.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.174Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcovara.com"
+  },
+  {
+    "name": "arcoviax",
+    "domain": "arcoviax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:18.179Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcoviax.com"
+  },
+  {
+    "name": "arceture",
+    "domain": "arceture.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:18.181Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arceture.com"
+  },
+  {
+    "name": "arctrace",
+    "domain": "arctrace.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.184Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arctrace.com"
+  },
+  {
+    "name": "gateora",
+    "domain": "gateora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.335Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateora.com"
+  },
+  {
+    "name": "gatenza",
+    "domain": "gatenza.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:18.369Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatenza.com"
+  },
+  {
+    "name": "gatevia",
+    "domain": "gatevia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.361Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatevia.com"
+  },
+  {
+    "name": "gatevera",
+    "domain": "gatevera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.364Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatevera.com"
+  },
+  {
+    "name": "gatecerta",
+    "domain": "gatecerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:18.367Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatecerta.com"
+  },
+  {
+    "name": "gatelis",
+    "domain": "gatelis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.371Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatelis.com"
+  },
+  {
+    "name": "gatera",
+    "domain": "gatera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.374Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatera.com"
+  },
+  {
+    "name": "gatentia",
+    "domain": "gatentia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:18.376Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatentia.com"
+  },
+  {
+    "name": "gateaxis",
+    "domain": "gateaxis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.527Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateaxis.com"
+  },
+  {
+    "name": "gatewright",
+    "domain": "gatewright.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.553Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatewright.com"
+  },
+  {
+    "name": "praxivis",
+    "domain": "praxivis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:18.555Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxivis.com"
+  },
+  {
+    "name": "praxiora",
+    "domain": "praxiora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.561Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxiora.com"
+  },
+  {
+    "name": "praximera",
+    "domain": "praximera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.566Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praximera.com"
+  },
+  {
+    "name": "praxentra",
+    "domain": "praxentra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.564Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxentra.com"
+  },
+  {
+    "name": "praxovia",
+    "domain": "praxovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.567Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxovia.com"
+  },
+  {
+    "name": "praxelis",
+    "domain": "praxelis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.569Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxelis.com"
+  },
+  {
+    "name": "praxora",
+    "domain": "praxora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.721Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxora.com"
+  },
+  {
+    "name": "praxeris",
+    "domain": "praxeris.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.740Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxeris.com"
+  },
+  {
+    "name": "praxenta",
+    "domain": "praxenta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.745Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxenta.com"
+  },
+  {
+    "name": "praxentia",
+    "domain": "praxentia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.751Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxentia.com"
+  },
+  {
+    "name": "operisca",
+    "domain": "operisca.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.764Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operisca.com"
+  },
+  {
+    "name": "operentra",
+    "domain": "operentra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.762Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operentra.com"
+  },
+  {
+    "name": "operovia",
+    "domain": "operovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.759Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operovia.com"
+  },
+  {
+    "name": "operelis",
+    "domain": "operelis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.763Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operelis.com"
+  },
+  {
+    "name": "opercerta",
+    "domain": "opercerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:18.907Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/opercerta.com"
+  },
+  {
+    "name": "operastra",
+    "domain": "operastra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.930Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operastra.com"
+  },
+  {
+    "name": "operaxis",
+    "domain": "operaxis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.933Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operaxis.com"
+  },
+  {
+    "name": "operionis",
+    "domain": "operionis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.936Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operionis.com"
+  },
+  {
+    "name": "operevia",
+    "domain": "operevia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:18.972Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operevia.com"
+  },
+  {
+    "name": "operentia",
+    "domain": "operentia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.958Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operentia.com"
+  },
+  {
+    "name": "nexora",
+    "domain": "nexora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.956Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexora.com"
+  },
+  {
+    "name": "nexentra",
+    "domain": "nexentra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:18.970Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexentra.com"
+  },
+  {
+    "name": "nexovia",
+    "domain": "nexovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.104Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexovia.com"
+  },
+  {
+    "name": "nexeris",
+    "domain": "nexeris.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.119Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexeris.com"
+  },
+  {
+    "name": "nexentia",
+    "domain": "nexentia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.122Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexentia.com"
+  },
+  {
+    "name": "nexorae",
+    "domain": "nexorae.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.124Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexorae.com"
+  },
+  {
+    "name": "nexoviax",
+    "domain": "nexoviax.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.163Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexoviax.com"
+  },
+  {
+    "name": "nexarion",
+    "domain": "nexarion.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.148Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexarion.com"
+  },
+  {
+    "name": "nexalis",
+    "domain": "nexalis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.166Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexalis.com"
+  },
+  {
+    "name": "nexacerta",
+    "domain": "nexacerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.169Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexacerta.com"
+  },
+  {
+    "name": "ichnora",
+    "domain": "ichnora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.300Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnora.com"
+  },
+  {
+    "name": "ichnovia",
+    "domain": "ichnovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.311Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnovia.com"
+  },
+  {
+    "name": "ichnelis",
+    "domain": "ichnelis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.313Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnelis.com"
+  },
+  {
+    "name": "ichnaris",
+    "domain": "ichnaris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.315Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnaris.com"
+  },
+  {
+    "name": "ichnentra",
+    "domain": "ichnentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.338Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnentra.com"
+  },
+  {
+    "name": "daedrion",
+    "domain": "daedrion.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.358Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedrion.com"
+  },
+  {
+    "name": "daedovia",
+    "domain": "daedovia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.361Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedovia.com"
+  },
+  {
+    "name": "daedentra",
+    "domain": "daedentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.368Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedentra.com"
+  },
+  {
+    "name": "daedalis",
+    "domain": "daedalis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.492Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedalis.com"
+  },
+  {
+    "name": "daedoria",
+    "domain": "daedoria.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.502Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedoria.com"
+  },
+  {
+    "name": "ariadion",
+    "domain": "ariadion.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.505Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadion.com"
+  },
+  {
+    "name": "ariadova",
+    "domain": "ariadova.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.507Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadova.com"
+  },
+  {
+    "name": "ariadara",
+    "domain": "ariadara.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.529Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadara.com"
+  },
+  {
+    "name": "moirena",
+    "domain": "moirena.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.547Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/moirena.com"
+  },
+  {
+    "name": "moiralis",
+    "domain": "moiralis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.551Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/moiralis.com"
+  },
+  {
+    "name": "janara",
+    "domain": "janara.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.556Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/janara.com"
+  },
+  {
+    "name": "janoria",
+    "domain": "janoria.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.684Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/janoria.com"
+  },
+  {
+    "name": "janovia",
+    "domain": "janovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.694Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/janovia.com"
+  },
+  {
+    "name": "metiora",
+    "domain": "metiora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.698Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/metiora.com"
+  },
+  {
+    "name": "metronis",
+    "domain": "metronis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.700Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/metronis.com"
+  },
+  {
+    "name": "syntara",
+    "domain": "syntara.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.721Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/syntara.com"
+  },
+  {
+    "name": "ordovia",
+    "domain": "ordovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.740Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ordovia.com"
+  },
+  {
+    "name": "viacerta",
+    "domain": "viacerta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.742Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/viacerta.com"
+  },
+  {
+    "name": "tracenta",
+    "domain": "tracenta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.744Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracenta.com"
+  },
+  {
+    "name": "tracoria",
+    "domain": "tracoria.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.874Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracoria.com"
+  },
+  {
+    "name": "tracovia",
+    "domain": "tracovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.881Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracovia.com"
+  },
+  {
+    "name": "tracearis",
+    "domain": "tracearis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.889Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracearis.com"
+  },
+  {
+    "name": "tracevia",
+    "domain": "tracevia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.893Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracevia.com"
+  },
+  {
+    "name": "tracevera",
+    "domain": "tracevera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.908Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracevera.com"
+  },
+  {
+    "name": "tracecerta",
+    "domain": "tracecerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:19.930Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracecerta.com"
+  },
+  {
+    "name": "traceora",
+    "domain": "traceora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.934Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/traceora.com"
+  },
+  {
+    "name": "tracentia",
+    "domain": "tracentia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:19.937Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracentia.com"
+  },
+  {
+    "name": "claristra",
+    "domain": "claristra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.068Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/claristra.com"
+  },
+  {
+    "name": "clariovera",
+    "domain": "clariovera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.070Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clariovera.com"
+  },
+  {
+    "name": "clarivane",
+    "domain": "clarivane.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.076Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clarivane.com"
+  },
+  {
+    "name": "clarienta",
+    "domain": "clarienta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.080Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clarienta.com"
+  },
+  {
+    "name": "clariovia",
+    "domain": "clariovia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.099Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clariovia.com"
+  },
+  {
+    "name": "clariotra",
+    "domain": "clariotra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.119Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clariotra.com"
+  },
+  {
+    "name": "clariora",
+    "domain": "clariora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.131Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clariora.com"
+  },
+  {
+    "name": "clearvia",
+    "domain": "clearvia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.128Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clearvia.com"
+  },
+  {
+    "name": "clearentia",
+    "domain": "clearentia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.264Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clearentia.com"
+  },
+  {
+    "name": "clearora",
+    "domain": "clearora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.261Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clearora.com"
+  },
+  {
+    "name": "thredaris",
+    "domain": "thredaris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.266Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredaris.com"
+  },
+  {
+    "name": "thredenta",
+    "domain": "thredenta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.284Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredenta.com"
+  },
+  {
+    "name": "thredelis",
+    "domain": "thredelis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.291Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredelis.com"
+  },
+  {
+    "name": "thredento",
+    "domain": "thredento.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.307Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredento.com"
+  },
+  {
+    "name": "thredetra",
+    "domain": "thredetra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.323Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredetra.com"
+  },
+  {
+    "name": "thredorae",
+    "domain": "thredorae.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.328Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredorae.com"
+  },
+  {
+    "name": "thredonix",
+    "domain": "thredonix.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.472Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredonix.com"
+  },
+  {
+    "name": "thredovia",
+    "domain": "thredovia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.474Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredovia.com"
+  },
+  {
+    "name": "thredavia",
+    "domain": "thredavia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.476Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredavia.com"
+  },
+  {
+    "name": "thredarisca",
+    "domain": "thredarisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.480Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredarisca.com"
+  },
+  {
+    "name": "thredcerta",
+    "domain": "thredcerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.484Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thredcerta.com"
+  },
+  {
+    "name": "thrednexa",
+    "domain": "thrednexa.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.502Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/thrednexa.com"
+  },
+  {
+    "name": "threadelis",
+    "domain": "threadelis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.532Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadelis.com"
+  },
+  {
+    "name": "threadentra",
+    "domain": "threadentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.534Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadentra.com"
+  },
+  {
+    "name": "threadovia",
+    "domain": "threadovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.664Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadovia.com"
+  },
+  {
+    "name": "threadaris",
+    "domain": "threadaris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.669Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadaris.com"
+  },
+  {
+    "name": "threadcerta",
+    "domain": "threadcerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.666Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadcerta.com"
+  },
+  {
+    "name": "weavcerta",
+    "domain": "weavcerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.674Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavcerta.com"
+  },
+  {
+    "name": "weavarisca",
+    "domain": "weavarisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.677Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavarisca.com"
+  },
+  {
+    "name": "weavelora",
+    "domain": "weavelora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.694Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavelora.com"
+  },
+  {
+    "name": "weavelisca",
+    "domain": "weavelisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.726Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavelisca.com"
+  },
+  {
+    "name": "weavendra",
+    "domain": "weavendra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.723Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavendra.com"
+  },
+  {
+    "name": "weavertia",
+    "domain": "weavertia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.861Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavertia.com"
+  },
+  {
+    "name": "weavessia",
+    "domain": "weavessia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.859Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavessia.com"
+  },
+  {
+    "name": "weavorae",
+    "domain": "weavorae.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.864Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavorae.com"
+  },
+  {
+    "name": "weavistra",
+    "domain": "weavistra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.867Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavistra.com"
+  },
+  {
+    "name": "weaventrae",
+    "domain": "weaventrae.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.869Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weaventrae.com"
+  },
+  {
+    "name": "loomarisca",
+    "domain": "loomarisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.886Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomarisca.com"
+  },
+  {
+    "name": "loomerra",
+    "domain": "loomerra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:20.916Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomerra.com"
+  },
+  {
+    "name": "loomentra",
+    "domain": "loomentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:20.922Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomentra.com"
+  },
+  {
+    "name": "loomestra",
+    "domain": "loomestra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:21.055Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomestra.com"
+  },
+  {
+    "name": "loomovian",
+    "domain": "loomovian.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.058Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomovian.com"
+  },
+  {
+    "name": "loomeris",
+    "domain": "loomeris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.061Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomeris.com"
+  },
+  {
+    "name": "loomaria",
+    "domain": "loomaria.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:21.064Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomaria.com"
+  },
+  {
+    "name": "loomancia",
+    "domain": "loomancia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.067Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomancia.com"
+  },
+  {
+    "name": "loomorae",
+    "domain": "loomorae.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:21.075Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomorae.com"
+  },
+  {
+    "name": "loomvanta",
+    "domain": "loomvanta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.107Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomvanta.com"
+  },
+  {
+    "name": "loopmeria",
+    "domain": "loopmeria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.115Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopmeria.com"
+  },
+  {
+    "name": "loopestra",
+    "domain": "loopestra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:21.247Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopestra.com"
+  },
+  {
+    "name": "loopertia",
+    "domain": "loopertia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.253Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopertia.com"
+  },
+  {
+    "name": "loopavia",
+    "domain": "loopavia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:21.257Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopavia.com"
+  },
+  {
+    "name": "loopcenta",
+    "domain": "loopcenta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.261Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopcenta.com"
+  },
+  {
+    "name": "loopentae",
+    "domain": "loopentae.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.264Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopentae.com"
+  },
+  {
+    "name": "loopelora",
+    "domain": "loopelora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.266Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopelora.com"
+  },
+  {
+    "name": "loopnoria",
+    "domain": "loopnoria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.297Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopnoria.com"
+  },
+  {
+    "name": "loopentia",
+    "domain": "loopentia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.303Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopentia.com"
+  },
+  {
+    "name": "looptrace",
+    "domain": "looptrace.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:21.442Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/looptrace.com"
+  },
+  {
+    "name": "looplattice",
+    "domain": "looplattice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.444Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/looplattice.com"
+  },
+  {
+    "name": "loopbridge",
+    "domain": "loopbridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:21.447Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopbridge.com"
+  },
+  {
+    "name": "taskentrae",
+    "domain": "taskentrae.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.451Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskentrae.com"
+  },
+  {
+    "name": "taskeris",
+    "domain": "taskeris.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:21.456Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskeris.com"
+  },
+  {
+    "name": "taskentrax",
+    "domain": "taskentrax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.458Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskentrax.com"
+  },
+  {
+    "name": "taskovian",
+    "domain": "taskovian.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.488Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskovian.com"
+  },
+  {
+    "name": "taskoriax",
+    "domain": "taskoriax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.495Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskoriax.com"
+  },
+  {
+    "name": "taskelora",
+    "domain": "taskelora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.633Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskelora.com"
+  },
+  {
+    "name": "taskcenta",
+    "domain": "taskcenta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.640Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskcenta.com"
+  },
+  {
+    "name": "tasknoria",
+    "domain": "tasknoria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.636Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tasknoria.com"
+  },
+  {
+    "name": "taskcerta",
+    "domain": "taskcerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.638Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskcerta.com"
+  },
+  {
+    "name": "taskmeria",
+    "domain": "taskmeria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.660Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskmeria.com"
+  },
+  {
+    "name": "taskspirex",
+    "domain": "taskspirex.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.658Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskspirex.com"
+  },
+  {
+    "name": "taskelia",
+    "domain": "taskelia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:21.677Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskelia.com"
+  },
+  {
+    "name": "taskorae",
+    "domain": "taskorae.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.680Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskorae.com"
+  },
+  {
+    "name": "taskovent",
+    "domain": "taskovent.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.826Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskovent.com"
+  },
+  {
+    "name": "routeentia",
+    "domain": "routeentia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.836Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routeentia.com"
+  },
+  {
+    "name": "routemaris",
+    "domain": "routemaris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.830Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routemaris.com"
+  },
+  {
+    "name": "routemerae",
+    "domain": "routemerae.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.832Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routemerae.com"
+  },
+  {
+    "name": "routelora",
+    "domain": "routelora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.215Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routelora.com"
+  },
+  {
+    "name": "routovian",
+    "domain": "routovian.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.851Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routovian.com"
+  },
+  {
+    "name": "routaria",
+    "domain": "routaria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.866Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routaria.com"
+  },
+  {
+    "name": "routelaris",
+    "domain": "routelaris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:21.869Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routelaris.com"
+  },
+  {
+    "name": "routoventa",
+    "domain": "routoventa.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.016Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routoventa.com"
+  },
+  {
+    "name": "routarion",
+    "domain": "routarion.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.019Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routarion.com"
+  },
+  {
+    "name": "routelentra",
+    "domain": "routelentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.023Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routelentra.com"
+  },
+  {
+    "name": "routelavia",
+    "domain": "routelavia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.026Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routelavia.com"
+  },
+  {
+    "name": "routemetra",
+    "domain": "routemetra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.039Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routemetra.com"
+  },
+  {
+    "name": "routelisca",
+    "domain": "routelisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.059Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routelisca.com"
+  },
+  {
+    "name": "routcerta",
+    "domain": "routcerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.062Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routcerta.com"
+  },
+  {
+    "name": "routovia",
+    "domain": "routovia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:22.210Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routovia.com"
+  },
+  {
+    "name": "arcovian",
+    "domain": "arcovian.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:22.212Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcovian.com"
+  },
+  {
+    "name": "arcomeris",
+    "domain": "arcomeris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.217Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcomeris.com"
+  },
+  {
+    "name": "arcorisca",
+    "domain": "arcorisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.219Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcorisca.com"
+  },
+  {
+    "name": "arcendrax",
+    "domain": "arcendrax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.228Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcendrax.com"
+  },
+  {
+    "name": "arcovista",
+    "domain": "arcovista.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:22.248Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcovista.com"
+  },
+  {
+    "name": "arcoentra",
+    "domain": "arcoentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.251Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcoentra.com"
+  },
+  {
+    "name": "arcocentra",
+    "domain": "arcocentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.400Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcocentra.com"
+  },
+  {
+    "name": "arcalora",
+    "domain": "arcalora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.402Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcalora.com"
+  },
+  {
+    "name": "arcalisca",
+    "domain": "arcalisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.404Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcalisca.com"
+  },
+  {
+    "name": "arconexa",
+    "domain": "arconexa.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.410Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arconexa.com"
+  },
+  {
+    "name": "arcosetra",
+    "domain": "arcosetra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.407Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcosetra.com"
+  },
+  {
+    "name": "arcoloom",
+    "domain": "arcoloom.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:22.417Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcoloom.com"
+  },
+  {
+    "name": "arcowise",
+    "domain": "arcowise.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.436Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcowise.com"
+  },
+  {
+    "name": "arcolenta",
+    "domain": "arcolenta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.439Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arcolenta.com"
+  },
+  {
+    "name": "gateentra",
+    "domain": "gateentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.591Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateentra.com"
+  },
+  {
+    "name": "gatelora",
+    "domain": "gatelora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.594Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatelora.com"
+  },
+  {
+    "name": "gatemera",
+    "domain": "gatemera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.597Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatemera.com"
+  },
+  {
+    "name": "gateovia",
+    "domain": "gateovia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.601Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateovia.com"
+  },
+  {
+    "name": "gateventa",
+    "domain": "gateventa.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.604Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateventa.com"
+  },
+  {
+    "name": "gatenoria",
+    "domain": "gatenoria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.606Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatenoria.com"
+  },
+  {
+    "name": "gateviax",
+    "domain": "gateviax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.625Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateviax.com"
+  },
+  {
+    "name": "gatelaris",
+    "domain": "gatelaris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.628Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatelaris.com"
+  },
+  {
+    "name": "gateastra",
+    "domain": "gateastra.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:22.782Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateastra.com"
+  },
+  {
+    "name": "gatecentra",
+    "domain": "gatecentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.783Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatecentra.com"
+  },
+  {
+    "name": "gatewisea",
+    "domain": "gatewisea.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.792Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatewisea.com"
+  },
+  {
+    "name": "gatearisca",
+    "domain": "gatearisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.795Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatearisca.com"
+  },
+  {
+    "name": "gatecrafta",
+    "domain": "gatecrafta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.796Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatecrafta.com"
+  },
+  {
+    "name": "gateorion",
+    "domain": "gateorion.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.799Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateorion.com"
+  },
+  {
+    "name": "gateveris",
+    "domain": "gateveris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.817Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateveris.com"
+  },
+  {
+    "name": "praxiovia",
+    "domain": "praxiovia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.821Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxiovia.com"
+  },
+  {
+    "name": "praxivera",
+    "domain": "praxivera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:22.976Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxivera.com"
+  },
+  {
+    "name": "praxicerta",
+    "domain": "praxicerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.971Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxicerta.com"
+  },
+  {
+    "name": "praximeris",
+    "domain": "praximeris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.984Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praximeris.com"
+  },
+  {
+    "name": "praxielis",
+    "domain": "praxielis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.987Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxielis.com"
+  },
+  {
+    "name": "praxilora",
+    "domain": "praxilora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.993Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxilora.com"
+  },
+  {
+    "name": "praxinora",
+    "domain": "praxinora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:22.990Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxinora.com"
+  },
+  {
+    "name": "praxenova",
+    "domain": "praxenova.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.007Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxenova.com"
+  },
+  {
+    "name": "praxiara",
+    "domain": "praxiara.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.013Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxiara.com"
+  },
+  {
+    "name": "praxiventa",
+    "domain": "praxiventa.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.157Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxiventa.com"
+  },
+  {
+    "name": "praxiqua",
+    "domain": "praxiqua.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.162Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxiqua.com"
+  },
+  {
+    "name": "praxarion",
+    "domain": "praxarion.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.176Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxarion.com"
+  },
+  {
+    "name": "praxentrae",
+    "domain": "praxentrae.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.185Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxentrae.com"
+  },
+  {
+    "name": "praxentisca",
+    "domain": "praxentisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.186Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/praxentisca.com"
+  },
+  {
+    "name": "operentrax",
+    "domain": "operentrax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.183Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operentrax.com"
+  },
+  {
+    "name": "operoviax",
+    "domain": "operoviax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.198Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operoviax.com"
+  },
+  {
+    "name": "opermeris",
+    "domain": "opermeris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.200Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/opermeris.com"
+  },
+  {
+    "name": "operelora",
+    "domain": "operelora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.350Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operelora.com"
+  },
+  {
+    "name": "opercenta",
+    "domain": "opercenta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.352Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/opercenta.com"
+  },
+  {
+    "name": "opernoria",
+    "domain": "opernoria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.367Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/opernoria.com"
+  },
+  {
+    "name": "operluma",
+    "domain": "operluma.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.376Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operluma.com"
+  },
+  {
+    "name": "opercendra",
+    "domain": "opercendra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.379Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/opercendra.com"
+  },
+  {
+    "name": "operistra",
+    "domain": "operistra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.380Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operistra.com"
+  },
+  {
+    "name": "operivis",
+    "domain": "operivis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.390Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operivis.com"
+  },
+  {
+    "name": "opervera",
+    "domain": "opervera.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.387Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/opervera.com"
+  },
+  {
+    "name": "operariax",
+    "domain": "operariax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.541Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operariax.com"
+  },
+  {
+    "name": "operixa",
+    "domain": "operixa.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.544Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operixa.com"
+  },
+  {
+    "name": "operacerta",
+    "domain": "operacerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.556Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operacerta.com"
+  },
+  {
+    "name": "operlora",
+    "domain": "operlora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.574Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operlora.com"
+  },
+  {
+    "name": "nexelora",
+    "domain": "nexelora.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.571Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexelora.com"
+  },
+  {
+    "name": "nexmeris",
+    "domain": "nexmeris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.575Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexmeris.com"
+  },
+  {
+    "name": "nexcenta",
+    "domain": "nexcenta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.578Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexcenta.com"
+  },
+  {
+    "name": "nexoriax",
+    "domain": "nexoriax.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.581Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexoriax.com"
+  },
+  {
+    "name": "nexistra",
+    "domain": "nexistra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.744Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexistra.com"
+  },
+  {
+    "name": "nexelaris",
+    "domain": "nexelaris.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.746Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexelaris.com"
+  },
+  {
+    "name": "nexoventa",
+    "domain": "nexoventa.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.748Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexoventa.com"
+  },
+  {
+    "name": "nexarisca",
+    "domain": "nexarisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.762Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexarisca.com"
+  },
+  {
+    "name": "nexaviax",
+    "domain": "nexaviax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.765Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexaviax.com"
+  },
+  {
+    "name": "nexivis",
+    "domain": "nexivis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.767Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexivis.com"
+  },
+  {
+    "name": "nexelvia",
+    "domain": "nexelvia.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.769Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexelvia.com"
+  },
+  {
+    "name": "nexentrax",
+    "domain": "nexentrax.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:23.774Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexentrax.com"
+  },
+  {
+    "name": "nexatoria",
+    "domain": "nexatoria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.935Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexatoria.com"
+  },
+  {
+    "name": "nexacendra",
+    "domain": "nexacendra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.945Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/nexacendra.com"
+  },
+  {
+    "name": "ichnovian",
+    "domain": "ichnovian.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.949Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnovian.com"
+  },
+  {
+    "name": "ichnoria",
+    "domain": "ichnoria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.958Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnoria.com"
+  },
+  {
+    "name": "ichnoventa",
+    "domain": "ichnoventa.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.956Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnoventa.com"
+  },
+  {
+    "name": "ichnelora",
+    "domain": "ichnelora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.959Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnelora.com"
+  },
+  {
+    "name": "ichnovista",
+    "domain": "ichnovista.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.962Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnovista.com"
+  },
+  {
+    "name": "ichnocerta",
+    "domain": "ichnocerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:23.966Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnocerta.com"
+  },
+  {
+    "name": "ichnomera",
+    "domain": "ichnomera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.125Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnomera.com"
+  },
+  {
+    "name": "ichnentrax",
+    "domain": "ichnentrax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.132Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnentrax.com"
+  },
+  {
+    "name": "ichnovara",
+    "domain": "ichnovara.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.136Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnovara.com"
+  },
+  {
+    "name": "ichnoluma",
+    "domain": "ichnoluma.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.161Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ichnoluma.com"
+  },
+  {
+    "name": "daedovian",
+    "domain": "daedovian.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.159Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedovian.com"
+  },
+  {
+    "name": "daedmeris",
+    "domain": "daedmeris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.163Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedmeris.com"
+  },
+  {
+    "name": "daedelora",
+    "domain": "daedelora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.154Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedelora.com"
+  },
+  {
+    "name": "daedentrax",
+    "domain": "daedentrax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.164Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedentrax.com"
+  },
+  {
+    "name": "daedocerta",
+    "domain": "daedocerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.319Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedocerta.com"
+  },
+  {
+    "name": "daedovista",
+    "domain": "daedovista.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.322Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedovista.com"
+  },
+  {
+    "name": "daedarisca",
+    "domain": "daedarisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.325Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedarisca.com"
+  },
+  {
+    "name": "daednoria",
+    "domain": "daednoria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.347Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daednoria.com"
+  },
+  {
+    "name": "daedoloom",
+    "domain": "daedoloom.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.368Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedoloom.com"
+  },
+  {
+    "name": "daedivis",
+    "domain": "daedivis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.357Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/daedivis.com"
+  },
+  {
+    "name": "ariadentra",
+    "domain": "ariadentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.355Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadentra.com"
+  },
+  {
+    "name": "ariadelora",
+    "domain": "ariadelora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.352Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadelora.com"
+  },
+  {
+    "name": "ariadovian",
+    "domain": "ariadovian.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.514Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadovian.com"
+  },
+  {
+    "name": "ariadocerta",
+    "domain": "ariadocerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.520Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadocerta.com"
+  },
+  {
+    "name": "ariadistra",
+    "domain": "ariadistra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.517Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadistra.com"
+  },
+  {
+    "name": "ariademera",
+    "domain": "ariademera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.538Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariademera.com"
+  },
+  {
+    "name": "ariadentia",
+    "domain": "ariadentia.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.542Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadentia.com"
+  },
+  {
+    "name": "ariadosa",
+    "domain": "ariadosa.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.547Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadosa.com"
+  },
+  {
+    "name": "ariadessa",
+    "domain": "ariadessa.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.550Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadessa.com"
+  },
+  {
+    "name": "ariadivis",
+    "domain": "ariadivis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.558Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadivis.com"
+  },
+  {
+    "name": "traceentra",
+    "domain": "traceentra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.707Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/traceentra.com"
+  },
+  {
+    "name": "traceovian",
+    "domain": "traceovian.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.712Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/traceovian.com"
+  },
+  {
+    "name": "tracemera",
+    "domain": "tracemera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.715Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracemera.com"
+  },
+  {
+    "name": "tracecendra",
+    "domain": "tracecendra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.733Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracecendra.com"
+  },
+  {
+    "name": "tracenoria",
+    "domain": "tracenoria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.730Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracenoria.com"
+  },
+  {
+    "name": "traceelora",
+    "domain": "traceelora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.736Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/traceelora.com"
+  },
+  {
+    "name": "tracecenta",
+    "domain": "tracecenta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.738Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracecenta.com"
+  },
+  {
+    "name": "traceveris",
+    "domain": "traceveris.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:24.758Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/traceveris.com"
+  },
+  {
+    "name": "tracevista",
+    "domain": "tracevista.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:24.901Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracevista.com"
+  },
+  {
+    "name": "tracealisca",
+    "domain": "tracealisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.906Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracealisca.com"
+  },
+  {
+    "name": "tracelaris",
+    "domain": "tracelaris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.908Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracelaris.com"
+  },
+  {
+    "name": "tracoviax",
+    "domain": "tracoviax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.920Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tracoviax.com"
+  },
+  {
+    "name": "clariovian",
+    "domain": "clariovian.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.926Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clariovian.com"
+  },
+  {
+    "name": "claricendra",
+    "domain": "claricendra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.928Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/claricendra.com"
+  },
+  {
+    "name": "clarimeris",
+    "domain": "clarimeris.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.931Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clarimeris.com"
+  },
+  {
+    "name": "clarielora",
+    "domain": "clarielora.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:24.963Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clarielora.com"
+  },
+  {
+    "name": "clarinoria",
+    "domain": "clarinoria.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.089Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clarinoria.com"
+  },
+  {
+    "name": "clarivista",
+    "domain": "clarivista.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.096Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clarivista.com"
+  },
+  {
+    "name": "claricerta",
+    "domain": "claricerta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.100Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/claricerta.com"
+  },
+  {
+    "name": "clariarisca",
+    "domain": "clariarisca.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.110Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clariarisca.com"
+  },
+  {
+    "name": "clarioventa",
+    "domain": "clarioventa.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.133Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clarioventa.com"
+  },
+  {
+    "name": "clarientrax",
+    "domain": "clarientrax.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.118Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clarientrax.com"
+  },
+  {
+    "name": "clarioluma",
+    "domain": "clarioluma.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.135Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clarioluma.com"
+  },
+  {
+    "name": "clariserra",
+    "domain": "clariserra.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.153Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/clariserra.com"
+  },
+  {
+    "name": "relayhinge",
+    "domain": "relayhinge.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.278Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayhinge.com"
+  },
+  {
+    "name": "workhinge",
+    "domain": "workhinge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.283Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workhinge.com"
+  },
+  {
+    "name": "processhinge",
+    "domain": "processhinge.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.288Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processhinge.com"
+  },
+  {
+    "name": "taskhinge",
+    "domain": "taskhinge.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.302Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskhinge.com"
+  },
+  {
+    "name": "loophinge",
+    "domain": "loophinge.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.304Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loophinge.com"
+  },
+  {
+    "name": "gatehinge",
+    "domain": "gatehinge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.323Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatehinge.com"
+  },
+  {
+    "name": "flowhinge",
+    "domain": "flowhinge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.329Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowhinge.com"
+  },
+  {
+    "name": "threadhinge",
+    "domain": "threadhinge.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.344Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadhinge.com"
+  },
+  {
+    "name": "relaysplice",
+    "domain": "relaysplice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.470Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaysplice.com"
+  },
+  {
+    "name": "worksplice",
+    "domain": "worksplice.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.891Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/worksplice.com"
+  },
+  {
+    "name": "tasksplice",
+    "domain": "tasksplice.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.480Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tasksplice.com"
+  },
+  {
+    "name": "opersplice",
+    "domain": "opersplice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.494Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/opersplice.com"
+  },
+  {
+    "name": "loopsplice",
+    "domain": "loopsplice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.496Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopsplice.com"
+  },
+  {
+    "name": "gatesplice",
+    "domain": "gatesplice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.516Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatesplice.com"
+  },
+  {
+    "name": "threadsplice",
+    "domain": "threadsplice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.519Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadsplice.com"
+  },
+  {
+    "name": "signalkeel",
+    "domain": "signalkeel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.534Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/signalkeel.com"
+  },
+  {
+    "name": "threadkeel",
+    "domain": "threadkeel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.663Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadkeel.com"
+  },
+  {
+    "name": "workkeel",
+    "domain": "workkeel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.670Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workkeel.com"
+  },
+  {
+    "name": "routekeel",
+    "domain": "routekeel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.685Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routekeel.com"
+  },
+  {
+    "name": "operkeel",
+    "domain": "operkeel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.687Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operkeel.com"
+  },
+  {
+    "name": "taskkeel",
+    "domain": "taskkeel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.706Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskkeel.com"
+  },
+  {
+    "name": "loopkeel",
+    "domain": "loopkeel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.708Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopkeel.com"
+  },
+  {
+    "name": "gatekeel",
+    "domain": "gatekeel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.723Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatekeel.com"
+  },
+  {
+    "name": "arckeel",
+    "domain": "arckeel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.851Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arckeel.com"
+  },
+  {
+    "name": "worktrellis",
+    "domain": "worktrellis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:25.861Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/worktrellis.com"
+  },
+  {
+    "name": "processtrellis",
+    "domain": "processtrellis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.881Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processtrellis.com"
+  },
+  {
+    "name": "looptrellis",
+    "domain": "looptrellis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.884Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/looptrellis.com"
+  },
+  {
+    "name": "routetrellis",
+    "domain": "routetrellis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.899Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routetrellis.com"
+  },
+  {
+    "name": "threadtrellis",
+    "domain": "threadtrellis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.897Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadtrellis.com"
+  },
+  {
+    "name": "relaytrellis",
+    "domain": "relaytrellis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:25.911Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaytrellis.com"
+  },
+  {
+    "name": "flowtrellis",
+    "domain": "flowtrellis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.055Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowtrellis.com"
+  },
+  {
+    "name": "gatetrellis",
+    "domain": "gatetrellis.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.057Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatetrellis.com"
+  },
+  {
+    "name": "ariadarc",
+    "domain": "ariadarc.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.074Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadarc.com"
+  },
+  {
+    "name": "ariadgate",
+    "domain": "ariadgate.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.077Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadgate.com"
+  },
+  {
+    "name": "ariadroute",
+    "domain": "ariadroute.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.082Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadroute.com"
+  },
+  {
+    "name": "ariadloop",
+    "domain": "ariadloop.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.095Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadloop.com"
+  },
+  {
+    "name": "ariadtrace",
+    "domain": "ariadtrace.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.093Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadtrace.com"
+  },
+  {
+    "name": "ariadthread",
+    "domain": "ariadthread.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.105Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/ariadthread.com"
+  },
+  {
+    "name": "weavebridge",
+    "domain": "weavebridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.248Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weavebridge.com"
+  },
+  {
+    "name": "routebridge",
+    "domain": "routebridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.253Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routebridge.com"
+  },
+  {
+    "name": "gatebridge",
+    "domain": "gatebridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.270Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatebridge.com"
+  },
+  {
+    "name": "operbridge",
+    "domain": "operbridge.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.273Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operbridge.com"
+  },
+  {
+    "name": "flowbridge",
+    "domain": "flowbridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.276Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowbridge.com"
+  },
+  {
+    "name": "threadbridge",
+    "domain": "threadbridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.283Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadbridge.com"
+  },
+  {
+    "name": "relaybridge",
+    "domain": "relaybridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.286Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaybridge.com"
+  },
+  {
+    "name": "loopmason",
+    "domain": "loopmason.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.302Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopmason.com"
+  },
+  {
+    "name": "routemason",
+    "domain": "routemason.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.438Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routemason.com"
+  },
+  {
+    "name": "gatemason",
+    "domain": "gatemason.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.441Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatemason.com"
+  },
+  {
+    "name": "threadmason",
+    "domain": "threadmason.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.462Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadmason.com"
+  },
+  {
+    "name": "relaymason",
+    "domain": "relaymason.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.464Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaymason.com"
+  },
+  {
+    "name": "opermason",
+    "domain": "opermason.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.471Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/opermason.com"
+  },
+  {
+    "name": "workmason",
+    "domain": "workmason.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.472Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workmason.com"
+  },
+  {
+    "name": "flowmason",
+    "domain": "flowmason.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.476Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowmason.com"
+  },
+  {
+    "name": "loopspindle",
+    "domain": "loopspindle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.494Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopspindle.com"
+  },
+  {
+    "name": "routespindle",
+    "domain": "routespindle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.627Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routespindle.com"
+  },
+  {
+    "name": "gatespindle",
+    "domain": "gatespindle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.630Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatespindle.com"
+  },
+  {
+    "name": "threadspindle",
+    "domain": "threadspindle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.651Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadspindle.com"
+  },
+  {
+    "name": "relayspindle",
+    "domain": "relayspindle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.658Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayspindle.com"
+  },
+  {
+    "name": "operspindle",
+    "domain": "operspindle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.665Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operspindle.com"
+  },
+  {
+    "name": "workspindle",
+    "domain": "workspindle.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.660Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workspindle.com"
+  },
+  {
+    "name": "flowspindle",
+    "domain": "flowspindle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.663Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowspindle.com"
+  },
+  {
+    "name": "processspindle",
+    "domain": "processspindle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.683Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processspindle.com"
+  },
+  {
+    "name": "loopharbor",
+    "domain": "loopharbor.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.818Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopharbor.com"
+  },
+  {
+    "name": "routeharbor",
+    "domain": "routeharbor.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.819Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routeharbor.com"
+  },
+  {
+    "name": "gateharbor",
+    "domain": "gateharbor.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.840Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateharbor.com"
+  },
+  {
+    "name": "threadharbor",
+    "domain": "threadharbor.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.844Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadharbor.com"
+  },
+  {
+    "name": "relayharbor",
+    "domain": "relayharbor.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.848Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayharbor.com"
+  },
+  {
+    "name": "operharbor",
+    "domain": "operharbor.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:26.879Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operharbor.com"
+  },
+  {
+    "name": "workharbor",
+    "domain": "workharbor.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.875Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workharbor.com"
+  },
+  {
+    "name": "flowharbor",
+    "domain": "flowharbor.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:26.880Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowharbor.com"
+  },
+  {
+    "name": "processharbor",
+    "domain": "processharbor.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.012Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processharbor.com"
+  },
+  {
+    "name": "loopquoin",
+    "domain": "loopquoin.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.014Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopquoin.com"
+  },
+  {
+    "name": "routequoin",
+    "domain": "routequoin.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.028Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routequoin.com"
+  },
+  {
+    "name": "gatequoin",
+    "domain": "gatequoin.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.032Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatequoin.com"
+  },
+  {
+    "name": "threadquoin",
+    "domain": "threadquoin.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.034Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadquoin.com"
+  },
+  {
+    "name": "relayquoin",
+    "domain": "relayquoin.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.068Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayquoin.com"
+  },
+  {
+    "name": "operquoin",
+    "domain": "operquoin.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.072Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operquoin.com"
+  },
+  {
+    "name": "workquoin",
+    "domain": "workquoin.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.074Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workquoin.com"
+  },
+  {
+    "name": "flowquoin",
+    "domain": "flowquoin.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.198Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowquoin.com"
+  },
+  {
+    "name": "processquoin",
+    "domain": "processquoin.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.205Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processquoin.com"
+  },
+  {
+    "name": "routelattice",
+    "domain": "routelattice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.217Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routelattice.com"
+  },
+  {
+    "name": "gatelattice",
+    "domain": "gatelattice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.219Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatelattice.com"
+  },
+  {
+    "name": "threadlattice",
+    "domain": "threadlattice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.221Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadlattice.com"
+  },
+  {
+    "name": "relaylattice",
+    "domain": "relaylattice.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.257Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaylattice.com"
+  },
+  {
+    "name": "operlattice",
+    "domain": "operlattice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.264Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operlattice.com"
+  },
+  {
+    "name": "worklattice",
+    "domain": "worklattice.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.266Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/worklattice.com"
+  },
+  {
+    "name": "flowlattice",
+    "domain": "flowlattice.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.390Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowlattice.com"
+  },
+  {
+    "name": "processlattice",
+    "domain": "processlattice.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.394Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processlattice.com"
+  },
+  {
+    "name": "loopspan",
+    "domain": "loopspan.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.416Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopspan.com"
+  },
+  {
+    "name": "routespan",
+    "domain": "routespan.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.413Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routespan.com"
+  },
+  {
+    "name": "gatespan",
+    "domain": "gatespan.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.410Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatespan.com"
+  },
+  {
+    "name": "threadspan",
+    "domain": "threadspan.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.446Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadspan.com"
+  },
+  {
+    "name": "relayspan",
+    "domain": "relayspan.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.458Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayspan.com"
+  },
+  {
+    "name": "operspan",
+    "domain": "operspan.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.460Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/operspan.com"
+  },
+  {
+    "name": "workspan",
+    "domain": "workspan.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.581Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workspan.com"
+  },
+  {
+    "name": "flowspan",
+    "domain": "flowspan.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.586Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowspan.com"
+  },
+  {
+    "name": "processspan",
+    "domain": "processspan.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.609Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processspan.com"
+  },
+  {
+    "name": "flowsplice",
+    "domain": "flowsplice.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.605Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowsplice.com"
+  },
+  {
+    "name": "spliceworks",
+    "domain": "spliceworks.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.608Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/spliceworks.com"
+  },
+  {
+    "name": "spliceroute",
+    "domain": "spliceroute.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.638Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/spliceroute.com"
+  },
+  {
+    "name": "splicegate",
+    "domain": "splicegate.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.653Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/splicegate.com"
+  },
+  {
+    "name": "splicearc",
+    "domain": "splicearc.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.650Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/splicearc.com"
+  },
+  {
+    "name": "relayknot",
+    "domain": "relayknot.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.769Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayknot.com"
+  },
+  {
+    "name": "taskknot",
+    "domain": "taskknot.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.780Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskknot.com"
+  },
+  {
+    "name": "workknot",
+    "domain": "workknot.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.803Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workknot.com"
+  },
+  {
+    "name": "flowknot",
+    "domain": "flowknot.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.799Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowknot.com"
+  },
+  {
+    "name": "knotroute",
+    "domain": "knotroute.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.802Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/knotroute.com"
+  },
+  {
+    "name": "knotrelay",
+    "domain": "knotrelay.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.827Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/knotrelay.com"
+  },
+  {
+    "name": "workweft",
+    "domain": "workweft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.848Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workweft.com"
+  },
+  {
+    "name": "taskweft",
+    "domain": "taskweft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:27.845Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskweft.com"
+  },
+  {
+    "name": "processweft",
+    "domain": "processweft.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.957Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processweft.com"
+  },
+  {
+    "name": "relayweft",
+    "domain": "relayweft.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.972Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayweft.com"
+  },
+  {
+    "name": "routeweft",
+    "domain": "routeweft.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.996Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routeweft.com"
+  },
+  {
+    "name": "weftroute",
+    "domain": "weftroute.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.000Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weftroute.com"
+  },
+  {
+    "name": "weftrelay",
+    "domain": "weftrelay.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:27.998Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weftrelay.com"
+  },
+  {
+    "name": "weftworks",
+    "domain": "weftworks.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.018Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weftworks.com"
+  },
+  {
+    "name": "weftcraft",
+    "domain": "weftcraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.041Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weftcraft.com"
+  },
+  {
+    "name": "weftpath",
+    "domain": "weftpath.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:28.038Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/weftpath.com"
+  },
+  {
+    "name": "loomroute",
+    "domain": "loomroute.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.146Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomroute.com"
+  },
+  {
+    "name": "loomrelay",
+    "domain": "loomrelay.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:28.167Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomrelay.com"
+  },
+  {
+    "name": "loomworks",
+    "domain": "loomworks.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.186Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomworks.com"
+  },
+  {
+    "name": "workloom",
+    "domain": "workloom.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.196Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workloom.com"
+  },
+  {
+    "name": "taskloom",
+    "domain": "taskloom.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.193Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskloom.com"
+  },
+  {
+    "name": "flowloom",
+    "domain": "flowloom.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.211Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowloom.com"
+  },
+  {
+    "name": "flowkeel",
+    "domain": "flowkeel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.236Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowkeel.com"
+  },
+  {
+    "name": "processkeel",
+    "domain": "processkeel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:28.239Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processkeel.com"
+  },
+  {
+    "name": "relaykeel",
+    "domain": "relaykeel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:28.339Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaykeel.com"
+  },
+  {
+    "name": "taskspindle",
+    "domain": "taskspindle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:28.368Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskspindle.com"
+  },
+  {
+    "name": "tasktrellis",
+    "domain": "tasktrellis.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.380Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tasktrellis.com"
+  },
+  {
+    "name": "trelliswork",
+    "domain": "trelliswork.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.387Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/trelliswork.com"
+  },
+  {
+    "name": "trelliscraft",
+    "domain": "trelliscraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.390Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/trelliscraft.com"
+  },
+  {
+    "name": "tasklattice",
+    "domain": "tasklattice.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.400Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tasklattice.com"
+  },
+  {
+    "name": "processtandem",
+    "domain": "processtandem.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.428Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processtandem.com"
+  },
+  {
+    "name": "worktandem",
+    "domain": "worktandem.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.431Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/worktandem.com"
+  },
+  {
+    "name": "relaytandem",
+    "domain": "relaytandem.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:28.533Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaytandem.com"
+  },
+  {
+    "name": "tasktandem",
+    "domain": "tasktandem.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.561Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tasktandem.com"
+  },
+  {
+    "name": "taskspan",
+    "domain": "taskspan.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.573Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskspan.com"
+  },
+  {
+    "name": "hingework",
+    "domain": "hingework.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.576Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/hingework.com"
+  },
+  {
+    "name": "hingecraft",
+    "domain": "hingecraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.580Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/hingecraft.com"
+  },
+  {
+    "name": "relaycraft",
+    "domain": "relaycraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.594Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaycraft.com"
+  },
+  {
+    "name": "flowcraft",
+    "domain": "flowcraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.621Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowcraft.com"
+  },
+  {
+    "name": "routecraft",
+    "domain": "routecraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.624Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routecraft.com"
+  },
+  {
+    "name": "threadcraft",
+    "domain": "threadcraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.724Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadcraft.com"
+  },
+  {
+    "name": "gatecraft",
+    "domain": "gatecraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.755Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatecraft.com"
+  },
+  {
+    "name": "loomcraft",
+    "domain": "loomcraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.764Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loomcraft.com"
+  },
+  {
+    "name": "spindlecraft",
+    "domain": "spindlecraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.767Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/spindlecraft.com"
+  },
+  {
+    "name": "keelwork",
+    "domain": "keelwork.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.769Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/keelwork.com"
+  },
+  {
+    "name": "keelcraft",
+    "domain": "keelcraft.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.785Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/keelcraft.com"
+  },
+  {
+    "name": "keelpath",
+    "domain": "keelpath.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.816Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/keelpath.com"
+  },
+  {
+    "name": "keelroute",
+    "domain": "keelroute.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:28.812Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/keelroute.com"
+  },
+  {
+    "name": "threadgarden",
+    "domain": "threadgarden.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.915Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadgarden.com"
+  },
+  {
+    "name": "processgarden",
+    "domain": "processgarden.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.943Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processgarden.com"
+  },
+  {
+    "name": "workfoundry",
+    "domain": "workfoundry.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.961Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workfoundry.com"
+  },
+  {
+    "name": "loopfoundry",
+    "domain": "loopfoundry.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.963Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopfoundry.com"
+  },
+  {
+    "name": "processcompass",
+    "domain": "processcompass.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.966Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processcompass.com"
+  },
+  {
+    "name": "workcompass",
+    "domain": "workcompass.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:28.976Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workcompass.com"
+  },
+  {
+    "name": "gatecompass",
+    "domain": "gatecompass.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.004Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatecompass.com"
+  },
+  {
+    "name": "processcircuit",
+    "domain": "processcircuit.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.008Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processcircuit.com"
+  },
+  {
+    "name": "workcircuit",
+    "domain": "workcircuit.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.110Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workcircuit.com"
+  },
+  {
+    "name": "gatecircuit",
+    "domain": "gatecircuit.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.146Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatecircuit.com"
+  },
+  {
+    "name": "loopcircuit",
+    "domain": "loopcircuit.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.150Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopcircuit.com"
+  },
+  {
+    "name": "pivotweft",
+    "domain": "pivotweft.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.157Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/pivotweft.com"
+  },
+  {
+    "name": "pivotthread",
+    "domain": "pivotthread.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.159Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/pivotthread.com"
+  },
+  {
+    "name": "pivotloom",
+    "domain": "pivotloom.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.167Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/pivotloom.com"
+  },
+  {
+    "name": "pivotrelay",
+    "domain": "pivotrelay.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.195Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/pivotrelay.com"
+  },
+  {
+    "name": "workrivet",
+    "domain": "workrivet.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.208Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workrivet.com"
+  },
+  {
+    "name": "processrivet",
+    "domain": "processrivet.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.297Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processrivet.com"
+  },
+  {
+    "name": "looprivet",
+    "domain": "looprivet.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.339Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/looprivet.com"
+  },
+  {
+    "name": "relayrivet",
+    "domain": "relayrivet.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.341Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayrivet.com"
+  },
+  {
+    "name": "taskrivet",
+    "domain": "taskrivet.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.350Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskrivet.com"
+  },
+  {
+    "name": "gaterivet",
+    "domain": "gaterivet.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.351Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gaterivet.com"
+  },
+  {
+    "name": "taskferry",
+    "domain": "taskferry.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.358Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskferry.com"
+  },
+  {
+    "name": "relayferry",
+    "domain": "relayferry.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.382Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayferry.com"
+  },
+  {
+    "name": "processferry",
+    "domain": "processferry.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.399Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processferry.com"
+  },
+  {
+    "name": "workferry",
+    "domain": "workferry.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.487Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workferry.com"
+  },
+  {
+    "name": "caseferry",
+    "domain": "caseferry.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.532Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/caseferry.com"
+  },
+  {
+    "name": "workportage",
+    "domain": "workportage.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.534Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workportage.com"
+  },
+  {
+    "name": "taskportage",
+    "domain": "taskportage.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.540Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskportage.com"
+  },
+  {
+    "name": "relayportage",
+    "domain": "relayportage.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.542Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayportage.com"
+  },
+  {
+    "name": "processportage",
+    "domain": "processportage.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.546Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processportage.com"
+  },
+  {
+    "name": "workballast",
+    "domain": "workballast.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.573Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workballast.com"
+  },
+  {
+    "name": "processballast",
+    "domain": "processballast.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.589Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processballast.com"
+  },
+  {
+    "name": "relayballast",
+    "domain": "relayballast.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.676Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayballast.com"
+  },
+  {
+    "name": "workswitchyard",
+    "domain": "workswitchyard.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.724Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workswitchyard.com"
+  },
+  {
+    "name": "taskswitchyard",
+    "domain": "taskswitchyard.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.726Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskswitchyard.com"
+  },
+  {
+    "name": "processswitchyard",
+    "domain": "processswitchyard.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.730Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processswitchyard.com"
+  },
+  {
+    "name": "relaydovetail",
+    "domain": "relaydovetail.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.728Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaydovetail.com"
+  },
+  {
+    "name": "processdovetail",
+    "domain": "processdovetail.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.738Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processdovetail.com"
+  },
+  {
+    "name": "workdovetail",
+    "domain": "workdovetail.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.768Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workdovetail.com"
+  },
+  {
+    "name": "taskdovetail",
+    "domain": "taskdovetail.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.777Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskdovetail.com"
+  },
+  {
+    "name": "routedovetail",
+    "domain": "routedovetail.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.872Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routedovetail.com"
+  },
+  {
+    "name": "loopdovetail",
+    "domain": "loopdovetail.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.912Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopdovetail.com"
+  },
+  {
+    "name": "relaytruss",
+    "domain": "relaytruss.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.921Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaytruss.com"
+  },
+  {
+    "name": "processtruss",
+    "domain": "processtruss.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.918Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processtruss.com"
+  },
+  {
+    "name": "worktruss",
+    "domain": "worktruss.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.916Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/worktruss.com"
+  },
+  {
+    "name": "tasktruss",
+    "domain": "tasktruss.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:29.930Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tasktruss.com"
+  },
+  {
+    "name": "gatetruss",
+    "domain": "gatetruss.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.957Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatetruss.com"
+  },
+  {
+    "name": "routetruss",
+    "domain": "routetruss.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:29.969Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routetruss.com"
+  },
+  {
+    "name": "relaylintel",
+    "domain": "relaylintel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.061Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaylintel.com"
+  },
+  {
+    "name": "processlintel",
+    "domain": "processlintel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.102Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processlintel.com"
+  },
+  {
+    "name": "gatelintel",
+    "domain": "gatelintel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.109Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatelintel.com"
+  },
+  {
+    "name": "worklintel",
+    "domain": "worklintel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.107Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/worklintel.com"
+  },
+  {
+    "name": "workshuttle",
+    "domain": "workshuttle.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.108Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workshuttle.com"
+  },
+  {
+    "name": "taskshuttle",
+    "domain": "taskshuttle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.121Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskshuttle.com"
+  },
+  {
+    "name": "processshuttle",
+    "domain": "processshuttle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.145Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processshuttle.com"
+  },
+  {
+    "name": "relayshuttle",
+    "domain": "relayshuttle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.157Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayshuttle.com"
+  },
+  {
+    "name": "routeshuttle",
+    "domain": "routeshuttle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.248Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routeshuttle.com"
+  },
+  {
+    "name": "gateshuttle",
+    "domain": "gateshuttle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.291Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gateshuttle.com"
+  },
+  {
+    "name": "flowbraid",
+    "domain": "flowbraid.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.297Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowbraid.com"
+  },
+  {
+    "name": "workbraid",
+    "domain": "workbraid.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.300Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workbraid.com"
+  },
+  {
+    "name": "taskbraid",
+    "domain": "taskbraid.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.295Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskbraid.com"
+  },
+  {
+    "name": "processbraid",
+    "domain": "processbraid.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.309Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processbraid.com"
+  },
+  {
+    "name": "routebraid",
+    "domain": "routebraid.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.339Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routebraid.com"
+  },
+  {
+    "name": "relaybraid",
+    "domain": "relaybraid.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.350Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaybraid.com"
+  },
+  {
+    "name": "workconvoy",
+    "domain": "workconvoy.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.441Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workconvoy.com"
+  },
+  {
+    "name": "taskconvoy",
+    "domain": "taskconvoy.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.479Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskconvoy.com"
+  },
+  {
+    "name": "processconvoy",
+    "domain": "processconvoy.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.487Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processconvoy.com"
+  },
+  {
+    "name": "relayconvoy",
+    "domain": "relayconvoy.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.498Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayconvoy.com"
+  },
+  {
+    "name": "routeconvoy",
+    "domain": "routeconvoy.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.500Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routeconvoy.com"
+  },
+  {
+    "name": "threadmooring",
+    "domain": "threadmooring.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.503Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/threadmooring.com"
+  },
+  {
+    "name": "relaymooring",
+    "domain": "relaymooring.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.538Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaymooring.com"
+  },
+  {
+    "name": "workmooring",
+    "domain": "workmooring.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.549Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workmooring.com"
+  },
+  {
+    "name": "flowportolan",
+    "domain": "flowportolan.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.636Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/flowportolan.com"
+  },
+  {
+    "name": "workportolan",
+    "domain": "workportolan.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.683Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workportolan.com"
+  },
+  {
+    "name": "routeportolan",
+    "domain": "routeportolan.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.680Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routeportolan.com"
+  },
+  {
+    "name": "processportolan",
+    "domain": "processportolan.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.697Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processportolan.com"
+  },
+  {
+    "name": "relayportolan",
+    "domain": "relayportolan.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.694Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayportolan.com"
+  },
+  {
+    "name": "taskportolan",
+    "domain": "taskportolan.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.692Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskportolan.com"
+  },
+  {
+    "name": "workchart",
+    "domain": "workchart.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.730Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workchart.com"
+  },
+  {
+    "name": "routechart",
+    "domain": "routechart.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.743Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routechart.com"
+  },
+  {
+    "name": "processchart",
+    "domain": "processchart.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.828Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processchart.com"
+  },
+  {
+    "name": "relaychart",
+    "domain": "relaychart.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.878Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaychart.com"
+  },
+  {
+    "name": "gatechannel",
+    "domain": "gatechannel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.880Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/gatechannel.com"
+  },
+  {
+    "name": "workchannel",
+    "domain": "workchannel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.882Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workchannel.com"
+  },
+  {
+    "name": "processchannel",
+    "domain": "processchannel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.887Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processchannel.com"
+  },
+  {
+    "name": "relaychannel",
+    "domain": "relaychannel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.889Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaychannel.com"
+  },
+  {
+    "name": "routechannel",
+    "domain": "routechannel.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:30.921Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routechannel.com"
+  },
+  {
+    "name": "taskchannel",
+    "domain": "taskchannel.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:30.936Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskchannel.com"
+  },
+  {
+    "name": "workwatershed",
+    "domain": "workwatershed.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.017Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workwatershed.com"
+  },
+  {
+    "name": "taskwatershed",
+    "domain": "taskwatershed.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.069Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskwatershed.com"
+  },
+  {
+    "name": "processwatershed",
+    "domain": "processwatershed.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.075Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processwatershed.com"
+  },
+  {
+    "name": "relaywatershed",
+    "domain": "relaywatershed.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.071Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaywatershed.com"
+  },
+  {
+    "name": "processdelta",
+    "domain": "processdelta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.077Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processdelta.com"
+  },
+  {
+    "name": "workdelta",
+    "domain": "workdelta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.078Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workdelta.com"
+  },
+  {
+    "name": "taskdelta",
+    "domain": "taskdelta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.109Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskdelta.com"
+  },
+  {
+    "name": "relaydelta",
+    "domain": "relaydelta.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.124Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaydelta.com"
+  },
+  {
+    "name": "routedelta",
+    "domain": "routedelta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.207Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routedelta.com"
+  },
+  {
+    "name": "loopdelta",
+    "domain": "loopdelta.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.261Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopdelta.com"
+  },
+  {
+    "name": "workconfluence",
+    "domain": "workconfluence.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.263Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workconfluence.com"
+  },
+  {
+    "name": "processconfluence",
+    "domain": "processconfluence.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.267Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processconfluence.com"
+  },
+  {
+    "name": "taskconfluence",
+    "domain": "taskconfluence.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.264Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskconfluence.com"
+  },
+  {
+    "name": "relayconfluence",
+    "domain": "relayconfluence.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.268Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relayconfluence.com"
+  },
+  {
+    "name": "routeconfluence",
+    "domain": "routeconfluence.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.297Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routeconfluence.com"
+  },
+  {
+    "name": "workcrossbeam",
+    "domain": "workcrossbeam.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.323Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workcrossbeam.com"
+  },
+  {
+    "name": "relaycrossbeam",
+    "domain": "relaycrossbeam.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.397Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaycrossbeam.com"
+  },
+  {
+    "name": "taskcrossbeam",
+    "domain": "taskcrossbeam.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.455Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskcrossbeam.com"
+  },
+  {
+    "name": "processcrossbeam",
+    "domain": "processcrossbeam.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.453Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processcrossbeam.com"
+  },
+  {
+    "name": "casebridge",
+    "domain": "casebridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.456Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/casebridge.com"
+  },
+  {
+    "name": "workbridge",
+    "domain": "workbridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.462Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workbridge.com"
+  },
+  {
+    "name": "processbridge",
+    "domain": "processbridge.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.459Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processbridge.com"
+  },
+  {
+    "name": "processmosaic",
+    "domain": "processmosaic.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.488Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processmosaic.com"
+  },
+  {
+    "name": "workmosaic",
+    "domain": "workmosaic.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.514Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workmosaic.com"
+  },
+  {
+    "name": "relaymosaic",
+    "domain": "relaymosaic.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.590Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaymosaic.com"
+  },
+  {
+    "name": "taskmosaic",
+    "domain": "taskmosaic.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.643Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskmosaic.com"
+  },
+  {
+    "name": "worktessera",
+    "domain": "worktessera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.645Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/worktessera.com"
+  },
+  {
+    "name": "processtessera",
+    "domain": "processtessera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.646Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processtessera.com"
+  },
+  {
+    "name": "relaytessera",
+    "domain": "relaytessera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.651Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaytessera.com"
+  },
+  {
+    "name": "tasktessera",
+    "domain": "tasktessera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.657Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/tasktessera.com"
+  },
+  {
+    "name": "routetessera",
+    "domain": "routetessera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.679Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routetessera.com"
+  },
+  {
+    "name": "janusroute",
+    "domain": "janusroute.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.701Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/janusroute.com"
+  },
+  {
+    "name": "janusrelay",
+    "domain": "janusrelay.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.782Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/janusrelay.com"
+  },
+  {
+    "name": "januswork",
+    "domain": "januswork.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.833Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/januswork.com"
+  },
+  {
+    "name": "janusgate",
+    "domain": "janusgate.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.835Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/janusgate.com"
+  },
+  {
+    "name": "janusloop",
+    "domain": "janusloop.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.839Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/janusloop.com"
+  },
+  {
+    "name": "heronroute",
+    "domain": "heronroute.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.841Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/heronroute.com"
+  },
+  {
+    "name": "heronrelay",
+    "domain": "heronrelay.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.848Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/heronrelay.com"
+  },
+  {
+    "name": "herongate",
+    "domain": "herongate.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.867Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/herongate.com"
+  },
+  {
+    "name": "heronloop",
+    "domain": "heronloop.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:31.895Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/heronloop.com"
+  },
+  {
+    "name": "heronwork",
+    "domain": "heronwork.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:31.976Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/heronwork.com"
+  },
+  {
+    "name": "argusroute",
+    "domain": "argusroute.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.027Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/argusroute.com"
+  },
+  {
+    "name": "argusrelay",
+    "domain": "argusrelay.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.030Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/argusrelay.com"
+  },
+  {
+    "name": "argusgate",
+    "domain": "argusgate.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:32.034Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/argusgate.com"
+  },
+  {
+    "name": "arguswork",
+    "domain": "arguswork.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.036Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/arguswork.com"
+  },
+  {
+    "name": "taskcartograph",
+    "domain": "taskcartograph.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.038Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/taskcartograph.com"
+  },
+  {
+    "name": "workcartograph",
+    "domain": "workcartograph.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.055Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/workcartograph.com"
+  },
+  {
+    "name": "processcartograph",
+    "domain": "processcartograph.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.083Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/processcartograph.com"
+  },
+  {
+    "name": "routecartograph",
+    "domain": "routecartograph.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.165Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/routecartograph.com"
+  },
+  {
+    "name": "relaycartograph",
+    "domain": "relaycartograph.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.215Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/relaycartograph.com"
+  },
+  {
+    "name": "loopcartograph",
+    "domain": "loopcartograph.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.221Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/loopcartograph.com"
+  },
+  {
+    "name": "waydovetail",
+    "domain": "waydovetail.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.237Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/waydovetail.com"
+  },
+  {
+    "name": "waytruss",
+    "domain": "waytruss.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.230Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/waytruss.com"
+  },
+  {
+    "name": "wayshuttle",
+    "domain": "wayshuttle.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.234Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/wayshuttle.com"
+  },
+  {
+    "name": "waybraid",
+    "domain": "waybraid.com",
+    "status": "registered",
+    "checkedAt": "2026-09-27T09:05:32.244Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/waybraid.com"
+  },
+  {
+    "name": "waytessera",
+    "domain": "waytessera.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.274Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/waytessera.com"
+  },
+  {
+    "name": "wayportolan",
+    "domain": "wayportolan.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.361Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/wayportolan.com"
+  },
+  {
+    "name": "waycrossbeam",
+    "domain": "waycrossbeam.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.406Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/waycrossbeam.com"
+  },
+  {
+    "name": "wayconfluence",
+    "domain": "wayconfluence.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.407Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/wayconfluence.com"
+  },
+  {
+    "name": "waymosaic",
+    "domain": "waymosaic.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.420Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/waymosaic.com"
+  },
+  {
+    "name": "wayconvoy",
+    "domain": "wayconvoy.com",
+    "status": "available",
+    "checkedAt": "2026-09-27T09:05:32.422Z",
+    "source": "https://rdap.verisign.com/com/v1/domain/wayconvoy.com"
+  }
+]

@@ -1,0 +1,14 @@
+---
+interface Props { kind: number }
+const { kind } = Astro.props;
+---
+<svg class="workflow-symbol" viewBox="0 0 48 48" fill="none" aria-hidden="true" focusable="false">
+  {kind === 0 && <><path d="M13 9h16l6 6v25H13zM29 9v7h6M18 23h12M18 29h12M18 35h8" /></>}
+  {kind === 1 && <><circle cx="24" cy="24" r="16" /><path d="m16 24 5 5 11-12" /></>}
+  {kind === 2 && <><path d="M9 15h30v21H9zM16 15V9h16v6M16 26l5 5 11-11" /></>}
+  {kind === 3 && <><circle cx="17" cy="16" r="5" /><circle cx="31" cy="16" r="5" /><path d="M7 38v-4a10 10 0 0 1 20 0v4M23 38v-4a10 10 0 0 1 18 0v4" /></>}
+  {kind === 4 && <><path d="M9 13h30v26H9zM9 20h30M16 27h10M16 33h16M30 8v10" /></>}
+  {kind === 5 && <><path d="M5 17h24v18H5zM29 23h7l6 7v5H29zM10 35a4 4 0 1 0 8 0M32 35a4 4 0 1 0 8 0" /></>}
+  {kind === 6 && <><path d="M11 8h26v32H11zM17 16h14M17 23h14M17 30h7m5-2 3 3 5-7" /></>}
+  {kind === 7 && <><path d="M8 38h32M13 32V20M22 32V11M31 32V16M40 32V8" /><circle cx="40" cy="8" r="2" /></>}
+</svg>

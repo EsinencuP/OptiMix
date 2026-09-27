@@ -1,0 +1,40 @@
+---
+interface Props { kind: number }
+const { kind } = Astro.props;
+---
+<svg class="relay-illustration" viewBox="0 0 240 154" fill="none" aria-hidden="true" focusable="false">
+  {kind === 0 && <>
+    <path class="scene-path" d="M0 80H40M193 80h47" />
+    <rect class="scene-paper" x="41" y="29" width="151" height="106" rx="15" />
+    <path class="scene-line" d="m47 42 69 51a8 8 0 0 0 9 0l61-51" />
+    <path class="scene-line" d="m47 122 45-39m94 39-45-39" />
+    <g class="scene-badge"><circle class="scene-pulse" cx="198" cy="30" r="10" /><path class="scene-mark" d="m193 30 4 4 7-8" /></g>
+  </>}
+  {kind === 1 && <>
+    <rect class="scene-paper scene-back" x="48" y="31" width="104" height="93" rx="11" />
+    <path class="scene-copy" d="M62 50h57m-57 15h19m-19 15h19" />
+    <g class="scene-sheet"><rect class="scene-paper scene-front" x="83" y="45" width="111" height="91" rx="11" /><path class="scene-line" d="M99 68h77M99 83h77M99 98h77M99 113h77M123 68v45m28-45v45" /></g>
+    <path class="scene-transfer" d="m159 24 13 8-13 8" />
+  </>}
+  {kind === 2 && <>
+    <path class="scene-paper" d="M37 106V57a10 10 0 0 1 10-10h142a10 10 0 0 1 10 10v49l-19 26H56z" />
+    <path class="scene-line" d="M40 106h48l9 11h46l9-11h44M59 69h67M59 84h47" />
+    <circle class="scene-clock" cx="160" cy="67" r="30" />
+    <path class="scene-clock-hand" d="M160 49v20l13 8" />
+    <circle class="scene-pulse" cx="160" cy="67" r="3" />
+  </>}
+  {kind === 3 && <>
+    <rect class="scene-paper" x="29" y="38" width="78" height="96" rx="12" />
+    <rect class="scene-paper scene-front" x="134" y="38" width="78" height="96" rx="12" />
+    <path class="scene-line" d="M44 60h49M44 75h49M44 90h34m71-30h49m-49 15h49m-49 15h34" />
+    <path class="scene-transfer" d="M112 87h17m-7-7 7 7-7 7" />
+    <path class="scene-mark" d="m157 111 8 7 17-18" />
+  </>}
+  {kind === 4 && <>
+    <path class="scene-paper" d="M40 46a14 14 0 0 1 14-14h121a14 14 0 0 1 14 14v57a14 14 0 0 1-14 14H89l-27 20v-20h-8a14 14 0 0 1-14-14z" />
+    <circle class="scene-dot" cx="80" cy="73" r="7" />
+    <circle class="scene-dot scene-dot-middle" cx="116" cy="73" r="7" />
+    <circle class="scene-dot scene-dot-last" cx="152" cy="73" r="7" />
+    <path class="scene-line" d="M72 96h87" />
+  </>}
+</svg>

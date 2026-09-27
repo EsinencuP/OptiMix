@@ -1,0 +1,114 @@
+[
+  {
+    "name": "ariadtrace",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ariadtrace/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ariadtrace/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:38:23.846Z"
+  },
+  {
+    "name": "ariadloop",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/ariadloop/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/ariadloop/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:38:24.241Z"
+  },
+  {
+    "name": "gatespindle",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/gatespindle/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/gatespindle/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:38:23.982Z"
+  },
+  {
+    "name": "flowspindle",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/flowspindle/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/flowspindle/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:38:24.535Z"
+  },
+  {
+    "name": "processlattice",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/processlattice/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/processlattice/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:38:24.659Z"
+  },
+  {
+    "name": "routelattice",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/routelattice/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/routelattice/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:38:24.945Z"
+  },
+  {
+    "name": "relayquoin",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/relayquoin/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/relayquoin/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:38:25.596Z"
+  },
+  {
+    "name": "threadquoin",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/threadquoin/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/threadquoin/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T08:38:25.471Z"
+  }
+]

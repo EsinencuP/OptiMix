@@ -1,0 +1,10 @@
+ProcessWeft
+RelayWeft
+TaskSpindle
+RelayTandem
+ProcessRivet
+RelayFerry
+WorkPortage
+PivotWeft
+GateRivet
+RouteWeft

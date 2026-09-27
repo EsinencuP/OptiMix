@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1320" viewBox="0 0 1600 1320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#09151d"/><stop offset="1" stop-color="#0f3037"/></linearGradient>
+    <style>
+      .title{font:700 49px Arial;fill:#f3f4ed}.sub{font:400 20px Arial;fill:#aec5c3}.section{font:700 15px Arial;letter-spacing:1.6px;fill:#7faeaa}.name{font:700 27px Arial;fill:#f5f5ee}.why{font:400 18px Arial;fill:#c9d9d4}.badge{font:700 14px Arial;fill:#8cddbe}.pending{font:700 14px Arial;fill:#edbf81}.small{font:400 15px Arial;fill:#99b5b3}.row{fill:#14343c;stroke:#285059;stroke-width:1}.pill{fill:#1c4c47}.warn{fill:#4a3928}
+    </style>
+  </defs>
+  <rect width="1600" height="1320" fill="url(#bg)"/>
+  <text x="80" y="84" class="title">60 НАЗВАНИЙ · ПЕРВИЧНЫЙ СКРИНИНГ</text>
+  <text x="80" y="121" class="sub">B2B-оптимизация процессов · 27.09.2026 · 455 проверенных .com-вариантов</text>
+  <rect x="80" y="156" width="1440" height="106" rx="16" fill="#193c42"/>
+  <text x="105" y="193" class="section">ЧТО ПОДТВЕРЖДЕНО ДЛЯ 60 ФИНАЛИСТОВ</text>
+  <text x="105" y="229" class="why">.com: RDAP 404 (нет записи)   ·   LinkedIn: прямой URL 404   ·   Instagram: публичный профиль не показан</text>
+  <text x="80" y="313" class="section">8 НАЗВАНИЙ ДЛЯ ПЕРВОГО ОБСУЖДЕНИЯ</text>
+  <g transform="translate(80,340)">
+    <rect class="row" width="1440" height="99" rx="14"/>
+    <text x="25" y="38" class="name">RelaySplice</text><text x="350" y="38" class="why">Передача + соединение разорванных этапов</text>
+    <text x="25" y="72" class="badge">.COM RDAP 404</text><text x="220" y="72" class="badge">LINKEDIN 404</text><text x="430" y="72" class="small">IG: без публичного профиля</text><text x="1090" y="72" class="pending">TM: ПРОВЕРИТЬ</text>
+    <rect class="row" y="111" width="1440" height="99" rx="14"/>
+    <text x="25" y="149" class="name">Routentia</text><text x="350" y="149" class="why">Осмысленный маршрут задачи</text>
+    <text x="25" y="183" class="badge">.COM RDAP 404</text><text x="220" y="183" class="badge">LINKEDIN 404</text><text x="430" y="183" class="small">IG: без публичного профиля</text><text x="1090" y="183" class="pending">TM: ПРОВЕРИТЬ</text>
+    <rect class="row" y="222" width="1440" height="99" rx="14"/>
+    <text x="25" y="260" class="name">ProcessHinge</text><text x="350" y="260" class="why">Точка решения, меняющая ход процесса</text>
+    <text x="25" y="294" class="badge">.COM RDAP 404</text><text x="220" y="294" class="badge">LINKEDIN 404</text><text x="430" y="294" class="small">IG: без публичного профиля</text><text x="1090" y="294" class="pending">TM: ПРОВЕРИТЬ</text>
+    <rect class="row" y="333" width="1440" height="99" rx="14"/>
+    <text x="25" y="371" class="name">Loomentia</text><text x="350" y="371" class="why">Множество рабочих нитей как единая система</text>
+    <text x="25" y="405" class="badge">.COM RDAP 404</text><text x="220" y="405" class="badge">LINKEDIN 404</text><text x="430" y="405" class="small">IG: без публичного профиля</text><text x="1090" y="405" class="pending">TM: ПРОВЕРИТЬ</text>
+    <rect class="row" y="444" width="1440" height="99" rx="14"/>
+    <text x="25" y="482" class="name">Gatecerta</text><text x="350" y="482" class="why">Надёжные согласования и переходы</text>
+    <text x="25" y="516" class="badge">.COM RDAP 404</text><text x="220" y="516" class="badge">LINKEDIN 404</text><text x="430" y="516" class="small">IG: без публичного профиля</text><text x="1090" y="516" class="pending">TM: ПРОВЕРИТЬ</text>
+    <rect class="row" y="555" width="1440" height="99" rx="14"/>
+    <text x="25" y="593" class="name">AriadThread</text><text x="350" y="593" class="why">Нить Ариадны через сложный процесс</text>
+    <text x="25" y="627" class="badge">.COM RDAP 404</text><text x="220" y="627" class="badge">LINKEDIN 404</text><text x="430" y="627" class="small">IG: без публичного профиля</text><text x="1090" y="627" class="pending">TM: ПРОВЕРИТЬ</text>
+    <rect class="row" y="666" width="1440" height="99" rx="14"/>
+    <text x="25" y="704" class="name">LoopSpindle</text><text x="350" y="704" class="why">Повторяющиеся нити собраны в управляемый цикл</text>
+    <text x="25" y="738" class="badge">.COM RDAP 404</text><text x="220" y="738" class="badge">LINKEDIN 404</text><text x="430" y="738" class="small">IG: без публичного профиля</text><text x="1090" y="738" class="pending">TM: ПРОВЕРИТЬ</text>
+    <rect class="row" y="777" width="1440" height="99" rx="14"/>
+    <text x="25" y="815" class="name">Praxivis</text><text x="350" y="815" class="why">Практическое действие с видимым эффектом</text>
+    <text x="25" y="849" class="badge">.COM RDAP 404</text><text x="220" y="849" class="badge">LINKEDIN 404</text><text x="430" y="849" class="small">IG: без публичного профиля</text><text x="1090" y="849" class="pending">TM: ПРОВЕРИТЬ</text>
+  </g>
+  <rect x="80" y="1241" width="1440" height="48" rx="12" class="warn"/>
+  <text x="102" y="1272" class="small" style="fill:#f1d5aa">ВАЖНО: «.com не зарегистрирован» ≠ домен зарезервирован. Никнеймы и права на знак не подтверждены.</text>
+</svg>

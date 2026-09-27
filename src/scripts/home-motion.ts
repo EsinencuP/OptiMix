@@ -11,7 +11,6 @@ export function startHomeMotion({ animateHero }: { animateHero: boolean }): () =
       gsap.timeline({ defaults: { ease: motionConfig.ease } })
         .from('.site-header .wordmark', { y: -12, autoAlpha: 0, duration: motionConfig.content }, 0)
         .from('.primary-nav, .mobile-menu', { y: -10, autoAlpha: 0, duration: motionConfig.content }, 0.08)
-        .from('.hero-eyebrow', { y: 14, autoAlpha: 0, duration: motionConfig.content }, 0.12)
         .from('.hero-title-line', { yPercent: 105, duration: motionConfig.hero, stagger: 0.14 }, 0.22)
         .from('.hero-intro .body-large', { y: 18, autoAlpha: 0, duration: motionConfig.content }, 0.64)
         .from('.hero-actions', { y: 14, autoAlpha: 0, duration: motionConfig.content }, 0.82)
@@ -24,14 +23,13 @@ export function startHomeMotion({ animateHero }: { animateHero: boolean }): () =
       defaults: { ease: motionConfig.ease },
       scrollTrigger: { trigger: '.recognition', start: 'top 75%', once: true },
     })
-      .from('.recognition-heading .eyebrow', { y: 14, duration: 0.42 })
-      .from('.recognition-heading .section-title', { y: 25, duration: 0.68 }, '-=0.22')
+      .from('.recognition-heading .section-title', { y: 25, duration: 0.68 })
       .from('.recognition-heading .body-large', { y: 16, duration: motionConfig.content }, '-=0.38');
 
-    gsap.from('.value-line', {
-      y: 22, autoAlpha: 0, stagger: 0.14, duration: 0.55,
+    gsap.from('.value-side li, .value-decision', {
+      y: 18, autoAlpha: 0, stagger: 0.1, duration: 0.55,
       ease: motionConfig.ease,
-      scrollTrigger: { trigger: '.value-model', start: 'top 72%', once: true },
+      scrollTrigger: { trigger: '.value-canvas', start: 'top 72%', once: true },
     });
 
     gsap.from('.principles li', {

@@ -12,7 +12,7 @@ const t = content[locale];
 <BaseLayout title={t.meta.contactTitle} description={t.meta.contactDescription} locale={locale} page="contact">
   <SiteHeader locale={locale} page="contact" variant="inner" />
   <main id="main" class="inner-main">
-    <div class="container inner-heading"><p class="eyebrow">{t.contactPage.eyebrow}</p><h1>{t.contactPage.title}</h1><p class="body-large muted">{t.contactPage.lead}</p></div>
+    <div class="container inner-heading"><h1>{t.contactPage.title}</h1><p class="body-large muted">{t.contactPage.lead}</p></div>
     <div class="container brief-layout">
       <div class="brief-status" role="status"><strong>{t.contactPage.status}</strong><p>{t.contactPage.details}</p><a href={pathFor(locale, 'privacy')}>{t.contactPage.privacyLink} ↗</a></div>
       <form class="brief-form" aria-describedby="form-unavailable">

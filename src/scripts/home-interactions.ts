@@ -4,74 +4,58 @@ export {};
 function setupHomeInteractions(): () => void {
   const relay = document.querySelector<HTMLElement>('.relay');
   const relayProgress = document.querySelector<HTMLElement>('.relay-progress > span');
-  const route = document.querySelector<HTMLElement>('.workflow-route');
-  const routeProgress = document.querySelector<HTMLElement>('.workflow-route-progress > span');
-  const routeLine = document.querySelector<HTMLElement>('.workflow-progress-line');
-  const steps = route?.querySelectorAll<HTMLElement>('.workflow-step');
-  const buttons = [...document.querySelectorAll<HTMLButtonElement>('.track-controls button')];
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('.track-controls button[data-track="relay"]')];
+  const valueCanvas = document.querySelector<HTMLElement>('[data-value-canvas]');
   let frame = 0;
 
   const update = () => {
     frame = 0;
-    if (relay && relayProgress) {
-      const total = Math.max(1, relay.scrollWidth);
-      const progress = Math.min(1, (relay.scrollLeft + relay.clientWidth) / total);
-      relayProgress.style.transform = `scaleX(${progress})`;
-    }
-    if (route && routeProgress && routeLine && steps?.length && matchMedia('(min-width: 48.01rem)').matches) {
-      const progress = Math.min(1, (route.scrollLeft + route.clientWidth) / Math.max(1, route.scrollWidth));
-      routeProgress.style.transform = `scaleX(${progress})`;
-      routeLine.style.transform = `scaleX(${progress})`;
-      const center = route.scrollLeft + route.clientWidth * .45;
-      let active = 0;
-      steps.forEach((step, index) => {
-        if (step.offsetLeft <= center) active = index;
-      });
-      steps.forEach((step, index) => step.classList.toggle('is-current', index === active));
-    } else {
-      steps?.forEach((step) => step.classList.remove('is-current'));
-    }
+    if (!relay) return;
+    const total = Math.max(1, relay.scrollWidth);
+    const progress = Math.min(1, (relay.scrollLeft + relay.clientWidth) / total);
+    if (relayProgress) relayProgress.style.transform = `scaleX(${progress})`;
     buttons.forEach((button) => {
-      const track = button.dataset.track === 'relay' ? relay : route;
-      if (!track) return;
       const backwards = button.dataset.direction === '-1';
-      button.disabled = backwards ? track.scrollLeft <= 2 : track.scrollLeft + track.clientWidth >= track.scrollWidth - 2;
+      button.disabled = backwards ? relay.scrollLeft <= 2 : relay.scrollLeft + relay.clientWidth >= relay.scrollWidth - 2;
     });
   };
   const schedule = () => { if (!frame) frame = requestAnimationFrame(update); };
-  const scrollByCard = (event: KeyboardEvent, track: HTMLElement) => {
-    if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') return;
-    const card = track.querySelector<HTMLElement>('li');
-    if (!card || track.scrollWidth <= track.clientWidth) return;
+  const cardWidth = () => relay?.querySelector<HTMLElement>('li')?.getBoundingClientRect().width ?? 0;
+  const keydown = (event: KeyboardEvent) => {
+    if (!relay || (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') || relay.scrollWidth <= relay.clientWidth) return;
     event.preventDefault();
-    track.scrollBy({ left: (event.key === 'ArrowRight' ? 1 : -1) * card.getBoundingClientRect().width, behavior: 'smooth' });
+    relay.scrollBy({ left: (event.key === 'ArrowRight' ? 1 : -1) * cardWidth(), behavior: 'smooth' });
   };
-  const relayKey = (event: KeyboardEvent) => { if (relay) scrollByCard(event, relay); };
-  const routeKey = (event: KeyboardEvent) => { if (route) scrollByCard(event, route); };
-  const buttonClick = (event: Event) => {
+  const click = (event: Event) => {
     const button = event.currentTarget as HTMLButtonElement;
-    const track = button.dataset.track === 'relay' ? relay : route;
-    const card = track?.querySelector<HTMLElement>('li');
-    if (!track || !card) return;
-    const direction = Number(button.dataset.direction) || 1;
-    track.scrollBy({ left: card.getBoundingClientRect().width * direction, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    relay?.scrollBy({ left: cardWidth() * (Number(button.dataset.direction) || 1), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+  };
+  const point = (event: PointerEvent) => {
+    if (!valueCanvas || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const rect = valueCanvas.getBoundingClientRect();
+    valueCanvas.style.setProperty('--pointer-x', `${event.clientX - rect.left}px`);
+    valueCanvas.style.setProperty('--pointer-y', `${event.clientY - rect.top}px`);
+  };
+  const resetPoint = () => {
+    valueCanvas?.style.setProperty('--pointer-x', '50%');
+    valueCanvas?.style.setProperty('--pointer-y', '50%');
   };
 
   relay?.addEventListener('scroll', schedule, { passive: true });
-  route?.addEventListener('scroll', schedule, { passive: true });
-  relay?.addEventListener('keydown', relayKey);
-  route?.addEventListener('keydown', routeKey);
-  buttons.forEach((button) => button.addEventListener('click', buttonClick));
+  relay?.addEventListener('keydown', keydown);
+  buttons.forEach((button) => button.addEventListener('click', click));
+  valueCanvas?.addEventListener('pointermove', point);
+  valueCanvas?.addEventListener('pointerleave', resetPoint);
   window.addEventListener('resize', schedule, { passive: true });
   schedule();
 
   return () => {
     if (frame) cancelAnimationFrame(frame);
     relay?.removeEventListener('scroll', schedule);
-    route?.removeEventListener('scroll', schedule);
-    relay?.removeEventListener('keydown', relayKey);
-    route?.removeEventListener('keydown', routeKey);
-    buttons.forEach((button) => button.removeEventListener('click', buttonClick));
+    relay?.removeEventListener('keydown', keydown);
+    buttons.forEach((button) => button.removeEventListener('click', click));
+    valueCanvas?.removeEventListener('pointermove', point);
+    valueCanvas?.removeEventListener('pointerleave', resetPoint);
     window.removeEventListener('resize', schedule);
   };
 }

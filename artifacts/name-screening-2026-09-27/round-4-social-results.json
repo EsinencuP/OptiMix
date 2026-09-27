@@ -1,0 +1,142 @@
+[
+  {
+    "name": "processweft",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/processweft/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/processweft/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:15.538Z"
+  },
+  {
+    "name": "relayweft",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/relayweft/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/relayweft/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:15.297Z"
+  },
+  {
+    "name": "taskspindle",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/taskspindle/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/taskspindle/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:15.097Z"
+  },
+  {
+    "name": "relaytandem",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/relaytandem/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/relaytandem/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:15.972Z"
+  },
+  {
+    "name": "processrivet",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/processrivet/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/processrivet/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:16.397Z"
+  },
+  {
+    "name": "relayferry",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/relayferry/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/relayferry/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:16.831Z"
+  },
+  {
+    "name": "workportage",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/workportage/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/workportage/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:16.631Z"
+  },
+  {
+    "name": "pivotweft",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/pivotweft/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/pivotweft/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:17.035Z"
+  },
+  {
+    "name": "gaterivet",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/gaterivet/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/gaterivet/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:17.345Z"
+  },
+  {
+    "name": "routeweft",
+    "linkedin": {
+      "status": 404,
+      "finalUrl": "https://www.linkedin.com/company/routeweft/",
+      "title": "LinkedIn"
+    },
+    "instagram": {
+      "status": 200,
+      "finalUrl": "https://www.instagram.com/routeweft/",
+      "title": "Instagram"
+    },
+    "checkedAt": "2026-09-27T09:01:17.826Z"
+  }
+]
