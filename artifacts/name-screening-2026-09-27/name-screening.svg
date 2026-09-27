@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131b"/><stop offset="1" stop-color="#102c34"/></linearGradient>
+    <style>
+      .sans{font-family:Arial,Helvetica,sans-serif}.title{font:700 42px Arial;fill:#f6f4ec}.sub{font:400 18px Arial;fill:#9bb8b4}.head{font:700 16px Arial;fill:#92aaa6;letter-spacing:1px}.name{font:700 25px Arial;fill:#f6f4ec}.body{font:400 17px Arial;fill:#c5d2cd}.small{font:400 14px Arial;fill:#9bb8b4}.green{fill:#87d6a7}.amber{fill:#e6bf77}.red{fill:#e28b83}.chip{font:700 13px Arial;letter-spacing:1px}.line{stroke:#31515a;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <text x="90" y="92" class="title">NAME SCREENING / OPTIMIX REPLACEMENT</text>
+  <text x="90" y="130" class="sub">First pass · B2B process optimisation · checked 27 Sep 2026 · Europe/Chisinau</text>
+  <rect x="90" y="178" width="1420" height="128" rx="18" fill="#173c43" stroke="#37656b"/>
+  <text x="122" y="220" class="head">SHORTLIST</text>
+  <text x="122" y="265" class="name">Praxivis</text><text x="335" y="265" class="body">best balance of meaning + ownability</text>
+  <text x="790" y="265" class="name">Daedrion</text><text x="1005" y="265" class="body">strongest mythic / engineering metaphor</text>
+  <text x="122" y="292" class="small">Both .com domains returned AVAILABLE in Verisign RDAP.</text>
+
+  <text x="90" y="357" class="head">CANDIDATES TO CARRY FORWARD</text>
+  <g transform="translate(90,385)">
+    <rect width="1420" height="92" rx="14" fill="#123238"/><text x="28" y="36" class="name">Praxivis</text><text x="300" y="32" class="body">praxis + vis</text><text x="300" y="61" class="small">applied practice · strength / measurable effect</text><text x="1120" y="39" class="chip green">RECOMMENDED</text><text x="1120" y="67" class="small">.com FREE · socials not found</text>
+    <rect y="108" width="1420" height="92" rx="14" fill="#123238"/><text x="28" y="144" class="name">Daedrion</text><text x="300" y="140" class="body">Daedalus reference</text><text x="300" y="169" class="small">craft · engineering · a way through complexity</text><text x="1120" y="147" class="chip green">RECOMMENDED*</text><text x="1120" y="175" class="small">.com FREE · personal-name noise</text>
+    <rect y="216" width="1420" height="92" rx="14" fill="#123238"/><text x="28" y="252" class="name">Routentia</text><text x="300" y="248" class="body">route + intent</text><text x="300" y="277" class="small">a directed, intentional route for recurring work</text><text x="1120" y="255" class="chip amber">BACKUP</text><text x="1120" y="283" class="small">.com FREE · no exact collision found</text>
+    <rect y="324" width="1420" height="92" rx="14" fill="#3b3020"/><text x="28" y="360" class="name">Rouventa</text><text x="300" y="356" class="body">route + momentum</text><text x="300" y="385" class="small">movement of work toward an outcome</text><text x="1120" y="363" class="chip amber">CAUTION</text><text x="1120" y="391" class="small">.com FREE · similar Ruvente / Rouvia</text>
+  </g>
+
+  <text x="90" y="875" class="head">SCREENING RULE</text>
+  <text x="90" y="912" class="body">Free .com ≠ legal clearance. Before purchase: TMview/EUIPO, Romanian company register, .eu/.ro/.io and exact username checks.</text>
+  <text x="90" y="950" class="small">The visual is a current snapshot, not a reservation. Availability can change at any time.</text>
+</svg>

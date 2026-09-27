@@ -1,0 +1,22 @@
+name,role,meaning,com,linkedin,instagram,search_collision,verdict
+Praxivis,Recommended,"praxis + vis: applied practice and measurable force",AVAILABLE,"Exact company page not found; direct URL 404","No exact public profile found in indexed search","No exact brand/company found","RECOMMENDED"
+Daedrion,Recommended with caveat,"Daedalus: craft, engineering, a way through complexity",AVAILABLE,"No exact company page; personal-name results only","No exact public profile found in indexed search","No exact brand; personal-name results only","RECOMMENDED_WITH_CAVEAT"
+Routentia,Backup,"route + intent: a directed route for work",AVAILABLE,"Exact company page not found; direct URL 404","No exact public profile found in indexed search","No exact brand found","BACKUP"
+Rouventa,Caution,"route + momentum toward an outcome",AVAILABLE,"Exact company page not found; direct URL 404","No exact public profile found in indexed search","Near matches Ruvente and Rouvia","CAUTION"
+Opervia,Rejected,"workflow/operations association",TAKEN,Existing company and LinkedIn,Existing ecosystem,Active workflow/AI brands,REJECTED
+Moventra,Rejected,"movement/operations association",TAKEN,Existing LinkedIn and companies,Existing ecosystem,Active brands and companies,REJECTED
+RelayWise,Rejected,"relay and handoff association",TAKEN,Active product,Active ecosystem,Automation product,REJECTED
+FlowLedger,Rejected,"flow and record association",TAKEN,Active products,Active ecosystem,Multiple active products,REJECTED
+RouteFrame,Rejected,"route and process framing",TAKEN,Active products,Active ecosystem,Forecasting and mapping products,REJECTED
+WorkVector,Rejected,"work and direction association",TAKEN,Active products,Active ecosystem,AI automation and consulting brands,REJECTED
+Flowbound,Rejected,"bounded workflow",TAKEN,Active products,Active ecosystem,Supply-chain and workflow products,REJECTED
+Workentra,Rejected,"work and entry/enablement",TAKEN,Active companies,Active ecosystem,SaaS and staffing brands,REJECTED
+Opernexa,Rejected,"operations and connected ERP",TAKEN,Active ERP,Active ecosystem,Active ERP product,REJECTED
+Flowcerta,Rejected,"flow and certainty",TAKEN,Active workflow governance product,Active ecosystem,Active governance product,REJECTED
+Ariadne,Rejected,"mythic thread through a labyrinth",TAKEN,Many active companies,Many active uses,IT/AI/consulting saturation,REJECTED
+Clotho,Rejected,"mythic weaver of the thread",TAKEN,Many active uses,Many active uses,Software and company collisions,REJECTED
+Moirai,Rejected,"the Fates weaving the thread",TAKEN,Active software,Active uses,No ownable search territory,REJECTED
+Kairon,Rejected,"kairos: the right moment",TAKEN,Several AI companies,Several active uses,AI saturation,REJECTED
+Talaria,Rejected,"Hermes' winged sandals and movement",TAKEN,Several companies,Several active uses,Logistics/motorcycle/software collisions,REJECTED
+Limen,Rejected,"Latin: threshold / transition",TAKEN,Several AI/operations companies,Several active uses,AI and operations collisions,REJECTED
+

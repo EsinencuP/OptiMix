@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131b"/><stop offset="1" stop-color="#102c34"/></linearGradient><style>.t{font:700 42px Arial;fill:#f6f4ec}.s{font:400 18px Arial;fill:#9bb8b4}.h{font:700 16px Arial;fill:#92aaa6;letter-spacing:1px}.n{font:700 25px Arial;fill:#f6f4ec}.b{font:400 17px Arial;fill:#c5d2cd}.sm{font:400 14px Arial;fill:#9bb8b4}.red{fill:#e28b83}.amber{fill:#e6bf77}.box{fill:#173c43}.warn{fill:#3b3020}</style></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="90" y="90" class="t">SHORTLIST SCREENING / 5 NAMES</text>
+  <text x="90" y="128" class="s">Semantic fit is strong · exact brand ownership is weak · checked 27 Sep 2026</text>
+  <text x="90" y="195" class="h">RESULT</text>
+  <text x="90" y="235" class="b">All five describe the company well. None passes the exact-name screen cleanly.</text>
+  <g transform="translate(90,275)">
+    <rect width="1420" height="82" rx="14" class="warn"/><text x="28" y="34" class="n">Workthread</text><text x="310" y="31" class="b">Excellent meaning: one thread through systems</text><text x="1115" y="32" class="red" style="font:700 13px Arial">REJECT EXACT</text><text x="1115" y="58" class="sm">.com taken · active LinkedIn + app</text>
+    <rect y="98" width="1420" height="82" rx="14" class="warn"/><text x="28" y="132" class="n">Loopcraft</text><text x="310" y="129" class="b">Good meaning: design repeatable loops</text><text x="1115" y="130" class="red" style="font:700 13px Arial">REJECT EXACT</text><text x="1115" y="156" class="sm">.com taken · active AI agency</text>
+    <rect y="196" width="1420" height="82" rx="14" class="warn"/><text x="28" y="230" class="n">Taskweave</text><text x="310" y="227" class="b">Good meaning: weave tasks into one route</text><text x="1115" y="228" class="red" style="font:700 13px Arial">REJECT EXACT</text><text x="1115" y="254" class="sm">.com taken · active workflow brands</text>
+    <rect y="294" width="1420" height="82" rx="14" class="warn"/><text x="28" y="328" class="n">Process Arc</text><text x="310" y="325" class="b">Very clear: process moving toward improvement</text><text x="1115" y="326" class="red" style="font:700 13px Arial">REJECT EXACT</text><text x="1115" y="352" class="sm">.com taken · active process consultancy</text>
+    <rect y="392" width="1420" height="82" rx="14" class="warn"/><text x="28" y="426" class="n">Gatehouse</text><text x="310" y="423" class="b">Good metaphor: checks, entry and controlled transition</text><text x="1115" y="424" class="amber" style="font:700 13px Arial">TOO CROWDED</text><text x="1115" y="450" class="sm">.com taken · many unrelated brands</text>
+  </g>
+  <text x="90" y="825" class="h">KEEP THE TERRITORY, CHANGE THE SHELL</text>
+  <text x="90" y="858" class="b">Thread / Weave · Loop / Craft · Task / Route · Arc / Process · Gate / Control</text>
+</svg>
