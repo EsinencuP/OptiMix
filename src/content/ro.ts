@@ -27,8 +27,6 @@ export const ro: typeof en = {
   },
   quotes: {
     first: 'Pașii de rutină avansează. Oamenii decid.',
-    second: 'O verificare nereușită trebuie să ducă la o decizie, nu la un transfer invizibil.',
-    third: 'Timpul eliberat înseamnă capacitate, nu economii automate.',
   },
   problem: {
     title: 'Activitatea avansează. Contextul rămâne în urmă.',
@@ -113,23 +111,25 @@ export const ro: typeof en = {
   contactTeaser: {
     title: 'Alege un proces.',
     lead: 'Descrie activitatea repetitivă, persoanele implicate, instrumentele folosite și locurile unde se blochează. Este suficient pentru a începe evaluarea utilității economice a schimbării.',
-    cta: 'Descrie un proces', status: 'Formularul este în pregătire. Cererile nu sunt acceptate încă.',
+    cta: 'Descrie un proces', status: 'Descarcă un proiect de descriere pentru mai târziu. Site-ul nu primește încă cereri.',
   },
   contactPage: {
     title: 'Începe cu un singur proces.',
     lead: 'Nu este nevoie de o specificație tehnică. Descrie activitatea, persoanele implicate și locurile unde traseul încetinește.',
-    status: 'Acest formular este o previzualizare. Nu au fost configurate adresa de livrare sau operatorul datelor, deci cererea nu poate fi trimisă încă.',
-    details: 'Nu introduce documente confidențiale sau date personale sensibile.',
-    name: 'Nume', company: 'Companie', email: 'E-mail de serviciu', process: 'Numele procesului',
+    status: 'Pregătește o descriere a procesului pe care o poți salva pe dispozitiv. Nimic din ce introduci aici nu este trimis către Optimix.',
+    details: 'Canalul de contact nu este configurat încă. Nu include documente confidențiale sau date personale sensibile.',
+    builderTitle: 'Descrierea procesului tău',
+    builderIntro: 'Folosește întrebările de mai jos pentru a pregăti informațiile esențiale. Poți lăsa câmpuri necompletate și finaliza fișierul mai târziu.',
+    process: 'Numele procesului',
     description: 'Descrie procesul', systems: 'Sistemele actuale', problem: 'Problema principală',
-    frequency: 'Frecvența aproximativă', send: 'Trimite descrierea',
-    disabled: 'Trimiterea va fi disponibilă după configurarea livrării și a informațiilor de confidențialitate.',
+    frequency: 'Frecvența aproximativă', download: 'Descarcă descrierea',
+    downloadNotice: 'Browserul ar trebui să descarce fișierul. Nimic nu a fost trimis către Optimix.',
     privacyLink: 'Informații privind confidențialitatea',
   },
   privacyPage: {
     title: 'Informațiile privind confidențialitatea sunt în pregătire.',
-    lead: 'Formularul de contact nu este activ și nu poate trimite date din acest prototip.',
-    detail: 'Operatorul legal, datele de contact, scopurile prelucrării, destinatarii, perioada de păstrare și drepturile aplicabile vor fi publicate după confirmare. Această pagină nu este o informare finală privind confidențialitatea.',
+    lead: 'Instrumentul de descriere creează un fișier text în browser. Site-ul nu trimite către Optimix câmpurile completate.',
+    detail: 'Canalul de contact nu este activ. Operatorul legal, datele de contact, scopurile prelucrării, destinatarii, perioada de păstrare și drepturile aplicabile vor fi publicate după confirmare. Această pagină nu este o informare finală privind confidențialitatea.',
     back: 'Înapoi la descrierea procesului',
   },
 };

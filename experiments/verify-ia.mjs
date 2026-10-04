@@ -25,7 +25,8 @@ for (const locale of ['en', 'ro', 'ru']) {
         heading: document.querySelector('h1')?.textContent?.replace(/\s+/g, ' ').trim(),
         horizontalOverflow: document.documentElement.scrollWidth - innerWidth,
         activeLanguage: document.querySelector('.language-switch a[aria-current="page"]')?.getAttribute('lang'),
-        disabledForm: document.querySelector('form fieldset')?.disabled ?? null,
+        localBriefBuilder: Boolean(document.querySelector('[data-brief-builder]')),
+        submitForm: Boolean(document.querySelector('form')),
         hasHeader: Boolean(document.querySelector('.site-header')),
         hasFooter: Boolean(document.querySelector('.site-footer')),
       }));
@@ -58,7 +59,7 @@ const clientNavigation = await navigation.evaluate(() => window.__clientNavigati
 await navigation.close();
 await browser.close();
 
-const failures = results.filter((item) => item.status !== 200 || item.lang !== (item.route.startsWith('/ro/') ? 'ro' : item.route.startsWith('/ru/') ? 'ru' : 'en') || item.horizontalOverflow > 1 || item.zoomOverflow > 1 || item.activeLanguage !== item.lang || !item.hasHeader || !item.hasFooter || (item.route.includes('contact') && item.disabledForm !== true));
+const failures = results.filter((item) => item.status !== 200 || item.lang !== (item.route.startsWith('/ro/') ? 'ro' : item.route.startsWith('/ru/') ? 'ru' : 'en') || item.horizontalOverflow > 1 || item.zoomOverflow > 1 || item.activeLanguage !== item.lang || !item.hasHeader || !item.hasFooter || (item.route.includes('contact') && (!item.localBriefBuilder || item.submitForm)));
 if (!mobileMenuVisible || languageTarget !== '/ru/contact/' || !clientNavigation) failures.push({ mobileMenuVisible, languageTarget, clientNavigation });
 if (errors.length) failures.push(...errors);
 console.log(JSON.stringify({ count: results.length, failures, results }, null, 2));

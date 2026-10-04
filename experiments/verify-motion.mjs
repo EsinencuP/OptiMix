@@ -113,7 +113,7 @@ await page.locator('.hero-actions .button-primary').click();
 await page.waitForTimeout(1200);
 const desktopAnchor = await page.evaluate(() => ({
   path: location.pathname,
-  disabledForm: document.querySelector('form fieldset')?.disabled,
+  localBriefBuilder: Boolean(document.querySelector('[data-brief-builder]')),
 }));
 
 const mobile = await browser.newPage({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true });

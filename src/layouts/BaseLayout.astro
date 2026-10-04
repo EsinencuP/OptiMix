@@ -47,5 +47,6 @@ const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB'
   <body>
     <a class="skip-link" href="#main">{content[locale].ui.skip}</a>
     <slot />
+    <script>import '../scripts/brief-download';</script>
   </body>
 </html>

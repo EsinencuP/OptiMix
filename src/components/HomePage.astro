@@ -48,7 +48,6 @@ const heroImage = await getImage({ src: heroConcept, widths: [480, 960, 1672], s
         <div class="comparison-path comparison-after"><h3>{t.change.after}</h3><ol>{t.change.afterSteps.map((step) => <li>{step}</li>)}</ol><p>{t.change.afterNote}</p></div>
       </div>
     </section>
-    <div class="editorial-break"><blockquote>{t.quotes.second}</blockquote></div>
     <section class="workflow-scene" id="workflow" aria-labelledby="workflow-title">
       <div class="container workflow-grid">
         <div class="workflow-intro"><h2 class="section-title" id="workflow-title">{t.workflow.title}</h2><div><p class="body-large">{t.workflow.lead}</p><p class="workflow-disclosure">{t.workflow.disclosure}</p></div></div>
@@ -68,7 +67,6 @@ const heroImage = await getImage({ src: heroConcept, widths: [480, 960, 1672], s
       </div>
       <div class="value-decision"><span>{t.value.decision}</span><p>{t.value.decisionQuestion}</p></div><p class="value-footnote">{t.value.footnote}</p>
     </section>
-    <div class="editorial-break"><blockquote>{t.quotes.third}</blockquote></div>
     <section class="approach" id="approach" aria-labelledby="approach-title"><div class="container approach-grid"><div class="approach-intro"><h2 class="section-title" id="approach-title">{t.approach.title}</h2><p class="body-large muted">{t.approach.lead}</p><p class="approach-note">{t.approach.note}</p></div><ol class="principles">{t.approach.stages.map((stage, index) => <li style={`--stack-index:${index};--stack-top:${6.5 + index * .6}rem`}><span class="mono-number">{String(index + 1).padStart(2, '0')}</span><p><strong>{stage.title}.</strong> {stage.detail}</p></li>)}</ol></div></section>
     <section class="contact" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><h2 class="section-title" id="contact-title">{t.contactTeaser.title}</h2><p class="body-large">{t.contactTeaser.lead}</p><a class="button-primary" href={pathFor(locale, 'contact')}>{t.contactTeaser.cta} <span aria-hidden="true">↗</span></a><p class="contact-status">{t.contactTeaser.status}</p></div></section>
   </main>
