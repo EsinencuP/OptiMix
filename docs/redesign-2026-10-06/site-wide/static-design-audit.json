@@ -1,0 +1,266 @@
+[
+  {
+    "path": "/404.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/contact/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/demo/procurement/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/privacy/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/projects/procurement/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/404/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/contact/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/demo/procurement/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/privacy/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/projects/procurement/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/solutions/approval/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/solutions/budget/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/solutions/erp/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/solutions/intake/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ro/solutions/visibility/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/404/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/contact/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/demo/procurement/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/privacy/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/projects/procurement/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/solutions/approval/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/solutions/budget/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/solutions/erp/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/solutions/intake/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/ru/solutions/visibility/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/solutions/approval/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/solutions/budget/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/solutions/erp/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/solutions/intake/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  },
+  {
+    "path": "/solutions/visibility/index.html",
+    "legacy": false,
+    "header": 1,
+    "footer": 1,
+    "Roboto": true,
+    "favicon": true
+  }
+]

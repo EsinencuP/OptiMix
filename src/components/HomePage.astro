@@ -1,34 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
 import Icon from './RedesignIcon.astro';
 import ProcessScene from './HomeProcessScene.astro';
 import DemoProjects from './DemoProjectGallery.astro';
-import { pathFor, locales, type Locale } from '../content';
+import { pathFor, type Locale } from '../content';
 import { demoPath, modulePath } from '../content/portfolio';
 import { homeRedesign } from '../content/home-redesign';
-import '../styles/home-redesign.css';
 import '../styles/demo-projects.css';
 
 interface Props { locale: Locale }
 const { locale } = Astro.props;
 const t = homeRedesign(locale);
 const contact = pathFor(locale,'contact');
-const navAnchors = ['services','demo-projects','approach','faq'];
 const systemIcons = ['address-book','gear','file-text','table','users','database'];
 const stageIcons = ['file-text','database','users','gear','chart-bar'];
 const stageSlugs = ['intake','budget','approval','erp','visibility'] as const;
 const sceneKinds = ['intake','systems','planning'] as const;
 ---
 <BaseLayout title={`Optimix — ${t.eyebrow}`} description={t.intro} locale={locale} page="home">
-<div class="ox-home">
-  <header class="ox-header"><div class="ox-container ox-header-inner">
-    <a class="ox-brand" href="#top" aria-label="Optimix"><img src="/images/redesign/brand-mark.png" width="22" height="22" alt="" /><span translate="no">OPTIMIX</span></a>
-    <nav class="ox-desktop-nav" aria-label={t.menu}>{t.nav.map((label,i) => <a href={`#${navAnchors[i]}`}>{label}{i < 2 && <Icon name="caret-down" size={14} />}</a>)}</nav>
-    <div class="ox-header-actions"><nav class="ox-languages" aria-label="Language">{locales.map(target => <a href={pathFor(target,'home')} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}</nav><a class="ox-button ox-header-cta" href={contact}><span class="ox-desktop-label">{t.action}</span><span class="ox-mobile-label">{t.brief}</span></a>
-      <button class="ox-menu-trigger" type="button" popovertarget="ox-mobile-nav" aria-label={t.menu} aria-expanded="false" aria-controls="ox-mobile-nav"><Icon name="list" size={26} /></button>
-    </div>
-    <nav id="ox-mobile-nav" class="ox-mobile-nav" popover aria-label={t.menu}>{t.nav.map((label,i) => <a href={`#${navAnchors[i]}`}>{label}<Icon name="arrow-right" size={20} /></a>)}<div class="ox-languages">{locales.map(target => <a href={pathFor(target,'home')} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}</div></nav>
-  </div></header>
+<SiteHeader locale={locale} page="home" />
   <main id="main">
     <section class="ox-hero" id="top" aria-labelledby="ox-hero-title">
       <img class="ox-spark ox-spark-left" src="/images/redesign/accent-square.png" width="22" height="22" alt="" />
@@ -59,18 +51,5 @@ const sceneKinds = ['intake','systems','planning'] as const;
     <section class="ox-faq ox-section" id="faq" aria-labelledby="ox-faq-title"><div class="ox-container ox-faq-grid"><div><h2 id="ox-faq-title">{t.faqTitle}</h2><p>{t.faqIntro}</p></div><div class="ox-faq-list">{t.faqs.map(faq => <details name="homepage-faq"><summary>{faq.question}<Icon name="plus" size={19} /></summary><p>{faq.answer}</p></details>)}</div></div></section>
     <section class="ox-final ox-section" id="contact" aria-labelledby="ox-final-title"><div class="ox-container"><h2 id="ox-final-title">{t.finalTitle}</h2><p>{t.finalIntro}</p><a class="ox-button" href={contact}>{t.action}</a><p class="ox-note">{t.savedNote}</p></div></section>
   </main>
-  <footer class="ox-footer"><div class="ox-container ox-footer-inner"><div class="ox-footer-brand"><a class="ox-brand" href="#top" aria-label="Optimix"><img src="/images/redesign/brand-mark.png" width="18" height="18" alt="" /><span translate="no">OPTIMIX</span></a><p>{t.eyebrow}</p></div><nav class="ox-footer-nav" aria-label={t.menu}>{t.nav.map((label,i) => <a href={`#${navAnchors[i]}`}>{label}</a>)}</nav><div class="ox-footer-meta"><nav class="ox-languages" aria-label="Language">{locales.map(target => <a href={pathFor(target,'home')} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}</nav><a href={pathFor(locale,'privacy')}>{t.privacy}</a><span>Optimix · 2026</span></div></div></footer>
-</div>
+  <SiteFooter locale={locale} page="home" />
 </BaseLayout>
-<script>
-  function initHomepageMenu() {
-    const menu = document.getElementById('ox-mobile-nav');
-    const trigger = document.querySelector('.ox-menu-trigger');
-    if (!(menu instanceof HTMLElement) || !(trigger instanceof HTMLButtonElement) || menu.dataset.ready) return;
-    menu.dataset.ready = 'true';
-    menu.addEventListener('toggle', () => trigger.setAttribute('aria-expanded', String(menu.matches(':popover-open'))));
-    menu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => menu.hidePopover()));
-  }
-  document.addEventListener('astro:page-load', initHomepageMenu);
-  initHomepageMenu();
-</script>

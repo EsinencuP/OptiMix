@@ -1,3 +1,5 @@
+> Исторический документ предыдущих этапов. Актуальные правила дизайна, маршруты и статус реализации: [Гид проекта](./PROJECT_GUIDE.md). При расхождении применяются актуальные указания владельца и новый гид.
+
 # Optimix — Apple web principles and multilingual type research
 
 Research date: 24 September 2026. Scope: visual direction for Phase 04, not a final interface, font commitment, or implementation. This note supplements the broader reference matrix and art direction. Phase 03 defines a content-led homepage, a conditional procurement demonstration page, and a contact page; the visual rules below should make those routes clearer without turning the demonstration into a claimed client result.

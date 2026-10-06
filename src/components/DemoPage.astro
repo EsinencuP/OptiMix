@@ -2,35 +2,22 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SiteHeader from './SiteHeader.astro';
 import SiteFooter from './SiteFooter.astro';
+import Icon from './RedesignIcon.astro';
+import Route from './ProjectRoute.astro';
 import { type Locale } from '../content';
 import { modulePath, portfolio } from '../content/portfolio';
-import '../styles/home.css';
-import '../styles/portfolio.css';
-
+import { demoProjectNames } from '../content/demo-projects';
+import { siteRedesign } from '../content/site-redesign';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
 const t = portfolio[locale];
 ---
-
 <BaseLayout title={`${t.demo.title} — Optimix`} description={t.demo.intro} locale={locale} page="demo">
-  <SiteHeader locale={locale} page="demo" variant="inner" />
-  <main id="main" class="demo-page-main" data-demo data-active-label={t.demo.active} data-halted={t.demo.halted} data-complete={t.demo.complete}>
-    <section class="demo-page-hero" id="top"><div class="container"><p class="section-kicker">{t.demo.kicker}</p><h1>{t.demo.title}</h1><p>{t.demo.intro}</p></div></section>
-    <div class="container demo-shell">
-      <div class="demo-controls">
-        <fieldset><legend>{t.demo.scenarioLabel}</legend><label><input type="radio" name="demo-scenario" value="normal" checked /> {t.demo.normal}</label><label><input type="radio" name="demo-scenario" value="exception" /> {t.demo.exception}</label></fieldset>
-        <button class="button-primary" type="button" data-demo-next>{t.demo.next} <span aria-hidden="true">→</span></button>
-        <button class="button-primary" type="button" data-demo-resolve hidden>{t.demo.resolve} <span aria-hidden="true">→</span></button>
-        <button class="demo-secondary" type="button" data-demo-restart>{t.demo.restart}</button>
-        <p class="demo-state" role="status" data-demo-status>{t.demo.active}: {t.modules[0].title}</p>
-        <p class="demo-disclosure">{t.demo.disclosure}</p>
-      </div>
-      <ol class="demo-steps">{t.modules.map((module, index) => <li class:list={[index === 0 && 'is-active']} data-demo-step>
-        <span>{String(index + 1).padStart(2, '0')}</span>
-        <div><h2>{module.title}</h2><p><strong>{t.demo.current}:</strong> {module.manual}</p><p><strong>{t.demo.proposed}:</strong> {module.proposal}</p><a class="demo-link" href={modulePath(locale, module.slug)}>{t.workflow.details} ↗</a></div>
-      </li>)}</ol>
+  <SiteHeader locale={locale} page="demo" />
+  <main id="main" class="demo-page-main" data-demo data-active-label={t.demo.active} data-halted={t.demo.halted} data-complete={t.demo.complete}><section class="ox-page-hero" id="top"><div class="ox-container ox-page-heading"><p class="ox-page-kicker">{siteRedesign(locale).demo}</p><h1>{t.demo.title}</h1><p class="ox-page-lead">{t.demo.intro}</p><Route locale={locale} mode="demo" current="intake" /></div></section>
+    <div class="ox-container demo-shell"><section class="demo-controls" aria-label={t.demo.scenarioLabel}><fieldset><legend>{t.demo.scenarioLabel}</legend><label><input type="radio" name="demo-scenario" value="normal" checked /><Icon name="check-circle" size={23} /><span>{t.demo.normal}</span></label><label><input type="radio" name="demo-scenario" value="exception" /><Icon name="warning" size={23} /><span>{t.demo.exception}</span></label></fieldset><div class="ox-demo-buttons"><button class="ox-button" type="button" data-demo-next>{t.demo.next}<Icon name="arrow-right" size={20} /></button><button class="ox-button" type="button" data-demo-resolve hidden>{t.demo.resolve}<Icon name="arrow-right" size={20} /></button><button class="ox-button ox-button-secondary" type="button" data-demo-restart>{t.demo.restart}</button></div><p class="demo-state" role="status" data-demo-status>{t.demo.active}: {t.modules[0].title}</p><p class="demo-disclosure">{t.demo.disclosure}</p><noscript><p class="ox-alert">{siteRedesign(locale).noScript}</p></noscript></section>
+      <ol class="demo-steps">{t.modules.map((module,i) => <li class:list={[i === 0 && 'is-active']} data-demo-step><div class="ox-demo-marker"><span>0{i+1}</span><Icon class="ox-demo-done" name="check-circle-fill" size={26} /><Icon class="ox-demo-warning" name="warning" size={26} /></div><div><p class="ox-demo-project-name" translate="no">{demoProjectNames[module.slug]}</p><h2>{module.title}</h2><p><strong>{t.demo.current}:</strong> {module.manual}</p><p><strong>{t.demo.proposed}:</strong> {module.proposal}</p><a class="ox-text-link" href={modulePath(locale,module.slug)}>{t.workflow.details}<Icon name="arrow-right" size={19} /></a></div></li>)}</ol>
     </div>
-  </main>
-  <SiteFooter locale={locale} page="demo" />
+  </main><SiteFooter locale={locale} page="demo" />
 </BaseLayout>
 <script>import '../scripts/process-demo';</script>

@@ -18,8 +18,14 @@ function setupDemo(): () => void {
   let halted = false;
   let reviewed = false;
   const render = () => {
+    root.dataset.routeState = halted ? 'halted' : current >= steps.length ? 'complete' : 'active';
+    document.querySelectorAll<HTMLAnchorElement>('[data-route-step]').forEach((link,index) => {
+      if (index === current) link.setAttribute('aria-current','step');
+      else link.removeAttribute('aria-current');
+    });
     steps.forEach((step, index) => {
       step.classList.toggle('is-active', index === current && !halted);
+      step.classList.toggle('is-halted', index === current && halted);
       step.classList.toggle('is-complete', index < current);
       if (index === current) step.setAttribute('aria-current', 'step');
       else step.removeAttribute('aria-current');

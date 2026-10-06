@@ -1,7 +1,7 @@
 @font-face { font-family:Optimix Roboto; src:url(/fonts/redesign/Roboto-Variable.ttf) format("truetype"); font-style:normal; font-weight:100 900; font-stretch:75% 100%; font-display:swap; }
 
 /* Approved mockups: docs/redesign-2026-10-06/mockups/.
-   Homepage-only styling; internal pages retain their existing styles. */
+   Approved shared styling; inner templates extend it in site-pages.css. */
 body:has(.ox-home) { background:#fff; color:#08171b; --color-accent:#007a45; }
 .ox-home {
   --ox-ink:#08171b; --ox-muted:#526577; --ox-green:#009849; --ox-mint:#ecfaf4;
@@ -38,7 +38,7 @@ body:has(.ox-home) { background:#fff; color:#08171b; --color-accent:#007a45; }
 .ox-button-secondary { background:#fff; color:var(--ox-ink); border-color:#526577; }
 .ox-button-secondary:hover { background:#f6fbf8; color:#007a45; border-color:#007a45; }
 .ox-menu-trigger,.ox-mobile-label { display:none; }
-.ox-mobile-nav { border:1px solid var(--ox-line); border-radius:10px; padding:20px; width:calc(100% - 32px); top:64px; margin:0 auto; box-shadow:0 12px 32px #132e2220; }
+.ox-mobile-nav { background:#fff; color:var(--ox-ink); border:1px solid var(--ox-line); border-radius:10px; padding:20px; width:calc(100% - 32px); top:64px; margin:0 auto; box-shadow:0 12px 32px #132e2220; }
 .ox-mobile-nav::backdrop { background:#08171b30; }
 .ox-mobile-nav>a { display:flex; align-items:center; justify-content:space-between; padding:14px 4px; border-bottom:1px solid var(--ox-line); }
 .ox-mobile-nav .ox-languages { margin-top:12px; gap:25px; }
@@ -371,7 +371,7 @@ body:has(.ox-home) { background:#fff; color:#08171b; --color-accent:#007a45; }
  .ox-intake-nav { background:#fff; border:1px solid var(--ox-line); border-radius:9px; padding:7px; gap:5px; }
  .ox-intake-nav li { font-size:12px; padding:12px 6px; gap:10px; align-items:flex-start; }
  .ox-intake-nav li:first-child { font-weight:650; }
- .ox-check-panel { padding:17px 14px; }.ox-check-panel h4 { font-size:13px; margin-bottom:15px; }.ox-check-panel li { font-size:13px; line-height:1.35; gap:12px; margin-bottom:14px; align-items:flex-start; }
+ .ox-check-panel { padding:17px 14px; }.ox-check-panel h4 { font-size:13px; margin-bottom:15px; }.ox-check-panel li { font-size:13px; line-height:1.35; gap:8px; margin-bottom:14px; align-items:flex-start; }
  .ox-check-panel li .ox-icon { order:0; margin:0; width:24px; height:24px; }
  .ox-systems-window { grid-template-columns:1fr .75fr 1fr; gap:7px; padding:0; }
  .ox-system-panel { padding:14px 9px; }.ox-system-panel h3 { font-size:13px; gap:7px; }.ox-system-panel h3 small { font-size:13px; }.ox-system-panel h3 .ox-icon { width:20px; height:20px; }
@@ -437,6 +437,7 @@ body:has(.ox-home) { background:#fff; color:#08171b; --color-accent:#007a45; }
  .ox-home :is(.ox-value,.ox-start,.ox-services,.ox-systems,.ox-final,.ox-faq) h2 { font-size:27px; }
  .ox-intake-nav li { font-size:10px; gap:6px; }.ox-check-panel { padding:17px 10px; }.ox-check-panel li { font-size:10px; gap:8px; }
  .ox-system-panel { padding:12px 7px; }.ox-system-panel dl { font-size:10px; }
+ .ox-sync>span { padding-inline:2px; }
  .ox-workflow-route a,.ox-workflow-route li { width:160px; }
  .ox-workflow-route a { font-size:14px; }.ox-exception { width:122px; font-size:9px; }
  .ox-system-list li { gap:10px; padding:14px 11px; font-size:12px; }

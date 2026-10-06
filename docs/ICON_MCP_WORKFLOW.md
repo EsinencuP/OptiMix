@@ -1,3 +1,5 @@
+> Исторический документ предыдущих этапов. Актуальные правила дизайна, маршруты и статус реализации: [Гид проекта](./PROJECT_GUIDE.md). При расхождении применяются актуальные указания владельца и новый гид.
+
 # Icon and motion sources for Optimix
 
 Codex has three user level MCP servers configured for future design work:

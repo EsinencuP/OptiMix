@@ -2,15 +2,16 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SiteHeader from './SiteHeader.astro';
 import SiteFooter from './SiteFooter.astro';
+import Icon from './RedesignIcon.astro';
 import { content, pathFor, type Locale } from '../content';
-import '../styles/home.css';
-import '../styles/inner.css';
+import { siteRedesign } from '../content/site-redesign';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
 const t = content[locale];
+const l = siteRedesign(locale);
 ---
 <BaseLayout title={t.meta.privacyTitle} description={t.meta.privacyDescription} locale={locale} page="privacy">
-  <SiteHeader locale={locale} page="privacy" variant="inner" />
-  <main id="main" class="inner-main privacy-main"><div class="container privacy-content"><h1>{t.privacyPage.title}</h1><p class="body-large">{t.privacyPage.lead}</p><p class="privacy-detail">{t.privacyPage.detail}</p><a class="button-primary" href={pathFor(locale, 'contact')}>{t.privacyPage.back} <span aria-hidden="true">↗</span></a></div></main>
+  <SiteHeader locale={locale} page="privacy" />
+  <main id="main" class="inner-main privacy-main"><section class="ox-page-hero" id="top"><div class="ox-container ox-page-heading"><p class="ox-page-kicker">{l.privacy}</p><h1>{t.privacyPage.title}</h1><p class="ox-page-lead">{t.privacyPage.lead}</p></div></section><div class="ox-container privacy-content"><article class="ox-privacy-card"><span class="ox-panel-symbol"><Icon name="eye" size={32} /></span><p class="privacy-detail">{t.privacyPage.detail}</p><a class="ox-button" href={pathFor(locale,'contact')}>{t.privacyPage.back}<Icon name="arrow-right" size={20} /></a><a class="ox-text-link" href={pathFor(locale,'home')}>{l.home}<Icon name="arrow-right" size={19} /></a></article></div></main>
   <SiteFooter locale={locale} page="privacy" />
 </BaseLayout>

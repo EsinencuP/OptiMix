@@ -3,13 +3,14 @@ import { ro } from './ro';
 import { ru } from './ru';
 
 export type Locale = 'en' | 'ro' | 'ru';
-export type PageKind = 'home' | 'contact' | 'privacy' | 'solution' | 'demo' | 'project';
+export type PageKind = 'home' | 'contact' | 'privacy' | 'solution' | 'demo' | 'project' | 'not-found';
 
 export const content = { en, ro, ru };
 export const locales: Locale[] = ['en', 'ro', 'ru'];
 
 export function pathFor(locale: Locale, page: PageKind, slug?: string): string {
   const prefix = locale === 'en' ? '' : `/${locale}`;
+  if (page === 'not-found') return locale === 'en' ? '/404.html' : `${prefix}/404/`;
   if (page === 'home') return `${prefix}/`;
   if (page === 'demo') return `${prefix}/demo/procurement/`;
   if (page === 'project') return `${prefix}/projects/procurement/`;
