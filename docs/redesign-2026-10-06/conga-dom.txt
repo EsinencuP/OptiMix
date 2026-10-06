@@ -1,0 +1,399 @@
+- banner:
+  - link "Home":
+    - /url: /
+    - img "Conga"
+  - navigation:
+    - list:
+      - generic: Products
+      - generic: Solutions
+      - generic: Resources
+      - generic: Company
+      - link "Pricing":
+        - /url: /pricing
+        - generic: Pricing
+  - search:
+    - button "Close"
+    - searchbox "Search"
+    - button "Search":
+  - navigation "Language switcher":
+    - list:
+  - link "Book a demo":
+    - /url: /demo
+- main:
+  - text:  
+  - heading "PRICE OPTIMIZATION AND MANAGEMENT SOLUTIONS" [level=1]
+  - heading "Grow Margins With Intelligent, End-to-End Pricing Transformation" [level=2]
+  - paragraph: Modernize your pricing lifecycle with Conga Price Optimization and Management (POM), from strategy to execution. Use real-time, AI-driven pricing to maximize revenue and protect margins.
+  - link "See demo":
+    - /url: "#demo-form"
+  - link "Talk to sales":
+    - /url: https://conga.com/pom-sales
+  - img "price optimization management"
+  - paragraph: 90% accuracy in price predictions *Based on Conga’s neural‑network optimization model
+  - region:
+    - group "1 of 6":
+      - article:
+        - img "ABB logo"
+    - group "2 of 6":
+      - article:
+        - img "BASF logo"
+    - group "3 of 6":
+      - article:
+        - img "Europcar Mobility Group logo"
+    - group "4 of 6":
+      - article:
+        - img "KraftHeinz logo"
+    - group "5 of 6":
+      - article:
+        - img "Quidel Ortho logo"
+    - group "6 of 6":
+      - article:
+        - img "Schneider Electric logo"
+  - heading "Always On. Always Accurate. Always Competitive." [level=2]
+  - paragraph: How can AI pricing software help deliver accurate prices across every channel?
+  - text: "?"
+  - img "Personas Questions icon"
+  - paragraph: Is enterprise pricing software reliable enough to support high-volume digital demand?
+  - text: "?"
+  - img "Personas Questions icon"
+  - paragraph: How does dynamic pricing software enhance the speed and accuracy of prices?
+  - text: "?"
+  - img "Personas Questions icon"
+  - paragraph: How does AI pricing protect margins as your digital sales channels expand?
+  - text: "?"
+  - img "personas questions icon"
+  - heading "AI‑Powered Pricing Solutions That Power Every Deal" [level=2]
+  - img "Price Optimization pricing envelope"
+  - heading "Price Optimization" [level=4]
+  - paragraph: Win every deal with AI. Conga Price Optimization adapts to market shifts, delivering account-specific recommendations that boost your win rates and margins.
+  - link "Explore Price Optimization":
+    - /url: /products/price-optimization
+  - img "Price Management Strategy Management"
+  - heading "Price Management" [level=4]
+  - paragraph: Ditch the spreadsheets. Conga Price Management centralizes your data and automates processes to deliver consistent, accurate, omnichannel prices at scale
+  - link "Explore Price Management":
+    - /url: /products/price-management
+  - img "Rebate Management workflow"
+  - heading "Rebate Management" [level=4]
+  - paragraph: Maximize incentive value. Conga Rebate Management automates workflows with AI to deliver clear insights and faster approvals, helping teams move faster.
+  - link "Explore Rebate Management":
+    - /url: /products/rebate-management
+  - heading "Accelerate Your Pricing Strategy with Intelligent Workflows" [level=2]
+  - list:
+    - tab "Capture"
+    - tab "Generate"
+    - tab "Deliver"
+    - tab "Collect"
+    - tab "Integrate"
+  - heading "Drive adaptive, profit-focused pricing" [level=4]
+  - list:
+    - strong: Strategic pricing governance
+    - text: Enforce pricing strategy with guardrails across channels, products, regions, and segments.
+    - strong: Dynamic price adjustments
+    - text: Automatically update pricing as costs, supply, demand, or competitive conditions shift.
+    - strong: Real-time market alignmen
+    - text: t
+    - text: Ensure every published price reflects current market dynamics and business strategy.
+  - heading "Elevate visibility with integrated pricing analysis" [level=4]
+  - list:
+    - strong: Centralized pricing data
+    - text: Consolidate all pricing data into a single source for easier management and execution.
+    - strong: Performance tracking
+    - text: Track realized pricing, changes over time, and profitability across channels and segments.
+    - strong: Pricing impact analysis
+    - text: Simulate pricing changes and forecast revenue and margin implications with confidence.
+  - heading "Execute consistent omnichannel pricing" [level=4]
+  - list:
+    - strong: Real-time pricing delivery
+    - text: Provide accurate, harmonized, and competitive pricing across digital, direct, and partner channels.
+    - strong: Pricing consistency
+    - text: Maintain governance and eliminate discrepancies between systems, teams, and channels.
+    - strong: Data-informed strategy refinement
+    - text: Use analytics and simulations to refine pricing strategy and strengthen commercial agility.
+  - heading "Speed up pricing approvals and sales cycles" [level=4]
+  - list:
+    - strong: Real-time transactional pricing
+    - text: Deliver competitive context-aware pricing for quotes, agreements, subscriptions, and renewals.
+    - strong: Efficiency with automated workflows
+    - text: Accelerate adjustments with structured reviews and multi-tier approval workflows.
+    - strong: Global conversion automation
+    - text: Standardize prices with automated currency and unit-of-measure conversions.
+  - heading "Optimize pricing with AI-powered intelligence" [level=4]
+  - list:
+    - strong: AI-driven price recommendations
+    - text: Generate pricing guidance based on demand patterns and historical data.
+    - strong: Pattern and trend insights
+    - text: Surface meaningful trends across customers, products, margins, and markets.
+    - strong: Transparent, explainable analytics
+    - text: Access clear insights on optimization drivers to support strategy-aligned pricing decisions.
+  - img "Supper list pricing graph"
+  - img "Pricing analytics"
+  - img "Happy customer with 5 star rating"
+  - img "Accelerated project timeline"
+  - img "Pricing graph with AI insights"
+  - heading "Intelligent Pricing Across Your Enterprise" [level=2]
+  - paragraph: Get every team on the same page with Conga POM solutions.
+  - region:
+    - group "1 of 3":
+      - heading "Sales leadership" [level=5]
+      - list:
+        - listitem: Account-specific pricing
+        - listitem: Accelerated quoting
+        - listitem: Win-rate predictions
+        - listitem: Automated approvals
+      - img "sales-first"
+    - group "2 of 3":
+      - heading "Finance" [level=5]
+      - list:
+        - listitem: Margin protection
+        - listitem: Revenue forecasting
+        - listitem: Global conversions
+        - listitem: Profitability analytics
+      - img "Legal-second"
+    - group "3 of 3":
+      - heading "Legal" [level=5]
+      - list:
+        - listitem: Pricing governance
+        - listitem: Contractual compliance
+        - listitem: Audit trails
+        - listitem: Pricing risk mitigation
+      - img "finance-third"
+  - heading "Connect Your Pricing Data Everywhere" [level=2]
+  - paragraph: Integrate your pricing solution with any ERP, CRM, CPQ, or eCommerce platform with high‑performance APIs that support real‑time data flow.
+  - region:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - group "1 of 8":
+      - article:
+        - img "accenture logo"
+    - group "2 of 8":
+      - article:
+        - img "ibm logo"
+    - group "3 of 8":
+      - article:
+        - img "microsoft logo"
+    - group "4 of 8":
+      - article:
+        - img "aws logo"
+    - group "5 of 8":
+      - article:
+        - img "google cloud logo"
+    - group "6 of 8":
+      - article:
+        - img "deloitte logo"
+    - group "7 of 8":
+      - article:
+        - img "pwc logo"
+    - group "8 of 8":
+      - article:
+        - img "salesforce"
+    - group "1 of 8":
+      - article:
+        - img "accenture logo"
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+    - article:
+  - heading "Align Pricing Across Your Commerce Ecosystem" [level=2]
+  - paragraph: Line up pricing from quote to contract on a single platform. See how Conga helps beyond pricing intelligence.
+  - heading "Power accurate quotes and configurations" [level=5]
+  - paragraph: Sync dynamic pricing and rules directly with Conga CPQ to eliminate manual entry and ensure quoting accuracy without costly pricing errors.
+  - link "Integrate with CPQ":
+    - /url: /platform/configure-price-quote
+  - heading "Generate compliant documents" [level=5]
+  - paragraph: Automatically pull accurate prices into proposals and invoices with Conga Document Automation to keep every deal compliant and secure.
+  - link "Integrate with Document Automation":
+    - /url: /platform/document-automation
+  - heading "Automate contractual pricing adjustments" [level=5]
+  - paragraph: Identify contract-specific terms within Conga CLM to automate price protections and index adjustments as market conditions shift.
+  - link "Integrate with CLM":
+    - /url: /platform/contract-lifecycle-management
+  - heading "Ready to automate your pricing?" [level=3]
+  - paragraph: Don’t let manual pricing drain your profits. See how end-to-end AI-powered pricing software unifies your strategy to drive growth and profitability across every channel.
+  - heading "Resources to help you streamline your document workflows" [level=2]
+  - region "Related resources":
+    - group "1 of 4":
+      - article:
+        - img "Conga Named Leader in the Gartner® Magic Quadrant™ for B2B Pricing and Rebate Optimization Software"
+        - link "Conga Named Leader in the Gartner® Magic Quadrant™ for B2B Pricing and Rebate Optimization Software":
+          - /url: /resources/gartner-magic-quadrant-pricing-rebates-report
+        - generic: Analyst Report
+        - generic: CPQ
+        - heading "Conga Named Leader in the Gartner® Magic Quadrant™ for B2B Pricing and Rebate Optimization Software" [level=3]
+        - generic: 04/13/2026
+        - generic: 2 min read
+        - generic: Read now
+    - group "2 of 4":
+      - article:
+        - img "The Executive’s Guide to AI Pricing Optimization&nbsp;"
+        - link "The Executive’s Guide to AI Pricing Optimization&nbsp;":
+          - /url: /resources/pricing-blindspot
+        - generic: Guides
+        - generic: CPQ
+        - heading "The Executive’s Guide to AI Pricing Optimization" [level=3]
+        - generic: 03/10/2026
+        - generic: 1 min read
+        - generic: Read now
+    - group "3 of 4":
+      - article:
+        - img "Conga Solutions Named to 2026 Constellation ShortListTM&nbsp;"
+        - link "Conga Solutions Named to 2026 Constellation ShortListTM&nbsp;":
+          - /url: /resources/blog/conga-solutions-named-2026-constellation-shortlisttm
+        - generic: Blog
+        - generic: CPQ
+        - heading "Conga Solutions Named to 2026 Constellation ShortListTM" [level=3]
+        - generic: 09/08/2026
+        - generic: 11 min read
+        - generic: Read now
+    - group "4 of 4":
+      - article:
+        - 'img "Conga Rebate Management Solution Brief: Unified, Data-Driven, and Built for Growth&nbsp;"'
+        - 'link "Conga Rebate Management Solution Brief: Unified, Data-Driven, and Built for Growth&nbsp;"':
+          - /url: /resources/rebate-management-solution-brief
+        - generic: Guides
+        - generic: CPQ
+        - 'heading "Conga Rebate Management Solution Brief: Unified, Data-Driven, and Built for Growth" [level=3]'
+        - generic: 03/10/2026
+        - generic: 2 min read
+        - generic: Read now
+  - link "See all resources":
+    - /url: /resources
+  - heading "Pricing Optimization and Management FAQs" [level=2]
+  - list:
+    - button "What is price optimization and management software?" [expanded]
+    - region "What is price optimization and management software?":
+      - paragraph: Price optimization and management software are solutions that help businesses set and adjust prices using AI and data analytics. By analyzing market trends and competitor activity, they enforce pricing consistency across channels. The price optimization system generates real-time recommendations, margin predictions, and win-rate probabilities to support faster and smarter sales.
+    - button "How do price management solutions work?"
+    - button "How can price optimization and management software benefit my business?"
+    - button "What features should I look for in a pricing optimization tool?"
+    - button "How does AI pricing software handle multiple pricing strategies and price lists?"
+    - button "Are price management tools scalable and adaptable to different business needs?"
+    - button "How can I ensure pricing updates comply with existing contracts?"
+- contentinfo:
+  - navigation:
+    - link "Home":
+      - /url: /
+      - img "Conga"
+    - list:
+      - link "LinkedIn":
+        - /url: https://www.linkedin.com/company/conga/
+      - link "X":
+        - /url: https://x.com/Conga_corp
+      - link "Facebook":
+        - /url: https://www.facebook.com/Congacorporation
+      - link "Instagram":
+        - /url: https://www.instagram.com/conga_corp
+      - link "Youtube":
+        - /url: "https://www.youtube.com/c/CongaHQ/ "
+  - navigation:
+    - list:
+      - list:
+        - listitem: Platform
+        - link "Advantage Platform":
+          - /url: /platform
+        - link "Document Automation":
+          - /url: /platform/document-automation
+        - link "Contract Lifecycle Management":
+          - /url: /platform/contract-lifecycle-management
+        - link "Revenue & Commerce":
+          - /url: /platform/configure-price-quote
+        - link "Price Optimization & Management":
+          - /url: /platform/price-optimization-management
+        - link "Propose and quote":
+          - /url: /solutions/propose-quote
+        - link "Negotiate and execute":
+          - /url: /solutions/negotiate-execute
+        - link "Manage and fulfill":
+          - /url: /solutions/manage-fulfill
+        - link "Renew and expand":
+          - /url: /solutions/renew-expand
+        - link "Conga and Salesforce":
+          - /url: /salesforce
+        - link "Integrations":
+          - /url: /integrations
+        - link "Pricing":
+          - /url: /pricing
+      - list:
+        - listitem: Resources
+        - link "Blogs":
+          - /url: /resources/blog
+        - link "Customer stories":
+          - /url: /resources/customer-stories
+        - link "On-demand webinars":
+          - /url: /resources/webinars
+        - link "Guides":
+          - /url: /resources/guides
+        - link "All resources":
+          - /url: /resources
+        - link "Training":
+          - /url: /training
+        - link "Professional services":
+          - /url: /conga-services
+        - link "Product documentation":
+          - /url: https://documentation.conga.com
+        - article:
+        - link "Developer hub":
+          - /url: https://developer.conga.com/
+        - article:
+        - link "Support":
+          - /url: /support
+      - list:
+        - listitem: Community
+        - link "Customer Community":
+          - /url: https://community.conga.com/
+        - article:
+        - link "Customer Community FAQs":
+          - /url: /conga-community-faqs
+        - link "Customer advocacy":
+          - /url: /customer-advocacy
+        - link "Partner program":
+          - /url: /partners
+        - link "Become a partner":
+          - /url: /become-partner
+        - link "Partner directory":
+          - /url: /partner-directory
+        - link "Partner Community":
+          - /url: https://partnercommunity.conga.com/
+        - article:
+        - link "Events & live webinars":
+          - /url: /events-webinars
+      - list:
+        - listitem: Company
+        - link "About":
+          - /url: /about
+        - link "Trust & Compliance":
+          - /url: /trust-compliance-center
+        - link "Newsroom":
+          - /url: /press
+        - link "The Conga Edge":
+          - /url: /about/the-conga-edge
+        - link "Careers":
+          - /url: /careers
+        - link "Contact":
+          - /url: /contact
+  - navigation "Language switcher":
+    - list:
+      - listitem: English
+  - paragraph: © 2026 All Rights Reserved
+  - navigation "Footer Utility":
+    - heading "Footer Utility" [level=2]
+    - list:
+      - link "Legal":
+        - /url: /legal-center
+      - link "Privacy":
+        - /url: /privacy
+      - link "System Status":
+        - /url: https://status.getconga.com/

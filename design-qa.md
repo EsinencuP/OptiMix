@@ -1,0 +1,127 @@
+# Optimix — проверка реализации утверждённого макета
+
+Дата: 6 октября 2026. Проверена production-сборка: http://127.0.0.1:4388/ru/.
+Область: главная, её RU/EN/RO версии и переходы к существующим маршрутам.
+
+## Источники и состояние
+
+Визуальная истина:
+- `docs/redesign-2026-10-06/mockups/optimix-desktop-full.png` — 724×2172.
+- `docs/redesign-2026-10-06/mockups/optimix-desktop-hero.png` — 1422×1106, приоритет для первого экрана.
+- `docs/redesign-2026-10-06/mockups/optimix-mobile-full-board.png` — 876×1795, три последовательных участка одной страницы.
+
+Основной каталог доказательств: `docs/redesign-2026-10-06/implementation/`.
+Итоговые браузерные изображения:
+- `desktop-first-final.png` — 1425×1094 при CSS viewport 1440×1106.
+- `desktop-full-final.png` — 1425×4448.
+- `mobile-first-final.png` — 390×844 при CSS viewport 390×844.
+- `mobile-full-final.png` — 390×7608.
+- `mobile-menu-open-final.png`, `mobile-faq-open-final.png`.
+- `responsive-320-final.png`, `responsive-768-final.png`, `responsive-1024-final.png`.
+
+Состояние для основного сравнения: русский язык, светлая тема, меню закрыто, FAQ закрыт, начало страницы. Скриншоты получены через Codex In-app Browser, а не рендером исходников вне браузера.
+
+## Нормализация и предел точности
+
+Десктопный обзор растрового концепта масштабирован к той же ширине, что и рендер. Подробный hero сравнивается отдельно: он имеет более крупный первый экран, чем общий обзор, поэтому их геометрия не полностью совпадает даже между двумя исходниками. Для реализации приоритет подробного hero зафиксирован в разделе 22 дизайн-документа.
+
+Браузерный инструмент возвращает десктопный первый экран с коэффициентом около 0.9896 относительно заданного CSS viewport; мобильный capture имеет плотность 1 px на CSS px. В парных изображениях обе стороны приведены к одинаковой ширине содержимого. Не сравниваются браузерная полоса прокрутки и внешние рамки презентационного мобильного борда.
+
+Для телефона каждый исходный сегмент вырезан по границам панели: x8, x297, x593; y27; 276×1757. Каждый нормализован до 390 px. Реализация разбита на те же смысловые участки по фактическим границам `#examples` и `#value`; высоты не растянуты искусственно. Все преобразования служат только проверке, в сайт эти парные изображения не встроены.
+
+Растровый макет ImageGen не содержит исходного файла шрифта, компонентной сетки и точных векторных иконок. Результат проверен на верность композиции и визуального уровня; это не утверждение о побитовом совпадении изображения браузера с генерацией.
+
+## Сравнения, открытые и проверенные вместе
+
+Полный вид:
+- `comparison-desktop-full-final.png`.
+- `comparison-mobile-segment-1.png`.
+- `comparison-mobile-segment-2.png`.
+- `comparison-mobile-segment-3.png`.
+
+Крупные участки:
+- `comparison-desktop-first-final.png` — заголовок, навигация, действия и закупочная сцена.
+- `comparison-mobile-first-final.png` — переносы H1 и действия.
+- `comparison-mobile-examples-focused.png` — заголовки, подписи, статусы и читаемая интерфейсная сцена.
+- `comparison-mobile-result-focused.png` — размеры иконок, критерии результата и начало работы.
+
+Полный вид подтверждает порядок и общую композицию. Крупные пары использованы для шрифта, интерфейсных деталей и переносов; обзор сам по себе не считался достаточным доказательством.
+
+## История устранённых расхождений
+
+| Итерация | Наблюдаемое расхождение | Приоритет | Исправление | Повторная проверка |
+|---|---|---|---|---|
+| v1 desktop | Описание переносилось иначе; сцена начиналась примерно на 35 px ниже подробного hero | P1 | Две строки описания, размер H1, межстрочный интервал, отступы CTA и сцены | `comparison-desktop-first-v2.png`, затем final |
+| v1 desktop | Каталог и нижние UI-сцены были избыточно высокими | P2 | Внутренние поля карточек, интервалы таблицы и CRM/ERP, ритм статей | `comparison-desktop-full-v2.png`, затем final |
+| v1/v2 mobile | Зелёная строка H1 переносилась «Ускоряем ваш / бизнес» | P1 | Ограничение ширины второй части, размер и tracking | `comparison-mobile-first-final.png` |
+| v2 | Иконки завершённых этапов были контурными; цвета вложений и размеры статусов отличались | P2 | Официальные filled/regular варианты Phosphor, цветовые версии документов, размеры статусов | `comparison-desktop-first-final.png` |
+| v2–v3 | Onest менял ширину заголовков и плотность малого текста | P2 | Локальный Roboto Variable; веса, tracking, иерархия и мобильные интервалы | Все final пары; загрузка шрифта подтверждена браузером |
+| v3 mobile | В примерах, результатах и шагах были неверные переносы и масштабы иконок | P2 | Мобильные H2, абзацы, размер check/clock/eye, ширина текста и интервалы | Focused mobile pairs, затем все три сегмента |
+| Проверка 768 | Декоративный квадрат попадал на описание | P2 | Убран на ширинах до 960 px | `responsive-768-final.png`, computed display none |
+| Проверка 320 | Общий H2 override увеличивал заголовок внутри закупочной сцены | P2 | Override ограничен основными секциями | `responsive-320-final.png` |
+
+## Обязательные поверхности
+
+**Шрифты и типографика.** На главной локально размещён Roboto Variable с кириллицей и латиницей; в существующих внутренних страницах сохраняется Onest. Проверены веса, ширина H1, две строки десктопа, четыре строки телефона, надзаголовок, подписи UI и читаемость. Основные переносы соответствуют утверждённому макету. Небольшие отличия сглаживания растровых букв классифицированы P3.
+
+**Композиция и ритм.** Сохранены центрированный hero, большая закупочная сцена, каталог 3×2 / шесть строк, три чередующиеся предметные сцены, тёмный маршрут, критерии, четыре шага, системы, FAQ, финальный CTA и подвал. Телефон имеет текст над сценой, вертикальный маршрут и сетку систем 2×3. Макеты нормализованы по ширине без растягивания высоты. Незначительные различия общей высоты между генерированным бордом и живым текстом остаются P3.
+
+**Цвета.** Белый, mint, emerald и forest перенесены в изолированные токены главной. Цвет кнопок слегка затемнён для белого текста. Рассчитанные плоские пары: основной CTA 4.69:1; текст на mint 17.02:1; вторичный текст на белом 6.02:1; зелёные малые ссылки 4.63:1; акцент тёмного раздела 8.53:1. Это проверка этих пар, а не сертификат доступности всего сайта.
+
+**Изображения и UI.** Знак бренда и декоративный квадрат взяты непосредственно из утверждённого hero. Стандартные иконки — официальные Phosphor, локально размещены с MIT-лицензией. UI-сцены являются редактируемым демонстрационным интерфейсом, а не подменой страницы скриншотом; они сохраняют подписи, статусы и структуру макета. Фотографий и иных растровых предметных активов в утверждённом дизайне нет. Нет пропавших изображений, сломанных URL и пользовательских SVG-рисунков.
+
+**Контент.** Тема — широкая автоматизация HR, документов, CRM, ERP, закупок, прогнозирования и аналитики. Заголовки и основные подписи соответствуют макету; рабочие переводы поддерживают ту же композицию. ООО «Ромашка» находится только внутри явно подписанного примера процесса. Демо не представлено как клиентский проект. Основной CTA ведёт к локальному брифу без обещания отправки данных в Optimix.
+
+## Поведение и техническая проверка
+
+- Production-страница открыта в браузере; шрифт и все изображения загружены.
+- Все локальные якоря главной разрешаются, включая прежние `top`, `workflow`, `value`, `approach`, `contact`.
+- Мобильное меню открывается; `aria-expanded` меняется; выбор пункта закрывает меню и переходит к разделу.
+- FAQ раскрывается; при открытии следующего вопроса предыдущий закрывается.
+- CTA открывает существующий бриф; поля редактируются. После клика сохранения показано сообщение о локальной загрузке. Сам файл через browser download event получить не удалось: ожидание инструмента завершилось тайм-аутом. Это ограничение подтверждения существующего внутреннего маршрута, не проверенная доставка файла.
+- CTA демо открывает существующий закупочный сценарий; кнопка следующего шага обновляет статус. Произвольные интеграции не добавлялись.
+- RU проверен на 320, 390, 768, 1024, 1440; EN и RO — на 390. Горизонтального переполнения не обнаружено; маршрут умещается.
+- В сохранённых browser logs нет console errors/warnings.
+- Astro check: 0 ошибок, 0 предупреждений, 0 hints.
+- ESLint исходников и изменённых файлов: пройден.
+- Production build: 30 маршрутов, пройден.
+- Последующие CSS-уточнения повторно собраны и визуально проверены.
+
+## Оставшиеся P3 и пределы
+
+- Генерированные маленькие пиктограммы, растровая зернистость и сглаживание букв имеют мелкие отличия от чётких браузерных иконок и шрифта.
+- Подробный desktop hero и общий растровый обзор исходно имеют немного разные пропорции. Для первого экрана использован подробный источник.
+- В мелких интерфейсных подписях и локализациях допустимы естественные переносы; основные заголовки и структура сохранены.
+- Реальные Safari/iOS/Android, увеличение текста и полный аудит ассистивных технологий в этой итерации не проверены.
+- Контактная страница остаётся локальным генератором брифа, без подключённого канала получения заявки.
+
+Новых MCP, аккаунтов или сервисов для текущей композиции не требуется. Наблюдаемых блокеров визуальной реализации нет.
+
+## Контрольный список
+
+- [x] Утверждённые изображения закреплены в дизайн-документе и AGENTS.md.
+- [x] Реализованы все секции и мобильная композиция.
+- [x] Проверены пять обязательных визуальных поверхностей.
+- [x] P0/P1/P2 из истории исправлены и повторно сравнились.
+- [x] Production-сборка и основные взаимодействия проверены в браузере.
+- [x] Скриншоты и парные сравнения сохранены; локальный просмотр оставлен открытым.
+
+final result: passed
+
+## Extension: six demo-project cards — 2026-10-06
+
+Result: passed. The owner requested Cherryli, Budget, Aprobery, ERP, Steer and an All-in-one CRM card in the approved homepage style. The gallery is inserted after services; the detailed examples, hero and remaining sections preserve their previous composition. Design document section 23 records the new scope.
+
+Evidence: `docs/redesign-2026-10-06/demo-projects/`. Final desktop overview: `desktop-gallery-final.png`; tablet and small desktop captures: `tablet-gallery-768.png` and `desktop-gallery-1024.png`. Mobile evidence uses individual viewport captures (Budget and CRM), rather than a claimed complete phone-page capture. The browser could not export the very long mobile page in one full-page image.
+
+Verified in the production preview:
+- RU at 1440, 1024, 768, 390 and 320 CSS px: no page overflow. All six cards present; descriptive text and UI scenes remain readable. The 1024px sidebar label overflow was fixed by widening its column; the final DOM measurement has no inner overflow.
+- Desktop previews have equal heights; the first row has two cards, the second has three, the CRM card is full width. Tablet changes to two columns with a wider Steer card. Phone is a single column; CRM modules become a compact list above its table.
+- EN and RO at 390px: all six cards, no page or internal gallery overflow.
+- Cherryli detail link opens the intake module, with the project name visible. All five demo entry points select their respective steps. Budget was opened from its card; the missing-code route halted, resumed after human review, completed and reset. CRM CTA navigates to the existing CRM/ERP scene.
+- Mobile menu opens and closes after selecting Examples; its new gallery anchor exists. All homepage local anchors resolve.
+- Keyboard focus is visible on the CRM CTA. The new card links have distinct accessible names, preview tables use row/column headers, and illustrative UI fields are not fake form controls.
+- No missing images on desktop and no captured console warnings/errors.
+- Final Astro check: 57 files, 0 errors/warnings/hints. Full configured ESLint scope passed. Static build: 30 routes.
+
+No new dependencies or external account access are needed for these previews. Their values are demonstration data. Named cards represent the existing local scenarios, not externally verified product deployments. Real integrations and physical Safari/iOS/Android verification remain outside this change.

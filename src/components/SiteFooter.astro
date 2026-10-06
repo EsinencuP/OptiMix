@@ -1,7 +1,7 @@
 ---
 import { content, homeAnchor, locales, pathFor, type Locale, type PageKind } from '../content';
-interface Props { locale: Locale; page?: PageKind }
-const { locale, page = 'home' } = Astro.props;
+interface Props { locale: Locale; page?: PageKind; slug?: string }
+const { locale, page = 'home', slug } = Astro.props;
 const t = content[locale].ui;
 ---
 <footer class="site-footer">
@@ -17,7 +17,7 @@ const t = content[locale].ui;
       </nav>
       <nav class="footer-languages" aria-label={t.footerLanguages}>
         <span>{t.footerLanguages}</span>
-        {locales.map((target) => <a href={pathFor(target, page)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}
+        {locales.map((target) => <a href={pathFor(target, page, slug)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}
       </nav>
     </div>
     <div class="footer-bottom"><span>{t.footerNote}</span><a class="footer-top-link" href="#top"><span class="footer-top-icon" aria-hidden="true">↑</span>{t.backTop}</a></div>

@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import { pathFor, type Locale } from '../content';
+import { moduleSlugs, modulePath, demoPath, projectPath, portfolio, type ModuleSlug } from '../content/portfolio';
+import { demoProjectNames } from '../content/demo-projects';
+import '../styles/home.css';
+import '../styles/portfolio.css';
+
+interface Props { locale: Locale; slug: ModuleSlug }
+const { locale, slug } = Astro.props;
+const t = portfolio[locale];
+const index = moduleSlugs.indexOf(slug);
+const module = t.modules[index];
+const next = moduleSlugs[index + 1];
+---
+
+<BaseLayout title={`${module.title} — Optimix`} description={module.proposal} locale={locale} page="solution" slug={slug}>
+  <SiteHeader locale={locale} page="solution" slug={slug} variant="inner" />
+  <main id="main" class="module-page-main">
+    <section class="module-page-hero" id="top"><div class="container">
+      <p class="section-kicker">{demoProjectNames[slug]} · {t.detail.eyebrow} {String(index + 1).padStart(2, '0')} / 05</p>
+      <h1>{module.title}</h1>
+      <p>{module.technology}</p>
+      <div class="module-hero-links"><a class="button-primary" href={demoPath(locale)}>{t.detail.demo} <span aria-hidden="true">↗</span></a><a href={projectPath(locale)}>{t.project.projectLink} ↗</a><a href={pathFor(locale, 'home') + '#workflow'}>← {t.detail.back}</a></div>
+    </div></section>
+    <div class="container">
+      <section class="module-overview" aria-label={module.title}>
+        <article><span>{t.detail.current}</span><p>{module.manual}</p></article>
+        <article><span>{t.detail.proposed}</span><p>{module.proposal}</p></article>
+        <article><span>{t.detail.responsibility}</span><p>{module.human}</p></article>
+      </section>
+      <section class="mechanism-section" aria-labelledby="mechanism-title">
+        <p class="section-kicker">{t.detail.mechanism}</p>
+        <h2 id="mechanism-title">{module.technology}</h2>
+        <dl class="mechanism-grid">
+          <div><dt>{t.detail.input}</dt><dd>{module.input}</dd></div>
+          <div><dt>{t.detail.rule}</dt><dd>{module.rule}</dd></div>
+          <div><dt>{t.detail.exception}</dt><dd>{module.exception}</dd></div>
+          <div><dt>{t.detail.output}</dt><dd>{module.output}</dd></div>
+        </dl>
+      </section>
+      <nav class="module-next" aria-label={t.workflow.title}><a href={pathFor(locale, 'home') + '#workflow'}>← {t.detail.back}</a>{next && <a href={modulePath(locale, next)}>{t.detail.next} ↗</a>}</nav>
+      <p class="module-disclosure">{t.detail.disclosure}</p>
+    </div>
+  </main>
+  <SiteFooter locale={locale} page="solution" slug={slug} />
+</BaseLayout>

@@ -1,0 +1,361 @@
+- banner:
+  - navigation:
+    - link "Skip navigation":
+      - /url: "#main"
+    - checkbox "Search Search Enable"
+    - button "Search":
+    - searchbox "Search Enable"
+    - list:
+      - link "Login":
+        - /url: https://apps.enable.com/en-US/
+      - button "Company":
+        - text: Company
+      - text:    
+      - link "Contact":
+        - /url: https://www.enable.com/contact-us/
+  - navigation:
+    - link "Enable":
+      - /url: https://www.enable.com/
+    - list:
+      - link "Why Enable":
+        - /url: https://www.enable.com/why-enable/
+      - button "Products":
+        - text: Products
+      - button "Solutions":
+        - text: Solutions
+      - link "Customers":
+        - /url: https://www.enable.com/customers/
+      - button "Learning & Support":
+        - text: Learning & Support
+    - link "Get a demo":
+      - /url: https://insights.enable.com/schedule-demo
+      - generic: Get a demo
+- text: Gartner® Magic Quadrant™ for B2B Pricing and Rebate Optimization
+- link "Read Report ":
+  - /url: https://www.enable.com/gartner-magic-quadrant-b2b-pricing-rebate-optimization/
+- main:
+  - heading "Pricing & Rebates Powering Growth" [level=1]:
+    - text: Pricing & Rebates
+    - text: Powering Growth
+  - paragraph: Eliminate complexity and drive AI-powered margin performance.
+  - link "Get a demo":
+    - /url: https://insights.enable.com/schedule-demo
+    - generic: Get a demo
+  - heading "Trusted by the World's Leading Brands" [level=2]
+  - list:
+    - img "rubix"
+    - img "NAPA Idx UxymxU 1"
+    - img "GameStop Id96Nmfzl6 1"
+    - img "k-flex-ast-352342-l"
+    - img "Id8YULIpkq 1774890588540"
+    - img "chadwell_4c_whiteoutline"
+  - heading "Replace Spreadsheet Hassle" [level=2]
+  - paragraph: Replace manual incentive tracking and siloed tools with an intelligent system purpose-built for pricing and rebates. Get full visibility into every agreement, surface missed opportunities, and protect your margins with AI-powered insights. Eliminate leakage and drive more profitable growth—without the hassle.
+  - heading "Protect and Grow Margin" [level=5]
+  - paragraph: Eliminate leakage, enforce accuracy, and capture the margin you’ve already earned.
+  - heading "Maximize Market Share" [level=5]
+  - paragraph: Respond to competitive and market changes with real-time, 360-degree visibility into pricing, rebate, and incentive programs.
+  - heading "Drive Operational Efficiency" [level=5]
+  - paragraph: Automate workflows across teams and partners to simplify accounting, reporting, and reconciliation.
+  - heading "Reduce Risk Exposure" [level=5]
+  - paragraph: Achieve full visibility, auditability, and compliance across your commercial operations.
+  - link "Why Enable":
+    - /url: https://www.enable.com/why-enable/
+    - generic: Why Enable
+  - link "Take a tour":
+    - /url: https://www.enable.com/product-tours/
+    - generic: Take a tour
+  - heading "Recognized by Leading Industry Analysts" [level=2]
+  - paragraph: Learn what analysts found about Enable’s competitive advantage and the impact on customer outcomes.
+  - link "Enable Named a Leader in the Gartner® Magic Quadrant™ for B2B Pricing and Rebate Optimization Enable Named a Leader in the Gartner® Magic Quadrant™ for B2B Pricing and Rebate Optimization Pricing and rebates are powerful drivers of margin—but most systems weren’t built for their complexity. Read the report to explore the landscape and evaluate solutions. Read the report":
+    - /url: https://www.enable.com/gartner-magic-quadrant-b2b-pricing-rebate-optimization/
+    - img "Enable Named a Leader in the Gartner® Magic Quadrant™ for B2B Pricing and Rebate Optimization"
+    - heading "Enable Named a Leader in the Gartner® Magic Quadrant™ for B2B Pricing and Rebate Optimization" [level=3]
+    - paragraph: Pricing and rebates are powerful drivers of margin—but most systems weren’t built for their complexity. Read the report to explore the landscape and evaluate solutions.
+    - text: Read the report
+  - link "The Total Economic Impact™ Of Enable The Total Economic Impact™ Of Enable ROI is a critical component in evaluating software solutions. Read the 2026 Forrester TEI report to learn the ROI and value Enable brings to enterprise organizations. Read the report":
+    - /url: https://www.enable.com/forrester-total-economic-impact-2026/
+    - img "The Total Economic Impact™ Of Enable"
+    - heading "The Total Economic Impact™ Of Enable" [level=3]
+    - paragraph: ROI is a critical component in evaluating software solutions. Read the 2026 Forrester TEI report to learn the ROI and value Enable brings to enterprise organizations.
+    - text: Read the report
+  - heading "Realize the Potential in Every Agreement" [level=2]
+  - link "Get a demo":
+    - /url: https://insights.enable.com/schedule-demo
+    - generic: Get a demo
+  - heading "400%" [level=3]
+  - paragraph: ROI
+  - heading "$2.5M" [level=3]
+  - paragraph: Realization via Improved Commercial Strategy
+  - heading "83%" [level=3]
+  - paragraph: YoY Rebate Growth
+  - heading "From AI Insights to Execution" [level=2]
+  - paragraph: Enable unifies pricing, rebates, and AI-powered analytics, so your commercial programs run accurately, automatically, and profitably across every partner, program, and channel.
+  - generic: PRICING & REBATES
+  - heading "Smarter Pricing. Stronger Rebates." [level=2]
+  - paragraph: Enable turns complex pricing and rebate agreements into live, enforceable programs—so profit is protected at every step, from pricing through settlement.
+  - list:
+    - listitem: Centralize pricing and rebate logic
+  - list:
+    - listitem: Enforce rules consistently across channels
+  - list:
+    - listitem: Eliminate execution gaps and errors
+  - list:
+    - listitem: Scale complexity without added overhead
+  - link "Rebate Management":
+    - /url: https://www.enable.com/rebate-management/
+    - generic: Rebate Management
+  - link "Pricing Management":
+    - /url: https://www.enable.com/pricing/
+    - generic: Pricing Management
+  - generic: COMMERCIAL INTELLIGENCE
+  - heading "Know What’s Happening—and What to Do Next." [level=2]
+  - paragraph: Bring pricing, rebate, and partner data into one intelligence layer, so your teams can evaluate impact, spot risk early, and act with clarity.
+  - list:
+    - listitem: Unify commercial data in one view
+  - list:
+    - listitem: Model scenarios before decisions are made
+  - list:
+    - listitem: Identify risk and leakage early
+  - list:
+    - listitem: Focus action where it matters most
+  - link "AI-Powered Analytics":
+    - /url: https://www.enable.com/analytics-ai/
+    - generic: AI-Powered Analytics
+  - link "Get a demo":
+    - /url: https://insights.enable.com/schedule-demo
+    - generic: Get a demo
+  - generic: REAL-TIME COLLABORATION
+  - heading "Make Trading a Team Sport." [level=2]
+  - paragraph: Align teams and partners around the same agreements, data, and execution—so everyone moves together as conditions change.
+  - list:
+    - listitem: Operate from a single commercial system of record
+  - list:
+    - listitem: Apply updates centrally across partners and channels
+  - list:
+    - listitem: Reduce rework, disputes, and manual follow-ups
+  - list:
+    - listitem: Maintain consistent execution as programs evolve
+  - link "Collaboration":
+    - /url: https://www.enable.com/collaboration/
+    - generic: Collaboration
+  - link "Get a demo":
+    - /url: https://insights.enable.com/schedule-demo
+    - generic: Get a demo
+  - heading "Powering Margin Performance Across Your Ecosystem" [level=3]
+  - paragraph: From SAP to Microsoft Dynamics 365, Enable integrates natively with the platforms enterprise teams rely on — so your rebate and pricing data works where your business already runs.
+  - link "All Partners ":
+    - /url: https://www.enable.com/partners/
+    - generic: All Partners
+    - text: 
+  - article:
+    - link "SAP Learn more ":
+      - /url: https://www.enable.com/sap/
+      - heading "SAP" [level=3]
+      - generic: Learn more
+      - text: 
+  - article:
+    - link "Microsoft Azure & Dynamics 365 Learn more ":
+      - /url: https://www.enable.com/Microsoft/
+      - heading "Microsoft Azure & Dynamics 365" [level=3]
+      - generic: Learn more
+      - text: 
+  - article:
+    - link "Oracle NETSUITE Learn more ":
+      - /url: https://www.enable.com/partners/
+      - heading "Oracle NETSUITE" [level=3]
+      - generic: Learn more
+      - text: 
+  - article:
+    - link "Sage Learn more ":
+      - /url: https://www.enable.com/partners/
+      - heading "Sage" [level=3]
+      - generic: Learn more
+      - text: 
+  - heading "Margin Control at Scale Across Every Industry" [level=2]
+  - article:
+    - link "Distribution Distribution Manage large-scale rebates and pricing across buy-side and sell-side programs. Learn more ":
+      - /url: https://www.enable.com/industry/wholesale-and-distribution/
+      - img "Distribution"
+      - heading "Distribution" [level=3]
+      - paragraph: Manage large-scale rebates and pricing across buy-side and sell-side programs.
+      - generic: Learn more
+      - text: 
+  - article:
+    - link "Health &amp; Life Sciences Health & Life Sciences Manage complex rebates and automate claims with precision. Learn more ":
+      - /url: https://www.enable.com/industry/health-and-life-sciences/
+      - img "Health &amp; Life Sciences"
+      - heading "Health & Life Sciences" [level=3]
+      - paragraph: Manage complex rebates and automate claims with precision.
+      - generic: Learn more
+      - text: 
+  - article:
+    - link "Manufacturing Manufacturing Roll out large volumes of pricing data at speed across multiple channels. Learn more ":
+      - /url: https://www.enable.com/industry/manufacturing/
+      - img "Manufacturing"
+      - heading "Manufacturing" [level=3]
+      - paragraph: Roll out large volumes of pricing data at speed across multiple channels.
+      - generic: Learn more
+      - text: 
+  - article:
+    - link "Retail Retail Deliver omnichannel pricing that protects margin and enhances experience. Learn more ":
+      - /url: https://www.enable.com/industry/retail-and-consumer-goods/
+      - img "Retail"
+      - heading "Retail" [level=3]
+      - paragraph: Deliver omnichannel pricing that protects margin and enhances experience.
+      - generic: Learn more
+      - text: 
+  - article:
+    - link "Food Services Food Services Deliver accurate pricing and incentives to any channel or device. Learn more ":
+      - /url: https://www.enable.com/industry/food-services/
+      - img "Food Services"
+      - heading "Food Services" [level=3]
+      - paragraph: Deliver accurate pricing and incentives to any channel or device.
+      - generic: Learn more
+      - text: 
+  - generic: OUR CUSTOMERS
+  - heading "Industry Leaders Choose Enable" [level=2]
+  - tablist:
+    - tab "Distribution" [selected]
+    - tab "Distribution"
+    - tab "FMCG"
+    - tab "Distribution"
+    - tab "Landscape"
+  - link "ALL CUSTOMER STORIES":
+    - /url: https://www.enable.com/our-customers/
+    - generic: ALL CUSTOMER STORIES
+  - tabpanel "Distribution":
+    - blockquote:
+      - img "henderson foodservice logo"
+      - paragraph: ‘I would highly recommend Enable because it organizes and presents our data in a more meaningful way. It has facilitated better integration between teams by making everything easily viewable for everyone. Enable has allowed us to spend more time analyzing data rather than creating it, providing a one-stop shop for all our needs. Enable consolidates everything into one system, streamlining our data management and enhancing our ability to derive meaningful insights.’
+      - generic: Harleigh Joel
+      - generic: Financial Trading Supervisor
+      - link "Read customer story ":
+        - /url: https://www.enable.com/customers/why-henderson-foodservice-turned-to-enable-for-future-proof-rebate-management/
+        - generic: Read customer story
+        - text: 
+    - img "henderson foodservice stall"
+  - text:    
+  - generic: Resources
+  - heading "Unlock Your Rebate and Pricing Potential" [level=2]
+  - link "Resource hub":
+    - /url: https://www.enable.com/resources/
+    - generic: Resource hub
+  - article:
+    - link "5 Best Practices For Managing an Effective Rebate Program Article Pricing Strategy 5 Best Practices For Managing an Effective Rebate Program Feb 11 4 min read Read more ":
+      - /url: https://www.enable.com/resources/articles/5-best-practices-for-managing-an-effective-rebate-program/
+      - img "5 Best Practices For Managing an Effective Rebate Program"
+      - list:
+        - generic: Article
+        - generic: Pricing Strategy
+      - heading "5 Best Practices For Managing an Effective Rebate Program" [level=3]
+      - time: Feb 11
+      - generic: 4 min read
+      - generic: Read more
+      - text: 
+  - article:
+    - link "Woman looking at laptop trying to figure out something complex Article Rebate Management 10 Disadvantages of Using Spreadsheets for Rebate Accounting Nov 2 8 min read Read more ":
+      - /url: https://www.enable.com/resources/articles/10-disadvantages-of-using-spreadsheets-for-rebate-accounting/
+      - img "Woman looking at laptop trying to figure out something complex"
+      - list:
+        - generic: Article
+        - generic: Rebate Management
+      - heading "10 Disadvantages of Using Spreadsheets for Rebate Accounting" [level=3]
+      - time: Nov 2
+      - generic: 8 min read
+      - generic: Read more
+      - text: 
+  - article:
+    - img: ">"
+    - link "eBook Building the Business Case for AI-Powered Rebates Discover the tools and insights you need to gain stakeholder buy-in and justify… Read more":
+      - /url: https://insights.enable.com/ebk-business-case-for-ai-powered-rebates-2620
+      - list:
+        - generic: eBook
+      - heading "Building the Business Case for AI-Powered Rebates" [level=3]
+      - paragraph: Discover the tools and insights you need to gain stakeholder buy-in and justify…
+      - generic: Read more
+  - article:
+    - img: ">"
+    - link "eBook Enable ROI Impact Report In this independent study conducted with Canalys, uncover how Enable customers accelerated savings… Read more":
+      - /url: https://insights.enable.com/canalys-transforming-the-customer-journey
+      - list:
+        - generic: eBook
+      - heading "Enable ROI Impact Report" [level=3]
+      - paragraph: In this independent study conducted with Canalys, uncover how Enable customers accelerated savings…
+      - generic: Read more
+  - heading "Start Managing Margin with Confidence" [level=2]
+  - paragraph: Learn how Enable unites pricing and rebates to fuel growth.
+  - link "Get a demo":
+    - /url: https://www.enable.com/request-a-demo/
+    - generic: Get a demo
+- contentinfo:
+  - link "Enable":
+    - /url: https://www.enable.com/
+  - navigation:
+    - list:
+      - button "Products"
+      - list:
+        - link "Rebate Management":
+          - /url: https://www.enable.com/rebate-management/
+        - link "Pricing Management":
+          - /url: https://www.enable.com/pricing-management/
+        - link "Analytics and AI":
+          - /url: https://www.enable.com/analytics-ai/
+        - link "Collaboration":
+          - /url: https://www.enable.com/collaboration/
+        - link "Integrations":
+          - /url: https://www.enable.com/integrations/
+    - list:
+      - button "Features"
+      - list:
+        - link "AI-Powered Analytics":
+          - /url: https://www.enable.com/ai-powered-analytics/
+        - link "Rebate Calculation Engine":
+          - /url: https://www.enable.com/rebate-calculation-engine/
+        - link "Approval Workflows":
+          - /url: https://www.enable.com/approval-workflows/
+        - link "Performance Pricing Engine":
+          - /url: https://www.enable.com/performance-pricing-engine/
+        - link "Price Waterfalls":
+          - /url: https://www.enable.com/price-waterfalls/
+        - link "Indirect Pricing Visibility":
+          - /url: https://www.enable.com/indirect-pricing-visibility/
+    - list:
+      - button "Resources"
+      - list:
+        - link "Resources Hub":
+          - /url: https://www.enable.com/resources/
+        - link "Latest Articles":
+          - /url: https://www.enable.com/resources/articles/
+        - link "News":
+          - /url: https://www.enable.com/resources/news/
+        - link "eBooks":
+          - /url: https://www.enable.com/resources/ebooks/
+        - link "Events":
+          - /url: https://www.enable.com/resources/events/
+        - link "Developer Hub":
+          - /url: https://developers.enable.com/
+      - button "Company"
+      - list:
+        - link "About":
+          - /url: https://www.enable.com/about/
+        - link "Partnerships":
+          - /url: https://www.enable.com/partners/
+        - link "Careers":
+          - /url: https://www.enable.com/careers/
+        - link "Rebate Advisory":
+          - /url: https://www.enable.com/rebate-advisory/
+  - list:
+    - link " Linkedin":
+      - /url: https://www.linkedin.com/company/enable-software/
+      - text: 
+      - generic: Linkedin
+  - text: © 2026 Enable. All Rights Reserved.
+  - list:
+    - link "Website Terms of Service":
+      - /url: https://www.enable.com/website-terms-of-service/
+    - link "Terms of Service":
+      - /url: https://www.enable.com/terms-of-service/
+    - link "Privacy Policy":
+      - /url: https://www.enable.com/privacy-policy/
+- iframe

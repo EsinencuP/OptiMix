@@ -1,0 +1,533 @@
+- link "Skip to main content":
+  - /url: "#main-content"
+- main:
+  - link "IMA360 — Home":
+    - /url: /
+    - img "IMA360 — Home"
+  - navigation "Main navigation":
+    - button "Platform":
+      - text: Platform
+    - button "Solutions":
+      - text: Solutions
+    - button "Industries":
+      - text: Industries
+    - button "Learning Center":
+      - text: Learning Center
+    - button "Company":
+      - text: Company
+    - link "Contact":
+      - /url: /contact-us/
+  - link "Request a Demo":
+    - /url: /request-a-demo/
+  - paragraph: Complexity Simplified. Your Results Amplified.
+  - heading "Pricing, revenue management and optimization, unified across every program. Built to improve profitability, not just track it." [level=1]
+  - paragraph: IMA360 gives pricing, finance, and revenue teams a single system to manage prices, contracts, and incentives, with built-in rebate management software that replaces spreadsheets and ERP customizations.
+  - link "Request a Demo":
+    - /url: /request-a-demo/
+    - text: Request a Demo
+  - link "Talk to a Specialist":
+    - /url: /talk-to-a-specialist/
+  - link "IMA360 named to the 2026 Inc. 5000. Read the announcement.":
+    - /url: /ima360-named-919-2026-inc-5000/
+    - img "IMA360 — 2026 Inc. 5000 honoree"
+  - generic: ima360.app/customer-rebate
+  - img "IMA360"
+  - heading "Customer Rebate Dashboard" [level=2]
+  - paragraph: Manage customer rebate contracts with full lifecycle tracking and accrual visibility
+  - button "New Contract"
+  - button "Run Accruals"
+  - button "Export Report"
+  - generic: Active Contracts
+  - generic: 4,875
+  - generic: ↑+12%
+  - generic: Expired
+  - generic: 2,925
+  - generic: ↓-8%
+  - generic: New This Quarter
+  - generic: 1,564
+  - generic: ↑+24%
+  - generic: Awaiting Approval
+  - generic: "517"
+  - generic: ↑+3%
+  - generic: Total Contracts
+  - generic: 9,838
+  - generic: ↑+15%
+  - heading "Rebates by Type" [level=4]
+  - list:
+    - img "[object Object] legend icon"
+    - generic: Growth
+    - img "[object Object] legend icon"
+    - generic: Loyalty
+    - img "[object Object] legend icon"
+    - generic: Mix
+    - img "[object Object] legend icon"
+    - generic: Volume
+  - application
+  - heading "Contracts by Status" [level=4]
+  - list:
+    - img "[object Object] legend icon"
+    - generic: Active
+    - img "[object Object] legend icon"
+    - generic: Expired
+    - img "[object Object] legend icon"
+    - generic: New
+    - img "[object Object] legend icon"
+    - generic: Waiting
+  - application
+  - heading "Rebates by Region" [level=4]
+  - list:
+    - img "[object Object] legend icon"
+    - generic: APAC
+    - img "[object Object] legend icon"
+    - generic: Europe
+    - img "[object Object] legend icon"
+    - generic: LATAM
+    - img "[object Object] legend icon"
+    - generic: North America
+  - application
+  - heading "Rebate Contracts" [level=3]
+  - generic: 8 records
+  - table:
+    - rowgroup:
+      - row "ID ↑ Contract ↕ Customer ↕ Type ↕ Value ↕ Accrued ↕ Paid ↕ Status ↕":
+        - columnheader "ID ↑":
+          - text: ID
+          - generic: ↑
+        - columnheader "Contract ↕":
+          - text: Contract
+          - generic: ↕
+        - columnheader "Customer ↕":
+          - text: Customer
+          - generic: ↕
+        - columnheader "Type ↕":
+          - text: Type
+          - generic: ↕
+        - columnheader "Value ↕":
+          - text: Value
+          - generic: ↕
+        - columnheader "Accrued ↕":
+          - text: Accrued
+          - generic: ↕
+        - columnheader "Paid ↕":
+          - text: Paid
+          - generic: ↕
+        - columnheader "Status ↕":
+          - text: Status
+          - generic: ↕
+    - rowgroup:
+      - row "RC-001 Annual Volume Rebate – Acme Corp Acme Corporation Volume $2,450,000 $1,245,000 $890,000 Active":
+        - cell "RC-001"
+        - cell "Annual Volume Rebate – Acme Corp"
+        - cell "Acme Corporation"
+        - cell "Volume"
+        - cell "$2,450,000"
+        - cell "$1,245,000"
+        - cell "$890,000"
+        - cell "Active":
+          - generic: Active
+      - row "RC-002 Growth Incentive – BetaChem BetaChem Industries Growth $1,890,000 $945,000 $670,000 Active":
+        - cell "RC-002"
+        - cell "Growth Incentive – BetaChem"
+        - cell "BetaChem Industries"
+        - cell "Growth"
+        - cell "$1,890,000"
+        - cell "$945,000"
+        - cell "$670,000"
+        - cell "Active":
+          - generic: Active
+      - row "RC-003 Q1 Promotional Rebate – Gamma Gamma Distribution Mix $780,000 $780,000 $780,000 Expired":
+        - cell "RC-003"
+        - cell "Q1 Promotional Rebate – Gamma"
+        - cell "Gamma Distribution"
+        - cell "Mix"
+        - cell "$780,000"
+        - cell "$780,000"
+        - cell "$780,000"
+        - cell "Expired":
+          - generic: Expired
+      - row "RC-004 Loyalty Program – Delta Pharma Delta Pharmaceuticals Loyalty $3,200,000 $2,890,000 $2,100,000 Active":
+        - cell "RC-004"
+        - cell "Loyalty Program – Delta Pharma"
+        - cell "Delta Pharmaceuticals"
+        - cell "Loyalty"
+        - cell "$3,200,000"
+        - cell "$2,890,000"
+        - cell "$2,100,000"
+        - cell "Active":
+          - generic: Active
+      - row "RC-005 Volume Commitment – Epsilon Epsilon Materials Volume $1,650,000 $0 $0 Pending":
+        - cell "RC-005"
+        - cell "Volume Commitment – Epsilon"
+        - cell "Epsilon Materials"
+        - cell "Volume"
+        - cell "$1,650,000"
+        - cell "$0"
+        - cell "$0"
+        - cell "Pending":
+          - generic: Pending
+      - row "RC-006 Channel Partner – Zeta Group Zeta Distribution Group Growth $4,100,000 $2,050,000 $1,560,000 Active":
+        - cell "RC-006"
+        - cell "Channel Partner – Zeta Group"
+        - cell "Zeta Distribution Group"
+        - cell "Growth"
+        - cell "$4,100,000"
+        - cell "$2,050,000"
+        - cell "$1,560,000"
+        - cell "Active":
+          - generic: Active
+      - row "RC-010 Enterprise Agreement – Lambda Lambda Manufacturing Volume $5,800,000 $2,900,000 $2,175,000 Active":
+        - cell "RC-010"
+        - cell "Enterprise Agreement – Lambda"
+        - cell "Lambda Manufacturing"
+        - cell "Volume"
+        - cell "$5,800,000"
+        - cell "$2,900,000"
+        - cell "$2,175,000"
+        - cell "Active":
+          - generic: Active
+      - row "RC-012 Strategic Growth – Nu Health Nu Healthcare Growth $2,780,000 $0 $0 Pending":
+        - cell "RC-012"
+        - cell "Strategic Growth – Nu Health"
+        - cell "Nu Healthcare"
+        - cell "Growth"
+        - cell "$2,780,000"
+        - cell "$0"
+        - cell "$0"
+        - cell "Pending":
+          - generic: Pending
+  - button "Customer Rebate"
+  - button "Distributor Chargeback"
+  - button "Price Management"
+  - button "Price Optimization"
+  - button "Dynamic Pricing"
+  - button "Configure Price Quote"
+  - button "Sales Commission"
+  - button "Royalty Management"
+  - button "Supplier Rebate"
+  - button "Contract Compliance"
+  - button "Contract Management"
+  - button "Discount Management"
+  - button "Promotion Management"
+  - button "Promotion Planning"
+  - button "Profit Optimization"
+  - button "Gross to Net"
+  - button "Demand Planning"
+  - button "Forecasting"
+  - button "Manufacturer Chargeback"
+  - button "AI Solutions"
+  - button "GPO Roster Management"
+  - paragraph: Customer Rebate
+  - paragraph: One Platform · 9 Revenue Disciplines
+  - link "Pricing":
+    - /url: /pricing/
+    - generic: Pricing
+  - link "Rebate & Chargeback":
+    - /url: /rebates/
+    - generic: Rebate & Chargeback
+  - link "Incentives":
+    - /url: /incentives/
+    - generic: Incentives
+  - link "Consulting":
+    - /url: /consulting/
+    - generic: Consulting
+  - link "Data Management":
+    - /url: /data-management/
+    - generic: Data Management
+  - link "Profitability & Insights":
+    - /url: /profitability-insights/
+    - generic: Profitability & Insights
+  - link "Contract Lifecycle":
+    - /url: /contract-lifecycle/
+    - generic: Contract Lifecycle
+  - link "Trade Promotions":
+    - /url: /trade-promotions/
+    - generic: Trade Promotions
+  - link "AI Solution":
+    - /url: /ai-solution/
+    - generic: AI Solution
+  - generic: Domain Experience
+  - generic: 0+
+  - generic: Years
+  - generic: Revenue Processed
+  - generic: $0B+
+  - generic: Yearly
+  - generic: Transactions
+  - generic: 0M+
+  - generic: Yearly
+  - generic: Supported
+  - generic: 0+
+  - generic: Languages
+  - paragraph: Works With Any ERP & Enterprise System
+  - img "SAP"
+  - img "Oracle"
+  - img "Salesforce"
+  - img "Microsoft Dynamics"
+  - img "Snowflake"
+  - img "Oracle NetSuite"
+  - img "Workday"
+  - img "Sage"
+  - img "Infor"
+  - img "Acumatica"
+  - img "ASC Software"
+  - img "Famous Software"
+  - img "SAP"
+  - img "Oracle"
+  - img "Salesforce"
+  - img "Microsoft Dynamics"
+  - img "Snowflake"
+  - img "Oracle NetSuite"
+  - img "Workday"
+  - img "Sage"
+  - img "Infor"
+  - img "Acumatica"
+  - img "ASC Software"
+  - img "Famous Software"
+  - paragraph: Connect to any other ERP or system through our Integration Studio
+  - text: The Challenge
+  - heading "Fragmented systems are bleeding margin at every step" [level=2]
+  - paragraph: Pricing in the ERP. Rebates in spreadsheets. Contracts in email. Chargebacks reconciled manually. When every revenue process lives in a different system, margin leaks go undetected and execution grinds to a halt.
+  - list:
+    - generic: Manual pricing errors draining 2–5% of revenue before deals even close
+    - generic: Rebate accruals managed in spreadsheets nobody trusts
+    - generic: Days or weeks to deploy pricing changes that should take minutes
+    - generic: No visibility from list price to pocket margin
+  - text: The IMA360 Platform
+  - heading "One platform. Total control." [level=3]:
+    - text: One platform.
+    - text: Total control.
+  - list:
+    - generic: Pricing, rebates, contracts, and incentives governed in one system
+    - generic: "Works alongside any ERP: SAP, Oracle, Microsoft, or custom"
+    - generic: AI powered price optimization and demand sensing
+    - generic: Real-time margin visibility from list price to pocket
+  - paragraph: Managing $400B+ in annual revenue
+  - generic: "|"
+  - link "Rated 5.0 / 5.0 on Gartner Peer Insights · 11 reviews":
+    - /url: https://www.gartner.com/reviews/product/ima360
+    - text: Rated 5.0 / 5.0 on Gartner Peer Insights · 11 reviews
+  - img "McKesson"
+  - img "Medtronic"
+  - img "BRP"
+  - img "Mohawk Industries"
+  - img "Indivior"
+  - img "Avaya"
+  - img "Elite Flower"
+  - img "McKesson"
+  - img "Medtronic"
+  - img "BRP"
+  - img "Mohawk Industries"
+  - img "Indivior"
+  - img "Avaya"
+  - img "Elite Flower"
+  - text: One Platform
+  - heading "Every revenue discipline. One platform." [level=2]:
+    - text: Every revenue discipline.
+    - text: One platform.
+  - paragraph: Stop stitching together spreadsheets, ERP modules, and point solutions. IMA360 is pricing and revenue management software that unifies rebates, contracts, and incentives on a single platform so nothing falls through the cracks.
+  - link "Pricing Define, control, and publish prices across every channel from a single source of truth.":
+    - /url: /pricing/
+    - heading "Pricing" [level=3]
+    - paragraph: Define, control, and publish prices across every channel from a single source of truth.
+  - link "Rebate & Chargeback Automate rebate contracts, accruals, chargeback validation, and payments with full transparency.":
+    - /url: /rebates/
+    - heading "Rebate & Chargeback" [level=3]
+    - paragraph: Automate rebate contracts, accruals, chargeback validation, and payments with full transparency.
+  - link "Incentives Manage partner programs, channel incentives, and sales compensation from one platform.":
+    - /url: /incentives/
+    - heading "Incentives" [level=3]
+    - paragraph: Manage partner programs, channel incentives, and sales compensation from one platform.
+  - link "Consulting Expert guidance on pricing strategy, revenue optimization, and implementation best practices.":
+    - /url: /consulting/
+    - heading "Consulting" [level=3]
+    - paragraph: Expert guidance on pricing strategy, revenue optimization, and implementation best practices.
+  - link "Data Management Centralize product, customer, and pricing data with governance, validation, and sync.":
+    - /url: /data-management/
+    - heading "Data Management" [level=3]
+    - paragraph: Centralize product, customer, and pricing data with governance, validation, and sync.
+  - link "Profitability & Insights Real-time analytics, price waterfalls, and margin visibility across your entire business.":
+    - /url: /profitability-insights/
+    - heading "Profitability & Insights" [level=3]
+    - paragraph: Real-time analytics, price waterfalls, and margin visibility across your entire business.
+  - link "Contract Lifecycle Manage the full lifecycle of pricing contracts, chargebacks, and ship-and-debit agreements.":
+    - /url: /contract-lifecycle/
+    - heading "Contract Lifecycle" [level=3]
+    - paragraph: Manage the full lifecycle of pricing contracts, chargebacks, and ship-and-debit agreements.
+  - link "Trade Promotions Plan, execute, and measure trade promotions and incentive programs that drive ROI.":
+    - /url: /trade-promotions/
+    - heading "Trade Promotions" [level=3]
+    - paragraph: Plan, execute, and measure trade promotions and incentive programs that drive ROI.
+  - link "AI Solution Use AI to model demand elasticity, simulate pricing strategies, and find optimal price points.":
+    - /url: /ai-solution/
+    - heading "AI Solution" [level=3]
+    - paragraph: Use AI to model demand elasticity, simulate pricing strategies, and find optimal price points.
+  - text: Why IMA360
+  - heading "Why teams switch to IMA360" [level=2]
+  - paragraph: IMA360 isn't a module bolted onto your ERP or a point solution that only handles pricing. It's a platform built from the ground up that manages the full revenue lifecycle, from price setting to rebate settlement, with the speed and governance enterprises demand.
+  - link "Request a Demo":
+    - /url: /request-a-demo/
+    - text: Request a Demo
+  - heading "Full Revenue Lifecycle" [level=3]
+  - generic: 9Revenue disciplines unified
+  - paragraph: One platform that manages pricing, rebates, chargebacks, contracts, incentives, trade promotions, and CPQ in one system, eliminating the silos that cause margin leakage.
+  - heading "Radically Simple" [level=3]
+  - generic: 3–12 moTypical implementation
+  - paragraph: Pre-configured for your industry and designed for efficient deployment. Most implementations go live within 3 to 12 months. Complex revenue management shouldn't mean complex software.
+  - heading "Deeply Flexible" [level=3]
+  - generic: 100%ERP agnostic integration
+  - paragraph: Works alongside SAP, Oracle, Microsoft, or any ERP without lock-in. Configure workflows, rules, and governance to match how your organization actually operates.
+  - heading "Governed & Auditable" [level=3]
+  - generic: 100%Audit trail coverage
+  - paragraph: Every pricing decision, rebate calculation, and contract action carries a full audit trail. Role-based access, approval workflows, and compliance tracking built in.
+  - heading "Built by Practitioners" [level=3]
+  - generic: 45+Years hands-on experience
+  - paragraph: IMA360 was built by pricing and revenue management operators, not just software engineers. Our team has managed pricing, rebates, and incentive programs at enterprise scale. We built the platform we wished existed.
+  - text: Verified Customer Reviews
+  - heading "What our customers say" [level=2]
+  - link "5.0 / 5.0 from 11 verified reviewers on Gartner Peer Insights":
+    - /url: https://www.gartner.com/reviews/product/ima360
+    - generic: 5.0 / 5.0
+    - generic: from 11 verified reviewers on Gartner Peer Insights
+  - blockquote: “IMA Platform centralizes rebate management and improves incentive program transparency.”
+  - generic: IT Associate
+  - generic: Retail · $30B+ USD revenue
+  - link "Nov 12, 2025 · Verified on Gartner Peer Insights ↗":
+    - /url: https://www.gartner.com/reviews/product/ima360
+  - blockquote: “Complete revenue management application that manages our business efficiently.”
+  - generic: Software Developer
+  - generic: Retail · $10B+ USD revenue
+  - link "Nov 12, 2025 · Verified on Gartner Peer Insights ↗":
+    - /url: https://www.gartner.com/reviews/product/ima360
+  - blockquote: “Real-time deal profitability enhances profit margin visibility and commission tracking.”
+  - generic: Marketing Associate
+  - generic: IT Services · Enterprise
+  - link "May 21, 2025 · Verified on Gartner Peer Insights ↗":
+    - /url: https://www.gartner.com/reviews/product/ima360
+  - text: Learning Center
+  - heading "Latest Insights" [level=2]
+  - paragraph: Insights on pricing strategy, rebate management, and revenue optimization from practitioners who've done it at scale.
+  - link "View all articles":
+    - /url: /learning-center/blogs/
+    - text: View all articles
+  - link "August 11, 2026 3 min read IMA360 Named No. 919 on the 2026 Inc. 5000 List IMA360 has been named No. 919 on the 2026 Inc. 5000 — also ranking No. 83 in Software, No. 107 in Texas, and No. 41 in the Dallas–Fort Worth area — among America’s fastest-growing private companies. I IMA360 Read":
+    - /url: /ima360-named-919-2026-inc-5000/
+    - generic: August 11, 2026
+    - generic: 3 min read
+    - heading "IMA360 Named No. 919 on the 2026 Inc. 5000 List" [level=3]
+    - paragraph: IMA360 has been named No. 919 on the 2026 Inc. 5000 — also ranking No. 83 in Software, No. 107 in Texas, and No. 41 in the Dallas–Fort Worth area — among America’s fastest-growing private companies.
+    - generic: I
+    - generic: IMA360
+    - text: Read
+  - 'link "February 26, 2026 9 min read The Role of Systems in Modern Pricing: Essential Enabler, Not Silver Bullet Technology is an essential enabler of modern pricing, but it is not the starting point. This post explains why pricing transformation must begin with making strategy explicit enough to execute, and why organizations that lead with technology often automate the wrong things. For a structured view of how pricing intent connects to execution through operating CN Chris Newton Read"':
+    - /url: /the-role-of-systems-in-modern-pricing-essential-enabler-not-silver-bullet/
+    - generic: February 26, 2026
+    - generic: 9 min read
+    - 'heading "The Role of Systems in Modern Pricing: Essential Enabler, Not Silver Bullet" [level=3]'
+    - paragraph: Technology is an essential enabler of modern pricing, but it is not the starting point. This post explains why pricing transformation must begin with making strategy explicit enough to execute, and why organizations that lead with technology often automate the wrong things. For a structured view of how pricing intent connects to execution through operating
+    - generic: CN
+    - generic: Chris Newton
+    - text: Read
+  - link "February 25, 2026 8 min read Why Pricing Transformation Is Not a Technology Problem Technology is an essential enabler of modern pricing, but it is not the starting point. This post explains why pricing transformation must begin with making strategy explicit enough to execute, and why organizations that lead with technology often automate the wrong things. For a structured view of how pricing intent connects to execution through operating CN Chris Newton Read":
+    - /url: /why-pricing-transformation-is-not-a-technology-problem/
+    - generic: February 25, 2026
+    - generic: 8 min read
+    - heading "Why Pricing Transformation Is Not a Technology Problem" [level=3]
+    - paragraph: Technology is an essential enabler of modern pricing, but it is not the starting point. This post explains why pricing transformation must begin with making strategy explicit enough to execute, and why organizations that lead with technology often automate the wrong things. For a structured view of how pricing intent connects to execution through operating
+    - generic: CN
+    - generic: Chris Newton
+    - text: Read
+  - heading "Ready to manage every revenue dollar in one platform?" [level=2]
+  - paragraph: See how IMA360 brings pricing, rebates, contracts, and incentives into a single governed platform, replacing the spreadsheets and silos holding you back.
+  - link "Request a Demo":
+    - /url: /request-a-demo/
+    - text: Request a Demo
+  - link "Talk to a Specialist":
+    - /url: /contact-us/
+  - img "IMA360"
+  - paragraph: Complexity Simplified. Your Results Amplified.
+  - paragraph: Enterprise revenue management software for pricing, rebates, contracts, and incentives. One platform, fully governed.
+  - link "1-877-245-1903":
+    - /url: tel:+18772451903
+    - text: 1-877-245-1903
+  - link "info@ima360.com":
+    - /url: mailto:info@ima360.com
+  - link "LinkedIn":
+    - /url: https://www.linkedin.com/company/ima360
+  - link "YouTube":
+    - /url: https://www.youtube.com/@IMA360-Official
+  - link "Facebook":
+    - /url: https://www.facebook.com/IMA360inc
+  - link "IMA360 named to the 2026 Inc. 5000. Read the announcement.":
+    - /url: /ima360-named-919-2026-inc-5000/
+    - img "IMA360 — 2026 Inc. 5000 honoree"
+    - generic: Ranked No. 919
+    - generic: 2026 Inc. 5000 honoree
+  - heading "Platform" [level=4]
+  - list:
+    - link "Pricing Management":
+      - /url: /pricing/
+    - link "Rebate & Chargeback":
+      - /url: /rebates/
+    - link "Incentives & Promotions":
+      - /url: /incentives/
+    - link "Profitability & Insights":
+      - /url: /profitability-insights/
+    - link "AI Optimization":
+      - /url: /ai-solution/
+    - link "Contract Lifecycle":
+      - /url: /contract-lifecycle/
+  - heading "Solutions" [level=4]
+  - list:
+    - link "Price Optimization":
+      - /url: /solutions/price-optimization/
+    - link "Price Management":
+      - /url: /solutions/price-management/
+    - link "Rebate Automation":
+      - /url: /solutions/customer-rebate/
+    - link "Trade Promotions":
+      - /url: /trade-promotions/
+    - link "Master Data Management":
+      - /url: /solutions/master-data-management/
+  - heading "Industries" [level=4]
+  - list:
+    - link "Agriculture":
+      - /url: /industries/agriculture-agribusiness/
+    - link "Automotive":
+      - /url: /industries/automotive-aftermarket/
+    - link "Chemicals":
+      - /url: /industries/chemicals-materials/
+    - link "Consumer Goods":
+      - /url: /industries/consumer-goods-cpg/
+    - link "Food & Beverage":
+      - /url: /industries/food-beverage/
+    - link "Healthcare":
+      - /url: /industries/healthcare-life-sciences/
+    - link "High Tech":
+      - /url: /industries/high-tech-electronics/
+    - link "Manufacturing":
+      - /url: /industries/industrial-manufacturing/
+    - link "Medical Devices":
+      - /url: /industries/medical-devices/
+    - link "Packaging & Paper":
+      - /url: /industries/packaging-paper-pulp/
+    - link "Pharmaceuticals":
+      - /url: /industries/pharmaceuticals-biotech/
+    - link "Retail":
+      - /url: /industries/retail-distribution/
+  - heading "Company" [level=4]
+  - list:
+    - link "About Us":
+      - /url: /about-us/
+    - link "Careers":
+      - /url: /careers/
+    - link "Partners":
+      - /url: /partners/
+    - link "Use Cases":
+      - /url: /use-cases/
+    - link "Learning Center":
+      - /url: /learning-center/
+    - link "Contact Us":
+      - /url: /contact-us/
+  - paragraph: © 2026 IMA360. All rights reserved.
+  - link "Privacy Policy":
+    - /url: /privacy-policy/
+- alert

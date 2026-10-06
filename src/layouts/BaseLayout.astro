@@ -12,11 +12,12 @@ interface Props {
   description: string;
   locale: Locale;
   page: PageKind;
+  slug?: string;
   preloadImage?: { src: string; srcSet: string; sizes: string };
   deferredStylesheet?: string;
 }
 
-const { title, description, locale, page, preloadImage, deferredStylesheet } = Astro.props;
+const { title, description, locale, page, slug, preloadImage, deferredStylesheet } = Astro.props;
 const fontPreload = locale === 'ru' ? onestCyrillic : locale === 'ro' ? onestLatinExtended : onestLatin;
 const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB';
 ---
@@ -37,8 +38,8 @@ const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB'
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content={ogLocale} />
-    {Astro.site && locales.map((target) => <link rel="alternate" hreflang={target} href={new URL(pathFor(target, page), Astro.site).href} />)}
-    {Astro.site && <link rel="alternate" hreflang="x-default" href={new URL(pathFor('en', page), Astro.site).href} />}
+    {Astro.site && locales.map((target) => <link rel="alternate" hreflang={target} href={new URL(pathFor(target, page, slug), Astro.site).href} />)}
+    {Astro.site && <link rel="alternate" hreflang="x-default" href={new URL(pathFor('en', page, slug), Astro.site).href} />}
     <title>{title}</title>
     {deferredStylesheet && <link rel="stylesheet" href={deferredStylesheet} media="print" onload="this.setAttribute('media','all');requestAnimationFrame(()=>{if(location.hash && document.documentElement.dataset.anchorScrollInterrupted !== 'true')document.getElementById(location.hash.slice(1))?.scrollIntoView({behavior:'instant'})})" />}
     {deferredStylesheet && <noscript><link rel="stylesheet" href={deferredStylesheet} /></noscript>}

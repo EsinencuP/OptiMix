@@ -1,8 +1,8 @@
 ---
 import { content, homeAnchor, locales, pathFor, type Locale, type PageKind } from '../content';
 
-interface Props { locale: Locale; page: PageKind; variant?: 'hero' | 'inner' }
-const { locale, page, variant = 'hero' } = Astro.props;
+interface Props { locale: Locale; page: PageKind; slug?: string; variant?: 'hero' | 'inner' }
+const { locale, page, slug, variant = 'hero' } = Astro.props;
 const t = content[locale].ui;
 const processUrl = page === 'home' ? '#workflow' : homeAnchor(locale, 'workflow');
 const approachUrl = page === 'home' ? '#approach' : homeAnchor(locale, 'approach');
@@ -17,7 +17,7 @@ const homeUrl = page === 'home' ? '#top' : pathFor(locale, 'home');
       <a class="nav-optional" href={approachUrl}>{t.approach}</a>
       {page !== 'contact' && <a class="nav-optional" href={contactUrl}>{t.contact}</a>}
       <div class="language-switch" aria-label={t.language}>
-        {locales.map((target) => <a href={pathFor(target, page)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}
+        {locales.map((target) => <a href={pathFor(target, page, slug)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}
       </div>
       {page !== 'contact' && <a class="nav-contact" href={contactUrl}>{t.brief} <span aria-hidden="true">↗</span></a>}
     </nav>
@@ -29,7 +29,7 @@ const homeUrl = page === 'home' ? '#top' : pathFor(locale, 'home');
         <a href={approachUrl}>{t.approach}</a>
         {page !== 'contact' && <a href={contactUrl}>{t.contact}</a>}
         <div class="mobile-languages" aria-label={t.language}>
-          {locales.map((target) => <a href={pathFor(target, page)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}
+          {locales.map((target) => <a href={pathFor(target, page, slug)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}
         </div>
       </nav>
     </div>

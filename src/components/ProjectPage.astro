@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import { type Locale } from '../content';
+import { demoPath, modulePath, portfolio } from '../content/portfolio';
+import '../styles/home.css';
+import '../styles/portfolio.css';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = portfolio[locale];
+---
+
+<BaseLayout title={`${t.project.title} — Optimix`} description={t.project.intro} locale={locale} page="project">
+  <SiteHeader locale={locale} page="project" variant="inner" />
+  <main id="main" class="project-page-main">
+    <section class="module-page-hero" id="top"><div class="container">
+      <p class="section-kicker">{t.project.eyebrow}</p>
+      <h1>{t.project.title}</h1>
+      <p>{t.project.intro}</p>
+      <div class="module-hero-links"><a class="button-primary" href={demoPath(locale)}>{t.project.demoLink} <span aria-hidden="true">↗</span></a></div>
+    </div></section>
+    <div class="container project-summary">
+      <section class="project-status" aria-labelledby="project-status-title"><h2 id="project-status-title">{t.project.statusTitle}</h2><p>{t.project.status}</p></section>
+      <section class="project-prerequisites" aria-labelledby="prerequisites-title"><h2 id="prerequisites-title">{t.project.prerequisitesTitle}</h2><ul>{t.project.prerequisites.map((item) => <li>{item}</li>)}</ul></section>
+      <section class="project-modules" aria-labelledby="project-modules-title"><h2 id="project-modules-title">{t.project.modulesTitle}</h2><ol>{t.modules.map((module, index) => <li><a href={modulePath(locale, module.slug)}><span>{String(index + 1).padStart(2, '0')}</span><strong>{module.title}</strong><span>{t.project.moduleLink} ↗</span></a></li>)}</ol></section>
+    </div>
+  </main>
+  <SiteFooter locale={locale} page="project" />
+</BaseLayout>

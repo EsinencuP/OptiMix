@@ -1,0 +1,37 @@
+{
+  "documentWidth": 1433,
+  "headings": [
+    {
+      "color": "rgb(11, 0, 74)",
+      "font": "Archivo, sans-serif",
+      "size": "16px",
+      "text": "PRICE OPTIMIZATION AND MANAGEMENT SOLUTIONS",
+      "weight": "500"
+    },
+    {
+      "color": "rgb(11, 0, 74)",
+      "font": "Newsreader",
+      "size": "60px",
+      "text": "Grow Margins With Intelligent, End-to-End Pricing Transformation",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(0, 0, 0)",
+      "font": "Newsreader",
+      "size": "48px",
+      "text": "Always On. Always Accurate. Always Competitive.",
+      "weight": "400"
+    },
+    {
+      "color": "rgb(255, 255, 255)",
+      "font": "Newsreader",
+      "size": "48px",
+      "text": "AI‑Powered Pricing Solutions That Power Every Deal",
+      "weight": "400"
+    }
+  ],
+  "viewport": [
+    1440,
+    900
+  ]
+}

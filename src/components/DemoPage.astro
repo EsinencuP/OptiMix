@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import { type Locale } from '../content';
+import { modulePath, portfolio } from '../content/portfolio';
+import '../styles/home.css';
+import '../styles/portfolio.css';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = portfolio[locale];
+---
+
+<BaseLayout title={`${t.demo.title} — Optimix`} description={t.demo.intro} locale={locale} page="demo">
+  <SiteHeader locale={locale} page="demo" variant="inner" />
+  <main id="main" class="demo-page-main" data-demo data-active-label={t.demo.active} data-halted={t.demo.halted} data-complete={t.demo.complete}>
+    <section class="demo-page-hero" id="top"><div class="container"><p class="section-kicker">{t.demo.kicker}</p><h1>{t.demo.title}</h1><p>{t.demo.intro}</p></div></section>
+    <div class="container demo-shell">
+      <div class="demo-controls">
+        <fieldset><legend>{t.demo.scenarioLabel}</legend><label><input type="radio" name="demo-scenario" value="normal" checked /> {t.demo.normal}</label><label><input type="radio" name="demo-scenario" value="exception" /> {t.demo.exception}</label></fieldset>
+        <button class="button-primary" type="button" data-demo-next>{t.demo.next} <span aria-hidden="true">→</span></button>
+        <button class="button-primary" type="button" data-demo-resolve hidden>{t.demo.resolve} <span aria-hidden="true">→</span></button>
+        <button class="demo-secondary" type="button" data-demo-restart>{t.demo.restart}</button>
+        <p class="demo-state" role="status" data-demo-status>{t.demo.active}: {t.modules[0].title}</p>
+        <p class="demo-disclosure">{t.demo.disclosure}</p>
+      </div>
+      <ol class="demo-steps">{t.modules.map((module, index) => <li class:list={[index === 0 && 'is-active']} data-demo-step>
+        <span>{String(index + 1).padStart(2, '0')}</span>
+        <div><h2>{module.title}</h2><p><strong>{t.demo.current}:</strong> {module.manual}</p><p><strong>{t.demo.proposed}:</strong> {module.proposal}</p><a class="demo-link" href={modulePath(locale, module.slug)}>{t.workflow.details} ↗</a></div>
+      </li>)}</ol>
+    </div>
+  </main>
+  <SiteFooter locale={locale} page="demo" />
+</BaseLayout>
+<script>import '../scripts/process-demo';</script>

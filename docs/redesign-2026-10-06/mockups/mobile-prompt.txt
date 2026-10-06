@@ -1,0 +1,28 @@
+Use case: ui-mockup. Adapt the attached OPTIMIX desktop homepage mockup into its complete responsive mobile design. Image 1 is the exact desktop design target: preserve its emerald/white/mint design language, section order, subject matter, Russian copy, icons and restrained interface illustrations. Image 2 Enable mobile is only a supporting reference for clean stacked hero typography. This is ONE responsive adaptation, not options or a redesign direction.
+
+Deliverable: a high-resolution design board showing THREE sequential mobile scroll segments side by side. Each represents a logical 390px-wide mobile webpage, about 2200-2500px tall, continuing ONE long homepage from left to right. Total board roughly 1290x2500 logical pixels; render at high resolution, ideally1536x3072. Tiny neutral labels ABOVE the artboards: 'Начало страницы', 'Примеры процессов', 'Результат и старт'. Plain neutral white gap 40px between segments. No phones, no perspective, no desktop screenshot, no side-by-side variants. All content through the footer must appear once in order. Each column is a correctly designed 390px one-column responsive layout, not a shrunken desktop page. Preserve true 20px mobile gutters, body16-18px, heading40-44px hero and30-34px section headings, readable interface fragments. Static image.
+
+Typography Onest-like bold clean grotesk. Palette: white #FFFFFF; pale mint #EEF7F1; text #17221D; secondary #536159; emerald #007A45; darkforest #102D22; mint #BCE7C9. Simple line icons, buttons8pxradius height52px, rare cards12pxradius, interfaceframe16px. No purple, serif, 3D, invented proof, client logos, metrics, fake product compatibility.
+
+FIRST segment:
+Header64px wordmark OPTIMIX left, short CTA 'Бриф' and hamburger right.
+Hero pale mint with eyebrow 'Автоматизация бизнес-процессов'. Exact centered bold heading 'Автоматизируем процессы.' in black and 'Ускоряем ваш бизнес.' in emerald, wrap each naturally across lines at390px. Body 'HR, документы, CRM, ERP, закупки, прогнозирование и аналитика — помогаем убрать ручную работу и связать процессы, людей и системы.' Primary full-width emerald button 'Описать задачу', secondary 'Посмотреть пример'. Microcopy 'Бриф сохраняется на вашем устройстве'. Main CTA fully visible before the illustrative interface.
+Then mobile-friendly purchase request interface fragment: 'Демонстрационный сценарий', title 'Заявка на закупку', state 'На согласовании', owner and approval route. Remove desktop sidebar, no tiny dense table. Caption 'Пример автоматизации закупочной заявки'.
+H2 'Автоматизация там, где работает ваш бизнес'. Six one-column service rows with icon, heading, brief copy and small green link: 'HR и команда', 'Документы и согласования', 'CRM и продажи', 'ERP и операции', 'Закупки и прогнозирование', 'Аналитика и контроль'. All six visible, readable spacing not huge blank cards. End 'Не нашли свой процесс? Опишите задачу'.
+
+SECOND segment:
+Three functional examples adapted text-first then legible illustration, one below another.
+'Заявки, документы и решения — в понятном маршруте'. Three concise bullets 'Нужные сведения собраны', 'Следующая задача назначена', 'Статус доступен команде'. Small example onboarding checklist showing owners and checked documents, labelled 'Пример процесса'.
+'Данные движутся между командами и системами'. Bullets 'Единый контекст', 'Меньше повторного ввода', 'Понятный владелец исключения'. Compact vertical CRM record → exchange → ERP order illustration, labelled 'Пример процесса'.
+'От истории операций — к плану действий'. Bullets 'Согласованные исходные данные', 'Видимые допущения', 'Сравнение прогноза с фактом'. Compact planning view with rows and states, no profit claims.
+DARK FOREST section: 'Рутина движется автоматически. Решения остаются под контролем'. Five steps stacked VERTICALLY 'Заявка', 'Бюджет', 'Согласование', 'ERP', 'Статус'. Branch at budget: 'Нет кода бюджета → проверка ответственным'. Large button 'Посмотреть демо закупки'.
+
+THIRD segment:
+White result section 'Результат начинается с понимания процесса'. Three vertically spaced criteria 'Время выполнения', 'Ручные действия и ошибки', 'Прозрачность и ответственность'; each one short explanation, no numbers presented as performance.
+'Как начать', intro 'Достаточно описать задачу, людей и системы'; four VERTICAL numbered steps 'Опишите процесс', 'Определите приоритет', 'Проверьте решение', 'Оцените результат'.
+'Работаем в контексте ваших систем': labels CRM, ERP, Документы, Таблицы, HR-системы, Источники данных in2columns or wrapped rows; no vendor brands.
+FAQ 'Вопросы перед стартом'; five accordion rows: 'С какого процесса лучше начать?', 'Можно ли улучшить существующую CRM или ERP?', 'Можно ли автоматизировать часть процесса?', 'Какие данные нужны для прогнозирования?', 'Что подготовить для обсуждения?' with plus signs.
+Mint CTA 'Начните с процесса, который хотите улучшить', short copy, button 'Описать задачу', small 'Бриф сохраняется на вашем устройстве'.
+Footer OPTIMIX, 'Автоматизация бизнес-процессов', links Направления/Примеры/Как начать/Вопросы, languages EN RO RU, Конфиденциальность, Optimix · 2026.
+
+Constraints: Russian text correct and crisp. ONE page flows across the three scroll-segment columns. All sections included once. Generous mobile rhythm without wasting half-screen blank gaps. Hero action before the large visual. Interface assets are clearly conceptual illustrations. Do not fabricate testimonials, client logos, business numbers or contact promises. Current date October6,2026; only footer2026 needed.

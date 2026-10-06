@@ -1,0 +1,296 @@
+- link "Skip to content":
+  - /url: "#content"
+- banner:
+  - banner:
+    - link "Vendavo":
+      - /url: https://www.vendavo.com/
+      - img "Vendavo"
+    - navigation "Main menu":
+      - list:
+        - generic: What We Solve
+        - generic: Platform
+        - generic: Industries
+        - generic: Customers
+        - generic: Insights
+        - generic: Company
+    - link "Request a demo":
+      - /url: https://www.vendavo.com/request-a-demo/
+- heading "Turn your complexity into commercial advantage." [level=1]:
+  - generic: Turn your complexity
+  - generic: into commercial advantage.
+- paragraph: Capture 1 to 3 % of incremental gross margin by mastering complex B2B pricing, quoting and rebates through our unified commercial platform.
+- paragraph:
+  - text: Welcome! Are you here to improve
+  - strong: margins
+  - text: ", streamline quotes, or address manual"
+  - strong: incentive and rebate processes
+  - text: "?"
+- separator
+- textbox "Start the conversation with us"
+- button "Ask AI":
+  - generic: Ask AI
+  - generic: ▸
+- link "Experience the platform":
+  - /url: https://www.vendavo.com/platform/
+  - generic: Experience the platform
+- heading "Tackle B2B profitability challenges with Vendavo." [level=1]:
+  - generic: Tackle B2B profitability challenges
+  - generic: with Vendavo.
+- paragraph: Explore our solutions with the depth, breadth, and flexibility to suit enterprise scale.
+- img "Margin Leakage icon"
+- heading "Margin Leakage" [level=3]:
+  - text: Margin
+  - text: Leakage
+- paragraph: Rapidly get to the source of margin leakage across your complex enterprise.
+- link "Learn more":
+  - /url: https://www.vendavo.com/solutions/margin-leakage/
+  - generic: Learn more
+- img "Price Management icon"
+- heading "Price Management" [level=3]:
+  - text: Price
+  - text: Management
+- paragraph: Set and more effectively manage prices to respond to changing market conditions.
+- link "Learn more":
+  - /url: https://www.vendavo.com/solutions/price-management/
+  - generic: Learn more
+- img "Price Optimization icon"
+- heading "Price Optimization" [level=3]:
+  - text: Price
+  - text: Optimization
+- paragraph: Use AI and machine learning to optimize prices for revenue or margin goals.
+- link "Learn more":
+  - /url: https://www.vendavo.com/solutions/price-optimization/
+  - generic: Learn more
+- img "Deal Guidance and Negotiation icon"
+- heading "Deal Guidance and Negotiation" [level=3]:
+  - text: Deal Guidance
+  - text: and Negotiation
+- paragraph: Provide commercial teams with the optimal price range for every transaction.
+- link "Learn more":
+  - /url: https://www.vendavo.com/solutions/deal-guidance-and-negotiation/
+  - generic: Learn more
+- img "Agreements icon"
+- heading "Agreements" [level=3]:
+  - generic: Agreements
+- paragraph: Create and proactively manage customer price agreements to prevent margin leakage.
+- link "Learn more":
+  - /url: https://www.vendavo.com/solutions/agreement-management/
+  - generic: Learn more
+- img "Actionable Sales Insights icon"
+- heading "Actionable Sales Insights" [level=3]:
+  - text: Actionable
+  - text: Sales Insights
+- paragraph: Expand wallet share and reduce customer churn with actionable guidance for sales at the time of quote.
+- link "Learn more":
+  - /url: https://www.vendavo.com/solutions/actionable-sales-insights/
+  - generic: Learn more
+- img "Rebates and Incentives icon"
+- heading "Rebates & Incentives" [level=3]:
+  - text: Rebates &
+  - text: Incentives
+- paragraph: Drive efficient, profitable, and compliant rebates and incentive programs without the manual overhead.
+- link "Learn more":
+  - /url: https://www.vendavo.com/solutions/rebates-and-incentives-management/
+  - generic: Learn more
+- img "Quoting icon"
+- heading "Quoting" [level=3]:
+  - generic: Quoting
+- paragraph: Streamline quote creation and approval processes, increase deal velocity, and sell more profitable deals.
+- link "Learn more":
+  - /url: https://www.vendavo.com/solutions/quoting/
+  - generic: Learn more
+- img "Channel Data Management icon"
+- heading "Channel Data Management" [level=3]:
+  - generic: Channel Data Management
+- paragraph: Automate the collection, cleansing, standardization, and enrichment of partner data.
+- link "Learn more":
+  - /url: https://www.vendavo.com/solutions/channel-data-management/
+  - generic: Learn more
+- heading "A unified commercial platform." [level=2]:
+  - generic: A unified
+  - generic: commercial platform.
+- heading "Enterprise scalability" [level=3]
+- paragraph: One data model in a unified platform built for enterprise scale and reliablity.
+- heading "Embedded, transparent AI" [level=3]
+- paragraph: Quantitative AI, machine learning, and agentic AI to deliver more value, faster.
+- heading "Native Integrations" [level=3]
+- paragraph: Highly compatible with your existing ERP, CRM and eCommerce systems.
+- paragraph: Leverage AI, enterprise data, and human brilliance to turn commercial complexity into proven margin lift.
+- link "Explore the Platform":
+  - /url: https://www.vendavo.com/platform/
+  - generic: Explore the Platform
+- heading "Trusted to transform B2B enterprises." [level=2]:
+  - generic: Trusted to
+  - text: transform
+  - text: B2B enterprises.
+- paragraph: "Don’t take our word for it. Hear from our customers:"
+- paragraph: “Huge improvements in our margin delivery, and when you think of a $60 billion company and you’re talking about 100-plus basis points of margin, that’s a lot of money to take to the bank.”
+- heading "100+ bps" [level=2]
+- paragraph: Margin Improvement
+- paragraph: “90% of our quotes are going out within four hours and 75% of our quotes don’t require any pricing approval … huge efficiency improvements.”
+- heading "90%" [level=2]
+- paragraph: Faster Quote Cycles
+- generic: “The transparency, clarity, and priority-setting from Vendavo helped us build a strong foundation. They were with us every step of the way.”
+- heading "$3.7M" [level=2]
+- paragraph: New revenue in less than four months
+- heading "The platform for seizing excellence." [level=2]:
+  - generic: The platform
+  - generic: for seizing excellence.
+- paragraph: Commercial excellence across diverse disciplines, achieved in a single platform.
+- paragraph: Pricing
+- paragraph: Set, manage, and optimize prices across the price waterfall to turn commercial complexity into margin advantage with price optimization and management.
+- link "Explore Pricing":
+  - /url: https://www.vendavo.com/platform/pricing/
+  - generic: Explore Pricing
+- paragraph: Quoting & Agreements
+- paragraph: Sell more profitable deals, reduce margin leakage on agreements, and speed up quote turnaround time with quoting and agreements.
+- link "Explore Quoting":
+  - /url: https://www.vendavo.com/platform/quoting-and-agreements/
+  - generic: Explore Quoting
+- paragraph: Rebates
+- paragraph: Automate rebates and incentives to drive compliance, transparency, and profitable growth.
+- link "Explore Rebates":
+  - /url: https://www.vendavo.com/platform/rebates/
+  - generic: Explore Rebates
+- paragraph: AI & Intelligence
+- paragraph: Sharpen decision making with quantitative AI, machine learning and agentic AI embedded in the Vendavo Platform.
+- link "Explore AI & Intelligence":
+  - /url: https://www.vendavo.com/platform/ai-and-intelligence/
+  - generic: Explore AI & Intelligence
+- paragraph: Analytics
+- paragraph: Deep dive into margin bridge analysis and pricing analytics to see what’s working, what’s leaking, and why.
+- link "Explore Analytics":
+  - /url: https://www.vendavo.com/platform/analytics/
+  - generic: Explore Analytics
+- paragraph: Integrations & Security
+- paragraph: Advance with a platform designed to scale. Unified, secure, and built for enterprise reality.
+- link "Explore Integrations & Security":
+  - /url: https://www.vendavo.com/platform/integrations-and-security/
+  - generic: Explore Integrations & Security
+- paragraph: High-Tech Revenue Management
+- paragraph: Connect pricing, quoting, rebates, and analytics to execute complex high-tech revenue strategies across direct and channel sales.
+- link "Explore High-Tech Revenue Management":
+  - /url: https://www.vendavo.com/platform/high-tech-revenue-management/
+  - generic: Explore High-Tech Revenue Management
+- heading "Capture more value systematically." [level=2]:
+  - generic: Capture more value
+  - generic: systematically.
+- paragraph: Create undeniable impact across your enterprise.
+- link "See Vendavo in action":
+  - /url: https://www.vendavo.com/request-a-demo/
+  - generic: See Vendavo in action
+- link "Explore the Vendavo Platform":
+  - /url: https://www.vendavo.com/platform/
+  - generic: Explore the Vendavo Platform
+- heading "Harness deep B2B expertise." [level=2]:
+  - generic: Harness deep
+  - generic: B2B expertise.
+- paragraph: Explore how your industry is capturing greater value with Vendavo.
+- link "All industries":
+  - /url: https://www.vendavo.com/industries/
+  - generic: All industries
+- generic "Accordion. Open links with Enter or Space, close with Escape, and navigate with Arrow Keys":
+  - generic "Manufacturing":
+    - generic: Manufacturing
+  - region "Manufacturing Aftermarket Parts Automotive, Boat & Aerospace Building Products Chemicals Electrical Products Electronics & Electronic Components Food & Beverage High-Tech Industrial & Durables Machinery & Equipment Medical Consumables Med Device Paper & Packaging Semiconductor All Manufacturing":
+    - region "Manufacturing Aftermarket Parts Automotive, Boat & Aerospace Building Products Chemicals Electrical Products Electronics & Electronic Components Food & Beverage High-Tech Industrial & Durables Machinery & Equipment Medical Consumables Med Device Paper & Packaging Semiconductor All Manufacturing":
+      - region "Manufacturing Aftermarket Parts Automotive, Boat & Aerospace Building Products Chemicals Electrical Products Electronics & Electronic Components Food & Beverage High-Tech Industrial & Durables Machinery & Equipment Medical Consumables Med Device Paper & Packaging Semiconductor All Manufacturing":
+        - region "Manufacturing Aftermarket Parts Automotive, Boat & Aerospace Building Products Chemicals Electrical Products Electronics & Electronic Components Food & Beverage High-Tech Industrial & Durables Machinery & Equipment Medical Consumables Med Device Paper & Packaging Semiconductor All Manufacturing":
+          - list:
+            - link "Aftermarket Parts":
+              - /url: https://www.vendavo.com/industries/manufacturing/aftermarket-parts/
+              - generic: Aftermarket Parts
+            - link "Automotive, Boat & Aerospace":
+              - /url: https://www.vendavo.com/industries/manufacturing/automotive-boat-and-aerospace/
+              - generic: Automotive, Boat & Aerospace
+            - link "Building Products":
+              - /url: https://www.vendavo.com/industries/manufacturing/building-products/
+              - generic: Building Products
+            - link "Chemicals":
+              - /url: https://www.vendavo.com/industries/manufacturing/chemicals/
+              - generic: Chemicals
+            - link "Electrical Products":
+              - /url: https://www.vendavo.com/industries/manufacturing/electrical-products/
+              - generic: Electrical Products
+            - link "Electronics & Electronic Components":
+              - /url: https://www.vendavo.com/industries/manufacturing/electronics-and-electronic-components/
+              - generic: Electronics & Electronic Components
+            - link "Food & Beverage":
+              - /url: https://www.vendavo.com/industries/manufacturing/food-and-beverage/
+              - generic: Food & Beverage
+        - region "Manufacturing Aftermarket Parts Automotive, Boat & Aerospace Building Products Chemicals Electrical Products Electronics & Electronic Components Food & Beverage High-Tech Industrial & Durables Machinery & Equipment Medical Consumables Med Device Paper & Packaging Semiconductor All Manufacturing":
+          - list:
+            - link "High-Tech":
+              - /url: https://www.vendavo.com/industries/manufacturing/high-tech/
+              - generic: High-Tech
+            - link "Industrial & Durables":
+              - /url: https://www.vendavo.com/industries/manufacturing/industrial-durables/
+              - generic: Industrial & Durables
+            - link "Machinery & Equipment":
+              - /url: https://www.vendavo.com/industries/manufacturing/machinery-and-equipment/
+              - generic: Machinery & Equipment
+            - link "Medical Consumables":
+              - /url: https://www.vendavo.com/industries/manufacturing/medical-consumables/
+              - generic: Medical Consumables
+            - link "Med Device":
+              - /url: https://www.vendavo.com/industries/manufacturing/med-device/
+              - generic: Med Device
+            - link "Paper & Packaging":
+              - /url: https://www.vendavo.com/industries/manufacturing/paper-and-packaging/
+              - generic: Paper & Packaging
+            - link "Semiconductor":
+              - /url: https://www.vendavo.com/industries/manufacturing/semiconductor/
+              - generic: Semiconductor
+      - region "Manufacturing Aftermarket Parts Automotive, Boat & Aerospace Building Products Chemicals Electrical Products Electronics & Electronic Components Food & Beverage High-Tech Industrial & Durables Machinery & Equipment Medical Consumables Med Device Paper & Packaging Semiconductor All Manufacturing":
+        - link "All Manufacturing":
+          - /url: https://www.vendavo.com/industries/manufacturing/
+          - generic: All Manufacturing
+  - generic "Distribution":
+    - generic: Distribution
+  - generic "Services":
+    - generic: Services
+- heading "Vendavo Voice" [level=2]:
+  - generic: Vendavo
+  - generic: Voice
+- link "Subscribe to Vendavo Voice":
+  - /url: https://www.vendavo.com/subscribe/
+  - generic: Subscribe to Vendavo Voice
+- link "Webinars Live sessions with Vendavo experts exploring how pricing, quoting, and rebates turn commercial complexity into measurable margin advantage.":
+  - /url: https://www.vendavo.com/insights/webinars/
+  - heading "Webinars" [level=3]
+  - paragraph: Live sessions with Vendavo experts exploring how pricing, quoting, and rebates turn commercial complexity into measurable margin advantage.
+- link "Events In-person gatherings where commercial leaders exchange practical insight on capturing value systematically across pricing, sales, and rebates.":
+  - /url: https://www.vendavo.com/insights/events/
+  - heading "Events" [level=3]
+  - paragraph: In-person gatherings where commercial leaders exchange practical insight on capturing value systematically across pricing, sales, and rebates.
+- link "Whitepapers & eBooks Structured guides and in-depth perspectives that unpack the mechanics of pricing sophistication, AI-driven decision making, and the systems required to protect and grow margins.":
+  - /url: https://www.vendavo.com/insights/whitepapers/
+  - heading "Whitepapers & eBooks" [level=3]
+  - paragraph: Structured guides and in-depth perspectives that unpack the mechanics of pricing sophistication, AI-driven decision making, and the systems required to protect and grow margins.
+- link "Blogs Regular commentary from practitioners working inside pricing, quoting, and rebate management, sharing clear-headed insight on real commercial challenges.":
+  - /url: https://www.vendavo.com/insights/blog/
+  - heading "Blogs" [level=3]
+  - paragraph: Regular commentary from practitioners working inside pricing, quoting, and rebate management, sharing clear-headed insight on real commercial challenges.
+- link "Case Studies Real examples of organizations turning complexity into advantage with Vendavo, delivering traceable decisions and measurable margin improvement.":
+  - /url: https://www.vendavo.com/insights/case-studies/
+  - heading "Case Studies" [level=3]
+  - paragraph: Real examples of organizations turning complexity into advantage with Vendavo, delivering traceable decisions and measurable margin improvement.
+- link "Data Sheets Solution overviews that explain how Vendavo unifies pricing, quoting, and rebates to help enterprises capture value systematically.":
+  - /url: https://www.vendavo.com/insights/datasheets/
+  - heading "Data Sheets" [level=3]
+  - paragraph: Solution overviews that explain how Vendavo unifies pricing, quoting, and rebates to help enterprises capture value systematically.
+- link "Tools & Value Calculators Interactive tools that turn commercial insight into action, helping leaders understand their businesses’ unique opportunity for better pricing, quoting, and rebate strategies.":
+  - /url: https://www.vendavo.com/insights/tools/
+  - heading "Tools & Value Calculators" [level=3]
+  - paragraph: Interactive tools that turn commercial insight into action, helping leaders understand their businesses’ unique opportunity for better pricing, quoting, and rebate strategies.
+- link "Videos Short, focused perspectives on how modern pricing, quoting, and rebate strategies turn commercial complexity into measurable advantage.":
+  - /url: https://www.vendavo.com/insights/videos/
+  - heading "Videos" [level=3]
+  - paragraph: Short, focused perspectives on how modern pricing, quoting, and rebate strategies turn commercial complexity into measurable advantage.
+- link "Glossary A clear reference to the essential concepts behind margin improvement; designed to help teams build shared understanding across commercial functions.":
+  - /url: https://www.vendavo.com/glossary/
+  - heading "Glossary" [level=3]
+  - paragraph: A clear reference to the essential concepts behind margin improvement; designed to help teams build shared understanding across commercial functions.
+- button "Previous slide":
+- button "Next slide":
+- contentinfo

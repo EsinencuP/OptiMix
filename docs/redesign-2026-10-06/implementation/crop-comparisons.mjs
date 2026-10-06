@@ -1,0 +1,1 @@
+import sharp from 'sharp'; const d='docs/redesign-2026-10-06/implementation/';await sharp(d+'comparison-mobile-segment-2.png').extract({left:0,top:0,width:780,height:980}).png().toFile(d+'comparison-mobile-examples-focused.png');await sharp(d+'comparison-mobile-segment-3.png').extract({left:0,top:0,width:780,height:1200}).png().toFile(d+'comparison-mobile-result-focused.png');

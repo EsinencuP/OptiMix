@@ -1,0 +1,26 @@
+[
+  {
+    "clientWidth": 320,
+    "decorations": "none",
+    "overflow": false,
+    "routeFits": true,
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "clientWidth": 753,
+    "decorations": "none",
+    "overflow": false,
+    "routeFits": true,
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "clientWidth": 1009,
+    "decorations": "block",
+    "overflow": false,
+    "routeFits": true,
+    "scrollWidth": 1009,
+    "width": 1024
+  }
+]
