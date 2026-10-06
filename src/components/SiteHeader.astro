@@ -1,38 +1,21 @@
 ---
+import Icon from './RedesignIcon.astro';
 import { content, homeAnchor, locales, pathFor, type Locale, type PageKind } from '../content';
-
-interface Props { locale: Locale; page: PageKind; variant?: 'hero' | 'inner' }
-const { locale, page, variant = 'hero' } = Astro.props;
-const t = content[locale].ui;
-const processUrl = page === 'home' ? '#workflow' : homeAnchor(locale, 'workflow');
-const approachUrl = page === 'home' ? '#approach' : homeAnchor(locale, 'approach');
-const contactUrl = pathFor(locale, 'contact');
-const homeUrl = page === 'home' ? '#top' : pathFor(locale, 'home');
+import { homeRedesign } from '../content/home-redesign';
+interface Props { locale: Locale; page: PageKind; slug?: string }
+const { locale, page, slug } = Astro.props;
+const t = homeRedesign(locale);
+const anchors = ['services','demo-projects','approach','faq'];
+const anchor = (id: string) => page === 'home' ? '#' + id : homeAnchor(locale,id);
+const home = page === 'home' ? '#top' : pathFor(locale,'home');
+const language = content[locale].ui.language;
 ---
-<header id={page === 'home' ? undefined : 'top'} class:list={['site-header', variant === 'inner' && 'site-header-inner']}>
-  <div class="container header-inner">
-    <a class="wordmark" href={homeUrl} aria-label={`Optimix — ${t.home}`} translate="no">OPTI<span>MIX</span></a>
-    <nav class="primary-nav" aria-label={t.menu}>
-      <a class="nav-optional" href={processUrl}>{t.process}</a>
-      <a class="nav-optional" href={approachUrl}>{t.approach}</a>
-      {page !== 'contact' && <a class="nav-optional" href={contactUrl}>{t.contact}</a>}
-      <div class="language-switch" aria-label={t.language}>
-        {locales.map((target) => <a href={pathFor(target, page)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}
-      </div>
-      {page !== 'contact' && <a class="nav-contact" href={contactUrl}>{t.brief} <span aria-hidden="true">↗</span></a>}
-    </nav>
-    {page !== 'contact' && <a class="mobile-contact" href={contactUrl}>{t.briefShort} <span aria-hidden="true">↗</span></a>}
-    <div class="mobile-menu">
-      <button class="mobile-menu-trigger" type="button" popovertarget="mobile-nav" aria-controls="mobile-nav" aria-expanded="false">{t.menu} <span aria-hidden="true">+</span></button>
-      <nav class="mobile-nav-popover" popover id="mobile-nav" aria-label={t.menu}>
-        <a href={processUrl}>{t.process}</a>
-        <a href={approachUrl}>{t.approach}</a>
-        {page !== 'contact' && <a href={contactUrl}>{t.contact}</a>}
-        <div class="mobile-languages" aria-label={t.language}>
-          {locales.map((target) => <a href={pathFor(target, page)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}
-        </div>
-      </nav>
-    </div>
+<header class="ox-header"><div class="ox-container ox-header-inner">
+  <a class="ox-brand" href={home} aria-label="Optimix"><img src="/images/redesign/brand-mark.png" width="22" height="22" alt="" /><span translate="no">OPTIMIX</span></a>
+  <nav class="ox-desktop-nav" aria-label={t.menu}>{t.nav.map((label,i) => <a href={anchor(anchors[i])}>{label}{i < 2 && <Icon name="caret-down" size={14} />}</a>)}</nav>
+  <div class="ox-header-actions"><nav class="ox-languages" aria-label={language}>{locales.map(target => <a data-locale-link href={pathFor(target,page,slug)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}</nav>{page !== 'contact' && <a class="ox-button ox-header-cta" href={pathFor(locale,'contact')}><span class="ox-desktop-label">{t.action}</span><span class="ox-mobile-label">{t.brief}</span></a>}
+    <button class="ox-menu-trigger" type="button" popovertarget="ox-mobile-nav" aria-label={t.menu} aria-expanded="false" aria-controls="ox-mobile-nav"><Icon name="list" size={26} /></button>
   </div>
-</header>
+  <nav id="ox-mobile-nav" class="ox-mobile-nav" popover aria-label={t.menu}>{t.nav.map((label,i) => <a href={anchor(anchors[i])}>{label}<Icon name="arrow-right" size={20} /></a>)}<div class="ox-languages" aria-label={language}>{locales.map(target => <a data-locale-link href={pathFor(target,page,slug)} lang={target} hreflang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}</div></nav>
+</div></header>
 <script>import '../scripts/site-header';</script>

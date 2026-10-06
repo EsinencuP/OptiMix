@@ -1,24 +1,24 @@
 :root {
-  /* Variant A working palette; these remain prototype choices, not approved brand assets. */
-  --font-sans: 'Onest Variable', Arial, sans-serif;
+  /* Approved site-wide Optimix design. See docs/PROJECT_GUIDE.md. */
+  --font-sans: 'Optimix Roboto', Arial, sans-serif;
 
-  --color-paper: #f2f0ea;
+  --color-paper: #ffffff;
   --color-white: #ffffff;
-  --color-light: #f7f5ef;
-  --color-signal: #c6d7ba;
-  --color-ink: #1c201e;
-  --color-muted: #4d5850;
-  --color-line: #cbd0c7;
-  --color-wash: #e9eee6;
-  --color-accent: #175449;
-  --color-accent-hover: #103c34;
-  --color-dark: #1d3730;
+  --color-light: #ecfaf4;
+  --color-signal: #c3efd5;
+  --color-ink: #08171b;
+  --color-muted: #526577;
+  --color-line: #e1e9ed;
+  --color-wash: #f5f8f6;
+  --color-accent: #00863f;
+  --color-accent-hover: #007a3d;
+  --color-dark: #063426;
   --color-dark-muted: #c4d1cb;
   --page-gutter: clamp(20px, 4.4vw, 64px);
   --container-wide: 84rem;
   --section-space: clamp(5.5rem, 10vw, 10rem);
 
-  --radius-control: 0;
+  --radius-control: 7px;
   --border-hairline: 1px solid var(--color-line);
   --shadow-raised: 0 1.25rem 3.5rem rgb(22 49 45 / 8%);
   --shadow-subtle: 0 1px 3px rgb(22 49 45 / 4%);

@@ -1,0 +1,8 @@
+{
+  "check": "types",
+  "status": "fulfilled",
+  "value": {
+    "code": 0,
+    "output": "\u001b[2m23:04:27\u001b[22m \u001b[34m[types]\u001b[39m Generated \u001b[2m70ms\u001b[22m\n\u001b[2m23:04:27\u001b[22m \u001b[34m[check]\u001b[39m Getting diagnostics for Astro files in D:\\Evo Web Design\\Optimix...\nResult (54 files): \n- 0 errors\n- 0 warnings\n- 0 hints\n\n"
+  }
+}

@@ -1,0 +1,22 @@
+---
+import Icon from './RedesignIcon.astro';
+import Preview from './DemoProjectPreview.astro';
+import { demoProjects, demoProjectNames } from '../content/demo-projects';
+import { demoPath, modulePath } from '../content/portfolio';
+import type { Locale } from '../content';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = demoProjects(locale);
+---
+<section class="ox-projects ox-section" id="demo-projects" aria-labelledby="ox-projects-title">
+  <div class="ox-container">
+    <div class="ox-section-heading"><p class="ox-projects-eyebrow">{t.eyebrow}</p><h2 id="ox-projects-title">{t.title}</h2><p>{t.intro}</p></div>
+    <div class="ox-project-grid">
+      {t.projects.map((project,i) => <article class="ox-project-card" id={'demo-' + project.slug} aria-labelledby={'project-' + project.slug}>
+        <Preview locale={locale} kind={project.slug} />
+        <div class="ox-project-copy"><div class="ox-project-category"><Icon name={project.icon} size={18} /><span>{project.category}</span><span class="ox-project-number">0{i+1}</span></div><h3 id={'project-' + project.slug} translate="no">{demoProjectNames[project.slug]}</h3><p class="ox-project-headline">{project.title}</p><p class="ox-project-description">{project.description}</p><ul class="ox-project-tags">{project.tags.map(tag => <li>{tag}</li>)}</ul><div class="ox-project-links"><a class="ox-project-open" href={modulePath(locale,project.slug)} aria-label={t.open + ' — ' + demoProjectNames[project.slug]}>{t.open}<Icon name="arrow-right" size={19} /></a><a class="ox-project-demo-link" href={demoPath(locale) + '?step=' + project.slug} aria-label={t.tryDemo + ' — ' + demoProjectNames[project.slug]}>{t.tryDemo}</a></div></div>
+      </article>)}
+      <article class="ox-project-card ox-project-all" aria-labelledby="project-crm"><div class="ox-project-copy"><div class="ox-project-category"><Icon name="address-book" size={19} /><span>{t.allInOne.category}</span><span class="ox-project-number">06</span></div><h3 id="project-crm" translate="no">{t.allInOne.name}</h3><p class="ox-project-headline">{t.allInOne.title}</p><p class="ox-project-description">{t.allInOne.description}</p><ul class="ox-project-tags">{t.allInOne.tags.map(tag => <li>{tag}</li>)}</ul><a class="ox-button" href="#business-systems">{t.allInOne.action}<Icon name="arrow-right" size={20} /></a></div><Preview locale={locale} kind="crm" /></article>
+    </div><p class="ox-projects-note">{t.note}</p>
+  </div>
+</section>

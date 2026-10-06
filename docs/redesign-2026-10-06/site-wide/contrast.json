@@ -1,0 +1,50 @@
+[
+  {
+    "name": "body",
+    "foreground": "#08171b",
+    "background": "#ffffff",
+    "ratio": 18.28
+  },
+  {
+    "name": "secondary",
+    "foreground": "#526577",
+    "background": "#ffffff",
+    "ratio": 6.02
+  },
+  {
+    "name": "button",
+    "foreground": "#ffffff",
+    "background": "#00863f",
+    "ratio": 4.69
+  },
+  {
+    "name": "green text",
+    "foreground": "#007a45",
+    "background": "#ecfaf4",
+    "ratio": 5.05
+  },
+  {
+    "name": "input border",
+    "foreground": "#7c9387",
+    "background": "#ffffff",
+    "ratio": 3.29
+  },
+  {
+    "name": "success",
+    "foreground": "#006d3a",
+    "background": "#edf9f2",
+    "ratio": 5.98
+  },
+  {
+    "name": "halted",
+    "foreground": "#6b4a14",
+    "background": "#fff8e8",
+    "ratio": 7.59
+  },
+  {
+    "name": "completed",
+    "foreground": "#ffffff",
+    "background": "#063426",
+    "ratio": 13.75
+  }
+]

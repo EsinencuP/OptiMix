@@ -1,0 +1,55 @@
+---
+import Icon from './RedesignIcon.astro';
+import { homeRedesign } from '../content/home-redesign';
+import type { Locale } from '../content';
+interface Props { locale: Locale; kind: 'purchase' | 'intake' | 'systems' | 'planning' }
+const { locale, kind } = Astro.props;
+const t = homeRedesign(locale);
+const navIcons = ['house','file-text','check-square','files','check-circle','chart-bar','gear'];
+---
+{kind === 'purchase' ? <figure class="ox-purchase ox-ui">
+  <div class="ox-window-bar" aria-hidden="true"><span class="ox-dot ox-dot-red"></span><span class="ox-dot ox-dot-yellow"></span><span class="ox-dot ox-dot-green"></span></div>
+  <aside class="ox-demo-sidebar" aria-hidden="true">
+    <div class="ox-brand"><img src="/images/redesign/brand-mark.png" width="20" height="20" alt="" /><span>OPTIMIX</span></div>
+    <ul>{t.sceneNav.map((label, i) => <li class:list={[i === 1 && 'is-selected']}><Icon name={navIcons[i]} />{label}</li>)}</ul>
+  </aside>
+  <div class="ox-purchase-main">
+    <div class="ox-purchase-heading"><div><p>{t.demoLabel}</p><h2>{t.purchaseTitle}</h2></div><span class="ox-status">{t.states[2]}</span><Icon name="dots-three-vertical" /></div>
+    <div class="ox-purchase-panels">
+      <div class="ox-initiator ox-ui-panel">
+        <p class="ox-field-label">{t.initiator}</p>
+        <div class="ox-person"><span class="ox-avatar">{locale === 'ru' ? 'ИИ' : 'IN'}</span><div><strong>{t.initiator}</strong><small>{t.newRequest}</small></div></div>
+        <div class="ox-owner-block"><p class="ox-field-label">{t.owner}</p><div class="ox-person"><span class="ox-avatar ox-avatar-muted">{locale === 'ru' ? 'ОП' : 'OW'}</span><div><strong>{t.owner}</strong><small>{t.profile}</small></div></div></div>
+        <dl class="ox-person-details"><div><dt>{t.department}</dt><dd>{t.purchasing}</dd></div><div><dt>{t.date}</dt><dd>—</dd></div></dl>
+      </div>
+      <div class="ox-request-description ox-ui-panel">
+        <p class="ox-field-label">{t.description}</p><p>{t.requestDescription}</p>
+        <div class="ox-attachments"><p class="ox-field-label">{t.attachments}</p><ul>{t.filenames.map((file, i) => <li><Icon name={['file-pdf-red','file-pdf-purple','file-doc-blue'][i]} class={`ox-file ox-file-${i}`} /><span>{file}</span><Icon name="dots-three-vertical" size={16} /></li>)}</ul></div>
+      </div>
+      <div class="ox-approval ox-ui-panel"><p class="ox-field-label">{t.approval}</p>
+        <ol>{t.stages.map((stage,i) => <li class:list={[i < 2 && 'is-complete',i === 2 && 'is-current',i > 2 && 'is-waiting']}><Icon name={i < 2 ? 'check-circle-fill' : i === 2 ? 'radio-button' : 'circle-muted'} size={28} /><div><strong>{stage}</strong><small>{t.states[i]}</small></div></li>)}</ol>
+        <span class="ox-illustrative-action">{t.approveAction}</span>
+      </div>
+    </div>
+    <ol class="ox-purchase-progress" aria-hidden="true">{t.stages.map((stage,i) => <li><Icon name={i < 2 ? 'check-circle-fill' : i === 2 ? 'radio-button' : 'circle'} class={i > 2 ? 'ox-icon-muted' : undefined} size={32} /><strong>{stage}</strong>{i < 4 && <Icon name="arrow-right" class={i > 1 ? 'ox-icon-muted' : undefined} />}</li>)}</ol>
+    <figcaption>{t.purchaseCaption}</figcaption>
+  </div>
+</figure> : <figure class:list={['ox-process-illustration','ox-ui',`ox-scene-${kind}`]}>
+  <figcaption>{t.processLabel}</figcaption>
+  {kind === 'intake' && <div class="ox-intake-window ox-ui-panel">
+    <h3>{t.newRequest}</h3><div class="ox-intake-columns">
+      <ul class="ox-intake-nav">{t.intakeNav.map((label,i) => <li class:list={[i === 0 && 'is-selected']}><Icon name={['file-text','users','check-square','files','clock'][i]} size={16} />{i === 0 ? <><span class="ox-desktop-label">{label}</span><span class="ox-mobile-label">{t.newRequest}</span></> : label}</li>)}</ul>
+      <div class="ox-check-panel ox-ui-panel"><h4>{t.checksTitle}</h4><ul>{t.checks.map(label => <li><Icon name="check-circle" size={16} /><span>{label}</span></li>)}</ul></div>
+      <div class="ox-team-panel ox-ui-panel"><h4>{t.owner}</h4><ul>{t.departments.map((label,i) => <li><span class={`ox-avatar ox-avatar-${i}`}>{locale === 'ru' ? ['ИИ','ФО','ЮО','ЗК'][i] : ['IN','FN','LG','PR'][i]}</span><span>{label}<small>{t.states[Math.min(i,4)]}</small></span><Icon name="check-circle-fill" size={14} /></li>)}</ul></div>
+    </div>
+  </div>}
+  {kind === 'systems' && <div class="ox-systems-window">
+    <div class="ox-system-panel ox-ui-panel"><h3><Icon name="circle" class="ox-icon-blue" size={24} /><span>CRM<small>{t.deal}</small></span></h3><dl><div><dt>{t.client}</dt><dd>{t.demoCompany}</dd></div><div><dt>{t.owner}</dt><dd>{t.owner}</dd></div><div><dt>{t.stages[4]}</dt><dd>{t.inProgress}</dd></div></dl></div>
+    <div class="ox-sync"><Icon name="arrow-right" class="ox-icon-blue" /><span>{t.sync}</span><Icon name="arrow-right" class="ox-icon-blue" /></div>
+    <div class="ox-system-panel ox-ui-panel"><h3><Icon name="check-circle-fill" size={24} /><span>ERP<small>{t.order}</small></span></h3><dl><div><dt>{t.orderNumber}</dt><dd>{t.creating}</dd></div><div><dt>{t.stages[4]}</dt><dd>{t.processing}</dd></div><div><dt>{t.owner}</dt><dd>{t.owner}</dd></div></dl></div>
+  </div>}
+  {kind === 'planning' && <div class="ox-planning-window ox-ui-panel">
+    <h3>{t.planning}</h3><div class="ox-plan-tabs">{t.planTabs.map((tab,i) => <span class:list={[i === 0 && 'is-selected']}>{tab}</span>)}</div>
+    <table><thead><tr>{t.tableHeads.map((head,i) => <th class={i === 3 ? 'ox-plan-col' : undefined} scope="col">{head}</th>)}</tr></thead><tbody>{t.products.map((product,i) => <tr><th scope="row">{product}</th>{[0,1,2].map((col) => <td class={col === 2 ? 'ox-plan-col' : undefined}><meter aria-label={`${product} — ${t.tableHeads[col+1]}`} min="0" max="100" value={[65,56,39,46][i]-col*7}>{[65,56,39,46][i]-col*7}%</meter></td>)}<td><span class:list={['ox-table-status',i === 1 && 'ox-status-attention']}><Icon name={i === 1 ? 'warning' : 'circle'} size={12} />{i === 1 ? t.attention : t.planned}</span></td></tr>)}</tbody></table>
+  </div>}
+</figure>}

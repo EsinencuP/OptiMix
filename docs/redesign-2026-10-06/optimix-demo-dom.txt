@@ -1,0 +1,121 @@
+- link "Skip to content":
+  - /url: "#main"
+- banner:
+  - link "Optimix — Home":
+    - /url: /
+    - text: OPTI
+    - generic: MIX
+  - navigation "Menu":
+    - link "Process":
+      - /url: /#workflow
+    - link "Approach":
+      - /url: /#approach
+    - link "Contact":
+      - /url: /contact/
+    - generic "Language":
+      - link "EN":
+        - /url: /demo/procurement/
+      - link "RO":
+        - /url: /ro/demo/procurement/
+      - link "RU":
+        - /url: /ru/demo/procurement/
+    - link "Prepare a process brief":
+      - /url: /contact/
+      - text: Prepare a process brief
+      - generic: ↗
+- main:
+  - paragraph: Procurement route / interactive example
+  - heading "Walk through a purchase request." [level=1]
+  - paragraph: A local simulation of the proposed route. Choose complete data or an exception and advance through the five handoffs.
+  - group "Choose a scenario":
+    - generic: Choose a scenario
+    - radio "Complete data" [checked]
+    - text: Complete data
+    - radio "Missing budget code"
+    - text: Missing budget code
+  - button "Next step":
+    - text: Next step
+    - generic: →
+  - button "Start again"
+  - status: "Current step: Capture the request once"
+  - paragraph: Illustrative browser-only demo. It does not connect to an ERP, submit data or represent a verified client project.
+  - list:
+    - generic: "01"
+    - heading "Capture the request once" [level=2]
+    - paragraph:
+      - strong: "Manual route:"
+      - text: A purchase request arrives by email without shared fields or an owner.
+    - paragraph:
+      - strong: "Proposed route:"
+      - text: A structured intake records the request, required fields and receiving time.
+    - link "Open module ↗":
+      - /url: /solutions/intake/
+    - generic: "02"
+    - heading "Check the budget from one record" [level=2]
+    - paragraph:
+      - strong: "Manual route:"
+      - text: The same amounts and codes are copied into a separate budget file.
+    - paragraph:
+      - strong: "Proposed route:"
+      - text: Defined rules compare the request with the approved budget source.
+    - link "Open module ↗":
+      - /url: /solutions/budget/
+    - generic: "03"
+    - heading "Record the approval decision" [level=2]
+    - paragraph:
+      - strong: "Manual route:"
+      - text: A decision sits in an inbox until somebody forwards it.
+    - paragraph:
+      - strong: "Proposed route:"
+      - text: A named approver receives context and records approve, reject or return.
+    - link "Open module ↗":
+      - /url: /solutions/approval/
+    - generic: "04"
+    - heading "Transfer approved data to ERP" [level=2]
+    - paragraph:
+      - strong: "Manual route:"
+      - text: Approved fields are typed into the ERP again.
+    - paragraph:
+      - strong: "Proposed route:"
+      - text: A controlled mapping transfers only approved fields and checks the response.
+    - link "Open module ↗":
+      - /url: /solutions/erp/
+    - generic: "05"
+    - heading "Show the next owner and state" [level=2]
+    - paragraph:
+      - strong: "Manual route:"
+      - text: People ask by email where the request stands.
+    - paragraph:
+      - strong: "Proposed route:"
+      - text: A shared status view shows the current state, owner and next action.
+    - link "Open module ↗":
+      - /url: /solutions/visibility/
+- contentinfo:
+  - link "OPTI MIX":
+    - /url: /
+    - text: OPTI
+    - generic: MIX
+  - paragraph: Business process improvement through controlled digital workflows.
+  - navigation "Explore":
+    - generic: Explore
+    - link "Process":
+      - /url: /#workflow
+    - link "Approach":
+      - /url: /#approach
+    - link "Contact":
+      - /url: /contact/
+    - link "Privacy":
+      - /url: /privacy/
+  - navigation "Languages":
+    - generic: Languages
+    - link "EN":
+      - /url: /demo/procurement/
+    - link "RO":
+      - /url: /ro/demo/procurement/
+    - link "RU":
+      - /url: /ru/demo/procurement/
+  - generic: Optimix · 2026
+  - link "Back to top":
+    - /url: "#top"
+    - generic: ↑
+    - text: Back to top

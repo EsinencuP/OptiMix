@@ -1,0 +1,13 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import Icon from './RedesignIcon.astro';
+import { pathFor, type Locale } from '../content';
+import { siteRedesign } from '../content/site-redesign';
+import { homeRedesign } from '../content/home-redesign';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = siteRedesign(locale);
+---
+<BaseLayout title={`404 — ${t.notFound} — Optimix`} description={t.notFoundIntro} locale={locale} page="not-found"><SiteHeader locale={locale} page="not-found" /><main id="main" class="ox-not-found"><section class="ox-page-hero" id="top"><div class="ox-container ox-page-heading"><p class="ox-error-number" aria-hidden="true">404</p><h1>{t.notFound}</h1><p class="ox-page-lead">{t.notFoundIntro}</p><div class="ox-page-actions"><a class="ox-button" href={pathFor(locale,'home')}>{t.home}<Icon name="arrow-right" size={20} /></a><a class="ox-button ox-button-secondary" href={pathFor(locale,'contact')}>{homeRedesign(locale).action}</a></div></div></section></main><SiteFooter locale={locale} page="not-found" /></BaseLayout>

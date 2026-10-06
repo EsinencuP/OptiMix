@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import { content, pathFor, type Locale } from '../content';
+import { demoPath, modulePath, projectPath, portfolio } from '../content/portfolio';
+import '../styles/home-critical.generated.css';
+import '../styles/portfolio.css';
+import deferredHomeCss from '../styles/home-deferred.generated.css?url';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = portfolio[locale];
+const site = content[locale];
+---
+
+<BaseLayout title={site.meta.homeTitle} description={site.meta.homeDescription} locale={locale} page="home" deferredStylesheet={deferredHomeCss}>
+  <SiteHeader locale={locale} page="home" />
+  <main id="main">
+    <section class="signal-hero" id="top" aria-labelledby="hero-title">
+      <div class="container signal-hero-grid">
+        <div class="signal-hero-copy">
+          <p class="section-kicker">{t.hero.eyebrow}</p>
+          <h1 id="hero-title">{t.hero.title}</h1>
+          <p class="signal-intro">{t.hero.intro}</p>
+          <div class="signal-actions">
+            <a class="button-primary" href="#workflow">{t.hero.primary} <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href={demoPath(locale)}>{t.hero.secondary} <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="signal-visual" data-signal-visual data-proposals={JSON.stringify(t.modules.map((module) => module.proposal))} aria-label={t.hero.visualLabel}>
+          <div class="signal-visual-head"><span>{t.hero.graphLabel}</span><span>01 — 05</span></div>
+          <div class="signal-chart" data-signal-chart>
+            <svg viewBox="0 0 600 350" preserveAspectRatio="none" aria-hidden="true">
+              <path class="signal-grid" d="M24 70H576 M24 175H576 M24 280H576 M24 20V315 M162 20V315 M300 20V315 M438 20V315 M576 20V315" />
+              <path class="signal-track signal-track-one" d="M24 278 C95 275 108 225 162 216 S245 202 300 156 S385 145 438 112 S522 99 576 53" />
+              <path class="signal-track signal-track-two" d="M24 292 C93 281 111 280 162 260 S250 214 300 218 S379 177 438 153 S521 131 576 118" />
+              <path class="signal-track signal-track-three" d="M24 305 C90 303 116 280 162 278 S247 260 300 246 S384 230 438 200 S512 185 576 165" />
+            </svg>
+            <div class="signal-scan" data-signal-scan aria-hidden="true"><span></span></div>
+          </div>
+          <div class="signal-readout"><span data-stage-number>01 / 05</span><strong data-active-stage>{t.hero.stages[0]}</strong></div>
+          <p class="signal-stage-detail" data-stage-detail>{t.modules[0].proposal}</p>
+          <input class="signal-range" type="range" min="0" max="4" value="0" data-stage-range aria-label={t.hero.visualLabel} />
+          <div class="signal-stage-labels" aria-hidden="true">{t.hero.stages.map((stage) => <span>{stage}</span>)}</div>
+          <ul class="signal-legend">{t.hero.signals.map((signal, index) => <li><i class={`signal-swatch signal-swatch-${index + 1}`} aria-hidden="true"></i>{signal}</li>)}</ul>
+          <p class="signal-note">{t.hero.visualNote}</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="process-showcase" id="workflow" aria-labelledby="workflow-title">
+      <div class="container">
+        <div class="process-head"><div><p class="section-kicker">{t.workflow.eyebrow}</p><h2 id="workflow-title">{t.workflow.title}</h2></div><p>{t.workflow.intro}</p></div>
+        <ol class="module-list">{t.modules.map((module, index) => <li><a class="module-card" href={modulePath(locale, module.slug)}>
+          <span class="module-number">{String(index + 1).padStart(2, '0')}</span>
+          <div class="module-main"><h3>{module.title}</h3><p class="module-technology">{module.technology}</p></div>
+          <div class="module-facts"><p><span>{t.workflow.manual}</span>{module.manual}</p><p><span>{t.workflow.proposal}</span>{module.proposal}</p><p><span>{t.workflow.human}</span>{module.human}</p></div>
+          <span class="module-arrow" aria-label={t.workflow.details}>↗</span>
+        </a></li>)}</ol>
+        <div class="process-tail"><p class="process-disclosure">{t.workflow.disclosure}</p><a href={projectPath(locale)}>{t.project.projectLink} ↗</a></div>
+      </div>
+    </section>
+
+    <section class="evidence-section" id="value" aria-labelledby="value-title"><div class="container">
+      <div class="compact-heading"><h2 id="value-title">{t.proof.title}</h2><p>{t.proof.intro}</p></div>
+      <ul class="evidence-list">{t.proof.items.map((item, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><h3>{item.title}</h3><p>{item.detail}</p></li>)}</ul>
+    </div></section>
+
+    <section class="method-section" id="approach" aria-labelledby="approach-title"><div class="container method-grid">
+      <h2 id="approach-title">{t.method.title}</h2>
+      <ol>{t.method.items.map((item, index) => <li><span>{String(index + 1).padStart(2, '0')}</span><div><h3>{item.title}</h3><p>{item.detail}</p></div></li>)}</ol>
+    </div></section>
+
+    <section class="project-contact" id="contact" aria-labelledby="contact-title"><div class="container project-contact-grid">
+      <div><h2 id="contact-title">{t.contact.title}</h2><p>{t.contact.intro}</p></div>
+      <div><a class="button-primary" href={pathFor(locale, 'contact')}>{t.contact.action} <span aria-hidden="true">↗</span></a><p>{t.contact.note}</p></div>
+    </div></section>
+  </main>
+  <SiteFooter locale={locale} />
+</BaseLayout>
+<script>import '../scripts/signal-visual';</script>

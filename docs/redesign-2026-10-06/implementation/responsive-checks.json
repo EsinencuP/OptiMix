@@ -1,0 +1,32 @@
+[
+  {
+    "clientWidth": 320,
+    "h1": "33px",
+    "menuVisible": "flex",
+    "missingImages": 0,
+    "overflow": false,
+    "routeFits": true,
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "clientWidth": 753,
+    "h1": "50px",
+    "menuVisible": "flex",
+    "missingImages": 0,
+    "overflow": false,
+    "routeFits": true,
+    "scrollWidth": 753,
+    "width": 768
+  },
+  {
+    "clientWidth": 1009,
+    "h1": "54.272px",
+    "menuVisible": "none",
+    "missingImages": 0,
+    "overflow": false,
+    "routeFits": true,
+    "scrollWidth": 1009,
+    "width": 1024
+  }
+]

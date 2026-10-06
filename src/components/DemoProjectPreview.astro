@@ -1,0 +1,22 @@
+---
+import Icon from './RedesignIcon.astro';
+import { demoProjects, demoProjectNames } from '../content/demo-projects';
+import type { Locale } from '../content';
+import type { ModuleSlug } from '../content/portfolio';
+interface Props { locale: Locale; kind: ModuleSlug | 'crm' }
+const { locale, kind } = Astro.props;
+const t = demoProjects(locale);
+const u = t.ui;
+const name = kind === 'crm' ? t.allInOne.name : demoProjectNames[kind];
+---
+<figure class:list={['ox-project-preview', 'ox-project-preview-' + kind]} aria-label={name + ' — ' + t.demo}>
+  <div class="ox-preview-bar"><span class="ox-preview-app"><img src="/images/redesign/brand-mark.png" alt="" width="14" height="14" /><strong translate="no">{name}</strong></span><span class="ox-preview-demo">{t.demo}</span><Icon name="dots-three-vertical" size={17} /></div>
+  <div class="ox-preview-body">
+    {kind === 'intake' && <><div class="ox-preview-heading"><Icon name="file-text" size={21} /><strong>{u.newRequest}</strong><span class="ox-preview-ref">#REQ-024</span></div><div class="ox-preview-form"><div><span>{u.department}</span><strong>{u.operations}</strong></div><div><span>{u.owner}</span><strong>{u.team}</strong></div></div><div class="ox-preview-file"><Icon name="file-pdf" size={23} /><span>Specification.pdf</span><Icon name="check-circle-fill" size={18} /></div><p class="ox-preview-status"><Icon name="check-circle" size={17} />{u.ready}</p></>}
+    {kind === 'budget' && <><div class="ox-preview-heading"><Icon name="database" size={21} /><strong>{u.budget}</strong></div><dl class="ox-preview-budget"><div><dt>{u.available}</dt><dd>€ 24 000</dd></div><div><dt>{u.amount}</dt><dd>− € 8 400</dd></div><div><dt>{u.balance}</dt><dd>€ 15 600</dd></div></dl><p class="ox-preview-status"><Icon name="check-circle" size={17} />{u.passed}</p></>}
+    {kind === 'approval' && <><div class="ox-preview-heading"><Icon name="check-square" size={21} /><strong>{u.approval}</strong></div><ol class="ox-preview-approvals">{[u.finance,u.manager,u.purchasing].map((label,i) => <li class:list={[i === 1 && 'is-current']}><Icon name={i === 0 ? 'check-circle-fill' : i === 1 ? 'radio-button' : 'circle-muted'} size={24} /><div><strong>{label}</strong><span>{[u.approved,u.pending,u.next][i]}</span></div>{i === 1 && <span class="ox-preview-person">AM</span>}</li>)}</ol></>}
+    {kind === 'erp' && <><div class="ox-preview-heading"><Icon name="gear" size={21} /><strong>{u.transfer}</strong></div><div class="ox-preview-transfer"><div><span>{u.source}</span><strong>REQ-024</strong><small>{u.request}</small></div><Icon name="arrow-right" size={23} /><div><span>{u.order}</span><strong>ERP-1082</strong><small>€ 8 400</small></div></div><ul class="ox-preview-checks"><li><Icon name="check-circle-fill" size={17} />{u.matched}</li><li><Icon name="check-circle-fill" size={17} />{u.linked}</li></ul></>}
+    {kind === 'visibility' && <><div class="ox-preview-heading"><Icon name="chart-bar" size={21} /><strong>{u.overview}</strong></div><p class="ox-preview-current"><span class="ox-preview-dot"></span>{u.current}</p><ol class="ox-preview-timeline">{u.timeline.map((event,i) => <li><span>{['09:00','09:04','09:10'][i]}</span><Icon name={i < 2 ? 'check-circle-fill' : 'radio-button'} size={18} /><strong>{event}</strong></li>)}</ol></>}
+    {kind === 'crm' && <div class="ox-preview-crm"><aside><strong>{u.crm}</strong><ul>{['Cherryli','Budget','Aprobery','ERP','Steer'].map((label,i) => <li><Icon name={['file-text','database','check-square','gear','chart-bar'][i]} size={17} /><span translate="no">{label}</span></li>)}</ul></aside><div class="ox-preview-crm-main"><div class="ox-preview-heading"><strong>{u.pipeline}</strong><Icon name="dots-three-vertical" size={17} /></div><table><thead><tr><th scope="col">{u.deal}</th><th scope="col">{u.status}</th><th scope="col">{u.responsible}</th></tr></thead><tbody>{u.items.map((item,i) => <tr><th scope="row">{item}</th><td><span class="ox-preview-table-status">{u.stages[i]}</span></td><td>{u.teams[i]}</td></tr>)}</tbody></table><p class="ox-preview-context"><Icon name="check-circle-fill" size={20} /><span><strong>{u.context}</strong>{u.connected}</span></p></div></div>}
+  </div>
+</figure>

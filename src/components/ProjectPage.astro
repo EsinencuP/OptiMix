@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import Icon from './RedesignIcon.astro';
+import Route from './ProjectRoute.astro';
+import Preview from './DemoProjectPreview.astro';
+import { type Locale } from '../content';
+import { demoPath, modulePath, portfolio } from '../content/portfolio';
+import { demoProjects, demoProjectNames } from '../content/demo-projects';
+import { siteRedesign } from '../content/site-redesign';
+import '../styles/demo-projects.css';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = portfolio[locale];
+const projects = demoProjects(locale).projects;
+---
+<BaseLayout title={`${t.project.title} — Optimix`} description={t.project.intro} locale={locale} page="project">
+  <SiteHeader locale={locale} page="project" />
+  <main id="main" class="project-page-main"><section class="ox-page-hero" id="top"><div class="ox-container ox-page-heading"><p class="ox-page-kicker">{siteRedesign(locale).project}</p><h1>{t.project.title}</h1><p class="ox-page-lead">{t.project.intro}</p><div class="ox-page-actions"><a class="ox-button" href={demoPath(locale)}>{t.project.demoLink}<Icon name="arrow-right" size={20} /></a></div><Route locale={locale} /></div></section>
+    <div class="ox-container project-summary"><section class="project-status" aria-labelledby="project-status-title"><Icon name="eye" size={28} /><h2 id="project-status-title">{t.project.statusTitle}</h2><p>{t.project.status}</p></section><section class="project-prerequisites" aria-labelledby="prerequisites-title"><h2 id="prerequisites-title">{t.project.prerequisitesTitle}</h2><ul>{t.project.prerequisites.map(item => <li><Icon name="check-circle-fill" size={23} /><span>{item}</span></li>)}</ul></section><section class="project-modules" aria-labelledby="project-modules-title"><h2 id="project-modules-title">{t.project.modulesTitle}</h2><ol class="ox-project-module-grid">{t.modules.map((module,i) => <li><Preview locale={locale} kind={module.slug} /><div class="ox-project-module-copy"><p class="ox-page-kicker">0{i+1} · {projects[i].category}</p><h3 translate="no">{demoProjectNames[module.slug]}</h3><p>{module.title}</p><a class="ox-text-link" href={modulePath(locale,module.slug)}>{t.project.moduleLink}<Icon name="arrow-right" size={19} /></a></div></li>)}</ol></section></div>
+  </main><SiteFooter locale={locale} page="project" />
+</BaseLayout>

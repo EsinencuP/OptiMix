@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import Icon from './RedesignIcon.astro';
+import Preview from './DemoProjectPreview.astro';
+import Route from './ProjectRoute.astro';
+import { pathFor, type Locale } from '../content';
+import { moduleSlugs, modulePath, demoPath, projectPath, portfolio, type ModuleSlug } from '../content/portfolio';
+import { demoProjectNames } from '../content/demo-projects';
+import '../styles/demo-projects.css';
+interface Props { locale: Locale; slug: ModuleSlug }
+const { locale, slug } = Astro.props;
+const t = portfolio[locale];
+const index = moduleSlugs.indexOf(slug);
+const module = t.modules[index];
+const next = moduleSlugs[index+1];
+const facts = [{label:t.detail.current,text:module.manual,icon:'clock'},{label:t.detail.proposed,text:module.proposal,icon:'gear'},{label:t.detail.responsibility,text:module.human,icon:'users'}];
+const mechanism = [{label:t.detail.input,text:module.input,icon:'file-text'},{label:t.detail.rule,text:module.rule,icon:'check-square'},{label:t.detail.exception,text:module.exception,icon:'warning'},{label:t.detail.output,text:module.output,icon:'check-circle'}];
+---
+<BaseLayout title={`${demoProjectNames[slug]} — ${module.title} — Optimix`} description={module.proposal} locale={locale} page="solution" slug={slug}>
+  <SiteHeader locale={locale} page="solution" slug={slug} />
+  <main id="main" class="module-page-main"><section class="ox-page-hero" id="top"><div class="ox-container ox-module-hero"><div class="ox-page-heading"><p class="ox-page-kicker"><span translate="no">{demoProjectNames[slug]}</span> · 0{index+1} / 05</p><h1>{module.title}</h1><p class="ox-page-lead">{module.technology}</p><div class="ox-page-actions"><a class="ox-button" href={demoPath(locale)+'?step='+slug}>{t.detail.demo}<Icon name="arrow-right" size={20} /></a><a class="ox-text-link" href={projectPath(locale)}>{t.project.projectLink}<Icon name="arrow-right" size={19} /></a></div></div><Preview locale={locale} kind={slug} /></div><div class="ox-container"><Route locale={locale} current={slug} /></div></section>
+    <div class="ox-container ox-page-content"><section class="module-overview" aria-label={module.title}>{facts.map(fact => <article><Icon name={fact.icon} size={28} /><h2>{fact.label}</h2><p>{fact.text}</p></article>)}</section><section class="mechanism-section" aria-labelledby="mechanism-title"><p class="ox-page-kicker">{t.detail.mechanism}</p><h2 id="mechanism-title">{module.technology}</h2><dl class="mechanism-grid">{mechanism.map((item,i) => <div><dt><span class="ox-detail-number">0{i+1}</span><Icon name={item.icon} size={23} /><span>{item.label}</span></dt><dd>{item.text}</dd></div>)}</dl></section><nav class="module-next" aria-label={t.workflow.title}><a class="ox-text-link" href={pathFor(locale,'home')+'#demo-projects'}><Icon name="arrow-right" class="ox-arrow-back" size={19} />{t.detail.back}</a>{next && <a class="ox-button ox-button-secondary" href={modulePath(locale,next)}>{t.detail.next}<span translate="no">{demoProjectNames[next]}</span><Icon name="arrow-right" size={19} /></a>}</nav><p class="module-disclosure">{t.detail.disclosure}</p></div>
+  </main><SiteFooter locale={locale} page="solution" slug={slug} />
+</BaseLayout>

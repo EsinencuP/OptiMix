@@ -1,0 +1,39 @@
+{
+  "documentWidth": 1425,
+  "headings": [
+    {
+      "color": "rgb(51, 51, 51)",
+      "font": "\"Funnel Display\", sans-serif",
+      "size": "90px",
+      "text": "Turn your complexity into commercial advantage."
+    },
+    {
+      "color": "rgb(51, 51, 51)",
+      "font": "\"Funnel Display\", sans-serif",
+      "size": "90px",
+      "text": "Tackle B2B profitability challenges with Vendavo."
+    },
+    {
+      "color": "rgb(51, 51, 51)",
+      "font": "\"Funnel Display\", sans-serif",
+      "size": "70px",
+      "text": "A unifiedcommercial platform."
+    },
+    {
+      "color": "rgb(51, 51, 51)",
+      "font": "\"Funnel Display\", sans-serif",
+      "size": "70px",
+      "text": "Trusted to  transformB2B enterprises."
+    },
+    {
+      "color": "rgb(255, 255, 255)",
+      "font": "\"Funnel Display\", sans-serif",
+      "size": "90px",
+      "text": "100+ bps"
+    }
+  ],
+  "viewport": [
+    1440,
+    900
+  ]
+}

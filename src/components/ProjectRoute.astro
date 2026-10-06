@@ -1,0 +1,11 @@
+---
+import Icon from './RedesignIcon.astro';
+import { demoProjects, demoProjectNames } from '../content/demo-projects';
+import { modulePath, demoPath, type ModuleSlug } from '../content/portfolio';
+import { siteRedesign } from '../content/site-redesign';
+import type { Locale } from '../content';
+interface Props { locale: Locale; current?: ModuleSlug; mode?: 'module' | 'demo' }
+const { locale, current, mode = 'module' } = Astro.props;
+const projects = demoProjects(locale).projects;
+---
+<nav class="ox-route-nav" aria-label={siteRedesign(locale).route}>{projects.map((project,i) => <a data-route-step={mode === 'demo' ? project.slug : undefined} href={mode === 'demo' ? demoPath(locale) + '?step=' + project.slug : modulePath(locale,project.slug)} aria-current={project.slug === current ? mode === 'demo' ? 'step' : 'page' : undefined}><span class="ox-route-number">0{i+1}</span><Icon name={project.icon} size={23} /><span translate="no">{demoProjectNames[project.slug]}</span></a>)}</nav>

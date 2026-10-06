@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-06",
+  "browser": "Codex In-app Browser",
+  "desktopViewport": [
+    1440,
+    900
+  ],
+  "mobileViewport": [
+    390,
+    844
+  ],
+  "evidence": [
+    {
+      "file": "screenshots/01-ima360-desktop.png",
+      "source": "https://ima360.com/",
+      "view": "hero desktop",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 98829,
+      "sha256": "2b5717f95a3bf3066874536d0f69e600502332261eea3238b2cf1a01468fa385"
+    },
+    {
+      "file": "screenshots/02-ima360-full.png",
+      "source": "https://ima360.com/",
+      "view": "full-page; initial default viewport",
+      "limit": "Viewport narrower than standard desktop; section topology only",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 661130,
+      "sha256": "4b1801dd27020d2273212ace172e4350bcf259922a065dbc4bb80bd00b77ed7c"
+    },
+    {
+      "file": "screenshots/03-enable-desktop.png",
+      "source": "https://www.enable.com/",
+      "view": "hero desktop after cookie decline",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 64716,
+      "sha256": "c1954d87c9486ac88cb28ffdf9c714748751444546d393d3a8c589807b6bc011"
+    },
+    {
+      "file": "screenshots/04-enable-full.png",
+      "source": "https://www.enable.com/",
+      "view": "full-page after scrolling",
+      "limit": "Some analyst images absent; fixed header capture artifacts",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 1009555,
+      "sha256": "84ef465fa73a2e892511b6e8018ba212dcf517160481141d5ff30a4c38d176e6"
+    },
+    {
+      "file": "screenshots/05-enable-metrics-and-intro.png",
+      "source": "https://www.enable.com/",
+      "view": "metrics and functional-section introduction",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 71516,
+      "sha256": "eaca72d751aadbc46527b69d32cc1e609f76975810c6ced827f9c7f08c3c07b7"
+    },
+    {
+      "file": "screenshots/06-conga-desktop.png",
+      "source": "https://conga.com/platform/price-optimization-management",
+      "view": "hero desktop",
+      "limit": "Chat overlaps lower right area",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 95382,
+      "sha256": "c89cd20ada8ad0528a64e1edb16bc687d24837116bea991b8053b98ca01992ea"
+    },
+    {
+      "file": "screenshots/07-conga-products.png",
+      "source": "https://conga.com/platform/price-optimization-management",
+      "view": "partial product section",
+      "accepted": false,
+      "limit": "Cookie and chat obstruct view; crop unsuitable for clean composition audit",
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 101432,
+      "sha256": "1aeaa6b56bc4c7ddcf0bbebddd49915f6e61266ff2453fa39c116c6dd834ab6c"
+    },
+    {
+      "file": "screenshots/08-conga-full.png",
+      "source": "https://conga.com/platform/price-optimization-management",
+      "view": "full-page",
+      "limit": "Scroll-trigger/sticky image layout and overlays; use section topology",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 1110173,
+      "sha256": "c815e767b9de9af97f2dd6567256e270822270eaec03aa6c3d888148fc81885e"
+    },
+    {
+      "file": "screenshots/09-vendavo-desktop.png",
+      "source": "https://www.vendavo.com/",
+      "view": "hero desktop",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 84030,
+      "sha256": "3a7624245210b76b77b87278a1e559b00510207c93d8b224826954dc8267bf3d"
+    },
+    {
+      "file": "screenshots/10-vendavo-solutions.png",
+      "source": "https://www.vendavo.com/",
+      "view": "solution catalogue",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 95774,
+      "sha256": "6893cc57afee44ce673fda5e7169f5cd064167ea78a2ff75fc4cc86cfc363894"
+    },
+    {
+      "file": "screenshots/11-vendavo-full.png",
+      "source": "https://www.vendavo.com/",
+      "view": "full-page",
+      "limit": "Fixed header capture position differs from ordinary scroll",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 1214188,
+      "sha256": "c57d90968087bd2994d7cdea27a230c2bb2cd7d4a14b9f84a8fc266fe67a9167"
+    },
+    {
+      "file": "screenshots/12-vendavo-mobile.png",
+      "source": "https://www.vendavo.com/",
+      "view": "hero mobile",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 49373,
+      "sha256": "940c90ea389812b339a94d0eadd7768bde37c2faf42ecb899c2621f05151351a"
+    },
+    {
+      "file": "screenshots/13-conga-mobile.png",
+      "source": "https://conga.com/platform/price-optimization-management",
+      "view": "hero mobile",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 44001,
+      "sha256": "628e15cd0f6b8835405b2db769ad98492954bec43214bcd174853863165f3a1f"
+    },
+    {
+      "file": "screenshots/14-enable-mobile.png",
+      "source": "https://www.enable.com/",
+      "view": "hero mobile",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 36097,
+      "sha256": "76647fd8b854b0030d302a8ee2d1674d3719c3b8e8b4c2913d07eb80782a7d55"
+    },
+    {
+      "file": "screenshots/15-ima360-mobile.png",
+      "source": "https://ima360.com/",
+      "view": "hero mobile",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 40223,
+      "sha256": "17acc3b27b759f62c34e3f9a253081f23a1f7e38a1e9feaa87e7db6f51013efe"
+    },
+    {
+      "file": "screenshots/16-optimix-current-desktop.png",
+      "source": "existing local dist /",
+      "view": "hero desktop",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 84019,
+      "sha256": "a0e8e41d5d1994bf68a2d58c01b9f800f8c64ae00ed25c56cf1b3092ce4d073a"
+    },
+    {
+      "file": "screenshots/17-optimix-current-full.png",
+      "source": "existing local dist /",
+      "view": "full-page",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 418590,
+      "sha256": "dc46de431088ae03ecb7b9bbc1d201b2151d9e33902dd00203c1099c06a4a8c5"
+    },
+    {
+      "file": "screenshots/18-optimix-current-mobile.png",
+      "source": "existing local dist /",
+      "view": "hero mobile",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 38014,
+      "sha256": "6212634593c22bd60c7b84ae1bf26ab43dd08fe06a9f134a6c059ac69faa880e"
+    },
+    {
+      "file": "screenshots/19-optimix-current-contact.png",
+      "source": "existing local dist /contact/",
+      "view": "contact brief",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 63782,
+      "sha256": "a1c3fc0e2d541b5e12012aad793046fdbd6124400b7af47770a79f7fbabbc471"
+    },
+    {
+      "file": "screenshots/20-ima360-demo-form.png",
+      "source": "https://ima360.com/request-a-demo/",
+      "view": "demo request form",
+      "limit": "No input, CAPTCHA or submission tested",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 61811,
+      "sha256": "d181be8708f0b00aa9d7b5ed0725621cc6b50ea6284d5ee2b940e4598b90f4fc"
+    },
+    {
+      "file": "screenshots/21-optimix-current-demo.png",
+      "source": "existing local dist /demo/procurement/",
+      "view": "browser-only demonstration",
+      "accepted": true,
+      "pixels": {
+        "width": 65536,
+        "height": 4292542531
+      },
+      "bytes": 75866,
+      "sha256": "04e668b0096f9cea3ac0e3810a8deaa4c5f0e2eec981c0124cd26e296e0ac31b"
+    }
+  ]
+}

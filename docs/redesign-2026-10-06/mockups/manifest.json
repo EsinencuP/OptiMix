@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-06",
+  "mode": "built-in Image Gen",
+  "designDocument": "../DESIGN_DOCUMENT.md",
+  "files": [
+    {
+      "file": "optimix-desktop-full.png",
+      "width": 724,
+      "height": 2172,
+      "bytes": 1609908,
+      "sha256": "467a5c09c1690a7d76790849a4ce03ca3d1fef6d97da771eff727f418d6bd58e"
+    },
+    {
+      "file": "optimix-mobile-full-board.png",
+      "width": 876,
+      "height": 1795,
+      "bytes": 1886442,
+      "sha256": "8e69392051f3ad33c5bcd72bdef0cfc7744428adc6ea2f9fe704079373fe224d"
+    },
+    {
+      "file": "optimix-desktop-hero.png",
+      "width": 1422,
+      "height": 1106,
+      "bytes": 1448970,
+      "sha256": "4c079b84d96e40c7d8b040922362152d502c5b0adbd016fdf40358520ecdb1b0"
+    }
+  ]
+}

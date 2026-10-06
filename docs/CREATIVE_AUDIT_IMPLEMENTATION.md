@@ -1,3 +1,5 @@
+> Исторический документ предыдущих этапов. Актуальные правила дизайна, маршруты и статус реализации: [Гид проекта](./PROJECT_GUIDE.md). При расхождении применяются актуальные указания владельца и новый гид.
+
 # Creative audit implementation — 26 September 2026
 
 The supplied `creative_audit.md` was implemented across the Optimix home page while retaining the owner-selected **A — Operational Cinema** direction. The concepts remain illustrative. No customer result, measured saving, or working inquiry delivery is claimed.

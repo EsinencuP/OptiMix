@@ -1,0 +1,62 @@
+{
+  "clientWidth": 390,
+  "missingImages": [],
+  "pageHeight": 7655,
+  "sections": [
+    {
+      "class": "ox-hero",
+      "h": 1420.96875,
+      "id": "top",
+      "y": 68
+    },
+    {
+      "class": "ox-services ox-section",
+      "h": 1097.75,
+      "id": "services",
+      "y": 1488.96875
+    },
+    {
+      "class": "ox-examples",
+      "h": 1975.078125,
+      "id": "examples",
+      "y": 2586.71875
+    },
+    {
+      "class": "ox-workflow",
+      "h": 567.875,
+      "id": "workflow",
+      "y": 4561.796875
+    },
+    {
+      "class": "ox-value ox-section",
+      "h": 528.28125,
+      "id": "value",
+      "y": 5129.671875
+    },
+    {
+      "class": "ox-start ox-section",
+      "h": 555.390625,
+      "id": "approach",
+      "y": 5657.953125
+    },
+    {
+      "class": "ox-systems ox-section",
+      "h": 423.40625,
+      "id": "",
+      "y": 6213.34375
+    },
+    {
+      "class": "ox-faq ox-section",
+      "h": 457.59375,
+      "id": "faq",
+      "y": 6636.75
+    },
+    {
+      "class": "ox-final ox-section",
+      "h": 315.09375,
+      "id": "contact",
+      "y": 7094.34375
+    }
+  ],
+  "width": 390
+}

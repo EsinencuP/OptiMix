@@ -1,0 +1,7 @@
+---
+import ModulePage from '../../../components/ModulePage.astro';
+import { moduleSlugs, type ModuleSlug } from '../../../content/portfolio';
+export function getStaticPaths() { return moduleSlugs.map((slug) => ({ params: { slug } })); }
+const slug = Astro.params.slug as ModuleSlug;
+---
+<ModulePage locale="ro" slug={slug} />

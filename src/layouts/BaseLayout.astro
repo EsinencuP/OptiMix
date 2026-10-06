@@ -1,10 +1,8 @@
 ---
-import '@fontsource-variable/onest/wght.css';
 import '../styles/global.css';
+import '../styles/home-redesign.css';
+import '../styles/site-pages.css';
 import { ClientRouter } from 'astro:transitions';
-import onestLatin from '@fontsource-variable/onest/files/onest-latin-wght-normal.woff2?url';
-import onestLatinExtended from '@fontsource-variable/onest/files/onest-latin-ext-wght-normal.woff2?url';
-import onestCyrillic from '@fontsource-variable/onest/files/onest-cyrillic-wght-normal.woff2?url';
 import { content, locales, pathFor, type Locale, type PageKind } from '../content';
 
 interface Props {
@@ -12,12 +10,11 @@ interface Props {
   description: string;
   locale: Locale;
   page: PageKind;
+  slug?: string;
   preloadImage?: { src: string; srcSet: string; sizes: string };
-  deferredStylesheet?: string;
 }
 
-const { title, description, locale, page, preloadImage, deferredStylesheet } = Astro.props;
-const fontPreload = locale === 'ru' ? onestCyrillic : locale === 'ro' ? onestLatinExtended : onestLatin;
+const { title, description, locale, page, slug, preloadImage } = Astro.props;
 const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB';
 ---
 
@@ -26,10 +23,9 @@ const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB'
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f7f5ef" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="preload" href={fontPreload} as="font" type="font/woff2" crossorigin="anonymous" />
-    {locale !== 'en' && <link rel="preload" href={onestLatin} as="font" type="font/woff2" crossorigin="anonymous" />}
+    <meta name="theme-color" content="#ecfaf4" />
+    <link rel="icon" href="/images/redesign/brand-mark.png" type="image/png" />
+    <link rel="preload" href="/fonts/redesign/Roboto-Variable.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
     {preloadImage && <link rel="preload" href={preloadImage.src} imagesrcset={preloadImage.srcSet} imagesizes={preloadImage.sizes} as="image" fetchpriority="high" />}
     <meta name="robots" content="noindex, nofollow" />
     <meta name="description" content={description} />
@@ -37,16 +33,14 @@ const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB'
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content={ogLocale} />
-    {Astro.site && locales.map((target) => <link rel="alternate" hreflang={target} href={new URL(pathFor(target, page), Astro.site).href} />)}
-    {Astro.site && <link rel="alternate" hreflang="x-default" href={new URL(pathFor('en', page), Astro.site).href} />}
+    {Astro.site && locales.map((target) => <link rel="alternate" hreflang={target} href={new URL(pathFor(target, page, slug), Astro.site).href} />)}
+    {Astro.site && <link rel="alternate" hreflang="x-default" href={new URL(pathFor('en', page, slug), Astro.site).href} />}
     <title>{title}</title>
-    {deferredStylesheet && <link rel="stylesheet" href={deferredStylesheet} media="print" onload="this.setAttribute('media','all');requestAnimationFrame(()=>{if(location.hash && document.documentElement.dataset.anchorScrollInterrupted !== 'true')document.getElementById(location.hash.slice(1))?.scrollIntoView({behavior:'instant'})})" />}
-    {deferredStylesheet && <noscript><link rel="stylesheet" href={deferredStylesheet} /></noscript>}
     <ClientRouter />
   </head>
   <body>
     <a class="skip-link" href="#main">{content[locale].ui.skip}</a>
-    <slot />
+    <div class:list={['ox-home', page !== 'home' && 'ox-inner']}><slot /></div>
     <script>import '../scripts/brief-download';</script>
   </body>
 </html>
