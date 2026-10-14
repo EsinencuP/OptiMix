@@ -1,0 +1,246 @@
+[
+  {
+    "locale": "ru",
+    "width": 1440,
+    "rest": {
+      "facesOverflow": [],
+      "images": 0,
+      "overflow": false,
+      "z": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "opened": {
+      "emblem": {
+        "bottom": 492.625,
+        "height": 72,
+        "left": 684,
+        "right": 756,
+        "top": 420.625,
+        "width": 72,
+        "x": 684,
+        "y": 420.625
+      },
+      "faceOverflow": false,
+      "overflow": false
+    },
+    "flipped": {
+      "backHidden": "false",
+      "backOverflow": false,
+      "flipped": true,
+      "frontHidden": "true"
+    }
+  },
+  {
+    "locale": "ru",
+    "width": 1024,
+    "rest": {
+      "facesOverflow": [],
+      "images": 0,
+      "overflow": false,
+      "z": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "opened": {
+      "faceOverflow": false,
+      "overflow": false
+    },
+    "flipped": {
+      "backHidden": "false",
+      "backOverflow": false,
+      "flipped": true,
+      "frontHidden": "true"
+    }
+  },
+  {
+    "locale": "ru",
+    "width": 768,
+    "rest": {
+      "facesOverflow": [],
+      "images": 0,
+      "overflow": false,
+      "z": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "opened": {
+      "faceOverflow": false,
+      "overflow": false
+    },
+    "flipped": {
+      "backHidden": "false",
+      "backOverflow": false,
+      "flipped": true,
+      "frontHidden": "true"
+    }
+  },
+  {
+    "locale": "ru",
+    "width": 390,
+    "rest": {
+      "facesOverflow": [],
+      "images": 0,
+      "overflow": false,
+      "z": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "opened": {
+      "faceOverflow": false,
+      "overflow": false
+    },
+    "flipped": {
+      "backHidden": "false",
+      "backOverflow": false,
+      "flipped": true,
+      "frontHidden": "true"
+    }
+  },
+  {
+    "locale": "ru",
+    "width": 320,
+    "rest": {
+      "facesOverflow": [],
+      "images": 0,
+      "overflow": false,
+      "z": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "opened": {
+      "faceOverflow": false,
+      "overflow": false
+    },
+    "flipped": {
+      "backHidden": "false",
+      "backOverflow": false,
+      "flipped": true,
+      "frontHidden": "true"
+    }
+  },
+  {
+    "locale": "en",
+    "width": 390,
+    "rest": {
+      "facesOverflow": [],
+      "images": 0,
+      "overflow": false,
+      "z": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "opened": {
+      "faceOverflow": false,
+      "overflow": false
+    },
+    "flipped": {
+      "backHidden": "false",
+      "backOverflow": false,
+      "flipped": true,
+      "frontHidden": "true"
+    }
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "rest": {
+      "facesOverflow": [],
+      "images": 0,
+      "overflow": false,
+      "z": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "opened": {
+      "faceOverflow": false,
+      "overflow": false
+    },
+    "flipped": {
+      "backHidden": "false",
+      "backOverflow": false,
+      "flipped": true,
+      "frontHidden": "true"
+    }
+  },
+  {
+    "locale": "ro",
+    "width": 390,
+    "rest": {
+      "facesOverflow": [],
+      "images": 0,
+      "overflow": false,
+      "z": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "opened": {
+      "faceOverflow": false,
+      "overflow": false
+    },
+    "flipped": {
+      "backHidden": "false",
+      "backOverflow": false,
+      "flipped": true,
+      "frontHidden": "true"
+    }
+  },
+  {
+    "locale": "ro",
+    "width": 320,
+    "rest": {
+      "facesOverflow": [],
+      "images": 0,
+      "overflow": false,
+      "z": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "opened": {
+      "faceOverflow": false,
+      "overflow": false
+    },
+    "flipped": {
+      "backHidden": "false",
+      "backOverflow": false,
+      "flipped": true,
+      "frontHidden": "true"
+    }
+  }
+]

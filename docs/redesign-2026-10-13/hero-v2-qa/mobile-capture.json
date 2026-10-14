@@ -1,0 +1,54 @@
+[
+  {
+    "locale": "ru",
+    "width": 320,
+    "viewportHeight": 1400,
+    "clip": {
+      "height": 1270.40625,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "overflow": false,
+    "sceneOverflow": []
+  },
+  {
+    "locale": "ru",
+    "width": 390,
+    "viewportHeight": 1400,
+    "clip": {
+      "height": 1242,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "overflow": false,
+    "sceneOverflow": []
+  },
+  {
+    "locale": "en",
+    "width": 320,
+    "viewportHeight": 1400,
+    "clip": {
+      "height": 1264.625,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "overflow": false,
+    "sceneOverflow": []
+  },
+  {
+    "locale": "ro",
+    "width": 320,
+    "viewportHeight": 1400,
+    "clip": {
+      "height": 1232.390625,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "overflow": false,
+    "sceneOverflow": []
+  }
+]

@@ -443,3 +443,95 @@ body:has(.ox-home) { background:#fff; color:#08171b; --color-accent:#007a45; }
  .ox-system-list li { gap:10px; padding:14px 11px; font-size:12px; }
 }
 @media(prefers-reduced-motion:reduce) { .ox-home * { transition:none !important; } }
+
+/* Owner's browser annotations, 2026-10-13: process examples lead the homepage. */
+.ox-hero-examples { padding:52px 0 40px; overflow:visible; }
+.ox-hero-examples>.ox-container { width:min(1200px,calc(100% - 112px)); }
+.ox-hero-primary { display:grid; grid-template-columns:1fr 1.12fr; align-items:center; gap:48px; }
+.ox-hero-message { text-align:left; }
+.ox-hero-examples .ox-eyebrow { font-size:14px; letter-spacing:.035em; margin-bottom:18px; }
+.ox-hero-examples h1 { font-size:clamp(40px,3.8vw,56px); line-height:1.05; font-weight:800; letter-spacing:-.035em; }
+.ox-hero-examples .ox-hero-intro { color:var(--ox-muted); font-size:19px; line-height:1.5; margin:20px 0 0; max-width:44ch; letter-spacing:0; }
+.ox-hero-examples h1 span { text-wrap:balance; }
+.ox-hero.ox-hero-examples h1 span { max-width:none; margin-inline:0; }
+.ox-hero-examples .ox-checks { gap:10px; margin-top:22px !important; }
+.ox-hero-examples .ox-checks li { font-size:15px; gap:10px; }
+.ox-hero-examples .ox-checks .ox-icon { width:21px; height:21px; }
+.ox-hero-examples .ox-hero-actions { justify-content:flex-start; gap:12px; margin-top:28px; }
+.ox-hero-examples .ox-button { font-size:16px; padding-inline:23px; }
+.ox-hero-examples .ox-note { font-size:12px; margin-top:12px; }
+.ox-hero-examples .ox-process-illustration { grid-area:auto; box-shadow:0 12px 32px #184e320b; }
+.ox-hero-primary>.ox-process-illustration { background:#fff; padding:22px; }
+.ox-hero-primary .ox-systems-window { padding:10px 0 0; grid-template-columns:1fr .75fr 1fr; }
+.ox-hero-primary .ox-system-panel { background:#f8fbfa; padding:20px 17px; }
+.ox-hero-primary .ox-system-panel h3 { font-size:18px; }
+.ox-hero-primary .ox-system-panel h3 small { font-size:14px; }
+.ox-hero-primary .ox-system-panel dl { font-size:14px; margin-top:26px; }
+.ox-hero-primary .ox-system-panel dl>div+div { margin-top:21px; }
+.ox-hero-primary .ox-sync { font-size:11px; }
+.ox-hero-support { display:grid; grid-template-columns:repeat(2,1fr); gap:28px; margin-top:44px; padding-top:32px; border-top:1px solid #cce6d8; }
+.ox-hero-example { display:flex; flex-direction:column; gap:24px; }
+.ox-hero-example h2 { font-size:28px; line-height:1.15; max-width:30ch; }
+.ox-hero-example-copy>p { font-size:16px; line-height:1.5; color:var(--ox-muted); margin-top:12px; max-width:52ch; }
+.ox-hero-example .ox-checks { gap:6px; margin-top:15px !important; }
+.ox-hero-example .ox-checks li { font-size:14px; }
+.ox-hero-example>.ox-process-illustration { margin-top:auto; }
+.ox-hero-example .ox-team-panel li>span:not(.ox-avatar) { overflow-wrap:anywhere; }
+@media(max-width:1200px) {
+ .ox-hero-examples>.ox-container { width:calc(100% - 64px); }
+ .ox-hero-primary { gap:28px; grid-template-columns:1fr 1fr; }
+ .ox-hero-primary>.ox-process-illustration { padding:15px; }
+ .ox-hero-primary .ox-system-panel { padding:16px 10px; }
+ .ox-hero-primary .ox-system-panel dl { font-size:12px; }
+ .ox-hero-primary .ox-sync { font-size:9px; }
+ .ox-hero-example h2 { font-size:26px; }
+ .ox-hero-example .ox-intake-columns { grid-template-columns:1fr 1.4fr; }
+ .ox-hero-example .ox-team-panel { display:none; }
+}
+@media(max-width:960px) {
+ .ox-hero-examples { padding-top:36px; }
+ .ox-hero-primary { grid-template-columns:1fr; gap:28px; }
+ .ox-hero-message { max-width:640px; }
+ .ox-hero-primary>.ox-process-illustration { width:100%; }
+ .ox-hero-primary .ox-system-panel { padding:20px; }
+ .ox-hero-primary .ox-system-panel dl { font-size:14px; }
+ .ox-hero-primary .ox-sync { justify-content:center; }
+ .ox-hero-support { grid-template-columns:1fr; gap:36px; }
+ .ox-hero-example { display:grid; grid-template-columns:1fr 1.2fr; align-items:center; gap:24px; }
+ .ox-hero-example>.ox-process-illustration { margin-top:0; }
+}
+@media(max-width:640px) {
+ .ox-hero-examples { padding:26px 0 30px; }
+ .ox-hero-examples>.ox-container { width:calc(100% - 40px); }
+ .ox-hero-primary { gap:0; grid-template-areas:'eyebrow' 'title' 'intro' 'scene' 'checks' 'actions' 'note'; }
+ .ox-hero-message { display:contents; }
+ .ox-hero-examples .ox-eyebrow { grid-area:eyebrow; font-size:11px; margin-bottom:12px; }
+ .ox-hero-examples h1 { grid-area:title; font-size:36px; line-height:1.07; }
+ .ox-hero-examples .ox-hero-intro { grid-area:intro; font-size:17px; line-height:1.4; margin-top:14px; }
+ .ox-hero-primary>.ox-process-illustration { grid-area:scene; margin-top:22px; padding:12px; }
+ .ox-hero-primary .ox-checks { grid-area:checks; }
+ .ox-hero-examples .ox-hero-actions { grid-area:actions; margin-top:20px; flex-direction:row; }
+ .ox-hero-examples .ox-button { width:auto; flex:1; min-height:52px; font-size:14px; padding:12px 10px; }
+ .ox-hero-examples .ox-note { grid-area:note; text-align:left; }
+ .ox-hero-primary .ox-system-panel { padding:14px 9px; }
+ .ox-hero-primary .ox-system-panel h3 { font-size:15px; }
+ .ox-hero-primary .ox-system-panel h3 small { font-size:12px; }
+ .ox-hero-primary .ox-system-panel dl { font-size:11px; margin-top:22px; }
+ .ox-hero-primary .ox-system-panel dl>div+div { margin-top:16px; }
+ .ox-hero-primary .ox-sync { font-size:9px; }
+ .ox-hero-primary .ox-sync>span { padding-inline:3px; }
+ .ox-hero-support { margin-top:30px; padding-top:28px; gap:32px; }
+ .ox-hero-example { display:flex; gap:18px; }
+ .ox-hero-example h2 { font-size:25px; }
+ .ox-hero-example-copy>p { font-size:16px; }
+ .ox-hero-example .ox-checks li { font-size:14px; }
+}
+@media(max-width:360px) {
+ .ox-hero-examples>.ox-container { width:calc(100% - 32px); }
+ .ox-hero-examples h1 { font-size:31px; }
+ .ox-hero-primary .ox-system-panel { padding:12px 7px; }
+ .ox-hero-primary .ox-system-panel dl { font-size:10px; }
+ .ox-hero-primary .ox-sync .ox-icon { width:11px; height:11px; }
+ .ox-hero-primary .ox-sync { gap:2px; font-size:8px; }
+ .ox-hero-examples .ox-button { font-size:13px; }
+}

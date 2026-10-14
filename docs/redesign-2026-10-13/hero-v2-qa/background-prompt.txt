@@ -1,0 +1,15 @@
+Mode: default built-in image_gen tool, opaque edit with referenced_image_paths.
+Source: C:/Users/esinencuP/Downloads/271f4645-8c7c-4fd6-89e9-77b080178f48.png
+Generated original: C:/Users/esinencuP/.codex/generated_images/01a136cc-be8a-7590-ae28-fe0925473f61/exec-5ea60637-4745-4b7a-ab12-379ebc8846f0.png
+Workspace asset: public/images/redesign/hero-flow-v2.png
+
+Final prompt:
+Use case: precise-object-edit.
+Asset type: wide website hero background raster behind separately editable HTML interface and copy.
+Input image 1 is the edit target and visual reference only. Extract/reconstruct only its abstract mint background from the hero area below the white header.
+Primary request: Remove all interface panels, stacked cards, chart graphics, orbit dots and dashed curves, all typography, labels, buttons, icons, logos and header. Fill every removed region seamlessly with the calm abstract background. Do not retain any ghost text or UI shapes.
+Scene/backdrop: very pale mint/off-white full-bleed canvas, airy and clean; subtly translucent broad flowing mint diagonal ribbons pass through center and right, a soft mint/emerald light bloom near the right center. Keep left half mostly quiet for dark editable copy.
+Composition/framing: landscape about 2:1; target hero canvas approximately 1672 by 856. Use the full canvas only for the background, no border and no blank header band.
+Color palette: light edges near #effcf6, soft translucent mint #dcfaed, restrained pale green highlights. Preserve the source background's restrained low contrast and elegant Optimix white/mint/emerald atmosphere.
+Constraints: background-only; smooth transitions, no hard geometry, no objects, no 3D panels, no text, no letters, no numbers, no logo, no icons, no UI, no charts, no watermark. Opaque output.
+

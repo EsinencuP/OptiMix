@@ -1,0 +1,114 @@
+---
+import Icon from './RedesignIcon.astro';
+import { homeRedesign } from '../content/home-redesign';
+import type { Locale } from '../content';
+import '../styles/hero-scene.css';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = homeRedesign(locale);
+const scene = t.heroScene;
+const shares = [45, 30, 15, 10];
+const layerIcons = ['database', 'gear', 'users'];
+---
+<figure class="ox-hero-scene" aria-label={scene.chartLabel} data-hero-charts>
+  <div class="ox-hero-artboard">
+    <div class="ox-hero-layers">
+      {scene.layers.map((label, i) => <div class={`ox-hero-layer ox-hero-layer-${i}`}><div class="ox-hero-layer-label"><Icon name={layerIcons[i]} size={24} /><span>{label}</span></div></div>)}
+    </div>
+    <div class="ox-hero-process">
+      <div class="ox-hero-process-bar"><p>{t.processLabel}</p><div class="ox-hero-process-dots" aria-hidden="true"><Icon name="circle-muted" class="is-current" size={14} /><Icon name="circle-muted" size={14} /><Icon name="circle-muted" size={14} /></div></div>
+      <div class="ox-hero-process-body">
+        <div class="ox-hero-crm">
+          <h2><Icon name="circle" class="ox-hero-blue-icon" size={28} /><span>CRM<small>{t.deal}</small></span></h2>
+          <dl><div><dt>{t.client}</dt><dd>{t.demoCompany}</dd></div><div><dt>{t.owner}</dt><dd>{t.owner}</dd></div><div><dt>{t.stages[4]}</dt><dd>{t.inProgress}</dd></div></dl>
+        </div>
+        <div class="ox-hero-sync"><Icon name="arrow-right" class="ox-hero-blue-icon" size={22} /><span>{t.sync}</span><Icon name="arrow-right" class="ox-hero-blue-icon" size={22} /></div>
+        <div class="ox-hero-analytics">
+          <h2><Icon name="chart-bar" size={26} /><span>{scene.analytics}</span></h2>
+          <div class="ox-hero-revenue ox-hero-chart-panel"><h3>{scene.revenue}</h3><canvas data-hero-chart="revenue" width="480" height="240" role="img" aria-label={`${scene.revenue}: 72–178`}>{scene.revenue}: 72, 94, 81, 103, 99, 128, 115, 149, 151, 178.</canvas></div>
+          <div class="ox-hero-analytics-bottom">
+            <div class="ox-hero-shares ox-hero-chart-panel"><h3>{scene.deals}</h3><div class="ox-hero-shares-body"><canvas data-hero-chart="shares" width="200" height="200" aria-hidden="true"></canvas><ul>{shares.map((share, i) => <li><span class={`ox-hero-share-key ox-hero-share-${i}`} aria-hidden="true"></span><span>{share}%</span><span class="ox-hero-chart-a11y"> — {scene.statuses[i]}</span></li>)}</ul></div></div>
+            <div class="ox-hero-teams ox-hero-chart-panel"><h3>{scene.teams}</h3><canvas data-hero-chart="teams" width="160" height="200" role="img" aria-label={`${scene.teams}: 35, 60, 45, 75`}>{scene.teams}: 35, 60, 45, 75.</canvas></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <figcaption class="ox-hero-chart-a11y">{scene.chartCaption}</figcaption>
+</figure>
+
+<script>
+  const chartColors = ['#009e4e', '#47d894', '#1fc979', '#89ecc0'];
+  let disposeHeroCharts: (() => void) | undefined;
+
+  function initializeHeroCharts() {
+    disposeHeroCharts?.();
+    const canvases = Array.from(document.querySelectorAll<HTMLCanvasElement>('[data-hero-chart]'));
+    if (!canvases.length) return;
+    let frame = 0;
+
+    function drawCharts() {
+      for (const canvas of canvases) {
+        const width = canvas.clientWidth;
+        const height = canvas.clientHeight;
+        if (!width || !height) continue;
+        const ratio = Math.min(window.devicePixelRatio || 1, 2);
+        canvas.width = Math.round(width * ratio);
+        canvas.height = Math.round(height * ratio);
+        const context = canvas.getContext('2d');
+        if (!context) continue;
+        context.setTransform(ratio, 0, 0, ratio, 0, 0);
+        context.clearRect(0, 0, width, height);
+        const chart = canvas.dataset.heroChart;
+
+        if (chart === 'revenue') {
+          const values = [72, 94, 81, 103, 99, 128, 115, 149, 151, 178];
+          const padding = Math.max(9, width * .055);
+          const plotWidth = width - padding * 2;
+          const plotHeight = height - padding * 2;
+          context.strokeStyle = '#eaf1ee';
+          context.lineWidth = 1;
+          for (let i = 1; i < 4; i++) {
+            const y = padding + plotHeight * i / 4;
+            context.beginPath(); context.moveTo(padding, y); context.lineTo(width - padding, y); context.stroke();
+          }
+          const points = values.map((value, i) => [padding + plotWidth * i / (values.length - 1), padding + plotHeight * (1 - (value - 65) / 120)]);
+          context.beginPath(); context.moveTo(points[0][0], height - padding);
+          for (const [x, y] of points) context.lineTo(x, y);
+          context.lineTo(points[points.length - 1][0], height - padding); context.closePath();
+          context.fillStyle = '#e5f8ef'; context.fill();
+          context.beginPath();
+          for (let i = 0; i < points.length; i++) { const [x, y] = points[i]; if (i === 0) context.moveTo(x, y); else context.lineTo(x, y); }
+          context.strokeStyle = chartColors[0]; context.lineWidth = Math.max(1.2, width * .006); context.lineJoin = 'round'; context.stroke();
+          for (const [x, y] of points) { context.beginPath(); context.arc(x, y, Math.max(2.5, width * .018), 0, Math.PI * 2); context.fillStyle = chartColors[0]; context.fill(); }
+        } else if (chart === 'shares') {
+          const radius = Math.min(width, height) * .39;
+          let angle = -Math.PI / 2;
+          [45, 30, 15, 10].forEach((share, i) => {
+            const endAngle = angle + Math.PI * 2 * share / 100;
+            context.beginPath(); context.arc(width / 2, height / 2, radius, angle, endAngle);
+            context.strokeStyle = chartColors[i]; context.lineWidth = radius * .47; context.stroke(); angle = endAngle;
+          });
+        } else if (chart === 'teams') {
+          const values = [35, 60, 45, 75];
+          const base = height - 5;
+          const plotHeight = height - 12;
+          const gap = width * .11;
+          const barWidth = (width - gap * 5) / 4;
+          values.forEach((value, i) => { const barHeight = plotHeight * value / 85; context.fillStyle = i % 2 ? '#009e4e' : '#40cf8b'; context.fillRect(gap + i * (barWidth + gap), base - barHeight, barWidth, barHeight); });
+        }
+      }
+    }
+
+    function scheduleDraw() { cancelAnimationFrame(frame); frame = requestAnimationFrame(drawCharts); }
+    const observer = new ResizeObserver(scheduleDraw);
+    for (const canvas of canvases) observer.observe(canvas);
+    scheduleDraw();
+    disposeHeroCharts = () => { cancelAnimationFrame(frame); observer.disconnect(); };
+  }
+
+  initializeHeroCharts();
+  document.addEventListener('astro:page-load', initializeHeroCharts);
+  document.addEventListener('astro:before-swap', () => { disposeHeroCharts?.(); disposeHeroCharts = undefined; });
+</script>

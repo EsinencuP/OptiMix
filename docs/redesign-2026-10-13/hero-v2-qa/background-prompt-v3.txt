@@ -1,0 +1,15 @@
+Mode: default built-in image_gen tool, opaque edit with referenced_image_paths.
+Edit target: public/images/redesign/hero-flow-v2.png
+Supporting source: C:/Users/esinencuP/Downloads/271f4645-8c7c-4fd6-89e9-77b080178f48.png
+Generated original: C:/Users/esinencuP/.codex/generated_images/01a136cc-be8a-7590-ae28-fe0925473f61/exec-cc5009fd-0192-4adc-963f-1061eaa8e7c7.png
+Workspace asset: public/images/redesign/hero-flow-v3.png
+
+Final prompt:
+Use case: precise-object-edit.
+Asset type: abstract raster background for website hero behind editable HTML cards and text.
+Input image 1 is the edit target, the current background; image 2 is a supporting style/composition reference showing the intended original orbit. Do not reproduce any text, header, UI panels, icons, chart content or buttons from image 2.
+Primary request: preserve image 1's pale mint colors, soft translucent diagonal flowing ribbons, quiet left half, restrained soft glow and overall composition. Make ONE addition: a delicate emerald fine-dashed orbital loop on the right side plus exactly three small circular emerald nodes, matching the supporting reference. This orbit will sit behind separately rendered interface cards.
+Composition: retain image 1 landscape 1752 by 898 proportions. Keep background only, full-bleed, no header.
+Orbit placement: broad irregular elliptical route centered on right, circling where foreground cards will be. It passes through three nodes at approximately pixel centers (1247,73), (1706,443) and (1122,792), relative to a 1752 by 898 canvas. Node diameter about 16px, emerald filled circles with a very fine white edge. Thin emerald dotted/dashed stroke about 1px wide, short fine dashes like the reference. Path remains entirely on right region, roughly x840–1715 and y65–795. Visible upper curve arcs from top node toward the right. Middle-right node sits near right edge. Lower curve arcs toward lower node. Make the full background ellipse subtle; most of its center will be covered by live HTML cards.
+Constraints: change only the decorative orbit addition; preserve waves and color density. No UI, no cards, no chart, no text, no letters, no numbers, no icons, no logo, no additional dots or decorations, no watermark. Opaque output.
+

@@ -14,6 +14,18 @@ export function demoProjects(locale: Locale) {
     demo: s('Демо-сценарий', 'Demo scenario', 'Scenariu demo'),
     open: s('Разобрать проект', 'Explore the project', 'Explorează proiectul'),
     tryDemo: s('Пройти сценарий', 'Try the workflow', 'Încearcă fluxul'),
+    deck: {
+      cover: s('Демо-проекты','Demo projects','Proiecte demo'),
+      reveal: s('Наведите, чтобы раскрыть','Hover to reveal','Treci cu cursorul pentru a dezvălui'),
+      hint: s('Наведите, чтобы раскрыть · Нажмите, чтобы открыть · Ещё раз — перевернуть','Hover to explore · Click to open · Click again to flip','Treci cu cursorul · Apasă pentru a deschide · Apasă din nou pentru a întoarce'),
+      touchHint: s('Выберите карту · Нажмите ещё раз, чтобы перевернуть','Choose a card · Tap again to flip','Alege o carte · Apasă din nou pentru a întoarce'),
+      open: s('Открыть карту','Open card','Deschide cartea'),
+      flip: s('Перевернуть карту','Flip card','Întoarce cartea'),
+      close: s('Закрыть карту','Close card','Închide cartea'),
+      back: s('Назад','Back','Înapoi'),
+      how: s('Как это работает','How it works','Cum funcționează'),
+      choose: s('Выберите демо-проект','Choose a demo project','Alege un proiect demo'),
+    },
     projects: [
       {slug:'intake' as const, icon:'file-text', category:s('Заявки и документы','Requests and documents','Cereri și documente'), title:s('Любой запрос начинается с порядка.','Every request starts with clarity.','Orice cerere începe cu ordine.'), description:s('Cherryli собирает заявку, документы и участников в одной записи. Команда сразу видит, что нужно проверить и кому передать задачу.','Cherryli brings the request, documents and participants into one record. The team sees what needs checking and who takes over.','Cherryli reunește cererea, documentele și participanții într-o singură înregistrare. Echipa vede ce trebuie verificat și cui îi revine sarcina.'), tags:[s('Единая заявка','One request','Cerere unică'),s('Документы','Documents','Documente'),s('Ответственный','Owner','Responsabil')]},
       {slug:'budget' as const, icon:'database', category:s('Бюджет и планирование','Budget and planning','Buget și planificare'), title:s('Бюджет понятен до принятия решения.','Understand the budget before deciding.','Buget clar înainte de decizie.'), description:s('Budget сопоставляет сумму заявки с доступным остатком. Если не хватает данных или лимита, вопрос возвращается владельцу бюджета.','Budget compares the request amount with the available balance. Missing data or an exceeded limit goes back to the budget owner.','Budget compară suma cererii cu soldul disponibil. Datele lipsă sau depășirea limitei revin responsabilului de buget.'), tags:[s('Лимиты','Limits','Limite'),s('Проверка правил','Rule checks','Verificarea regulilor'),s('План и факт','Plan and actuals','Plan și realizat')]},

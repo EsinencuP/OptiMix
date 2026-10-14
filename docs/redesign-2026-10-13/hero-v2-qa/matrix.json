@@ -1,0 +1,717 @@
+[
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 111,
+        "kind": "revenue",
+        "width": 229
+      },
+      {
+        "height": 85,
+        "kind": "shares",
+        "width": 86
+      },
+      {
+        "height": 85,
+        "kind": "teams",
+        "width": 78
+      }
+    ],
+    "currency": [
+      "24 тыс. €",
+      "− 8,4 тыс. €",
+      "15,6 тыс. €",
+      "Заявка на оборудование",
+      "8,4 тыс. €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 873,
+      "top": 68
+    },
+    "locale": "ru",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      78,
+      157
+    ],
+    "width": 1768,
+    "clip": {
+      "height": 941,
+      "width": 1753,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 941
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 111,
+        "kind": "revenue",
+        "width": 229
+      },
+      {
+        "height": 85,
+        "kind": "shares",
+        "width": 86
+      },
+      {
+        "height": 85,
+        "kind": "teams",
+        "width": 78
+      }
+    ],
+    "currency": [
+      "24 тыс. €",
+      "− 8,4 тыс. €",
+      "15,6 тыс. €",
+      "Заявка на оборудование",
+      "8,4 тыс. €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 873,
+      "top": 68
+    },
+    "locale": "ru",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      78,
+      156
+    ],
+    "width": 1672,
+    "clip": {
+      "height": 941,
+      "width": 1657,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 941
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 104,
+        "kind": "revenue",
+        "width": 215
+      },
+      {
+        "height": 79,
+        "kind": "shares",
+        "width": 80
+      },
+      {
+        "height": 79,
+        "kind": "teams",
+        "width": 72
+      }
+    ],
+    "currency": [
+      "24 тыс. €",
+      "− 8,4 тыс. €",
+      "15,6 тыс. €",
+      "Заявка на оборудование",
+      "8,4 тыс. €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 873,
+      "top": 68
+    },
+    "locale": "ru",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      67,
+      134
+    ],
+    "width": 1440,
+    "clip": {
+      "height": 941,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 941
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 67,
+        "kind": "revenue",
+        "width": 139
+      },
+      {
+        "height": 51,
+        "kind": "shares",
+        "width": 52
+      },
+      {
+        "height": 51,
+        "kind": "teams",
+        "width": 47
+      }
+    ],
+    "currency": [
+      "24 тыс. €",
+      "− 8,4 тыс. €",
+      "15,6 тыс. €",
+      "Заявка на оборудование",
+      "8,4 тыс. €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 730,
+      "top": 68
+    },
+    "locale": "ru",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      49,
+      97
+    ],
+    "width": 1024,
+    "clip": {
+      "height": 798,
+      "width": 1009,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 941
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 105,
+        "kind": "revenue",
+        "width": 302
+      },
+      {
+        "height": 75,
+        "kind": "shares",
+        "width": 115
+      },
+      {
+        "height": 75,
+        "kind": "teams",
+        "width": 104
+      }
+    ],
+    "currency": [
+      "24 тыс. €",
+      "− 8,4 тыс. €",
+      "15,6 тыс. €",
+      "Заявка на оборудование",
+      "8,4 тыс. €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 1096.96875,
+      "top": 68
+    },
+    "locale": "ru",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      50,
+      101
+    ],
+    "width": 768,
+    "clip": {
+      "height": 1164.96875,
+      "width": 753,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 941
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 100,
+        "kind": "revenue",
+        "width": 286
+      },
+      {
+        "height": 75,
+        "kind": "shares",
+        "width": 106
+      },
+      {
+        "height": 75,
+        "kind": "teams",
+        "width": 102
+      }
+    ],
+    "currency": [
+      "24 тыс. €",
+      "− 8,4 тыс. €",
+      "15,6 тыс. €",
+      "Заявка на оборудование",
+      "8,4 тыс. €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 1174,
+      "top": 68
+    },
+    "locale": "ru",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      37,
+      75
+    ],
+    "width": 390,
+    "clip": {
+      "height": 1242,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 844
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 100,
+        "kind": "revenue",
+        "width": 224
+      },
+      {
+        "height": 75,
+        "kind": "shares",
+        "width": 83
+      },
+      {
+        "height": 75,
+        "kind": "teams",
+        "width": 79
+      }
+    ],
+    "currency": [
+      "24 тыс. €",
+      "− 8,4 тыс. €",
+      "15,6 тыс. €",
+      "Заявка на оборудование",
+      "8,4 тыс. €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 1202.40625,
+      "top": 68
+    },
+    "locale": "ru",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      32,
+      64
+    ],
+    "width": 320,
+    "clip": {
+      "height": 1270.40625,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 844
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 104,
+        "kind": "revenue",
+        "width": 215
+      },
+      {
+        "height": 80,
+        "kind": "shares",
+        "width": 81
+      },
+      {
+        "height": 80,
+        "kind": "teams",
+        "width": 73
+      }
+    ],
+    "currency": [
+      "€24k",
+      "− €8.4k",
+      "€15.6k",
+      "Equipment request",
+      "€8.4k"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 873,
+      "top": 68
+    },
+    "locale": "en",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      67,
+      134
+    ],
+    "width": 1440,
+    "clip": {
+      "height": 941,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 941
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 100,
+        "kind": "revenue",
+        "width": 286
+      },
+      {
+        "height": 75,
+        "kind": "shares",
+        "width": 106
+      },
+      {
+        "height": 75,
+        "kind": "teams",
+        "width": 102
+      }
+    ],
+    "currency": [
+      "€24k",
+      "− €8.4k",
+      "€15.6k",
+      "Equipment request",
+      "€8.4k"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 1149.359375,
+      "top": 68
+    },
+    "locale": "en",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      37,
+      75
+    ],
+    "width": 390,
+    "clip": {
+      "height": 1217.359375,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 844
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 100,
+        "kind": "revenue",
+        "width": 224
+      },
+      {
+        "height": 75,
+        "kind": "shares",
+        "width": 83
+      },
+      {
+        "height": 75,
+        "kind": "teams",
+        "width": 79
+      }
+    ],
+    "currency": [
+      "€24k",
+      "− €8.4k",
+      "€15.6k",
+      "Equipment request",
+      "€8.4k"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 1196.625,
+      "top": 68
+    },
+    "locale": "en",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      32,
+      64
+    ],
+    "width": 320,
+    "clip": {
+      "height": 1264.625,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 844
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 104,
+        "kind": "revenue",
+        "width": 215
+      },
+      {
+        "height": 80,
+        "kind": "shares",
+        "width": 81
+      },
+      {
+        "height": 80,
+        "kind": "teams",
+        "width": 73
+      }
+    ],
+    "currency": [
+      "24 mii €",
+      "− 8,4 mii €",
+      "15,6 mii €",
+      "Cerere de echipamente",
+      "8,4 mii €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 873,
+      "top": 68
+    },
+    "locale": "ro",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      67,
+      134
+    ],
+    "width": 1440,
+    "clip": {
+      "height": 941,
+      "width": 1425,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 941
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 100,
+        "kind": "revenue",
+        "width": 286
+      },
+      {
+        "height": 75,
+        "kind": "shares",
+        "width": 106
+      },
+      {
+        "height": 75,
+        "kind": "teams",
+        "width": 102
+      }
+    ],
+    "currency": [
+      "24 mii €",
+      "− 8,4 mii €",
+      "15,6 mii €",
+      "Cerere de echipamente",
+      "8,4 mii €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 1136.5625,
+      "top": 68
+    },
+    "locale": "ro",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      37,
+      37
+    ],
+    "width": 390,
+    "clip": {
+      "height": 1204.5625,
+      "width": 390,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 844
+  },
+  {
+    "brokenAnchors": [],
+    "charts": [
+      {
+        "height": 100,
+        "kind": "revenue",
+        "width": 224
+      },
+      {
+        "height": 75,
+        "kind": "shares",
+        "width": 83
+      },
+      {
+        "height": 75,
+        "kind": "teams",
+        "width": 79
+      }
+    ],
+    "currency": [
+      "24 mii €",
+      "− 8,4 mii €",
+      "15,6 mii €",
+      "Cerere de echipamente",
+      "8,4 mii €"
+    ],
+    "deckLayers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "h1s": 1,
+    "hero": {
+      "height": 1164.390625,
+      "top": 68
+    },
+    "locale": "ro",
+    "missingImages": [],
+    "overflow": false,
+    "sceneOverflow": [],
+    "titleHeights": [
+      32,
+      32
+    ],
+    "width": 320,
+    "clip": {
+      "height": 1232.390625,
+      "width": 320,
+      "x": 0,
+      "y": 0
+    },
+    "viewportHeight": 844
+  }
+]

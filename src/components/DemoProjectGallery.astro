@@ -4,19 +4,57 @@ import Preview from './DemoProjectPreview.astro';
 import { demoProjects, demoProjectNames } from '../content/demo-projects';
 import { demoPath, modulePath } from '../content/portfolio';
 import type { Locale } from '../content';
+import '../styles/demo-deck.css';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
 const t = demoProjects(locale);
 ---
-<section class="ox-projects ox-section" id="demo-projects" aria-labelledby="ox-projects-title">
+<section class="ox-projects ox-projects-deck ox-section" id="demo-projects" aria-labelledby="ox-projects-title">
   <div class="ox-container">
     <div class="ox-section-heading"><p class="ox-projects-eyebrow">{t.eyebrow}</p><h2 id="ox-projects-title">{t.title}</h2><p>{t.intro}</p></div>
-    <div class="ox-project-grid">
-      {t.projects.map((project,i) => <article class="ox-project-card" id={'demo-' + project.slug} aria-labelledby={'project-' + project.slug}>
-        <Preview locale={locale} kind={project.slug} />
-        <div class="ox-project-copy"><div class="ox-project-category"><Icon name={project.icon} size={18} /><span>{project.category}</span><span class="ox-project-number">0{i+1}</span></div><h3 id={'project-' + project.slug} translate="no">{demoProjectNames[project.slug]}</h3><p class="ox-project-headline">{project.title}</p><p class="ox-project-description">{project.description}</p><ul class="ox-project-tags">{project.tags.map(tag => <li>{tag}</li>)}</ul><div class="ox-project-links"><a class="ox-project-open" href={modulePath(locale,project.slug)} aria-label={t.open + ' — ' + demoProjectNames[project.slug]}>{t.open}<Icon name="arrow-right" size={19} /></a><a class="ox-project-demo-link" href={demoPath(locale) + '?step=' + project.slug} aria-label={t.tryDemo + ' — ' + demoProjectNames[project.slug]}>{t.tryDemo}</a></div></div>
-      </article>)}
+    <div class="ox-deck" data-demo-deck>
+      <div class="ox-deck-stage">
+        {t.projects.map((project,i) => <article class="ox-deck-card" data-deck-card={project.slug} id={'demo-' + project.slug} aria-label={demoProjectNames[project.slug]} style={`--card-index:${i-2};--card-layer:${i+1};--fan-y:${[52,20,0,20,52][i]}px;--fan-angle:${[-12,-5,0,5,12][i]}deg;--fan-scale:${[.9,.94,1,.94,.9][i]};`}>
+          <button class="ox-deck-close" type="button" data-deck-close data-deck-detail aria-label={t.deck.close + ' — ' + demoProjectNames[project.slug]}><Icon name="x" size={22} /></button>
+          <div class="ox-deck-inner">
+            <div class="ox-deck-front" id={'deck-content-' + project.slug}>
+              <button class="ox-deck-hit" data-deck-hit data-deck-open-label={t.deck.open + ' — ' + demoProjectNames[project.slug]} data-deck-flip-label={t.deck.flip + ' — ' + demoProjectNames[project.slug]} type="button" aria-expanded="false" aria-controls={'deck-content-' + project.slug} aria-label={t.deck.open + ' — ' + demoProjectNames[project.slug]}></button>
+              <span class="ox-deck-number" aria-hidden="true">0{i+1}</span>
+              <div class="ox-deck-emblem"><Icon name={project.icon} size={54} /></div>
+              <h3 id={'project-' + project.slug} translate="no">{demoProjectNames[project.slug]}</h3>
+              <p class="ox-deck-category">{project.category}</p>
+              <p class="ox-deck-headline">{project.title}</p>
+              <div class="ox-deck-detail" data-deck-detail><p class="ox-deck-description">{project.description}</p><Preview locale={locale} kind={project.slug} /></div>
+              <ul class="ox-deck-tags">{project.tags.map(tag => <li>{tag}</li>)}</ul>
+              <button class="ox-deck-flip" data-deck-flip data-deck-detail type="button">{t.deck.flip}<Icon name="arrow-clockwise" size={17} /></button>
+              <span class="ox-deck-number ox-deck-number-bottom" aria-hidden="true">0{i+1}</span>
+            </div>
+            <div class="ox-deck-back">
+              <span class="ox-deck-number" aria-hidden="true">0{i+1}</span>
+              <p class="ox-deck-kicker">{t.deck.how}</p>
+              <h4 translate="no">{demoProjectNames[project.slug]}</h4>
+              <p class="ox-deck-back-title">{project.title}</p>
+              <p class="ox-deck-description">{project.description}</p>
+              <ul class="ox-deck-back-tags">{project.tags.map(tag => <li><Icon name="check-circle-fill" size={21} />{tag}</li>)}</ul>
+              <div class="ox-deck-links">
+                <a class="ox-button" href={demoPath(locale) + '?step=' + project.slug} aria-label={t.tryDemo + ' — ' + demoProjectNames[project.slug]}>{t.tryDemo}<Icon name="arrow-right" size={19} /></a>
+                <a class="ox-button ox-button-secondary" href={modulePath(locale,project.slug)} aria-label={t.open + ' — ' + demoProjectNames[project.slug]}>{t.open}<Icon name="arrow-right" size={19} /></a>
+              </div>
+              <button class="ox-deck-return" data-deck-back type="button"><Icon name="arrow-left" size={17} />{t.deck.back}</button>
+            </div>
+          </div>
+        </article>)}
+        <button class="ox-deck-cover" type="button" data-deck-reveal aria-expanded="false">
+          <span class="ox-brand"><img src="/images/redesign/brand-mark.png" width="18" height="18" alt="" /><span translate="no">OPTIMIX</span></span>
+          <span class="ox-deck-emblem"><Icon name="check-square" size={54} /></span>
+          <strong>{t.deck.cover}</strong><span>{t.deck.reveal}</span>
+        </button>
+      </div>
+      <p class="ox-deck-hint"><span class="ox-deck-pointer-hint">{t.deck.hint}</span><span class="ox-deck-touch-hint">{t.deck.touchHint}</span></p>
+      <div class="ox-deck-picker" role="group" aria-label={t.deck.choose}>{t.projects.map(project => <button type="button" data-deck-select={project.slug} aria-pressed="false" translate="no">{demoProjectNames[project.slug]}</button>)}</div>
+    </div>
       <article class="ox-project-card ox-project-all" aria-labelledby="project-crm"><div class="ox-project-copy"><div class="ox-project-category"><Icon name="address-book" size={19} /><span>{t.allInOne.category}</span><span class="ox-project-number">06</span></div><h3 id="project-crm" translate="no">{t.allInOne.name}</h3><p class="ox-project-headline">{t.allInOne.title}</p><p class="ox-project-description">{t.allInOne.description}</p><ul class="ox-project-tags">{t.allInOne.tags.map(tag => <li>{tag}</li>)}</ul><a class="ox-button" href="#business-systems">{t.allInOne.action}<Icon name="arrow-right" size={20} /></a></div><Preview locale={locale} kind="crm" /></article>
-    </div><p class="ox-projects-note">{t.note}</p>
+    <p class="ox-projects-note">{t.note}</p>
   </div>
 </section>
+<script>import '../scripts/demo-deck';</script>
