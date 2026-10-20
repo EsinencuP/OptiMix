@@ -1,0 +1,736 @@
+{
+  "matrix": [
+    {
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 1024,
+      "status": 200,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 375,
+      "status": 200,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 1024,
+      "status": 200,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 375,
+      "status": 200,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 1024,
+      "status": 200,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 375,
+      "status": 200,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "nodes": 6,
+      "paths": 6,
+      "dots": 6,
+      "tags": [
+        "Next.js",
+        "PostgreSQL",
+        "Docker",
+        "Prisma"
+      ],
+      "links": [
+        "https://erp-xi-pink.vercel.app/",
+        "https://github.com/EsinencuP/ERP"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "nodesInsideMap": true,
+      "nodeOverlap": false,
+      "coreOverlap": false,
+      "glow": "rgb(195, 239, 213) 0px 0px 40px 0px",
+      "missingImages": 0,
+      "sixHoverAndClickStatesPassed": true
+    }
+  ],
+  "motion": {
+    "sixDotsMoving": true,
+    "desktopDistanceFromPathPx": [
+      0.263092041015625,
+      0.5360996439319871,
+      0.4585742386187899,
+      0.2552490234375,
+      0.09037926444238926,
+      0.2699789823882925
+    ],
+    "pauseResume": true,
+    "mobileDistanceFromPathPx": [
+      0.29376220703125,
+      0.32793429557761633,
+      0.389829647560702,
+      0.0712432861328125,
+      0.047045370925703496,
+      0.2248592165007853
+    ],
+    "reducedMotion": true
+  },
+  "interaction": {
+    "hoverScaleAndHoverableEscapeTooltip": true,
+    "keyboard": true,
+    "astroCleanup": true,
+    "emulatedTouchFirstTap": true,
+    "noJsNativeAccordion": true
+  },
+  "navigation": [
+    {
+      "locale": "ru",
+      "onePanelPerClick": true
+    },
+    {
+      "locale": "ro",
+      "onePanelPerClick": true
+    },
+    {
+      "locale": "en",
+      "onePanelPerClick": true
+    }
+  ],
+  "crmRegression": [
+    {
+      "width": 1440,
+      "exactPixels": false,
+      "changedPixels": 37,
+      "maxChannelDelta": 4,
+      "totalPixels": 5558400
+    },
+    {
+      "width": 375,
+      "exactPixels": false,
+      "changedPixels": 122,
+      "maxChannelDelta": 3,
+      "totalPixels": 2488125
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

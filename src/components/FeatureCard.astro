@@ -1,0 +1,27 @@
+---
+import Icon from './RedesignIcon.astro';
+import type { PortfolioFeature } from '../content/portfolio-pages';
+
+interface Props {
+  feature: PortfolioFeature;
+  index: number;
+  wide?: boolean;
+}
+const { feature, index, wide = false } = Astro.props;
+---
+
+<article class:list={['ox-feature-card', wide && 'ox-feature-card-wide']} data-crm-feature>
+  <div class="ox-feature-card-top">
+    <span class="ox-feature-icon" aria-hidden="true">
+      {feature.icon === 'sparkles' ? (
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="m12 3 2.7 6.3L21 12l-6.3 2.7L12 21l-2.7-6.3L3 12l6.3-2.7L12 3Z" />
+          <path d="M20 2v4m-2-2h4" />
+        </svg>
+      ) : <Icon name={feature.icon} size={28} />}
+    </span>
+    <span class="ox-feature-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
+  </div>
+  <h3>{feature.title}</h3>
+  <p>{feature.description}</p>
+</article>

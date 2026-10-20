@@ -1,0 +1,1303 @@
+{
+  "matrix": [
+    {
+      "width": 1440,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Dashboard",
+        "Finance",
+        "Inventory",
+        "CRM",
+        "Expenses",
+        "Team",
+        "Settings"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 3,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Dashboard",
+        "Finance",
+        "Inventory",
+        "CRM",
+        "Expenses",
+        "Team",
+        "Settings"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 3,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Dashboard",
+        "Finance",
+        "Inventory",
+        "CRM",
+        "Expenses",
+        "Team",
+        "Settings"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 3,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Dashboard",
+        "Finance",
+        "Inventory",
+        "CRM",
+        "Expenses",
+        "Team",
+        "Settings"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 2,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Dashboard",
+        "Finance",
+        "Inventory",
+        "CRM",
+        "Expenses",
+        "Team",
+        "Settings"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 1,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Dashboard",
+        "Finance",
+        "Inventory",
+        "CRM",
+        "Expenses",
+        "Team",
+        "Settings"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 1,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "en",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Dashboard",
+        "Finance",
+        "Inventory",
+        "CRM",
+        "Expenses",
+        "Team",
+        "Settings"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 1,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Дашборд",
+        "Финансы",
+        "Склад",
+        "CRM",
+        "Расходы",
+        "Команда",
+        "Настройки"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 3,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Дашборд",
+        "Финансы",
+        "Склад",
+        "CRM",
+        "Расходы",
+        "Команда",
+        "Настройки"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 3,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Дашборд",
+        "Финансы",
+        "Склад",
+        "CRM",
+        "Расходы",
+        "Команда",
+        "Настройки"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 3,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Дашборд",
+        "Финансы",
+        "Склад",
+        "CRM",
+        "Расходы",
+        "Команда",
+        "Настройки"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 2,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Дашборд",
+        "Финансы",
+        "Склад",
+        "CRM",
+        "Расходы",
+        "Команда",
+        "Настройки"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 1,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Дашборд",
+        "Финансы",
+        "Склад",
+        "CRM",
+        "Расходы",
+        "Команда",
+        "Настройки"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 1,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ru",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Дашборд",
+        "Финансы",
+        "Склад",
+        "CRM",
+        "Расходы",
+        "Команда",
+        "Настройки"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 1,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Panou de control",
+        "Finanțe",
+        "Stocuri",
+        "CRM",
+        "Cheltuieli",
+        "Echipă",
+        "Setări"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 3,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Panou de control",
+        "Finanțe",
+        "Stocuri",
+        "CRM",
+        "Cheltuieli",
+        "Echipă",
+        "Setări"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 3,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Panou de control",
+        "Finanțe",
+        "Stocuri",
+        "CRM",
+        "Cheltuieli",
+        "Echipă",
+        "Setări"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 3,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Panou de control",
+        "Finanțe",
+        "Stocuri",
+        "CRM",
+        "Cheltuieli",
+        "Echipă",
+        "Setări"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 2,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Panou de control",
+        "Finanțe",
+        "Stocuri",
+        "CRM",
+        "Cheltuieli",
+        "Echipă",
+        "Setări"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 1,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Panou de control",
+        "Finanțe",
+        "Stocuri",
+        "CRM",
+        "Cheltuieli",
+        "Echipă",
+        "Setări"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 1,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "lang": "ro",
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "ids": [
+        "dashboard",
+        "finance",
+        "inventory",
+        "crm",
+        "expenses",
+        "team",
+        "settings"
+      ],
+      "titles": [
+        "Panou de control",
+        "Finanțe",
+        "Stocuri",
+        "CRM",
+        "Cheltuieli",
+        "Echipă",
+        "Setări"
+      ],
+      "features": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        3
+      ],
+      "descriptions": true,
+      "columns": 1,
+      "wideCardFullWidth": true,
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "duplicateIds": [],
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaTitleColor": "rgb(255, 255, 255)",
+      "links": [
+        {
+          "href": "https://erp-xi-pink.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/ERP",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    }
+  ],
+  "navigation": [
+    {
+      "locale": "ru",
+      "cards": 7
+    },
+    {
+      "locale": "ro",
+      "cards": 7
+    },
+    {
+      "locale": "en",
+      "cards": 7
+    }
+  ],
+  "crmRegression": [
+    {
+      "width": 1440,
+      "changedPixels": 37,
+      "maxChannelDelta": 4,
+      "totalPixels": 5558400
+    },
+    {
+      "width": 375,
+      "changedPixels": 122,
+      "maxChannelDelta": 3,
+      "totalPixels": 2488125
+    }
+  ],
+  "errors": [],
+  "ctaKeyboardFocus": {
+    "visible": true,
+    "color": "rgb(255, 255, 255)",
+    "width": "3px"
+  },
+  "hubRegression": true,
+  "astroBack": true,
+  "ordinaryMotionContentVisible": true,
+  "noJs": true,
+  "passed": true
+}

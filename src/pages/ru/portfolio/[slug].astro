@@ -1,0 +1,10 @@
+---
+import PortfolioPage from '../../../components/PortfolioPage.astro';
+import { portfolioPageSlugs, type PortfolioPageSlug } from '../../../content/portfolio-pages';
+
+export function getStaticPaths() {
+  return portfolioPageSlugs.map(slug => ({ params: { slug } }));
+}
+const slug = Astro.params.slug as PortfolioPageSlug;
+---
+<PortfolioPage locale="ru" slug={slug} />

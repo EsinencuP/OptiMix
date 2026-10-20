@@ -1,0 +1,843 @@
+{
+  "matrix": [
+    {
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "modules": 6,
+      "columns": 3,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "modules": 6,
+      "columns": 3,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "modules": 6,
+      "columns": 3,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "modules": 6,
+      "columns": 2,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "modules": 6,
+      "columns": 1,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "modules": 6,
+      "columns": 1,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "modules": 6,
+      "columns": 1,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "modules": 6,
+      "columns": 3,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "modules": 6,
+      "columns": 3,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "modules": 6,
+      "columns": 3,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "modules": 6,
+      "columns": 2,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "modules": 6,
+      "columns": 1,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "modules": 6,
+      "columns": 1,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "modules": 6,
+      "columns": 1,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "modules": 6,
+      "columns": 3,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "modules": 6,
+      "columns": 3,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "modules": 6,
+      "columns": 3,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "modules": 6,
+      "columns": 2,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "modules": 6,
+      "columns": 1,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "modules": 6,
+      "columns": 1,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    },
+    {
+      "width": 320,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "modules": 6,
+      "columns": 1,
+      "features": 6,
+      "credentials": [
+        {
+          "value": "admin@demo.com",
+          "readonly": true
+        },
+        {
+          "value": "admin123",
+          "readonly": true
+        }
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "ctaBackground": "rgb(6, 52, 38)",
+      "ctaButtons": [
+        {
+          "href": "https://crm-portfolio-omega.vercel.app/",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        },
+        {
+          "href": "https://github.com/EsinencuP/crm-portfolio",
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(6, 52, 38)",
+          "iconFilter": "none"
+        }
+      ]
+    }
+  ],
+  "clipboard": [
+    {
+      "locale": "en",
+      "field": "email",
+      "realClipboardMatches": true,
+      "status": "Demo email copied."
+    },
+    {
+      "locale": "en",
+      "field": "password",
+      "realClipboardMatches": true,
+      "status": "Demo password copied."
+    },
+    {
+      "locale": "ru",
+      "field": "email",
+      "realClipboardMatches": true,
+      "status": "Логин демо скопирован."
+    },
+    {
+      "locale": "ru",
+      "field": "password",
+      "realClipboardMatches": true,
+      "status": "Пароль демо скопирован."
+    },
+    {
+      "locale": "ro",
+      "field": "email",
+      "realClipboardMatches": true,
+      "status": "Emailul demo a fost copiat."
+    },
+    {
+      "locale": "ro",
+      "field": "password",
+      "realClipboardMatches": true,
+      "status": "Parola demo a fost copiată."
+    }
+  ],
+  "navigation": [
+    {
+      "locale": "ru",
+      "oneWritePerClick": true
+    },
+    {
+      "locale": "ro",
+      "oneWritePerClick": true
+    },
+    {
+      "locale": "en",
+      "oneWritePerClick": true
+    }
+  ],
+  "regression": {
+    "workflowAndCredentials": true,
+    "permissionDeniedFallback": true,
+    "unavailableClipboardFallback": true,
+    "pendingWriteAstroCleanup": true,
+    "keyboardCopyAndCtaFocus": true,
+    "noJsManualSelection": true
+  },
+  "errors": [],
+  "passed": true
+}

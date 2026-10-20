@@ -1,0 +1,908 @@
+{
+  "pages": [
+    {
+      "locale": "en",
+      "width": 1280,
+      "slug": "crm",
+      "lang": "en",
+      "title": "CRM Platform — OptiMix Portfolio",
+      "description": "Explore a CRM platform for contacts, deals and sales workflows. Open the demo or browse the source code on GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/portfolio/crm/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "CRM Platform — OptiMix Portfolio",
+        "og:description": "Explore a CRM platform for contacts, deals and sales workflows. Open the demo or browse the source code on GitHub.",
+        "og:type": "website",
+        "og:locale": "en_GB",
+        "og:url": "https://opti-mix-three.vercel.app/portfolio/crm/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "CRM Platform — OptiMix Portfolio",
+        "twitter:description": "Explore a CRM platform for contacts, deals and sales workflows. Open the demo or browse the source code on GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/crm/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/crm/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "slug": "erp",
+      "lang": "en",
+      "title": "ERP System — OptiMix Portfolio",
+      "description": "Explore Evo ERP for finance, inventory and team operations. Open the demo or browse the source code on GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/portfolio/erp/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "ERP System — OptiMix Portfolio",
+        "og:description": "Explore Evo ERP for finance, inventory and team operations. Open the demo or browse the source code on GitHub.",
+        "og:type": "website",
+        "og:locale": "en_GB",
+        "og:url": "https://opti-mix-three.vercel.app/portfolio/erp/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "ERP System — OptiMix Portfolio",
+        "twitter:description": "Explore Evo ERP for finance, inventory and team operations. Open the demo or browse the source code on GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/erp/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/erp/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "slug": "crm",
+      "lang": "en",
+      "title": "CRM Platform — OptiMix Portfolio",
+      "description": "Explore a CRM platform for contacts, deals and sales workflows. Open the demo or browse the source code on GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/portfolio/crm/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "CRM Platform — OptiMix Portfolio",
+        "og:description": "Explore a CRM platform for contacts, deals and sales workflows. Open the demo or browse the source code on GitHub.",
+        "og:type": "website",
+        "og:locale": "en_GB",
+        "og:url": "https://opti-mix-three.vercel.app/portfolio/crm/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "CRM Platform — OptiMix Portfolio",
+        "twitter:description": "Explore a CRM platform for contacts, deals and sales workflows. Open the demo or browse the source code on GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/crm/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/crm/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "slug": "erp",
+      "lang": "en",
+      "title": "ERP System — OptiMix Portfolio",
+      "description": "Explore Evo ERP for finance, inventory and team operations. Open the demo or browse the source code on GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/portfolio/erp/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "ERP System — OptiMix Portfolio",
+        "og:description": "Explore Evo ERP for finance, inventory and team operations. Open the demo or browse the source code on GitHub.",
+        "og:type": "website",
+        "og:locale": "en_GB",
+        "og:url": "https://opti-mix-three.vercel.app/portfolio/erp/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "ERP System — OptiMix Portfolio",
+        "twitter:description": "Explore Evo ERP for finance, inventory and team operations. Open the demo or browse the source code on GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/erp/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/erp/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "ru",
+      "width": 1280,
+      "slug": "crm",
+      "lang": "ru",
+      "title": "CRM-платформа — Портфолио OptiMix",
+      "description": "CRM-платформа для контактов, сделок и процессов продаж. Откройте демо или изучите исходный код на GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/ru/portfolio/crm/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "CRM-платформа — Портфолио OptiMix",
+        "og:description": "CRM-платформа для контактов, сделок и процессов продаж. Откройте демо или изучите исходный код на GitHub.",
+        "og:type": "website",
+        "og:locale": "ru_RU",
+        "og:url": "https://opti-mix-three.vercel.app/ru/portfolio/crm/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "CRM-платформа — Портфолио OptiMix",
+        "twitter:description": "CRM-платформа для контактов, сделок и процессов продаж. Откройте демо или изучите исходный код на GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/crm/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/crm/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "ru",
+      "width": 1280,
+      "slug": "erp",
+      "lang": "ru",
+      "title": "ERP-система — Портфолио OptiMix",
+      "description": "Evo ERP для финансов, склада и работы команды. Откройте демо или изучите исходный код на GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/ru/portfolio/erp/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "ERP-система — Портфолио OptiMix",
+        "og:description": "Evo ERP для финансов, склада и работы команды. Откройте демо или изучите исходный код на GitHub.",
+        "og:type": "website",
+        "og:locale": "ru_RU",
+        "og:url": "https://opti-mix-three.vercel.app/ru/portfolio/erp/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "ERP-система — Портфолио OptiMix",
+        "twitter:description": "Evo ERP для финансов, склада и работы команды. Откройте демо или изучите исходный код на GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/erp/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/erp/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "ru",
+      "width": 375,
+      "slug": "crm",
+      "lang": "ru",
+      "title": "CRM-платформа — Портфолио OptiMix",
+      "description": "CRM-платформа для контактов, сделок и процессов продаж. Откройте демо или изучите исходный код на GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/ru/portfolio/crm/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "CRM-платформа — Портфолио OptiMix",
+        "og:description": "CRM-платформа для контактов, сделок и процессов продаж. Откройте демо или изучите исходный код на GitHub.",
+        "og:type": "website",
+        "og:locale": "ru_RU",
+        "og:url": "https://opti-mix-three.vercel.app/ru/portfolio/crm/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "CRM-платформа — Портфолио OptiMix",
+        "twitter:description": "CRM-платформа для контактов, сделок и процессов продаж. Откройте демо или изучите исходный код на GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/crm/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/crm/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "ru",
+      "width": 375,
+      "slug": "erp",
+      "lang": "ru",
+      "title": "ERP-система — Портфолио OptiMix",
+      "description": "Evo ERP для финансов, склада и работы команды. Откройте демо или изучите исходный код на GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/ru/portfolio/erp/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "ERP-система — Портфолио OptiMix",
+        "og:description": "Evo ERP для финансов, склада и работы команды. Откройте демо или изучите исходный код на GitHub.",
+        "og:type": "website",
+        "og:locale": "ru_RU",
+        "og:url": "https://opti-mix-three.vercel.app/ru/portfolio/erp/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "ERP-система — Портфолио OptiMix",
+        "twitter:description": "Evo ERP для финансов, склада и работы команды. Откройте демо или изучите исходный код на GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/erp/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/erp/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "ro",
+      "width": 1280,
+      "slug": "crm",
+      "lang": "ro",
+      "title": "Platformă CRM — Portofoliu OptiMix",
+      "description": "O platformă CRM pentru contacte, tranzacții și procese de vânzări. Deschide demonstrația sau consultă codul sursă pe GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/ro/portfolio/crm/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "Platformă CRM — Portofoliu OptiMix",
+        "og:description": "O platformă CRM pentru contacte, tranzacții și procese de vânzări. Deschide demonstrația sau consultă codul sursă pe GitHub.",
+        "og:type": "website",
+        "og:locale": "ro_RO",
+        "og:url": "https://opti-mix-three.vercel.app/ro/portfolio/crm/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "Platformă CRM — Portofoliu OptiMix",
+        "twitter:description": "O platformă CRM pentru contacte, tranzacții și procese de vânzări. Deschide demonstrația sau consultă codul sursă pe GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/crm/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/crm/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "ro",
+      "width": 1280,
+      "slug": "erp",
+      "lang": "ro",
+      "title": "Sistem ERP — Portofoliu OptiMix",
+      "description": "Evo ERP pentru finanțe, stocuri și activitatea echipei. Deschide demonstrația sau consultă codul sursă pe GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/ro/portfolio/erp/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "Sistem ERP — Portofoliu OptiMix",
+        "og:description": "Evo ERP pentru finanțe, stocuri și activitatea echipei. Deschide demonstrația sau consultă codul sursă pe GitHub.",
+        "og:type": "website",
+        "og:locale": "ro_RO",
+        "og:url": "https://opti-mix-three.vercel.app/ro/portfolio/erp/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "Sistem ERP — Portofoliu OptiMix",
+        "twitter:description": "Evo ERP pentru finanțe, stocuri și activitatea echipei. Deschide demonstrația sau consultă codul sursă pe GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/erp/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/erp/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "ro",
+      "width": 375,
+      "slug": "crm",
+      "lang": "ro",
+      "title": "Platformă CRM — Portofoliu OptiMix",
+      "description": "O platformă CRM pentru contacte, tranzacții și procese de vânzări. Deschide demonstrația sau consultă codul sursă pe GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/ro/portfolio/crm/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "Platformă CRM — Portofoliu OptiMix",
+        "og:description": "O platformă CRM pentru contacte, tranzacții și procese de vânzări. Deschide demonstrația sau consultă codul sursă pe GitHub.",
+        "og:type": "website",
+        "og:locale": "ro_RO",
+        "og:url": "https://opti-mix-three.vercel.app/ro/portfolio/crm/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "Platformă CRM — Portofoliu OptiMix",
+        "twitter:description": "O platformă CRM pentru contacte, tranzacții și procese de vânzări. Deschide demonstrația sau consultă codul sursă pe GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/crm/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/crm/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/crm/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    },
+    {
+      "locale": "ro",
+      "width": 375,
+      "slug": "erp",
+      "lang": "ro",
+      "title": "Sistem ERP — Portofoliu OptiMix",
+      "description": "Evo ERP pentru finanțe, stocuri și activitatea echipei. Deschide demonstrația sau consultă codul sursă pe GitHub.",
+      "canonical": [
+        "https://opti-mix-three.vercel.app/ro/portfolio/erp/"
+      ],
+      "robots": "noindex, nofollow",
+      "og": {
+        "og:title": "Sistem ERP — Portofoliu OptiMix",
+        "og:description": "Evo ERP pentru finanțe, stocuri și activitatea echipei. Deschide demonstrația sau consultă codul sursă pe GitHub.",
+        "og:type": "website",
+        "og:locale": "ro_RO",
+        "og:url": "https://opti-mix-three.vercel.app/ro/portfolio/erp/",
+        "og:site_name": "OptiMix"
+      },
+      "twitter": {
+        "twitter:card": "summary",
+        "twitter:title": "Sistem ERP — Portofoliu OptiMix",
+        "twitter:description": "Evo ERP pentru finanțe, stocuri și activitatea echipei. Deschide demonstrația sau consultă codul sursă pe GitHub."
+      },
+      "alternates": [
+        {
+          "lang": "en",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        },
+        {
+          "lang": "ro",
+          "href": "https://opti-mix-three.vercel.app/ro/portfolio/erp/"
+        },
+        {
+          "lang": "ru",
+          "href": "https://opti-mix-three.vercel.app/ru/portfolio/erp/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://opti-mix-three.vercel.app/portfolio/erp/"
+        }
+      ],
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "missingImages": 0,
+      "fonts": [
+        "/fonts/redesign/Roboto-Variable.woff2"
+      ],
+      "interactionsPassed": true
+    }
+  ],
+  "home": [
+    {
+      "locale": "en",
+      "width": 1280,
+      "names": [
+        "Cherryli",
+        "Budget",
+        "Aprobery",
+        "ERP",
+        "Steer",
+        "All-in-one CRM"
+      ],
+      "projects": [
+        "/solutions/intake/",
+        "/solutions/budget/",
+        "/solutions/approval/",
+        "/portfolio/erp/",
+        "/solutions/visibility/"
+      ],
+      "demos": [
+        "/demo/procurement/?step=intake",
+        "/demo/procurement/?step=budget",
+        "/demo/procurement/?step=approval",
+        "/demo/procurement/?step=erp",
+        "/demo/procurement/?step=visibility"
+      ],
+      "crm": "/portfolio/crm/",
+      "layers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "overflow": false,
+      "changedPixels": 0,
+      "maxChannelDelta": 0,
+      "projectNavigationAndDeckCleanup": true
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "names": [
+        "Cherryli",
+        "Budget",
+        "Aprobery",
+        "ERP",
+        "Steer",
+        "All-in-one CRM"
+      ],
+      "projects": [
+        "/solutions/intake/",
+        "/solutions/budget/",
+        "/solutions/approval/",
+        "/portfolio/erp/",
+        "/solutions/visibility/"
+      ],
+      "demos": [
+        "/demo/procurement/?step=intake",
+        "/demo/procurement/?step=budget",
+        "/demo/procurement/?step=approval",
+        "/demo/procurement/?step=erp",
+        "/demo/procurement/?step=visibility"
+      ],
+      "crm": "/portfolio/crm/",
+      "layers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "overflow": false,
+      "changedPixels": 0,
+      "maxChannelDelta": 0,
+      "projectNavigationAndDeckCleanup": true
+    },
+    {
+      "locale": "ru",
+      "width": 1280,
+      "names": [
+        "Cherryli",
+        "Budget",
+        "Aprobery",
+        "ERP",
+        "Steer",
+        "All-in-one CRM"
+      ],
+      "projects": [
+        "/ru/solutions/intake/",
+        "/ru/solutions/budget/",
+        "/ru/solutions/approval/",
+        "/ru/portfolio/erp/",
+        "/ru/solutions/visibility/"
+      ],
+      "demos": [
+        "/ru/demo/procurement/?step=intake",
+        "/ru/demo/procurement/?step=budget",
+        "/ru/demo/procurement/?step=approval",
+        "/ru/demo/procurement/?step=erp",
+        "/ru/demo/procurement/?step=visibility"
+      ],
+      "crm": "/ru/portfolio/crm/",
+      "layers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "overflow": false,
+      "changedPixels": 0,
+      "maxChannelDelta": 0,
+      "projectNavigationAndDeckCleanup": true
+    },
+    {
+      "locale": "ru",
+      "width": 375,
+      "names": [
+        "Cherryli",
+        "Budget",
+        "Aprobery",
+        "ERP",
+        "Steer",
+        "All-in-one CRM"
+      ],
+      "projects": [
+        "/ru/solutions/intake/",
+        "/ru/solutions/budget/",
+        "/ru/solutions/approval/",
+        "/ru/portfolio/erp/",
+        "/ru/solutions/visibility/"
+      ],
+      "demos": [
+        "/ru/demo/procurement/?step=intake",
+        "/ru/demo/procurement/?step=budget",
+        "/ru/demo/procurement/?step=approval",
+        "/ru/demo/procurement/?step=erp",
+        "/ru/demo/procurement/?step=visibility"
+      ],
+      "crm": "/ru/portfolio/crm/",
+      "layers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "overflow": false,
+      "changedPixels": 0,
+      "maxChannelDelta": 0,
+      "projectNavigationAndDeckCleanup": true
+    },
+    {
+      "locale": "ro",
+      "width": 1280,
+      "names": [
+        "Cherryli",
+        "Budget",
+        "Aprobery",
+        "ERP",
+        "Steer",
+        "All-in-one CRM"
+      ],
+      "projects": [
+        "/ro/solutions/intake/",
+        "/ro/solutions/budget/",
+        "/ro/solutions/approval/",
+        "/ro/portfolio/erp/",
+        "/ro/solutions/visibility/"
+      ],
+      "demos": [
+        "/ro/demo/procurement/?step=intake",
+        "/ro/demo/procurement/?step=budget",
+        "/ro/demo/procurement/?step=approval",
+        "/ro/demo/procurement/?step=erp",
+        "/ro/demo/procurement/?step=visibility"
+      ],
+      "crm": "/ro/portfolio/crm/",
+      "layers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "overflow": false,
+      "changedPixels": 0,
+      "maxChannelDelta": 0,
+      "projectNavigationAndDeckCleanup": true
+    },
+    {
+      "locale": "ro",
+      "width": 375,
+      "names": [
+        "Cherryli",
+        "Budget",
+        "Aprobery",
+        "ERP",
+        "Steer",
+        "All-in-one CRM"
+      ],
+      "projects": [
+        "/ro/solutions/intake/",
+        "/ro/solutions/budget/",
+        "/ro/solutions/approval/",
+        "/ro/portfolio/erp/",
+        "/ro/solutions/visibility/"
+      ],
+      "demos": [
+        "/ro/demo/procurement/?step=intake",
+        "/ro/demo/procurement/?step=budget",
+        "/ro/demo/procurement/?step=approval",
+        "/ro/demo/procurement/?step=erp",
+        "/ro/demo/procurement/?step=visibility"
+      ],
+      "crm": "/ro/portfolio/crm/",
+      "layers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "overflow": false,
+      "changedPixels": 0,
+      "maxChannelDelta": 0,
+      "projectNavigationAndDeckCleanup": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,13 @@
+{
+  "source": "public/fonts/redesign/Roboto-Variable.ttf",
+  "sourceSha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134",
+  "sourceBytes": 488584,
+  "output": "public/fonts/redesign/Roboto-Variable.woff2",
+  "outputSha256": "fb8a4e4741fddce55e3377cbd1242cd776af5f28712ba6f411c94b8f3f274ab6",
+  "outputBytes": 222656,
+  "license": "public/fonts/redesign/OFL.txt",
+  "conversion": "fontTools 4.67.0 TTFont(source); font.flavor = 'woff2'; font.save(output)",
+  "scope": "CRM/ERP portfolio routes only; existing TTF remains on all other routes",
+  "verifiedEqual": ["glyph order", "horizontal metrics", "Unicode cmap", "name records", "variable axes"],
+  "dependencies": "fonttools[woff] installed into the OS temporary directory for encoding; no project dependencies added"
+}

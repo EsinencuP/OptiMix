@@ -30,6 +30,33 @@
   --motion-content: 580ms;
   --motion-hero: 1020ms;
   --ease-precise: cubic-bezier(.22, .61, .36, 1);
+
+  /* Portfolio components extend the existing internal-page scale. */
+  --portfolio-space-1: .5rem;
+  --portfolio-space-2: .75rem;
+  --portfolio-space-3: 1rem;
+  --portfolio-space-4: 1.5rem;
+  --portfolio-space-5: 2rem;
+  --portfolio-space-6: 3rem;
+  --portfolio-space-7: 4rem;
+  --portfolio-hero-space: clamp(2rem, 5vw, 4rem);
+  --portfolio-section-space: clamp(3rem, 6vw, 5.5rem);
+  --portfolio-title-size: clamp(2.125rem, 4vw, 3.5rem);
+  --portfolio-section-title-size: clamp(1.875rem, 3vw, 2.625rem);
+  --portfolio-card-title-size: 1.375rem;
+  --portfolio-lead-size: 1.1875rem;
+  --portfolio-body-size: 1rem;
+  --portfolio-label-size: .8125rem;
+  --portfolio-caption-size: .75rem;
+  --portfolio-card-radius: calc(2 * var(--radius-control));
+  --portfolio-copy-width: 42rem;
+  --portfolio-heading-width: 48rem;
+  --workflow-node-size: 3.5rem;
+  --erp-hub-node-width: 12rem;
+  --erp-hub-node-width-small: 7rem;
+  --erp-hub-core-size: 8rem;
+  --erp-hub-map-width: 62.5rem;
+  --erp-core-glow: 0 0 40px var(--color-signal);
 }
 
 @media (max-width: 48rem) {

@@ -1,0 +1,18 @@
+---
+import type { Locale } from '../content';
+import { erpSupplementContent, portfolioPages, portfolioPageLinks } from '../content/portfolio-pages';
+import Icon from './RedesignIcon.astro';
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = erpSupplementContent[locale].cta;
+const links = portfolioPageLinks.erp;
+---
+<section class="ox-erp-cta-section ox-container" id="erp-demo" aria-labelledby="erp-demo-cta-title">
+  <div class="ox-erp-cta">
+    <div><p class="ox-page-kicker">{t.eyebrow}</p><h2 id="erp-demo-cta-title">{t.title}</h2><p class="ox-erp-cta-intro">{t.intro}</p></div>
+    <div class="ox-erp-cta-actions">
+      <a class="ox-button" href={links.demo}>{portfolioPages[locale].openDemo}<Icon name="arrow-right" size={20} /></a>
+      <a class="ox-button" href={links.github}>{portfolioPages[locale].github}<Icon name="arrow-right" size={20} /></a>
+    </div>
+  </div>
+</section>

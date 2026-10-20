@@ -1,0 +1,220 @@
+/* Colors, spacing and type sizes come from tokens.css. */
+.ox-crm-page {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: var(--color-paper);
+}
+
+.ox-crm-hero {
+  padding-block: var(--portfolio-hero-space);
+  background: var(--color-light);
+  border-bottom: var(--border-hairline);
+}
+
+.ox-crm-hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr);
+  align-items: center;
+  gap: var(--portfolio-space-6);
+}
+
+.ox-crm-page .ox-page-kicker { color: var(--color-accent); }
+.ox-crm-hero h1 {
+  margin-top: var(--portfolio-space-3);
+  font-size: var(--portfolio-title-size);
+  line-height: 1.06;
+  font-weight: 820;
+}
+.ox-crm-hero h1 span { display: block; color: var(--color-accent); }
+.ox-crm-lead {
+  max-width: 42ch;
+  margin-top: var(--portfolio-space-4);
+  color: var(--color-muted);
+  font-size: var(--portfolio-lead-size);
+  line-height: 1.55;
+}
+
+.ox-crm-page .ox-crm-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--portfolio-space-1);
+  margin-top: var(--portfolio-space-4);
+}
+.ox-crm-tags li {
+  border: var(--border-hairline);
+  border-radius: var(--radius-control);
+  background: var(--color-paper);
+  padding: var(--portfolio-space-1) var(--portfolio-space-2);
+  font-size: var(--portfolio-label-size);
+  font-weight: 600;
+  line-height: 1.2;
+}
+.ox-crm-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--portfolio-space-3);
+  margin-top: var(--portfolio-space-5);
+}
+.ox-crm-page .ox-button {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: var(--color-paper);
+  padding-inline: var(--portfolio-space-4);
+  gap: var(--portfolio-space-2);
+  transition: background var(--motion-quick) var(--ease-precise), border-color var(--motion-quick) var(--ease-precise);
+}
+.ox-crm-page .ox-button:hover { background: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+.ox-crm-page .ox-button-secondary { background: var(--color-paper); color: var(--color-ink); border-color: var(--color-muted); }
+.ox-crm-page .ox-button-secondary:hover { background: var(--color-wash); color: var(--color-accent-hover); border-color: var(--color-accent-hover); }
+
+.ox-crm-window {
+  overflow: hidden;
+  border: var(--border-hairline);
+  border-radius: var(--portfolio-card-radius);
+  background: var(--color-paper);
+  box-shadow: var(--shadow-raised);
+}
+.ox-crm-window-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--portfolio-space-2);
+  padding: var(--portfolio-space-3) var(--portfolio-space-4);
+  border-bottom: var(--border-hairline);
+  font-size: var(--portfolio-label-size);
+}
+.ox-crm-window-mark { padding: var(--portfolio-space-1); background: var(--color-light); border-radius: var(--radius-control); }
+.ox-crm-window-dots { display: flex; gap: var(--portfolio-space-1); margin-left: auto; }
+.ox-crm-window-dots i { width: var(--portfolio-space-1); height: var(--portfolio-space-1); background: var(--color-line); border-radius: 50%; }
+.ox-crm-board { padding: var(--portfolio-space-4); background: var(--color-wash); }
+.ox-crm-board-title { font-size: var(--portfolio-body-size); font-weight: 720; }
+.ox-crm-board-columns {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--portfolio-space-2);
+  margin-top: var(--portfolio-space-4);
+  min-height: calc(var(--portfolio-space-7) * 4);
+}
+.ox-crm-stage { display: flex; justify-content: space-between; align-items: baseline; gap: var(--portfolio-space-1); font-size: var(--portfolio-caption-size); font-weight: 650; line-height: 1.4; }
+.ox-crm-stage-count { color: var(--color-muted); font-variant-numeric: tabular-nums; }
+.ox-crm-page .ox-crm-deals { display: grid; align-content: start; gap: var(--portfolio-space-2); margin-top: var(--portfolio-space-2); }
+.ox-crm-deals li {
+  padding: var(--portfolio-space-2);
+  border: var(--border-hairline);
+  border-radius: var(--radius-control);
+  background: var(--color-paper);
+  box-shadow: var(--shadow-subtle);
+}
+.ox-crm-deal-line { display: block; width: var(--portfolio-space-4); height: calc(var(--portfolio-space-1) / 2); border-radius: var(--radius-control); background: var(--color-accent); margin-bottom: var(--portfolio-space-2); }
+.ox-crm-deals strong { display: block; font-size: var(--portfolio-label-size); line-height: 1.4; font-weight: 650; overflow-wrap: anywhere; }
+.ox-crm-deal-owner { display: flex; flex-wrap: wrap; align-items: center; gap: var(--portfolio-space-1); margin-top: var(--portfolio-space-3); color: var(--color-muted); font-size: var(--portfolio-caption-size); line-height: 1.5; }
+.ox-crm-preview figcaption { margin-top: var(--portfolio-space-3); color: var(--color-muted); font-size: var(--portfolio-caption-size); line-height: 1.5; }
+
+.ox-crm-features { padding-top: var(--portfolio-section-space); }
+.ox-crm-section-heading { max-width: var(--portfolio-heading-width); }
+.ox-crm-page .ox-crm-section-heading h2 { font-size: var(--portfolio-section-title-size); line-height: 1.12; margin-top: var(--portfolio-space-3); }
+.ox-crm-section-heading > p:last-child { margin-top: var(--portfolio-space-3); font-size: var(--portfolio-lead-size); line-height: 1.55; color: var(--color-muted); }
+.ox-crm-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--portfolio-space-4);
+  margin-top: var(--portfolio-space-6);
+}
+.ox-feature-card {
+  min-width: 0;
+  padding: var(--portfolio-space-5);
+  border: var(--border-hairline);
+  border-radius: var(--portfolio-card-radius);
+  background: var(--color-paper);
+}
+.ox-feature-card-wide { grid-column: span 2; }
+.ox-feature-card:first-child { background: var(--color-light); }
+.ox-feature-card-top { display: flex; align-items: center; justify-content: space-between; gap: var(--portfolio-space-3); }
+.ox-feature-icon { display: inline-flex; align-items: center; justify-content: center; width: var(--portfolio-space-6); height: var(--portfolio-space-6); border-radius: var(--radius-control); background: var(--color-wash); color: var(--color-accent); }
+.ox-feature-card:first-child .ox-feature-icon { background: var(--color-paper); }
+.ox-feature-number { color: var(--color-muted); font-size: var(--portfolio-caption-size); font-variant-numeric: tabular-nums; }
+.ox-crm-page .ox-feature-card h3 { margin-top: var(--portfolio-space-4); font-size: var(--portfolio-card-title-size); line-height: 1.2; }
+.ox-feature-card > p { margin-top: var(--portfolio-space-2); max-width: 60ch; font-size: var(--portfolio-body-size); color: var(--color-muted); line-height: 1.6; }
+.ox-crm-page > .ox-page-content { padding-block: var(--portfolio-space-6); }
+
+.ox-crm-modules { padding-top: var(--portfolio-section-space); }
+.ox-crm-module-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--portfolio-space-4); margin-top: var(--portfolio-space-6); }
+.ox-crm-module-card { padding: var(--portfolio-space-5); border: var(--border-hairline); border-radius: var(--portfolio-card-radius); background: var(--color-paper); }
+.ox-crm-page .ox-crm-module-card h3 { margin-top: var(--portfolio-space-4); font-size: var(--portfolio-card-title-size); line-height: 1.25; }
+.ox-crm-module-card > p { margin-top: var(--portfolio-space-2); color: var(--color-muted); font-size: var(--portfolio-body-size); line-height: 1.6; }
+
+.ox-crm-demo-access { padding: var(--portfolio-space-5); border: var(--border-hairline); border-radius: var(--portfolio-card-radius); background: var(--color-paper); box-shadow: var(--shadow-subtle); }
+.ox-crm-page .ox-crm-demo-access h3 { font-size: var(--portfolio-card-title-size); line-height: 1.25; }
+.ox-crm-access-intro { margin-top: var(--portfolio-space-2); font-size: var(--portfolio-body-size); color: var(--color-muted); line-height: 1.5; }
+.ox-crm-access-fields { display: grid; gap: var(--portfolio-space-3); margin-top: var(--portfolio-space-4); }
+.ox-crm-access-field label { display: block; font-size: var(--portfolio-label-size); font-weight: 650; }
+.ox-crm-access-value { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--portfolio-space-1); margin-top: var(--portfolio-space-1); }
+.ox-crm-access-value input { width: 100%; min-width: 0; min-height: var(--portfolio-space-6); padding: var(--portfolio-space-2); border: var(--border-hairline); border-radius: var(--radius-control); background: var(--color-wash); color: var(--color-ink); font: inherit; font-size: var(--portfolio-body-size); }
+.ox-crm-access-value input:focus-visible { outline: calc(var(--portfolio-space-1) / 2) solid var(--color-accent); outline-offset: calc(var(--portfolio-space-1) / 2); }
+.ox-crm-access-value button { display: inline-flex; align-items: center; justify-content: center; gap: var(--portfolio-space-1); min-height: var(--portfolio-space-6); padding: var(--portfolio-space-2); border: var(--border-hairline); border-radius: var(--radius-control); background: var(--color-paper); color: var(--color-accent); font-size: var(--portfolio-label-size); font-weight: 650; cursor: pointer; }
+.ox-crm-access-value button:hover { background: var(--color-light); }
+.ox-crm-access-value button:disabled { cursor: wait; opacity: .65; }
+.ox-crm-copy-status { min-height: calc(var(--portfolio-label-size) * 3); margin-top: var(--portfolio-space-3); color: var(--color-muted); font-size: var(--portfolio-label-size); line-height: 1.5; }
+.ox-crm-copy-status[data-copy-state="success"] { color: var(--color-accent); }
+.ox-crm-copy-help { color: var(--color-muted); font-size: var(--portfolio-label-size); line-height: 1.5; }
+
+.ox-crm-cta-section { padding-top: var(--portfolio-section-space); }
+.ox-crm-cta { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: var(--portfolio-space-5); padding: var(--portfolio-space-7); border-radius: var(--portfolio-card-radius); background: var(--color-dark); color: var(--color-paper); }
+.ox-crm-page .ox-crm-cta .ox-page-kicker { color: var(--color-signal); }
+.ox-crm-page .ox-crm-cta h2 { margin-top: var(--portfolio-space-3); max-width: 22ch; font-size: var(--portfolio-section-title-size); line-height: 1.12; }
+.ox-crm-cta-intro { max-width: 52ch; margin-top: var(--portfolio-space-3); font-size: var(--portfolio-body-size); line-height: 1.6; color: var(--color-dark-muted); }
+.ox-crm-cta-actions { display: flex; flex-wrap: wrap; gap: var(--portfolio-space-3); }
+.ox-crm-page .ox-crm-cta .ox-button { background: var(--color-paper); border-color: var(--color-paper); color: var(--color-dark); }
+.ox-crm-page .ox-crm-cta .ox-button:hover { background: var(--color-light); border-color: var(--color-light); }
+.ox-crm-page .ox-crm-cta .ox-button:focus-visible { outline-color: var(--color-paper); }
+.ox-crm-cta .ox-button > .ox-icon { filter: none; }
+
+@media (max-width: 1100px) {
+  .ox-crm-hero-layout { gap: var(--portfolio-space-5); }
+  .ox-crm-board { padding: var(--portfolio-space-3); }
+  .ox-crm-board-columns { gap: var(--portfolio-space-1); }
+  .ox-crm-deals li { padding: var(--portfolio-space-1); }
+}
+
+@media (max-width: 960px) {
+  .ox-crm-module-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ox-crm-cta { grid-template-columns: minmax(0, 1fr); padding: var(--portfolio-space-6); }
+  .ox-crm-hero-layout { grid-template-columns: minmax(0, 1fr); gap: var(--portfolio-space-6); }
+  .ox-crm-hero-copy { max-width: var(--portfolio-copy-width); }
+  .ox-crm-preview { width: 100%; max-width: var(--portfolio-copy-width); }
+  .ox-crm-board { padding: var(--portfolio-space-4); }
+  .ox-crm-board-columns { gap: var(--portfolio-space-3); }
+  .ox-crm-deals li { padding: var(--portfolio-space-3); }
+  .ox-crm-feature-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ox-feature-card-wide { grid-column: auto; }
+}
+
+@media (max-width: 640px) {
+  .ox-crm-module-grid { grid-template-columns: minmax(0, 1fr); gap: var(--portfolio-space-3); margin-top: var(--portfolio-space-5); }
+  .ox-crm-module-card, .ox-crm-demo-access { padding: var(--portfolio-space-4); }
+  .ox-crm-access-value button { width: var(--portfolio-space-6); }
+  .ox-crm-access-value button span { display: none; }
+  .ox-crm-cta { padding: var(--portfolio-space-4); }
+  .ox-crm-cta-actions { flex-direction: column; align-items: stretch; }
+  .ox-crm-cta-actions .ox-button { width: 100%; }
+  .ox-crm-hero-layout { gap: var(--portfolio-space-5); }
+  .ox-crm-actions { flex-direction: column; align-items: stretch; margin-top: var(--portfolio-space-4); }
+  .ox-crm-actions .ox-button { width: 100%; }
+  .ox-crm-lead { font-size: var(--portfolio-body-size); margin-top: var(--portfolio-space-3); }
+  .ox-crm-tags li { font-size: var(--portfolio-caption-size); }
+  .ox-crm-window-bar { padding: var(--portfolio-space-2) var(--portfolio-space-3); }
+  .ox-crm-board { padding: var(--portfolio-space-3); }
+  .ox-crm-board-columns { grid-template-columns: minmax(0, 1fr); gap: var(--portfolio-space-4); min-height: 0; }
+  .ox-crm-page .ox-crm-deals { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ox-crm-deals li { padding: var(--portfolio-space-2); }
+  .ox-crm-stage { font-size: var(--portfolio-label-size); }
+  .ox-crm-deal-owner { margin-top: var(--portfolio-space-2); }
+  .ox-crm-feature-grid { grid-template-columns: minmax(0, 1fr); gap: var(--portfolio-space-3); margin-top: var(--portfolio-space-5); }
+  .ox-feature-card { padding: var(--portfolio-space-4); }
+  .ox-crm-section-heading > p:last-child { font-size: var(--portfolio-body-size); }
+  .ox-crm-page > .ox-page-content { padding-block: var(--portfolio-space-5); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ox-crm-page .ox-button { transition: none; }
+}

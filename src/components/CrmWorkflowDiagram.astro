@@ -1,0 +1,101 @@
+---
+import type { Locale } from '../content';
+import { crmWorkflowContent } from '../content/portfolio-pages';
+import Icon from './RedesignIcon.astro';
+import CrmDemoAccess from './CrmDemoAccess.astro';
+
+interface Props { locale: Locale }
+const { locale } = Astro.props;
+const t = crmWorkflowContent[locale];
+const segments = [0, 1, 2, 3];
+---
+
+<section class="ox-crm-workflow ox-container" id="crm-workflow" data-crm-workflow aria-labelledby="crm-workflow-title">
+  <div class="ox-crm-section-heading">
+    <p class="ox-page-kicker">{t.eyebrow}</p>
+    <h2 id="crm-workflow-title">{t.title}</h2>
+    <p>{t.intro}</p>
+  </div>
+  <div class="ox-workflow-track">
+    <svg class="ox-workflow-lines ox-workflow-horizontal" viewBox="0 0 1000 64" preserveAspectRatio="none" aria-hidden="true">
+      <path class="ox-workflow-route" data-workflow-route d="M100 32H900" />
+      {segments.map(index => <path class="ox-workflow-progress" data-workflow-segment={index} d={`M${100 + index * 200} 32H${300 + index * 200}`} />)}
+    </svg>
+    <svg class="ox-workflow-lines ox-workflow-vertical" viewBox="0 0 64 100" preserveAspectRatio="none" aria-hidden="true">
+      <path class="ox-workflow-route" data-workflow-route d="M32 0V100" />
+      {segments.map(index => <path class="ox-workflow-progress" data-workflow-segment={index} d={`M32 ${index * 25}V${(index + 1) * 25}`} />)}
+    </svg>
+    <nav class="ox-workflow-tabs" data-workflow-tabs aria-label={t.tabLabel}>
+      {t.steps.map((step, index) => (
+        <a class:list={['ox-workflow-tab', index === 0 && 'is-active']} href={`#crm-workflow-panel-${index}`} id={`crm-workflow-tab-${index}`} data-workflow-tab>
+          <svg class="ox-workflow-node" viewBox="0 0 64 64" aria-hidden="true">
+            <circle cx="32" cy="32" r="29" />
+            <text x="32" y="32" text-anchor="middle" dominant-baseline="central">{String(index + 1).padStart(2, '0')}</text>
+          </svg>
+          <span><span class="sr-only">{String(index + 1).padStart(2, '0')} · </span>{step.title}</span>
+        </a>
+      ))}
+    </nav>
+  </div>
+  <div class="ox-workflow-controls" data-workflow-controls hidden>
+    <p data-workflow-hint data-auto-hint={t.autoHint} data-reduced-hint={t.reducedHint}>{t.autoHint}</p>
+    <button class="ox-workflow-toggle" type="button" data-workflow-toggle data-pause-label={t.pause} data-play-label={t.play}>{t.pause}</button>
+  </div>
+  <div class="ox-workflow-details">
+  <div class="ox-workflow-panels">
+    {t.steps.map((step, index) => (
+      <section class="ox-workflow-panel" id={`crm-workflow-panel-${index}`} aria-labelledby={`crm-workflow-tab-${index}`} data-workflow-panel>
+        <span class="ox-workflow-panel-icon" aria-hidden="true"><Icon name={step.icon} size={28} /></span>
+        <div><p class="ox-workflow-panel-step">{String(index + 1).padStart(2, '0')} · {step.title}</p><h3>{step.heading}</h3><p class="ox-workflow-description">{step.description}</p></div>
+      </section>
+    ))}
+  </div>
+  <CrmDemoAccess locale={locale} />
+  </div>
+  <noscript><p class="ox-workflow-no-script">{t.noScript}</p></noscript>
+</section>
+
+<script>import '../scripts/crm-workflow';</script>
+
+<style>
+  .ox-crm-workflow { padding-top: var(--portfolio-section-space); }
+  .ox-workflow-track { position: relative; margin-top: var(--portfolio-space-6); }
+  .ox-workflow-lines { position: absolute; inset: 0 0 auto; width: 100%; height: var(--workflow-node-size); pointer-events: none; overflow: visible; }
+  .ox-workflow-route, .ox-workflow-progress { fill: none; stroke: var(--color-line); stroke-width: 3; vector-effect: non-scaling-stroke; }
+  .ox-workflow-progress { stroke: var(--color-accent); visibility: hidden; }
+  [data-workflow-enhanced] .ox-workflow-progress { visibility: visible; }
+  .ox-workflow-vertical { display: none; }
+  .ox-workflow-tabs { position: relative; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--portfolio-space-2); }
+  .ox-workflow-tab { display: flex; flex-direction: column; align-items: center; gap: var(--portfolio-space-2); color: var(--color-muted); text-align: center; font-size: var(--portfolio-body-size); font-weight: 650; line-height: 1.4; overflow-wrap: anywhere; }
+  .ox-workflow-node { flex-shrink: 0; width: var(--workflow-node-size); height: var(--workflow-node-size); }
+  .ox-workflow-node circle { fill: var(--color-paper); stroke: var(--color-line); stroke-width: 2; }
+  .ox-workflow-node text { fill: var(--color-muted); font-size: var(--portfolio-lead-size); font-weight: 700; }
+  .ox-workflow-tab:hover, .ox-workflow-tab.is-active { color: var(--color-accent); }
+  .ox-workflow-tab:hover circle { stroke: var(--color-accent); }
+  .ox-workflow-tab.is-active circle { fill: var(--color-accent); stroke: var(--color-accent); }
+  .ox-workflow-tab.is-active text { fill: var(--color-paper); }
+  .ox-workflow-controls { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--portfolio-space-2) var(--portfolio-space-4); margin-top: var(--portfolio-space-5); }
+  .ox-workflow-controls p, .ox-workflow-no-script { color: var(--color-muted); font-size: var(--portfolio-label-size); line-height: 1.5; }
+  .ox-workflow-toggle { padding: var(--portfolio-space-2) var(--portfolio-space-3); min-height: var(--portfolio-space-6); border: var(--border-hairline); border-radius: var(--radius-control); background: var(--color-paper); color: var(--color-accent); font-size: var(--portfolio-label-size); font-weight: 650; cursor: pointer; }
+  .ox-workflow-toggle:hover { background: var(--color-light); }
+  .ox-workflow-details { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); align-items: start; gap: var(--portfolio-space-4); margin-top: var(--portfolio-space-4); }
+  .ox-workflow-panels { display: grid; gap: var(--portfolio-space-3); }
+  .ox-workflow-panel { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--portfolio-space-4); align-content: start; min-height: calc(var(--portfolio-space-7) * 3.5); padding: var(--portfolio-space-5); border: var(--border-hairline); border-radius: var(--portfolio-card-radius); background: var(--color-light); }
+  .ox-workflow-panel-icon { display: flex; align-items: center; justify-content: center; width: var(--portfolio-space-6); height: var(--portfolio-space-6); border-radius: var(--radius-control); background: var(--color-paper); }
+  .ox-workflow-panel-step { color: var(--color-accent); font-size: var(--portfolio-label-size); font-weight: 650; }
+  .ox-crm-page .ox-workflow-panel h3 { margin-top: var(--portfolio-space-2); font-size: var(--portfolio-card-title-size); line-height: 1.25; }
+  .ox-workflow-description { max-width: 75ch; margin-top: var(--portfolio-space-2); color: var(--color-muted); font-size: var(--portfolio-body-size); line-height: 1.6; }
+  .ox-workflow-no-script { margin-top: var(--portfolio-space-3); }
+  @media (max-width: 960px) {
+    .ox-workflow-details { grid-template-columns: minmax(0, 1fr); }
+  }
+  @media (max-width: 640px) {
+    .ox-workflow-track { margin-top: var(--portfolio-space-5); }
+    .ox-workflow-horizontal { display: none; }
+    .ox-workflow-vertical { display: block; inset: calc(var(--workflow-node-size) / 2) auto auto 0; width: var(--workflow-node-size); height: calc(100% - var(--workflow-node-size)); }
+    .ox-workflow-tabs { grid-template-columns: minmax(0, 1fr); gap: var(--portfolio-space-4); }
+    .ox-workflow-tab { flex-direction: row; gap: var(--portfolio-space-3); text-align: left; }
+    .ox-workflow-controls { align-items: flex-start; }
+    .ox-workflow-panel { padding: var(--portfolio-space-4); grid-template-columns: minmax(0, 1fr); gap: var(--portfolio-space-3); }
+  }
+</style>

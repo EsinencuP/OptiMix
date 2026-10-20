@@ -1,0 +1,5 @@
+/* Lossless WOFF2 encoding of the approved local Roboto variable font. */
+@font-face { font-family: 'Optimix Roboto Portfolio'; src: url('/fonts/redesign/Roboto-Variable.woff2') format('woff2'); font-style: normal; font-weight: 100 900; font-stretch: 75% 100%; font-display: swap; }
+.ox-portfolio { --font-sans: 'Optimix Roboto Portfolio', Arial, sans-serif; }
+body:has(.ox-portfolio), .ox-home.ox-portfolio { font-family: 'Optimix Roboto Portfolio', Arial, sans-serif; }
+.ox-portfolio :is(.ox-footer-brand p, .ox-footer-nav, .ox-footer-meta) { color: var(--color-muted); }

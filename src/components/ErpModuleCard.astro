@@ -1,0 +1,15 @@
+---
+import type { ErpModuleCopy, ErpModuleId } from '../content/portfolio-pages';
+import { erpModuleIcons } from '../content/portfolio-pages';
+import Icon from './RedesignIcon.astro';
+interface Props { id: ErpModuleId; module: ErpModuleCopy }
+const { id, module } = Astro.props;
+---
+<article class:list={['ox-erp-module-card', { 'ox-erp-module-card-wide': id === 'settings' }]} data-erp-module={id} aria-labelledby={`erp-card-${id}`}>
+  <div class="ox-erp-module-copy">
+    <span class="ox-erp-module-icon"><Icon name={erpModuleIcons[id]} size={28} /></span>
+    <h3 id={`erp-card-${id}`}>{module.title}</h3>
+    <p>{module.description}</p>
+  </div>
+  <ul>{module.features.map(feature => <li><Icon name="check-circle" size={18} /><span>{feature}</span></li>)}</ul>
+</article>

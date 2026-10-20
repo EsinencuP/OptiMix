@@ -1,5 +1,5 @@
-import type { Locale } from './index';
-import type { ModuleSlug } from './portfolio';
+import { pathFor, type Locale } from './index';
+import { modulePath, type ModuleSlug } from './portfolio';
 
 export const demoProjectNames: Record<ModuleSlug, string> = {
   intake: 'Cherryli', budget: 'Budget', approval: 'Aprobery', erp: 'ERP', visibility: 'Steer',
@@ -32,7 +32,7 @@ export function demoProjects(locale: Locale) {
       {slug:'approval' as const, icon:'check-square', category:s('Согласования и решения','Approvals and decisions','Aprobări și decizii'), title:s('Решения движутся, а не теряются.','Decisions move forward, with a record.','Deciziile avansează și se păstrează.'), description:s('Aprobery показывает очередь согласований, контекст и следующий шаг. Решение сотрудника остаётся в истории вместе с документами.','Aprobery shows the approval queue, context and next step. Each decision stays in the history alongside its documents.','Aprobery arată coada de aprobări, contextul și pasul următor. Decizia rămâne în istoric alături de documente.'), tags:[s('Маршруты','Workflows','Trasee'),s('Роли','Roles','Roluri'),s('История решений','Decision history','Istoricul deciziilor')]},
       {slug:'erp' as const, icon:'gear', category:s('ERP и операции','ERP and operations','ERP și operațiuni'), title:s('Подтверждённые данные — дальше в ERP.','Approved data moves on to ERP.','Datele aprobate ajung în ERP.'), description:s('ERP-сценарий показывает передачу согласованной заявки в заказ. Поля сопоставлены, результат проверен, номер заказа связан с исходной записью.','The ERP scenario turns an approved request into an order. Fields are mapped, the response is checked and the order reference stays linked to the request.','Scenariul ERP transformă cererea aprobată în comandă. Câmpurile sunt mapate, răspunsul verificat și numărul comenzii legat de cerere.'), tags:[s('Связанные записи','Linked records','Înregistrări conectate'),s('Передача данных','Data transfer','Transfer de date'),s('Контроль ошибок','Error checks','Controlul erorilor')]},
       {slug:'visibility' as const, icon:'chart-bar', category:s('Аналитика и контроль','Analytics and oversight','Analiză și control'), title:s('Весь маршрут виден с одного экрана.','The whole workflow on one screen.','Întregul traseu pe un singur ecran.'), description:s('Steer объединяет статусы, ответственных и историю событий. Видно, где процесс находится сейчас и какое действие должно быть следующим.','Steer brings together statuses, owners and event history. See where the process stands and what needs to happen next.','Steer reunește stările, responsabilii și istoricul evenimentelor. Vezi unde se află procesul și care este acțiunea următoare.'), tags:[s('Статусы','Statuses','Stări'),s('События','Events','Evenimente'),s('Следующий шаг','Next step','Pasul următor')]},
-    ],
+    ].map(project => ({ ...project, projectHref: project.slug === 'erp' ? pathFor(locale, 'portfolio', 'erp') : modulePath(locale, project.slug) })),
     ui: {
       request:s('Заявка на оборудование','Equipment request','Cerere de echipamente'),
       newRequest:s('Новая заявка','New request','Cerere nouă'),
@@ -47,6 +47,7 @@ export function demoProjects(locale: Locale) {
       context:s('Единый контекст','Shared context','Context comun'), connected:s('Заявки, решения и данные связаны','Requests, decisions and data are connected','Cereri, decizii și date conectate'),
     },
     allInOne: {
+      href: pathFor(locale, 'portfolio', 'crm'),
       category:s('Единая платформа','One platform','Platformă unică'), name:'All-in-one CRM',
       title:s('Все процессы. Одно рабочее пространство.','Every process. One workspace.','Toate procesele. Un singur spațiu.'),
       description:s('CRM связывает клиентов и сделки с заявками, бюджетом, согласованиями, ERP и аналитикой. Вместо отдельных островков — общий контекст для всей команды.','CRM connects customers and deals with requests, budget, approvals, ERP and analytics. A shared context for the whole team.','CRM conectează clienții și tranzacțiile cu cererile, bugetul, aprobările, ERP și analiza. Context comun pentru întreaga echipă.'),

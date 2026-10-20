@@ -16,6 +16,7 @@ interface Props {
 
 const { title, description, locale, page, slug, preloadImage } = Astro.props;
 const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB';
+const canonicalURL = page === 'portfolio' && Astro.site ? new URL(pathFor(locale, page, slug), Astro.site).href : undefined;
 ---
 
 <!doctype html>
@@ -25,7 +26,7 @@ const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB'
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#ecfaf4" />
     <link rel="icon" href="/images/redesign/brand-mark.png" type="image/png" />
-    <link rel="preload" href="/fonts/redesign/Roboto-Variable.ttf" as="font" type="font/ttf" crossorigin="anonymous" />
+    <link rel="preload" href={page === 'portfolio' ? '/fonts/redesign/Roboto-Variable.woff2' : '/fonts/redesign/Roboto-Variable.ttf'} as="font" type={page === 'portfolio' ? 'font/woff2' : 'font/ttf'} crossorigin="anonymous" />
     {preloadImage && <link rel="preload" href={preloadImage.src} imagesrcset={preloadImage.srcSet} imagesizes={preloadImage.sizes} as="image" fetchpriority="high" />}
     <meta name="robots" content="noindex, nofollow" />
     <meta name="description" content={description} />
@@ -33,6 +34,14 @@ const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB'
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content={ogLocale} />
+    {canonicalURL && <>
+      <link rel="canonical" href={canonicalURL} />
+      <meta property="og:url" content={canonicalURL} />
+      <meta property="og:site_name" content="OptiMix" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+    </>}
     {Astro.site && locales.map((target) => <link rel="alternate" hreflang={target} href={new URL(pathFor(target, page, slug), Astro.site).href} />)}
     {Astro.site && <link rel="alternate" hreflang="x-default" href={new URL(pathFor('en', page, slug), Astro.site).href} />}
     <title>{title}</title>
@@ -40,7 +49,7 @@ const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB'
   </head>
   <body>
     <a class="skip-link" href="#main">{content[locale].ui.skip}</a>
-    <div class:list={['ox-home', page !== 'home' && 'ox-inner']}><slot /></div>
+    <div class:list={['ox-home', page !== 'home' && 'ox-inner', page === 'portfolio' && 'ox-portfolio']}><slot /></div>
     <script>import '../scripts/brief-download';</script>
   </body>
 </html>

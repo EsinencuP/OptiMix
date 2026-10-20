@@ -1,0 +1,110 @@
+[
+  {
+    "page": "crm",
+    "mode": "mobile",
+    "url": "http://127.0.0.1:4321/portfolio/crm/",
+    "lighthouseVersion": "13.5.0",
+    "performance": 94.0,
+    "accessibility": 100.0,
+    "lcpMs": 3012.3394,
+    "tbtMs": 90,
+    "cls": 0,
+    "screen": {
+      "mobile": true,
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "warnings": []
+  },
+  {
+    "page": "crm",
+    "mode": "desktop",
+    "url": "http://127.0.0.1:4321/portfolio/crm/",
+    "lighthouseVersion": "13.5.0",
+    "performance": 100.0,
+    "accessibility": 100.0,
+    "lcpMs": 649.832,
+    "tbtMs": 0,
+    "cls": 0,
+    "screen": {
+      "mobile": false,
+      "width": 1280,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "throttling": {
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "requestLatencyMs": 0,
+      "downloadThroughputKbps": 0,
+      "uploadThroughputKbps": 0,
+      "cpuSlowdownMultiplier": 1
+    },
+    "warnings": []
+  },
+  {
+    "page": "erp",
+    "mode": "mobile",
+    "url": "http://127.0.0.1:4321/portfolio/erp/",
+    "lighthouseVersion": "13.5.0",
+    "performance": 94.0,
+    "accessibility": 100.0,
+    "lcpMs": 3009.7813,
+    "tbtMs": 0,
+    "cls": 0.001231484627144556,
+    "screen": {
+      "mobile": true,
+      "width": 375,
+      "height": 812,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "warnings": []
+  },
+  {
+    "page": "erp",
+    "mode": "desktop",
+    "url": "http://127.0.0.1:4321/portfolio/erp/",
+    "lighthouseVersion": "13.5.0",
+    "performance": 100.0,
+    "accessibility": 100.0,
+    "lcpMs": 674.3357,
+    "tbtMs": 0,
+    "cls": 0.00182106192531953,
+    "screen": {
+      "mobile": false,
+      "width": 1280,
+      "height": 900,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "throttling": {
+      "rttMs": 40,
+      "throughputKbps": 10240,
+      "requestLatencyMs": 0,
+      "downloadThroughputKbps": 0,
+      "uploadThroughputKbps": 0,
+      "cpuSlowdownMultiplier": 1
+    },
+    "warnings": []
+  }
+]

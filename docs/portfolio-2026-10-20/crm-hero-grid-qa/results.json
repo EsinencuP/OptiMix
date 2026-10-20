@@ -1,0 +1,635 @@
+{
+  "matrix": [
+    {
+      "route": "/portfolio/crm/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 3
+    },
+    {
+      "route": "/portfolio/crm/",
+      "width": 1280,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 3
+    },
+    {
+      "route": "/portfolio/crm/",
+      "width": 1024,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 3
+    },
+    {
+      "route": "/portfolio/crm/",
+      "width": 768,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 2
+    },
+    {
+      "route": "/portfolio/crm/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 1
+    },
+    {
+      "route": "/portfolio/crm/",
+      "width": 375,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 1
+    },
+    {
+      "route": "/portfolio/crm/",
+      "width": 320,
+      "status": 200,
+      "lang": "en",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 1
+    },
+    {
+      "route": "/ru/portfolio/crm/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 3
+    },
+    {
+      "route": "/ru/portfolio/crm/",
+      "width": 1280,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 3
+    },
+    {
+      "route": "/ru/portfolio/crm/",
+      "width": 1024,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 3
+    },
+    {
+      "route": "/ru/portfolio/crm/",
+      "width": 768,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 2
+    },
+    {
+      "route": "/ru/portfolio/crm/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 1
+    },
+    {
+      "route": "/ru/portfolio/crm/",
+      "width": 375,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 1
+    },
+    {
+      "route": "/ru/portfolio/crm/",
+      "width": 320,
+      "status": 200,
+      "lang": "ru",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 1
+    },
+    {
+      "route": "/ro/portfolio/crm/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 3
+    },
+    {
+      "route": "/ro/portfolio/crm/",
+      "width": 1280,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 3
+    },
+    {
+      "route": "/ro/portfolio/crm/",
+      "width": 1024,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 3
+    },
+    {
+      "route": "/ro/portfolio/crm/",
+      "width": 768,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 2
+    },
+    {
+      "route": "/ro/portfolio/crm/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 1
+    },
+    {
+      "route": "/ro/portfolio/crm/",
+      "width": 375,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 1
+    },
+    {
+      "route": "/ro/portfolio/crm/",
+      "width": 320,
+      "status": 200,
+      "lang": "ro",
+      "h1": 1,
+      "main": 1,
+      "header": 1,
+      "footer": 1,
+      "cards": 6,
+      "tags": [
+        "Next.js",
+        "Prisma",
+        "PostgreSQL",
+        "AI"
+      ],
+      "links": [
+        "https://crm-portfolio-omega.vercel.app/",
+        "https://github.com/EsinencuP/crm-portfolio"
+      ],
+      "overflow": false,
+      "innerOverflow": [],
+      "brokenImages": [],
+      "hiddenContent": 0,
+      "font": "\"Optimix Roboto\", Arial, sans-serif",
+      "columns": 1
+    }
+  ],
+  "motion": {
+    "entrance": {
+      "frameCount": 419,
+      "first": {
+        "opacity": 0,
+        "transform": "translate(0px, 24px)"
+      },
+      "middle": {
+        "opacity": 0.7707,
+        "transform": "translate3d(0px, 5.5032px, 0px)"
+      },
+      "last": {
+        "opacity": 1,
+        "transform": "translate3d(0px, 0px, 0px)"
+      }
+    },
+    "cards": [
+      "Deal Pipeline",
+      "Contacts & Companies",
+      "Unified Inbox",
+      "Workflow Engine",
+      "AI Assistance",
+      "Analytics & Reports"
+    ],
+    "reducedMotionResetsStyles": true,
+    "departedPageStylesReverted": true,
+    "noJsReadable": true
+  },
+  "navigation": [
+    {
+      "locale": "ru",
+      "pathname": "/ru/portfolio/crm/",
+      "cards": 6
+    },
+    {
+      "locale": "ro",
+      "pathname": "/ro/portfolio/crm/",
+      "cards": 6
+    },
+    {
+      "locale": "en",
+      "pathname": "/portfolio/crm/",
+      "cards": 6
+    },
+    {
+      "mobile": true,
+      "locale": "ru",
+      "menuClosedAfterNavigationAndEscape": true
+    }
+  ],
+  "regression": [
+    {
+      "width": 1440,
+      "screenshotIdentical": true,
+      "crmCards": 0
+    },
+    {
+      "width": 390,
+      "screenshotIdentical": true,
+      "crmCards": 0
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
