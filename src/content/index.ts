@@ -15,8 +15,7 @@ export function pathFor(locale: Locale, page: PageKind, slug?: string): string {
   if (page === 'demo') return `${prefix}/demo/procurement/`;
   if (page === 'project') return `${prefix}/projects/procurement/`;
   if (page === 'portfolio') {
-    if (!slug) throw new Error('A portfolio slug is required.');
-    return `${prefix}/portfolio/${slug}/`;
+    return slug ? `${prefix}/portfolio/${slug}/` : `${prefix}/portfolio/`;
   }
   if (page === 'solution') {
     if (!slug) throw new Error('A solution slug is required.');

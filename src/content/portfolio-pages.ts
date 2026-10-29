@@ -1,4 +1,5 @@
 import type { Locale } from './index';
+import { catalogLinks } from './portfolio-catalog';
 
 export const portfolioPageSlugs = ['crm', 'erp'] as const;
 export type PortfolioPageSlug = typeof portfolioPageSlugs[number];
@@ -18,16 +19,7 @@ interface PortfolioPagesCopy {
   projects: Record<PortfolioPageSlug, PortfolioPageCopy>;
 }
 
-export const portfolioPageLinks: Record<PortfolioPageSlug, { demo: string; github: string }> = {
-  crm: {
-    demo: 'https://crm-portfolio-omega.vercel.app',
-    github: 'https://github.com/EsinencuP/crm-portfolio',
-  },
-  erp: {
-    demo: 'https://erp-xi-pink.vercel.app',
-    github: 'https://github.com/EsinencuP/ERP',
-  },
-};
+export const portfolioPageLinks: Record<PortfolioPageSlug, { demo: string; github: string }> = { crm: catalogLinks.crm, erp: catalogLinks.erp };
 
 export const portfolioPages: Record<Locale, PortfolioPagesCopy> = {
   en: {
@@ -39,7 +31,7 @@ export const portfolioPages: Record<Locale, PortfolioPagesCopy> = {
       crm: {
         metaTitle: 'CRM Platform — OptiMix Portfolio',
         description: 'Explore a CRM platform for contacts, deals and sales workflows. Open the demo or browse the source code on GitHub.',
-        title: 'CRM Platform',
+        title: 'CRM Portfolio',
         intro: 'Contacts, deals and sales workflows in one workspace.',
       },
       erp: {
@@ -59,7 +51,7 @@ export const portfolioPages: Record<Locale, PortfolioPagesCopy> = {
       crm: {
         metaTitle: 'CRM-платформа — Портфолио OptiMix',
         description: 'CRM-платформа для контактов, сделок и процессов продаж. Откройте демо или изучите исходный код на GitHub.',
-        title: 'CRM-платформа',
+        title: 'CRM Portfolio',
         intro: 'Контакты, сделки и процессы продаж в одном рабочем пространстве.',
       },
       erp: {
@@ -79,7 +71,7 @@ export const portfolioPages: Record<Locale, PortfolioPagesCopy> = {
       crm: {
         metaTitle: 'Platformă CRM — Portofoliu OptiMix',
         description: 'O platformă CRM pentru contacte, tranzacții și procese de vânzări. Deschide demonstrația sau consultă codul sursă pe GitHub.',
-        title: 'Platformă CRM',
+        title: 'CRM Portfolio',
         intro: 'Contacte, tranzacții și procese de vânzări într-un singur spațiu de lucru.',
       },
       erp: {
@@ -118,62 +110,37 @@ interface CrmPageCopy {
 export const crmTechnologies = ['Next.js', 'Prisma', 'PostgreSQL', 'AI'] as const;
 
 export const erpTechnologies = ['Next.js', 'PostgreSQL', 'Docker', 'Prisma'] as const;
-export const erpModuleIds = ['dashboard', 'finance', 'inventory', 'crm', 'expenses', 'team', 'settings'] as const;
+export const erpModuleIds = ['dashboard', 'finance', 'inventory', 'crm', 'hr', 'projects', 'settings'] as const;
 export type ErpModuleId = typeof erpModuleIds[number];
 export interface ErpModuleCopy { title: string; description: string; features: string[] }
 export const erpModuleIcons: Record<ErpModuleId, string> = {
   dashboard: 'chart-bar', finance: 'file-text', inventory: 'database', crm: 'address-book',
-  expenses: 'files', team: 'users', settings: 'gear',
+  hr: 'users', projects: 'files', settings: 'gear',
 };
 interface ErpSupplementCopy {
   eyebrow: string; title: string; intro: string;
   modules: Record<ErpModuleId, ErpModuleCopy>;
   cta: { eyebrow: string; title: string; intro: string };
 }
-export const erpSupplementContent: Record<Locale, ErpSupplementCopy> = {
-  en: {
-    eyebrow: 'Inside Evo ERP', title: 'Seven modules for everyday operations.',
-    intro: 'From the revenue overview to individual stock movements, explore the tools available in the demo.',
-    modules: {
-      dashboard: { title: 'Dashboard', description: 'See revenue, outstanding receivables and financial results in one overview.', features: ['Revenue KPIs', 'Accounts receivable aging', 'Profit & loss charts', 'CSV export'] },
-      finance: { title: 'Finance', description: 'Follow an invoice from issue to payment and keep its documents together.', features: ['Invoice numbering: INV-YYYY-NNNN', 'PDF invoices', 'Partial payments', 'Document archive'] },
-      inventory: { title: 'Inventory', description: 'Organize stock across warehouses and follow each movement.', features: ['SKUs and categories', 'Multiple warehouses', 'IN / OUT / TRANSFER movements', 'Low-stock alerts'] },
-      crm: { title: 'CRM', description: 'Manage deals in a pipeline or switch to a detailed table view.', features: ['Drag-and-drop Kanban', 'TanStack Table', 'Filters', 'CSV export'] },
-      expenses: { title: 'Expenses', description: 'Record operating costs and review results for a selected period.', features: ['Create, view, edit and delete expenses', 'Expense categories', 'Profit & loss reports by period'] },
-      team: { title: 'Team', description: 'Invite colleagues and define access within each workspace.', features: ['Five user roles', 'Workspace isolation', 'Team invitations'] },
-      settings: { title: 'Settings', description: 'Adapt the interface to your preferences and explore the system in demo mode.', features: ['Light and dark themes', 'Localization', 'Demo mode'] },
+function erpModulesCopy(locale: Locale): ErpSupplementCopy {
+  const s=(ru:string,en:string,ro:string)=>({ru,en,ro})[locale];
+  return {
+    eyebrow:s('Внутри Evo ERP','Inside Evo ERP','În Evo ERP'),
+    title:s('Семь модулей для ежедневной работы.','Seven modules for everyday operations.','Șapte module pentru activitatea zilnică.'),
+    intro:s('Обзор бизнеса, продажи, финансы, склад, персонал, проекты и настройки — в одном рабочем пространстве.','Business overview, sales, finance, inventory, HR, projects and settings in one workspace.','Privire de ansamblu, vânzări, finanțe, stocuri, HR, proiecte și setări într-un spațiu comun.'),
+    modules:{
+      dashboard:{title:s('Дашборд','Dashboard','Tablou de bord'),description:s('Поступления, открытые сделки, складские предупреждения и заявки на отпуск.','Receipts, open deals, stock alerts and leave requests.','Încasări, tranzacții deschise, alerte de stoc și cereri de concediu.'),features:[s('Поступления за шесть месяцев','Six-month receipt chart','Graficul încasărilor pe șase luni'),s('Последние счета','Recent invoices','Facturi recente'),s('Лента действий','Activity feed','Flux de activitate')]},
+      finance:{title:s('Финансы','Finance','Finanțe'),description:s('Счета, оплаты и расходы с финансовыми отчётами.','Invoices, payments and expenses with financial reports.','Facturi, plăți și cheltuieli cu rapoarte financiare.'),features:[s('Счета в PDF','PDF invoices','Facturi PDF'),s('Частичные оплаты','Partial payments','Plăți parțiale'),s('Расходы и P&L','Expenses and P&L','Cheltuieli și P&L')]},
+      inventory:{title:s('Склад','Inventory','Stocuri'),description:s('Товары, склады, остатки и история движений.','Products, warehouses, balances and movement history.','Produse, depozite, solduri și istoricul mișcărilor.'),features:[s('Каталог и предупреждения','Catalogue and stock alerts','Catalog și alerte de stoc'),s('Приход, расход, корректировка','Receipts, issues and adjustments','Intrări, ieșiri și ajustări'),s('Перемещения между складами','Warehouse transfers','Transferuri între depozite')]},
+      crm:{title:'CRM',description:s('Контакты, воронка продаж и история общения.','Contacts, deal pipeline and communication history.','Contacte, flux de vânzări și istoricul comunicării.'),features:[s('Контакты и сделки','Contacts and deals','Contacte și tranzacții'),s('Воронка по этапам','Pipeline stages','Etapele vânzărilor'),s('Заметки и активности','Notes and activities','Note și activități')]},
+      hr:{title:s('Персонал','HR','Resurse umane'),description:s('Каталог сотрудников, организационная структура и отпуска.','Employee directory, organisation chart and leave requests.','Catalogul angajaților, organigramă și cereri de concediu.'),features:[s('Карточки сотрудников','Employee profiles','Profiluri de angajați'),s('Структура подчинения','Reporting structure','Structura de subordonare'),s('Заявки на отпуск','Leave requests','Cereri de concediu')]},
+      projects:{title:s('Проекты','Projects','Proiecte'),description:s('Задачи, сроки, команда и бюджет проекта.','Tasks, dates, team and project budget.','Sarcini, termene, echipă și bugetul proiectului.'),features:[s('Kanban и список','Kanban and list','Kanban și listă'),s('Исполнители и сроки','Assignees and due dates','Responsabili și termene'),s('Прогресс и связанные расходы','Progress and linked expenses','Progres și cheltuieli asociate')]},
+      settings:{title:s('Настройки','Settings','Setări'),description:s('Параметры компании, участники, права и журнал аудита.','Company settings, members, access and audit log.','Setările companiei, membri, acces și jurnal de audit.'),features:[s('Пять ролей доступа','Five access roles','Cinci roluri de acces'),s('Приглашения в пространство','Workspace invitations','Invitații în spațiu'),s('История изменений','Change history','Istoricul modificărilor')]},
     },
-    cta: { eyebrow: 'Explore the system', title: 'Try Evo ERP in action.', intro: 'Open the live demo to explore the modules, or browse the implementation on GitHub.' },
-  },
-  ru: {
-    eyebrow: 'Внутри Evo ERP', title: 'Семь модулей для ежедневной работы.',
-    intro: 'От обзора выручки до отдельных складских перемещений — познакомьтесь с инструментами демо-системы.',
-    modules: {
-      dashboard: { title: 'Дашборд', description: 'Выручка, дебиторская задолженность и финансовый результат в одном обзоре.', features: ['Ключевые показатели выручки', 'Дебиторская задолженность по срокам', 'Графики прибыли и убытков', 'Экспорт в CSV'] },
-      finance: { title: 'Финансы', description: 'Ведите счёт от выставления до оплаты и храните связанные документы вместе.', features: ['Нумерация счетов: INV-YYYY-NNNN', 'Счета в PDF', 'Частичные оплаты', 'Архив документов'] },
-      inventory: { title: 'Склад', description: 'Организуйте запасы на нескольких складах и отслеживайте каждое перемещение.', features: ['SKU и категории', 'Несколько складов', 'Операции IN / OUT / TRANSFER', 'Уведомления о низком остатке'] },
-      crm: { title: 'CRM', description: 'Ведите сделки в воронке или переключайтесь на подробную таблицу.', features: ['Kanban с перетаскиванием', 'TanStack Table', 'Фильтры', 'Экспорт в CSV'] },
-      expenses: { title: 'Расходы', description: 'Фиксируйте операционные расходы и оценивайте результат за выбранный период.', features: ['Создание, просмотр, изменение и удаление расходов', 'Категории расходов', 'Отчёты о прибыли и убытках по периодам'] },
-      team: { title: 'Команда', description: 'Приглашайте коллег и задавайте доступ в каждом рабочем пространстве.', features: ['Пять ролей пользователей', 'Изоляция рабочих пространств', 'Приглашения в команду'] },
-      settings: { title: 'Настройки', description: 'Настройте интерфейс под себя и изучите систему в демо-режиме.', features: ['Светлая и тёмная темы', 'Локализация', 'Демо-режим'] },
-    },
-    cta: { eyebrow: 'Познакомьтесь с системой', title: 'Попробуйте Evo ERP в работе.', intro: 'Откройте демо, чтобы изучить модули, или посмотрите реализацию на GitHub.' },
-  },
-  ro: {
-    eyebrow: 'În Evo ERP', title: 'Șapte module pentru activitatea zilnică.',
-    intro: 'De la imaginea de ansamblu a veniturilor la mișcările de stoc, descoperă instrumentele disponibile în demonstrație.',
-    modules: {
-      dashboard: { title: 'Panou de control', description: 'Urmărește veniturile, creanțele și rezultatele financiare într-o singură vedere.', features: ['Indicatori de venituri', 'Creanțe pe vechime', 'Grafice de profit și pierdere', 'Export CSV'] },
-      finance: { title: 'Finanțe', description: 'Urmărește facturile de la emitere la plată și păstrează documentele asociate împreună.', features: ['Numerotare facturi: INV-YYYY-NNNN', 'Facturi PDF', 'Plăți parțiale', 'Arhivă de documente'] },
-      inventory: { title: 'Stocuri', description: 'Organizează stocurile în mai multe depozite și urmărește fiecare mișcare.', features: ['SKU-uri și categorii', 'Depozite multiple', 'Mișcări IN / OUT / TRANSFER', 'Alerte de stoc redus'] },
-      crm: { title: 'CRM', description: 'Gestionează tranzacțiile în fluxul de vânzări sau într-un tabel detaliat.', features: ['Kanban cu drag-and-drop', 'TanStack Table', 'Filtre', 'Export CSV'] },
-      expenses: { title: 'Cheltuieli', description: 'Înregistrează costurile operaționale și analizează rezultatele pentru perioada aleasă.', features: ['Creare, vizualizare, editare și ștergere a cheltuielilor', 'Categorii de cheltuieli', 'Rapoarte de profit și pierdere pe perioade'] },
-      team: { title: 'Echipă', description: 'Invită colegi și stabilește accesul în fiecare spațiu de lucru.', features: ['Cinci roluri de utilizator', 'Izolarea spațiilor de lucru', 'Invitații în echipă'] },
-      settings: { title: 'Setări', description: 'Adaptează interfața la preferințele tale și explorează sistemul în modul demo.', features: ['Teme luminoasă și întunecată', 'Localizare', 'Mod demo'] },
-    },
-    cta: { eyebrow: 'Descoperă sistemul', title: 'Încearcă Evo ERP în acțiune.', intro: 'Deschide demonstrația pentru a explora modulele sau consultă implementarea pe GitHub.' },
-  },
-};
+    cta:{eyebrow:s('Знакомство с системой','Explore the system','Explorează sistemul'),title:s('Попробуйте Evo ERP в работе.','Try Evo ERP in action.','Încearcă Evo ERP în acțiune.'),intro:s('Откройте учебное пространство или изучите реализацию на GitHub.','Open the sample workspace or explore the implementation on GitHub.','Deschide spațiul demonstrativ sau explorează implementarea pe GitHub.')},
+  };
+}
+export const erpSupplementContent: Record<Locale, ErpSupplementCopy> = {en:erpModulesCopy('en'),ru:erpModulesCopy('ru'),ro:erpModulesCopy('ro')};
 export const erpHubModuleIds = ['finance', 'inventory', 'crm', 'team', 'projects', 'dashboard'] as const;
 export type ErpHubModuleId = typeof erpHubModuleIds[number];
 export const erpHubIcons: Record<ErpHubModuleId, string> = {
@@ -204,7 +171,7 @@ export const erpPageContent: Record<Locale, ErpPageCopy> = {
         inventory: { title: 'Inventory', summary: 'Products, warehouses and stock movements connected to operations.', features: ['SKU and categories', 'Multiple warehouses and IN / OUT / TRANSFER movements', 'Low-stock alerts'] },
         crm: { title: 'CRM', summary: 'A sales pipeline with filters and export for customer-facing work.', features: ['Drag-and-drop Kanban', 'Table filters', 'CSV export'] },
         team: { title: 'Team', summary: 'Workspace membership and roles define who works with shared data.', features: ['Five roles', 'Workspace isolation', 'Team invitations'] },
-        projects: { title: 'Projects', summary: 'An illustrative view of how project context connects teams and operations.', features: ['Project context in this diagram', 'Links to the team', 'Links to finance and inventory'] },
+        projects: { title: 'Projects', summary: 'Project tasks, deadlines, team and budget in one workspace.', features: ['Kanban and task list', 'Assignees and deadlines', 'Progress and linked expenses'] },
         dashboard: { title: 'Dashboard', summary: 'A view of revenue, receivables and financial reporting.', features: ['Revenue KPIs', 'Accounts-receivable ageing and P&L charts', 'CSV export'] },
       },
     },
@@ -224,7 +191,7 @@ export const erpPageContent: Record<Locale, ErpPageCopy> = {
         inventory: { title: 'Склад', summary: 'Товары, склады и движения запасов связаны с операционной работой.', features: ['SKU и категории', 'Несколько складов и движения IN / OUT / TRANSFER', 'Уведомления о низких остатках'] },
         crm: { title: 'CRM', summary: 'Воронка продаж с фильтрами и экспортом для работы с клиентами.', features: ['Kanban с перетаскиванием', 'Фильтры таблицы', 'Экспорт CSV'] },
         team: { title: 'Команда', summary: 'Участники рабочих пространств и роли определяют доступ к общим данным.', features: ['Пять ролей', 'Изоляция рабочих пространств', 'Приглашения в команду'] },
-        projects: { title: 'Проекты', summary: 'Иллюстративная связь проектного контекста с командой и операциями.', features: ['Контекст проекта на этой схеме', 'Связи с командой', 'Связи с финансами и складом'] },
+        projects: { title: 'Проекты', summary: 'Задачи, сроки, команда и бюджет проекта в одном пространстве.', features: ['Kanban и список задач', 'Исполнители и сроки', 'Прогресс и связанные расходы'] },
         dashboard: { title: 'Дашборд', summary: 'Обзор выручки, дебиторской задолженности и финансовых отчётов.', features: ['KPI выручки', 'Сроки дебиторской задолженности и графики P&L', 'Экспорт CSV'] },
       },
     },
@@ -244,7 +211,7 @@ export const erpPageContent: Record<Locale, ErpPageCopy> = {
         inventory: { title: 'Stocuri', summary: 'Produsele, depozitele și mișcările de stoc sunt conectate la operațiuni.', features: ['SKU și categorii', 'Mai multe depozite și mișcări IN / OUT / TRANSFER', 'Alerte pentru stoc redus'] },
         crm: { title: 'CRM', summary: 'Un flux de vânzări cu filtre și export pentru lucrul cu clienții.', features: ['Kanban drag-and-drop', 'Filtre pentru tabel', 'Export CSV'] },
         team: { title: 'Echipă', summary: 'Membrii spațiilor de lucru și rolurile stabilesc accesul la datele comune.', features: ['Cinci roluri', 'Izolarea spațiilor de lucru', 'Invitații pentru echipă'] },
-        projects: { title: 'Proiecte', summary: 'O legătură ilustrativă între contextul proiectelor, echipă și operațiuni.', features: ['Contextul proiectului în această schemă', 'Legături cu echipa', 'Legături cu finanțele și stocurile'] },
+        projects: { title: 'Proiecte', summary: 'Sarcini, termene, echipă și buget într-un spațiu comun.', features: ['Kanban și listă de sarcini', 'Responsabili și termene', 'Progres și cheltuieli asociate'] },
         dashboard: { title: 'Tablou de bord', summary: 'O vedere asupra veniturilor, creanțelor și rapoartelor financiare.', features: ['Indicatori de venituri', 'Vechimea creanțelor și grafice P&L', 'Export CSV'] },
       },
     },

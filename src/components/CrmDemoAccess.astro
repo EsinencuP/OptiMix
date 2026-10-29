@@ -1,28 +1,7 @@
 ---
-import type { Locale } from '../content';
-import { crmDemoCredentials, crmSupplementContent } from '../content/portfolio-pages';
-import Icon from './RedesignIcon.astro';
-interface Props { locale: Locale }
-const { locale } = Astro.props;
-const t = crmSupplementContent[locale].access;
-const fields = [
-  { key: 'email', label: t.email, value: crmDemoCredentials.email, action: t.copyEmail, success: t.copiedEmail },
-  { key: 'password', label: t.password, value: crmDemoCredentials.password, action: t.copyPassword, success: t.copiedPassword },
-];
+import DemoAccess from './DemoAccess.astro';
+import type {Locale} from '../content';
+interface Props {locale:Locale}
+const {locale}=Astro.props;
 ---
-<aside class="ox-crm-demo-access" data-crm-demo-access aria-labelledby="crm-demo-access-title" data-copying={t.copying} data-copy-failed={t.failed}>
-  <h3 id="crm-demo-access-title">{t.title}</h3>
-  <p class="ox-crm-access-intro">{t.intro}</p>
-  <div class="ox-crm-access-fields">
-    {fields.map(field => <div class="ox-crm-access-field">
-      <label for={`crm-demo-${field.key}`}>{field.label}</label>
-      <div class="ox-crm-access-value">
-        <input id={`crm-demo-${field.key}`} type="text" value={field.value} readonly autocomplete="off" spellcheck="false" data-demo-value={field.key} />
-        <button type="button" data-demo-copy={field.key} data-success={field.success} aria-label={field.action} hidden><Icon name="files" size={18} /><span>{t.copy}</span></button>
-      </div>
-    </div>)}
-  </div>
-  <p class="ox-crm-copy-status" data-copy-status role="status" aria-live="polite" aria-atomic="true"></p>
-  <noscript><p class="ox-crm-copy-help">{t.noScript}</p></noscript>
-</aside>
-<script>import '../scripts/crm-demo-access';</script>
+<DemoAccess locale={locale} slug="crm" idPrefix="crm-workflow-access" class="ox-crm-demo-access" />

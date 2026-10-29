@@ -1,0 +1,1697 @@
+{
+  "pages": [
+    {
+      "url": "/ru/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "Люди",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "url": "/ru/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/contact/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Опишите процесс — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/contact/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "Опишите процесс — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/privacy/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Информация о конфиденциальности — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/privacy/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "Информация о конфиденциальности — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/projects/procurement/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Маршрут закупочной заявки — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/projects/procurement/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "Маршрут закупочной заявки — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/portfolio/crm/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "CRM-платформа — Портфолио OptiMix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/portfolio/crm/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "CRM-платформа — Портфолио OptiMix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/portfolio/erp/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "ERP-система — Портфолио OptiMix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/portfolio/erp/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "ERP-система — Портфолио OptiMix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/demo/procurement/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Пройдите маршрут закупочной заявки. — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/demo/procurement/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "Пройдите маршрут закупочной заявки. — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/intake/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Cherryli — Принять заявку один раз — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/intake/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "Cherryli — Принять заявку один раз — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/budget/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Budget — Проверить бюджет по одной записи — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/budget/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "Budget — Проверить бюджет по одной записи — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/approval/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Aprobery — Зафиксировать согласование — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/approval/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "Aprobery — Зафиксировать согласование — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/erp/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "ERP — Передать подтверждённые данные в ERP — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/erp/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "ERP — Передать подтверждённые данные в ERP — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/visibility/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Steer — Показать статус и следующего ответственного — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/solutions/visibility/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "Steer — Показать статус и следующего ответственного — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/404/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "404 — Такой страницы нет — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/404/",
+      "width": 390,
+      "status": 200,
+      "lang": "ru",
+      "title": "404 — Такой страницы нет — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/",
+      "width": 320,
+      "lang": "ru",
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/",
+      "width": 768,
+      "lang": "ru",
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ru/",
+      "width": 1024,
+      "lang": "ru",
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "Люди",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "url": "/ru/",
+      "width": 1280,
+      "lang": "ru",
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "Люди",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "url": "/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "Optimix — Business process automation",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "People",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "url": "/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "Optimix — Business process automation",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/contact/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "Prepare a process brief — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/contact/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "Prepare a process brief — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/privacy/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "Privacy information — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/privacy/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "Privacy information — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/projects/procurement/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "Procurement request route — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/projects/procurement/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "Procurement request route — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/portfolio/crm/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "CRM Platform — OptiMix Portfolio",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/portfolio/crm/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "CRM Platform — OptiMix Portfolio",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/portfolio/erp/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "ERP System — OptiMix Portfolio",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/portfolio/erp/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "ERP System — OptiMix Portfolio",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/demo/procurement/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "Walk through a purchase request. — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/demo/procurement/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "Walk through a purchase request. — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/intake/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "Cherryli — Capture the request once — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/intake/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "Cherryli — Capture the request once — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/budget/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "Budget — Check the budget from one record — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/budget/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "Budget — Check the budget from one record — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/approval/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "Aprobery — Record the approval decision — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/approval/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "Aprobery — Record the approval decision — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/erp/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "ERP — Transfer approved data to ERP — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/erp/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "ERP — Transfer approved data to ERP — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/visibility/",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "Steer — Show the next owner and state — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/solutions/visibility/",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "Steer — Show the next owner and state — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/404.html",
+      "width": 1440,
+      "status": 200,
+      "lang": "en",
+      "title": "404 — This page could not be found — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/404.html",
+      "width": 390,
+      "status": 200,
+      "lang": "en",
+      "title": "404 — This page could not be found — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/",
+      "width": 320,
+      "lang": "en",
+      "title": "Optimix — Business process automation",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/",
+      "width": 768,
+      "lang": "en",
+      "title": "Optimix — Business process automation",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/",
+      "width": 1024,
+      "lang": "en",
+      "title": "Optimix — Business process automation",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "People",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "url": "/",
+      "width": 1280,
+      "lang": "en",
+      "title": "Optimix — Business process automation",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "People",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "url": "/ro/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Optimix — Automatizarea proceselor de afaceri",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "Oameni",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "url": "/ro/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Optimix — Automatizarea proceselor de afaceri",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/contact/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Pregătește descrierea unui proces — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/contact/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Pregătește descrierea unui proces — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/privacy/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Informații privind confidențialitatea — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/privacy/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Informații privind confidențialitatea — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/projects/procurement/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Traseul cererii de achiziție — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/projects/procurement/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Traseul cererii de achiziție — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/portfolio/crm/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Platformă CRM — Portofoliu OptiMix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/portfolio/crm/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Platformă CRM — Portofoliu OptiMix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/portfolio/erp/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Sistem ERP — Portofoliu OptiMix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/portfolio/erp/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Sistem ERP — Portofoliu OptiMix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/demo/procurement/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Urmărește o cerere de achiziție. — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/demo/procurement/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Urmărește o cerere de achiziție. — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/intake/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Cherryli — Înregistrează cererea o singură dată — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/intake/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Cherryli — Înregistrează cererea o singură dată — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/budget/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Budget — Verifică bugetul din aceeași înregistrare — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/budget/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Budget — Verifică bugetul din aceeași înregistrare — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/approval/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Aprobery — Înregistrează decizia de aprobare — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/approval/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Aprobery — Înregistrează decizia de aprobare — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/erp/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "ERP — Transferă datele aprobate în ERP — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/erp/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "ERP — Transferă datele aprobate în ERP — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/visibility/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "Steer — Arată responsabilul și starea următoare — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/solutions/visibility/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "Steer — Arată responsabilul și starea următoare — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/404/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ro",
+      "title": "404 — Pagina nu a fost găsită — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/404/",
+      "width": 390,
+      "status": 200,
+      "lang": "ro",
+      "title": "404 — Pagina nu a fost găsită — Optimix",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/",
+      "width": 320,
+      "lang": "ro",
+      "title": "Optimix — Automatizarea proceselor de afaceri",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/",
+      "width": 768,
+      "lang": "ro",
+      "title": "Optimix — Automatizarea proceselor de afaceri",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": []
+    },
+    {
+      "url": "/ro/",
+      "width": 1024,
+      "lang": "ro",
+      "title": "Optimix — Automatizarea proceselor de afaceri",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "Oameni",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    },
+    {
+      "url": "/ro/",
+      "width": 1280,
+      "lang": "ro",
+      "title": "Optimix — Automatizarea proceselor de afaceri",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "Oameni",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    }
+  ],
+  "interactions": {
+    "deck": {
+      "names": [
+        "Cherryli",
+        "Budget",
+        "Aprobery",
+        "ERP",
+        "Steer",
+        "All-in-one CRM"
+      ],
+      "layers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "links": [
+        "/ru/demo/procurement/?step=intake",
+        "/ru/solutions/intake/",
+        "/ru/demo/procurement/?step=budget",
+        "/ru/solutions/budget/",
+        "/ru/demo/procurement/?step=approval",
+        "/ru/solutions/approval/",
+        "/ru/demo/procurement/?step=erp",
+        "/ru/portfolio/erp/",
+        "/ru/demo/procurement/?step=visibility",
+        "/ru/solutions/visibility/"
+      ],
+      "openFlipLink": true
+    },
+    "hover": {
+      "before": {
+        "a": 0.880333,
+        "b": 0.187121,
+        "c": -0.187121,
+        "d": 0.880333,
+        "y": 52,
+        "z": "5"
+      },
+      "after": {
+        "a": 0.880333,
+        "b": 0.187121,
+        "c": -0.187121,
+        "d": 0.880333,
+        "y": -12,
+        "z": "5"
+      },
+      "lift": 64
+    },
+    "faq": true,
+    "locale": true,
+    "mobileMenuAndDeck": true,
+    "demoHaltedResolveCompleteRestart": true,
+    "briefDownload": true,
+    "reducedMotion": true
+  },
+  "errors": []
+}

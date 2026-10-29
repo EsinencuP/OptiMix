@@ -2,10 +2,10 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SiteHeader from './SiteHeader.astro';
 import SiteFooter from './SiteFooter.astro';
-import Icon from './RedesignIcon.astro';
+import CatalogRelated from './CatalogRelated.astro';
 import CrmPortfolioContent from './CrmPortfolioContent.astro';
 import ErpPortfolioContent from './ErpPortfolioContent.astro';
-import { homeAnchor, type Locale } from '../content';
+import { type Locale } from '../content';
 import { portfolioPages, type PortfolioPageSlug } from '../content/portfolio-pages';
 import '../styles/portfolio-pages.css';
 
@@ -19,9 +19,7 @@ const project = t.projects[slug];
   <SiteHeader locale={locale} page="portfolio" slug={slug} />
   <main id="main" class:list={['project-page-main', slug === 'crm' ? 'ox-crm-page' : 'ox-erp-page']} data-crm-page={slug === 'crm' || undefined} data-erp-page={slug === 'erp' || undefined}>
     {slug === 'crm' ? <CrmPortfolioContent locale={locale} /> : <ErpPortfolioContent locale={locale} />}
-    <div class="ox-container ox-page-content">
-      <a class="ox-text-link" href={homeAnchor(locale, 'demo-projects')}><Icon name="arrow-right" size={19} class="ox-arrow-back" />{t.back}</a>
-    </div>
+    <CatalogRelated locale={locale} current={slug} />
   </main>
   <SiteFooter locale={locale} page="portfolio" slug={slug} />
 </BaseLayout>

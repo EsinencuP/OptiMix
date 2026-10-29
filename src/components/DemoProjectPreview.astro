@@ -16,7 +16,7 @@ const thousands = (amount: number) => {
 };
 ---
 <figure class:list={['ox-project-preview', 'ox-project-preview-' + kind]} aria-label={name + ' — ' + t.demo}>
-  <div class="ox-preview-bar"><span class="ox-preview-app"><img src="/images/redesign/brand-mark.png" alt="" width="14" height="14" /><strong translate="no">{name}</strong></span><span class="ox-preview-demo">{t.demo}</span><Icon name="dots-three-vertical" size={17} /></div>
+  <div class="ox-preview-bar"><span class="ox-preview-app"><img src="/images/redesign/brand-mark-graphite.svg" alt="" width="14" height="14" /><strong translate="no">{name}</strong></span><span class="ox-preview-demo">{t.demo}</span><Icon name="dots-three-vertical" size={17} /></div>
   <div class="ox-preview-body">
     {kind === 'intake' && <><div class="ox-preview-heading"><Icon name="file-text" size={21} /><strong>{u.newRequest}</strong><span class="ox-preview-ref">#REQ-024</span></div><div class="ox-preview-form"><div><span>{u.department}</span><strong>{u.operations}</strong></div><div><span>{u.owner}</span><strong>{u.team}</strong></div></div><div class="ox-preview-file"><Icon name="file-pdf" size={23} /><span>Specification.pdf</span><Icon name="check-circle-fill" size={18} /></div><p class="ox-preview-status"><Icon name="check-circle" size={17} />{u.ready}</p></>}
     {kind === 'budget' && <><div class="ox-preview-heading"><Icon name="database" size={21} /><strong>{u.budget}</strong></div><dl class="ox-preview-budget"><div><dt>{u.available}</dt><dd>{thousands(24000)}</dd></div><div><dt>{u.amount}</dt><dd>− {thousands(8400)}</dd></div><div><dt>{u.balance}</dt><dd>{thousands(15600)}</dd></div></dl><p class="ox-preview-status"><Icon name="check-circle" size={17} />{u.passed}</p></>}

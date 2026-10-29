@@ -1,0 +1,148 @@
+/* Owner's 29 October 2026 palette. References: docs/palette-2026-10-29/.
+   Graphite is the page canvas; cards and product interfaces stay light.
+   Geometry, responsive rules and interaction transforms belong to their components. */
+:root {
+  --palette-graphite: #5a5f69;
+  --palette-graphite-deep: #454c55;
+  --palette-teal: #508179;
+  --palette-button: #4b7c74;
+  --palette-olive: #485949;
+  --palette-mint: #b9e4da;
+  --palette-white: #f6f8f7;
+  --palette-muted: #d4dadc;
+  --palette-surface: #eff4f2;
+  --palette-ink: #293c37;
+  --palette-focus: #b9e4da;
+}
+body:has(.ox-home), body .ox-home {
+  background: var(--palette-graphite);
+  color: var(--palette-white);
+  --ox-ink: var(--palette-white);
+  --ox-muted: var(--palette-muted);
+  --ox-green: var(--palette-mint);
+  --ox-mint: var(--palette-graphite);
+  --ox-forest: var(--palette-olive);
+  --ox-line: #818e91;
+  --color-accent: #345e57;
+}
+.ox-home .ox-header, .ox-home .ox-footer { background: var(--palette-graphite-deep); }
+.ox-home .ox-header .ox-languages { color: var(--palette-muted); }
+.ox-home .ox-header .ox-languages a[aria-current],
+.ox-home .ox-header .ox-brand { color: var(--palette-white); }
+.ox-home .ox-desktop-nav .ox-icon, .ox-home .ox-menu-trigger .ox-icon { filter:grayscale(1) brightness(0) invert(1); }
+.ox-home .ox-brand img { filter:none; }
+.ox-home :is(a,button,summary,input,textarea):focus-visible { outline-color:var(--palette-focus); }
+.ox-home .ox-button {
+  background:var(--palette-button); border-color:#8bb5ac; color:#fff;
+}
+.ox-home .ox-button:hover { background:#416e66; border-color:var(--palette-mint); }
+.ox-home .ox-button-secondary { background:transparent; border-color:#bcc9cb; color:var(--palette-white); }
+.ox-home .ox-button-secondary:hover { background:#ffffff0d; border-color:var(--palette-mint); color:var(--palette-mint); }
+.ox-home .ox-menu-trigger { border-color:#a9b8b9; background:transparent; }
+.ox-home .ox-eyebrow, .ox-home .ox-page-kicker, .ox-home .ox-projects-eyebrow,
+.ox-home .ox-error-number { color:var(--palette-mint); }
+.ox-home .ox-hero.ox-hero-v2 { background:var(--palette-graphite); }
+.ox-home .ox-hero-v2 .ox-hero-stage {
+  background:#4d555f;
+  position:relative; isolation:isolate;
+}
+.ox-home .ox-hero-v2 .ox-hero-stage::before {
+  content:''; position:absolute; inset:0; z-index:-1; pointer-events:none;
+  background:url('/images/redesign/hero-flow-v3.png') center / cover no-repeat;
+  filter:grayscale(1) invert(1) brightness(2) sepia(.65) hue-rotate(105deg) saturate(1.6);
+  mix-blend-mode:screen; opacity:.6;
+}
+.ox-home .ox-hero-v2 .ox-hero-intro { color:var(--palette-muted); }
+.ox-home .ox-hero-v2 .ox-hero-primary .ox-note { color:var(--palette-muted); }
+.ox-home .ox-hero-v2 .ox-hero-support { border-color:#859495; }
+.ox-home .ox-hero-example-copy>p { color:var(--palette-muted); }
+.ox-home .ox-checks>li>.ox-icon { filter:brightness(0) saturate(100%) invert(88%) sepia(12%) saturate(545%) hue-rotate(110deg) brightness(95%) contrast(91%); }
+.ox-home .ox-services { background:var(--palette-graphite); }
+.ox-home .ox-service-card { background:var(--palette-surface); border-color:#b2d1c8; }
+.ox-home .ox-service-card:hover { background:#fff; border-color:var(--palette-mint); }
+.ox-home .ox-other a { color:var(--palette-mint); }
+.ox-home .ox-projects.ox-projects-deck { background:#505761; }
+.ox-home .ox-value { background:var(--palette-graphite); }
+.ox-home .ox-start { background:#505a5d; }
+.ox-home .ox-step-number { background:var(--palette-mint); color:#304b43; }
+.ox-home .ox-faq { background:var(--palette-graphite); }
+.ox-home .ox-faq-list { background:var(--palette-surface); }
+.ox-home .ox-final { background:#485653; }
+.ox-home .ox-footer :is(.ox-footer-brand p,.ox-footer-nav,.ox-footer-meta) { color:var(--palette-muted); }
+.ox-home .ox-footer .ox-languages a[aria-current] { color:var(--palette-white); }
+
+/* Reset inherited copy tokens at each light surface, including nested previews. */
+.ox-home :is(.ox-service-card,.ox-process-illustration,.ox-hero-scene,.ox-faq-list,
+ .ox-deck-card,.ox-deck-cover,.ox-project-all,.ox-mobile-nav,.ox-project-preview,
+ .brief-status,.brief-builder,.ox-privacy-card,.ox-route-nav a,.module-overview article,
+ .mechanism-grid>div,.project-status,.project-prerequisites,.ox-project-module-grid>li,
+ .demo-controls,.demo-steps>li,.ox-crm-window,.ox-feature-card,.ox-crm-module-card,
+ .ox-crm-demo-access,.ox-workflow-panel,.ox-erp-window,.ox-erp-core,.ox-erp-hub-node,
+ .ox-erp-hub-tooltip,.ox-erp-hub-panel,.ox-erp-module-card) {
+  --ox-ink:var(--palette-ink); --ox-muted:#5a6570; --ox-green:#345e57;
+  --ox-mint:#e5efeb; --ox-line:#cedbd6; --color-ink:var(--palette-ink);
+  --color-muted:#5a6570; --color-accent:#345e57;
+  color:var(--palette-ink);
+}
+.ox-home :is(.ox-service-card,.ox-process-illustration,.ox-hero-scene,.ox-faq-list,
+ .ox-deck-card,.ox-deck-cover,.ox-project-all,.ox-mobile-nav,.ox-project-preview,
+ .brief-status,.brief-builder,.ox-privacy-card,.ox-route-nav,.module-overview,
+ .mechanism-grid,.project-status,.project-prerequisites,.ox-project-module-grid,
+ .demo-controls,.demo-steps,.ox-crm-window,.ox-feature-cards,.ox-crm-modules,
+ .ox-crm-demo-access,.ox-workflow-panel,.ox-erp-window,.ox-erp-core,.ox-erp-hub-node,
+ .ox-erp-hub-tooltip,.ox-erp-hub-panel,.ox-erp-module-card)
+ :is(a,button,summary,input,textarea):focus-visible { outline-color:#345e57; }
+.ox-home :is(.ox-deck-card,.ox-project-all,.brief-builder,.ox-mobile-nav,.demo-controls) .ox-button-secondary {
+  color:#345e57; background:transparent; border-color:#508179;
+}
+.ox-home :is(.ox-deck-card,.ox-project-all,.brief-builder,.ox-mobile-nav,.demo-controls) .ox-button-secondary:hover { background:#e5efeb; }
+.ox-home .ox-mobile-nav .ox-languages a[aria-current] { color:#293c37; }
+.ox-home .ox-text-link { color:var(--palette-mint); }
+.ox-home :is(.brief-status,.ox-privacy-card,.ox-project-module-copy,.demo-steps) .ox-text-link { color:#345e57; }
+.ox-home :is(.ox-project-module-copy,.ox-project-all) .ox-page-kicker { color:#345e57; }
+.ox-home .project-prerequisites { background:var(--palette-surface); }
+.ox-home .ox-page-hero { background:#505a60; border-color:#7d8d8b; }
+.ox-home .ox-route-nav a { background:var(--palette-surface); }
+.ox-home .ox-route-nav a:hover, .ox-home .ox-route-nav a[aria-current] { background:#d5e7e0; color:#345e57; }
+.ox-home .ox-project-all { background:var(--palette-surface); }
+.ox-home .ox-project-all .ox-button { color:#fff; }
+.ox-home .ox-deck-hint { color:var(--palette-muted); }
+.ox-home .ox-projects-deck .ox-section-heading .ox-projects-eyebrow { color:var(--palette-mint); }
+
+/* Translucent rear layers follow the reference; the foreground UI remains HTML. */
+.ox-home .ox-hero-layer { background:#52685e99; border-color:#ccdcd37a; box-shadow:0 16px 40px #26383118; }
+.ox-home .ox-hero-layer-2 { background:#526f63e6; }
+.ox-home .ox-hero-layer-label, .ox-home .ox-hero-layer-2 .ox-hero-layer-label { color:#edf5f0; }
+.ox-home .ox-hero-layer .ox-icon { filter:grayscale(1) brightness(0) invert(1); opacity:.8; }
+.ox-home .ox-hero-layer:not(.ox-hero-layer-2) .ox-icon { filter:grayscale(1) brightness(0) invert(1); }
+.ox-home .ox-hero-blue-icon { filter:none; }
+.ox-home .ox-hero-process-dots .is-current { filter:brightness(0) saturate(100%) invert(47%) sepia(14%) saturate(1072%) hue-rotate(118deg) brightness(94%) contrast(88%); }
+.ox-home .ox-hero-process { background:#eff4f2f5; }
+
+/* Portfolio uses the same dark canvas and light product cards. */
+.ox-home :is(.ox-crm-page,.ox-erp-page) { color:var(--palette-white); background:var(--palette-graphite); --color-muted:var(--palette-muted); --color-accent:var(--palette-mint); }
+.ox-home :is(.ox-crm-hero,.ox-erp-hero) { background:#505a60; }
+.ox-home :is(.ox-crm-page,.ox-erp-page) h1 span,
+.ox-home :is(.ox-crm-page,.ox-erp-page) .ox-page-kicker,
+.ox-home :is(.ox-crm-hero,.ox-erp-hero) .ox-page-kicker { color:var(--palette-mint); }
+.ox-home :is(.ox-crm-tags,.ox-erp-tags) li { background:#ffffff0a; border-color:#96aaa5; }
+.ox-home :is(.ox-crm-window,.ox-erp-window) { color:var(--palette-ink); }
+.ox-home :is(.ox-feature-card,.ox-crm-module-card,.ox-crm-demo-access,.ox-workflow-panel,
+ .ox-erp-hub-panel,.ox-erp-module-card) { background:var(--palette-surface); }
+.ox-home :is(.ox-crm-page,.ox-erp-page) .ox-button { color:#fff; background:var(--palette-button); border-color:#8bb5ac; }
+.ox-home :is(.ox-crm-page,.ox-erp-page) .ox-button:hover { background:#416e66; }
+.ox-home :is(.ox-crm-page,.ox-erp-page) .ox-button-secondary { background:transparent; color:var(--palette-white); }
+.ox-home :is(.ox-crm-cta,.ox-erp-cta) { background:var(--palette-olive); }
+.ox-home :is(.ox-crm-page .ox-crm-cta,.ox-erp-page .ox-erp-cta) .ox-button { background:var(--palette-surface); border-color:var(--palette-surface); color:#354b40; }
+.ox-home :is(.ox-crm-page .ox-crm-cta,.ox-erp-page .ox-erp-cta) .ox-button:hover { background:#d5e7e0; }
+.ox-home.ox-portfolio .ox-crm-page .ox-workflow-node text { fill:#5a6570; }
+.ox-home.ox-portfolio .ox-crm-page .ox-workflow-tab.is-active circle { fill:var(--palette-button); stroke:var(--palette-mint); }
+.ox-home.ox-portfolio .ox-crm-page .ox-workflow-tab.is-active text { fill:#fff; }
+.ox-home :is(.ox-workflow-toggle,.ox-erp-hub-controls button) { color:#345e57; }
+@media(max-width:960px) {
+  .ox-home .ox-hero-layer { background:#52685eaa; }
+  .ox-home .ox-hero-v2 .ox-hero-stage::before { background-image:url('/images/redesign/hero-flow-v2.png'); background-position:65% center; }
+}
+@media(max-width:640px) {
+  .ox-home .ox-hero-v2 .ox-hero-stage::before { background-position:60% center; }
+}

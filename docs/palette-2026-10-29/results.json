@@ -1,0 +1,37 @@
+{
+  "pages": [
+    {
+      "url": "/ru/",
+      "width": 1440,
+      "status": 200,
+      "lang": "ru",
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "overflow": false,
+      "landmarks": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "missingImages": [],
+      "palette": "rgb(90, 95, 105)",
+      "contrast": [
+        {
+          "element": "",
+          "text": "Люди",
+          "color": "rgb(237, 245, 240)",
+          "background": [
+            93,
+            123,
+            114
+          ],
+          "ratio": 4.17,
+          "required": 4.5
+        }
+      ]
+    }
+  ],
+  "interactions": {},
+  "errors": [],
+  "failure": "Error: UNKNOWN: unknown error, open 'D:\\Evo Web Design\\Optimix\\docs\\palette-2026-10-29\\ru-home-1440.png'\n    at async open (node:internal/fs/promises:1345:25)\n    at async Object.writeFile (node:internal/fs/promises:1965:14)\n    at async _Page.screenshot (D:\\AI\\packages\\npm\\node_modules\\@playwright\\mcp\\node_modules\\playwright-core\\lib\\coreBundle.js:63137:11)\n    at async file:///D:/Evo%20Web%20Design/Optimix/experiments/verify-palette.mjs:69:11"
+}

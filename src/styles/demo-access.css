@@ -1,0 +1,51 @@
+/* Public demo credentials are intentionally visible; personal accounts never belong here. */
+.ox-home .ox-demo-access { color:#293c37; background:#edf3ef; border:1px solid #bdcec5; border-radius:12px; padding:22px; margin-top:24px; text-align:left; user-select:text; }
+.ox-demo-access-heading { display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.ox-home .ox-demo-access-heading h3 { font-size:18px; line-height:1.3; margin:0; }
+.ox-demo-access-heading>span { font-size:12px; font-weight:650; color:#345e57; border:1px solid #b7cec1; border-radius:4px; padding:3px 7px; }
+.ox-demo-access-role { display:none; gap:6px; font-size:12px; font-weight:650; margin-top:14px; }
+.ox-demo-access[data-access-ready] .ox-demo-access-role { display:grid; }
+.ox-demo-access select { width:100%; min-height:40px; padding:7px 10px; background:#fff; color:#293c37; border:1px solid #7c9387; border-radius:6px; font-size:14px; }
+.ox-demo-access-fields { display:grid; gap:12px; margin-top:14px; }
+.ox-demo-access-field>label { display:block; font-size:12px; font-weight:650; margin-bottom:6px; }
+.ox-demo-access-field>div { display:flex; gap:6px; }
+.ox-demo-access input { width:100%; min-width:0; min-height:40px; padding:8px 10px; border:1px solid #7c9387; border-radius:6px; background:#fff; color:#293c37; font-family:Consolas,monospace; font-size:14px; font-weight:450; line-height:1.4; }
+.ox-demo-access [data-demo-copy] { flex-shrink:0; display:inline-flex; align-items:center; justify-content:center; padding:8px; width:40px; min-height:40px; border:1px solid #7c9387; border-radius:6px; background:#fff; cursor:pointer; color:#345e57; }
+.ox-demo-access [data-demo-copy]:hover { background:#dcebe3; }
+.ox-demo-access [data-demo-copy]:disabled { opacity:.6; cursor:wait; }
+.ox-home .ox-demo-access :is(select,input,button,summary):focus-visible { outline:3px solid #345e57; outline-offset:3px; }
+.ox-home .ox-demo-access-note,.ox-home .ox-demo-access-info { font-size:12px; font-weight:450; line-height:1.5; color:#5a6570; margin-top:12px; }
+.ox-home .ox-demo-access-status { font-size:12px; line-height:1.4; color:#345e57; min-height:0; margin-top:6px; }
+.ox-demo-access-status:empty { display:none; }
+.ox-demo-access-fallback { margin-top:14px; font-size:12px; }
+.ox-demo-access-fallback summary { cursor:pointer; padding-block:8px; font-weight:650; }
+.ox-demo-access-fallback>div { padding-block:12px; border-top:1px solid #bdcec5; }
+.ox-demo-access-fallback p { margin-top:6px; overflow-wrap:anywhere; }
+.ox-demo-access-fallback code { color:#293c37; font-size:13px; user-select:all; }
+.ox-home .ox-demo-access-info { color:var(--ox-muted); }
+.ox-home .ox-catalog-index-card .ox-demo-access-info { color:#5a6570; }
+.ox-home .ox-demo-access.is-compact { padding:16px; margin-top:20px; }
+.ox-home .ox-demo-access.is-compact .ox-demo-access-heading h3 { font-size:16px; }
+.ox-home .ox-deck-back .ox-demo-access { padding:12px; margin-top:14px; }
+.ox-home .ox-deck-back .ox-demo-access-fields { grid-template-columns:1fr; gap:8px; margin-top:10px; }
+.ox-home .ox-deck-back .ox-demo-access input { font-size:12px; padding:7px; }
+.ox-home .ox-deck-back .ox-demo-access [data-demo-copy] { width:32px; padding:5px; }
+.ox-home .ox-deck-back .ox-demo-access-role { margin-top:10px; }
+.ox-home .ox-deck-back .ox-demo-access-note { font-size:10px; margin-top:8px; }
+.ox-home .ox-deck-back .ox-demo-access-status { font-size:10px; }
+.ox-home .ox-projects-catalog .ox-deck-back:has([data-demo-access]) .ox-deck-back-tags { display:none; }
+.ox-home .ox-projects-catalog .ox-deck-back:has([data-demo-access]) .ox-deck-back-title { font-size:18px; margin-block:10px; }
+.ox-home .ox-projects-catalog .ox-deck-back:has([data-demo-access]) .ox-deck-description { font-size:12px; line-height:1.4; }
+.ox-home .ox-projects-catalog .ox-deck-back:has([data-demo-access]) .ox-deck-links { margin-top:12px; }
+.ox-home .ox-projects-catalog .ox-deck-back:has([data-demo-access]) h4 { font-size:24px; }
+.ox-home .ox-erp-hero .ox-demo-access { max-width:480px; }
+.ox-home .ox-crm-demo-access.ox-demo-access { margin-top:0; align-self:start; }
+.ox-home .ox-deck.is-ready:has(.is-open[data-has-demo-accounts]) .ox-deck-stage { height:860px; }
+.ox-home .ox-deck.is-ready .ox-deck-card.is-open[data-has-demo-accounts] { height:840px; }
+@media(max-width:640px) {
+  .ox-home .ox-demo-access { padding:18px; }
+  .ox-home .ox-deck-back .ox-demo-access-fields { grid-template-columns:1fr; }
+  .ox-home .ox-deck-back .ox-demo-access input { font-size:12px; }
+  .ox-home .ox-deck.is-ready:has(.is-open[data-has-demo-accounts]) .ox-deck-stage { height:930px; }
+  .ox-home .ox-deck.is-ready .ox-deck-card.is-open[data-has-demo-accounts] { height:910px; }
+}

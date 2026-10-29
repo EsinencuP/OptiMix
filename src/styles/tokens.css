@@ -4,16 +4,16 @@
 
   --color-paper: #ffffff;
   --color-white: #ffffff;
-  --color-light: #ecfaf4;
-  --color-signal: #c3efd5;
-  --color-ink: #08171b;
-  --color-muted: #526577;
-  --color-line: #e1e9ed;
-  --color-wash: #f5f8f6;
-  --color-accent: #00863f;
-  --color-accent-hover: #007a3d;
-  --color-dark: #063426;
-  --color-dark-muted: #c4d1cb;
+  --color-light: #e5efeb;
+  --color-signal: #b3dfd5;
+  --color-ink: #293c37;
+  --color-muted: #5a6570;
+  --color-line: #cedbd6;
+  --color-wash: #edf2ef;
+  --color-accent: #345e57;
+  --color-accent-hover: #345e57;
+  --color-dark: #485949;
+  --color-dark-muted: #d4dfd7;
   --page-gutter: clamp(20px, 4.4vw, 64px);
   --container-wide: 84rem;
   --section-space: clamp(5.5rem, 10vw, 10rem);

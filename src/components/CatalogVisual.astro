@@ -1,0 +1,21 @@
+---
+import Icon from './RedesignIcon.astro';
+import { portfolioUI, type CatalogProject } from '../content/portfolio-catalog';
+import type { Locale } from '../content';
+interface Props { project: CatalogProject; locale: Locale; compact?: boolean }
+const { project, locale, compact = false } = Astro.props;
+const t = portfolioUI(locale);
+const capture = project.slug === 'pdf-editor' ? 'pdf-workspace' : project.slug === 'erp' ? 'erp' : undefined;
+---
+<figure class:list={['ox-catalog-visual', `ox-catalog-visual-${project.slug}`, compact && 'is-compact']} aria-label={project.fullName}>
+  {capture ? <>
+    <img class="ox-catalog-capture" src={`/images/portfolio/${capture}.webp`} width="1440" height="1000" alt={`${project.fullName} — ${t.screenshot}`} loading={compact ? 'lazy' : 'eager'} decoding="async" />
+    {!compact && <figcaption>{t.screenshot} · {project.name}</figcaption>}
+  </> : <div class="ox-catalog-art">
+    <span class="ox-catalog-art-orbit" aria-hidden="true"></span>
+    <span class="ox-catalog-art-symbol"><Icon name={project.icon} size={compact ? 42 : 72} /></span>
+    <span class="ox-catalog-art-category">{project.category}</span>
+    <strong translate="no">{project.fullName}</strong>
+    <span class="ox-catalog-art-brand" translate="no">OPTIMIX / PORTFOLIO</span>
+  </div>}
+</figure>

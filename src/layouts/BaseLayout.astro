@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import '../styles/home-redesign.css';
 import '../styles/site-pages.css';
+import '../styles/palette-graphite.css';
 import { ClientRouter } from 'astro:transitions';
 import { content, locales, pathFor, type Locale, type PageKind } from '../content';
 
@@ -24,8 +25,8 @@ const canonicalURL = page === 'portfolio' && Astro.site ? new URL(pathFor(locale
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#ecfaf4" />
-    <link rel="icon" href="/images/redesign/brand-mark.png" type="image/png" />
+    <meta name="theme-color" content="#5a5f69" />
+    <link rel="icon" href="/images/redesign/brand-mark-graphite.svg" type="image/svg+xml" />
     <link rel="preload" href={page === 'portfolio' ? '/fonts/redesign/Roboto-Variable.woff2' : '/fonts/redesign/Roboto-Variable.ttf'} as="font" type={page === 'portfolio' ? 'font/woff2' : 'font/ttf'} crossorigin="anonymous" />
     {preloadImage && <link rel="preload" href={preloadImage.src} imagesrcset={preloadImage.srcSet} imagesizes={preloadImage.sizes} as="image" fetchpriority="high" />}
     <meta name="robots" content="noindex, nofollow" />

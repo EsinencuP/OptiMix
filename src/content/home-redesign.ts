@@ -3,7 +3,7 @@ import type { Locale } from './index';
 export function homeRedesign(locale: Locale) {
   const s = (ru: string, en: string, ro: string) => ({ ru, en, ro })[locale];
   return {
-    nav: [s('Направления','Services','Direcții'),s('Примеры','Examples','Exemple'),s('Как начать','Getting started','Cum începem'),s('Вопросы','Questions','Întrebări')],
+    nav: [s('Направления','Services','Direcții'),s('Портфолио','Portfolio','Portofoliu'),s('Как начать','Getting started','Cum începem'),s('Вопросы','Questions','Întrebări')],
     menu: s('Меню','Menu','Meniu'), brief: s('Бриф','Brief','Brief'),
     action: s('Описать задачу','Describe your task','Descrie sarcina'), example: s('Посмотреть пример','See an example','Vezi un exemplu'),
     eyebrow: s('Автоматизация бизнес-процессов','Business process automation','Automatizarea proceselor de afaceri'),

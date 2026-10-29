@@ -1,60 +1,67 @@
 ---
 import Icon from './RedesignIcon.astro';
-import Preview from './DemoProjectPreview.astro';
-import { demoProjects, demoProjectNames } from '../content/demo-projects';
-import { demoPath } from '../content/portfolio';
-import type { Locale } from '../content';
+import Visual from './CatalogVisual.astro';
+import DemoAccess from './DemoAccess.astro';
+import {demoAccessFor} from '../content/demo-access';
+import { demoProjects } from '../content/demo-projects';
+import { portfolioCatalog, portfolioUI } from '../content/portfolio-catalog';
+import { pathFor, type Locale } from '../content';
 import '../styles/demo-deck.css';
+import '../styles/portfolio-catalog.css';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
-const t = demoProjects(locale);
+const t=portfolioUI(locale),deck=demoProjects(locale).deck;
+const catalog=portfolioCatalog(locale);
+const projects=catalog.filter(project=>project.slug!=='crm');
+const crm=catalog.find(project=>project.slug==='crm')!;
 ---
-<section class="ox-projects ox-projects-deck ox-section" id="demo-projects" aria-labelledby="ox-projects-title">
+<section class="ox-projects ox-projects-deck ox-projects-catalog ox-section" id="demo-projects" aria-labelledby="ox-projects-title">
   <div class="ox-container">
-    <div class="ox-section-heading"><p class="ox-projects-eyebrow">{t.eyebrow}</p><h2 id="ox-projects-title">{t.title}</h2><p>{t.intro}</p></div>
+    <div class="ox-section-heading"><p class="ox-projects-eyebrow">{t.eyebrow}</p><h2 id="ox-projects-title">{t.title}</h2><p>{t.intro}</p><a class="ox-catalog-collection-link" href={pathFor(locale,'portfolio')}>{t.all}<Icon name="arrow-right" size={18} /></a></div>
     <div class="ox-deck" data-demo-deck>
       <div class="ox-deck-stage">
-        {t.projects.map((project,i) => <article class="ox-deck-card" data-deck-card={project.slug} id={'demo-' + project.slug} aria-label={demoProjectNames[project.slug]} style={`--card-index:${i-2};--card-layer:${i+1};--fan-y:${[52,20,0,20,52][i]}px;--fan-angle:${[-12,-5,0,5,12][i]}deg;--fan-scale:${[.9,.94,1,.94,.9][i]};`}>
-          <button class="ox-deck-close" type="button" data-deck-close data-deck-detail aria-label={t.deck.close + ' — ' + demoProjectNames[project.slug]}><Icon name="x" size={22} /></button>
+        {projects.map((project,i) => <article class="ox-deck-card" data-deck-card={project.slug} data-has-demo-accounts={demoAccessFor(project.slug,locale).mode==='accounts'?'true':undefined} id={'demo-' + project.slug} aria-label={project.name} style={`--card-index:${i-2};--card-layer:${i+1};--fan-y:${[52,20,0,20,52][i]}px;--fan-angle:${[-12,-5,0,5,12][i]}deg;--fan-scale:${[.9,.94,1,.94,.9][i]};`}>
+          <button class="ox-deck-close" type="button" data-deck-close data-deck-detail aria-label={deck.close + ' — ' + project.name}><Icon name="x" size={22} /></button>
           <div class="ox-deck-inner">
             <div class="ox-deck-front" id={'deck-content-' + project.slug}>
-              <button class="ox-deck-hit" data-deck-hit data-deck-open-label={t.deck.open + ' — ' + demoProjectNames[project.slug]} data-deck-flip-label={t.deck.flip + ' — ' + demoProjectNames[project.slug]} type="button" aria-expanded="false" aria-controls={'deck-content-' + project.slug} aria-label={t.deck.open + ' — ' + demoProjectNames[project.slug]}></button>
+              <button class="ox-deck-hit" data-deck-hit data-deck-open-label={deck.open + ' — ' + project.name} data-deck-flip-label={deck.flip + ' — ' + project.name} type="button" aria-expanded="false" aria-controls={'deck-content-' + project.slug} aria-label={deck.open + ' — ' + project.name}></button>
               <span class="ox-deck-number" aria-hidden="true">0{i+1}</span>
               <div class="ox-deck-emblem"><Icon name={project.icon} size={54} /></div>
-              <h3 id={'project-' + project.slug} translate="no">{demoProjectNames[project.slug]}</h3>
+              <h3 id={'project-' + project.slug} translate="no">{project.name}</h3>
               <p class="ox-deck-category">{project.category}</p>
-              <p class="ox-deck-headline">{project.title}</p>
-              <div class="ox-deck-detail" data-deck-detail><p class="ox-deck-description">{project.description}</p><Preview locale={locale} kind={project.slug} /></div>
+              <p class="ox-deck-headline">{project.headline}</p>
+              <div class="ox-deck-detail" data-deck-detail><p class="ox-deck-description">{project.description}</p><Visual project={project} locale={locale} compact /></div>
               <ul class="ox-deck-tags">{project.tags.map(tag => <li>{tag}</li>)}</ul>
-              <button class="ox-deck-flip" data-deck-flip data-deck-detail type="button">{t.deck.flip}<Icon name="arrow-clockwise" size={17} /></button>
+              <button class="ox-deck-flip" data-deck-flip data-deck-detail type="button">{deck.flip}<Icon name="arrow-clockwise" size={17} /></button>
               <span class="ox-deck-number ox-deck-number-bottom" aria-hidden="true">0{i+1}</span>
             </div>
             <div class="ox-deck-back">
               <span class="ox-deck-number" aria-hidden="true">0{i+1}</span>
-              <p class="ox-deck-kicker">{t.deck.how}</p>
-              <h4 translate="no">{demoProjectNames[project.slug]}</h4>
-              <p class="ox-deck-back-title">{project.title}</p>
+              <p class="ox-deck-kicker">{project.draft ? t.draft : t.overview}</p>
+              <h4 translate="no">{project.name}</h4>
+              <p class="ox-deck-back-title">{project.headline}</p>
               <p class="ox-deck-description">{project.description}</p>
               <ul class="ox-deck-back-tags">{project.tags.map(tag => <li><Icon name="check-circle-fill" size={21} />{tag}</li>)}</ul>
+              <DemoAccess locale={locale} slug={project.slug} idPrefix={`home-access-${project.slug}`} compact />
               <div class="ox-deck-links">
-                <a class="ox-button" href={demoPath(locale) + '?step=' + project.slug} aria-label={t.tryDemo + ' — ' + demoProjectNames[project.slug]}>{t.tryDemo}<Icon name="arrow-right" size={19} /></a>
-                <a class="ox-button ox-button-secondary" href={project.projectHref} aria-label={t.open + ' — ' + demoProjectNames[project.slug]}>{t.open}<Icon name="arrow-right" size={19} /></a>
+                <a class="ox-button" href={project.projectHref} aria-label={t.open + ' — ' + project.name}>{t.open}<Icon name="arrow-right" size={19} /></a>
+                <a class="ox-button ox-button-secondary" href={project.demo} aria-label={t.demo + ' — ' + project.name}>{t.demo}<Icon name="arrow-right" size={19} /></a>
+                <a class="ox-project-demo-link" href={project.github} aria-label={t.github + ' — ' + project.name}>GitHub</a>
               </div>
-              <button class="ox-deck-return" data-deck-back type="button"><Icon name="arrow-left" size={17} />{t.deck.back}</button>
+              <button class="ox-deck-return" data-deck-back type="button"><Icon name="arrow-left" size={17} />{deck.back}</button>
             </div>
           </div>
         </article>)}
         <button class="ox-deck-cover" type="button" data-deck-reveal aria-expanded="false">
-          <span class="ox-brand"><img src="/images/redesign/brand-mark.png" width="18" height="18" alt="" /><span translate="no">OPTIMIX</span></span>
-          <span class="ox-deck-emblem"><Icon name="check-square" size={54} /></span>
-          <strong>{t.deck.cover}</strong><span>{t.deck.reveal}</span>
+          <span class="ox-brand"><img src="/images/redesign/brand-mark-graphite.svg" width="18" height="18" alt="" /><span translate="no">OPTIMIX</span></span>
+          <span class="ox-deck-emblem"><Icon name="table" size={54} /></span>
+          <strong>{t.eyebrow}</strong><span>{deck.reveal}</span>
         </button>
       </div>
-      <p class="ox-deck-hint"><span class="ox-deck-pointer-hint">{t.deck.hint}</span><span class="ox-deck-touch-hint">{t.deck.touchHint}</span></p>
-      <div class="ox-deck-picker" role="group" aria-label={t.deck.choose}>{t.projects.map(project => <button type="button" data-deck-select={project.slug} aria-pressed="false" translate="no">{demoProjectNames[project.slug]}</button>)}</div>
+      <p class="ox-deck-hint"><span class="ox-deck-pointer-hint">{deck.hint}</span><span class="ox-deck-touch-hint">{deck.touchHint}</span></p>
+      <div class="ox-deck-picker" role="group" aria-label={deck.choose}>{projects.map(project => <button type="button" data-deck-select={project.slug} aria-pressed="false" translate="no">{project.name}</button>)}</div>
     </div>
-      <article class="ox-project-card ox-project-all" aria-labelledby="project-crm"><div class="ox-project-copy"><div class="ox-project-category"><Icon name="address-book" size={19} /><span>{t.allInOne.category}</span><span class="ox-project-number">06</span></div><h3 id="project-crm" translate="no">{t.allInOne.name}</h3><p class="ox-project-headline">{t.allInOne.title}</p><p class="ox-project-description">{t.allInOne.description}</p><ul class="ox-project-tags">{t.allInOne.tags.map(tag => <li>{tag}</li>)}</ul><a class="ox-button" href={t.allInOne.href}>{t.allInOne.action}<Icon name="arrow-right" size={20} /></a></div><Preview locale={locale} kind="crm" /></article>
-    <p class="ox-projects-note">{t.note}</p>
+    <article class="ox-project-card ox-project-all" aria-labelledby="project-crm"><div class="ox-project-copy"><div class="ox-project-category"><Icon name={crm.icon} size={19} /><span>{crm.category}</span><span class="ox-project-number">06</span></div><h3 id="project-crm" translate="no">{crm.name}</h3><p class="ox-project-headline">{crm.headline}</p><p class="ox-project-description">{crm.description}</p><ul class="ox-project-tags">{crm.tags.map(tag => <li>{tag}</li>)}</ul><DemoAccess locale={locale} slug="crm" idPrefix="home-access-crm" compact /><a class="ox-button" href={crm.projectHref}>{t.open}<Icon name="arrow-right" size={20} /></a><div class="ox-project-links"><a class="ox-project-open" href={crm.demo}>{t.demo}<Icon name="arrow-right" size={18} /></a><a class="ox-project-demo-link" href={crm.github}>{t.github}</a></div></div><Visual project={crm} locale={locale} /></article>
   </div>
 </section>
 <script>import '../scripts/demo-deck';</script>

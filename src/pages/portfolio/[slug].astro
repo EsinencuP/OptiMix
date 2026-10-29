@@ -1,0 +1,9 @@
+---
+import PortfolioEntry from '../../components/PortfolioEntry.astro';
+import { catalogSlugs, type CatalogSlug } from '../../content/portfolio-catalog';
+export function getStaticPaths() {
+  return catalogSlugs.filter(slug=>slug!=='crm'&&slug!=='erp').map(slug=>({params:{slug}}));
+}
+const slug=Astro.params.slug as CatalogSlug;
+---
+<PortfolioEntry locale="en" slug={slug} />

@@ -39,7 +39,7 @@ const layerIcons = ['database', 'gear', 'users'];
 </figure>
 
 <script>
-  const chartColors = ['#009e4e', '#47d894', '#1fc979', '#89ecc0'];
+  const chartColors = ['#508179', '#7fa79b', '#485949', '#b3d2c7'];
   let disposeHeroCharts: (() => void) | undefined;
 
   function initializeHeroCharts() {
@@ -67,7 +67,7 @@ const layerIcons = ['database', 'gear', 'users'];
           const padding = Math.max(9, width * .055);
           const plotWidth = width - padding * 2;
           const plotHeight = height - padding * 2;
-          context.strokeStyle = '#eaf1ee';
+          context.strokeStyle = '#dfe8e2';
           context.lineWidth = 1;
           for (let i = 1; i < 4; i++) {
             const y = padding + plotHeight * i / 4;
@@ -77,7 +77,7 @@ const layerIcons = ['database', 'gear', 'users'];
           context.beginPath(); context.moveTo(points[0][0], height - padding);
           for (const [x, y] of points) context.lineTo(x, y);
           context.lineTo(points[points.length - 1][0], height - padding); context.closePath();
-          context.fillStyle = '#e5f8ef'; context.fill();
+          context.fillStyle = '#e2ece7'; context.fill();
           context.beginPath();
           for (let i = 0; i < points.length; i++) { const [x, y] = points[i]; if (i === 0) context.moveTo(x, y); else context.lineTo(x, y); }
           context.strokeStyle = chartColors[0]; context.lineWidth = Math.max(1.2, width * .006); context.lineJoin = 'round'; context.stroke();
@@ -96,7 +96,7 @@ const layerIcons = ['database', 'gear', 'users'];
           const plotHeight = height - 12;
           const gap = width * .11;
           const barWidth = (width - gap * 5) / 4;
-          values.forEach((value, i) => { const barHeight = plotHeight * value / 85; context.fillStyle = i % 2 ? '#009e4e' : '#40cf8b'; context.fillRect(gap + i * (barWidth + gap), base - barHeight, barWidth, barHeight); });
+          values.forEach((value, i) => { const barHeight = plotHeight * value / 85; context.fillStyle = i % 2 ? '#508179' : '#7fa79b'; context.fillRect(gap + i * (barWidth + gap), base - barHeight, barWidth, barHeight); });
         }
       }
     }

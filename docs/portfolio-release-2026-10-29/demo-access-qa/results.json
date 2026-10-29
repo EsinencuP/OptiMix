@@ -1,0 +1,229 @@
+{
+  "pages": [
+    {
+      "locale": "ru",
+      "width": 1440,
+      "route": "portfolio/",
+      "accounts": 9
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "route": "portfolio/erp/",
+      "accounts": 6
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "route": "portfolio/crm/",
+      "accounts": 3
+    },
+    {
+      "locale": "ru",
+      "width": 1440,
+      "route": "",
+      "accounts": 9
+    },
+    {
+      "locale": "ru",
+      "width": 390,
+      "route": "portfolio/",
+      "accounts": 9
+    },
+    {
+      "locale": "ru",
+      "width": 390,
+      "route": "portfolio/erp/",
+      "accounts": 6
+    },
+    {
+      "locale": "ru",
+      "width": 390,
+      "route": "portfolio/crm/",
+      "accounts": 3
+    },
+    {
+      "locale": "ru",
+      "width": 390,
+      "route": "",
+      "accounts": 9
+    },
+    {
+      "locale": "ru",
+      "width": 320,
+      "route": "portfolio/",
+      "accounts": 9
+    },
+    {
+      "locale": "ru",
+      "width": 320,
+      "route": "portfolio/erp/",
+      "accounts": 6
+    },
+    {
+      "locale": "ru",
+      "width": 320,
+      "route": "portfolio/crm/",
+      "accounts": 3
+    },
+    {
+      "locale": "ru",
+      "width": 320,
+      "route": "",
+      "accounts": 9
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "portfolio/",
+      "accounts": 9
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "portfolio/erp/",
+      "accounts": 6
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "portfolio/crm/",
+      "accounts": 3
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "route": "",
+      "accounts": 9
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "portfolio/",
+      "accounts": 9
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "portfolio/erp/",
+      "accounts": 6
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "portfolio/crm/",
+      "accounts": 3
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "route": "",
+      "accounts": 9
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "portfolio/",
+      "accounts": 9
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "portfolio/erp/",
+      "accounts": 6
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "portfolio/crm/",
+      "accounts": 3
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "route": "",
+      "accounts": 9
+    },
+    {
+      "locale": "ro",
+      "width": 1440,
+      "route": "portfolio/",
+      "accounts": 9
+    },
+    {
+      "locale": "ro",
+      "width": 1440,
+      "route": "portfolio/erp/",
+      "accounts": 6
+    },
+    {
+      "locale": "ro",
+      "width": 1440,
+      "route": "portfolio/crm/",
+      "accounts": 3
+    },
+    {
+      "locale": "ro",
+      "width": 1440,
+      "route": "",
+      "accounts": 9
+    },
+    {
+      "locale": "ro",
+      "width": 390,
+      "route": "portfolio/",
+      "accounts": 9
+    },
+    {
+      "locale": "ro",
+      "width": 390,
+      "route": "portfolio/erp/",
+      "accounts": 6
+    },
+    {
+      "locale": "ro",
+      "width": 390,
+      "route": "portfolio/crm/",
+      "accounts": 3
+    },
+    {
+      "locale": "ro",
+      "width": 390,
+      "route": "",
+      "accounts": 9
+    },
+    {
+      "locale": "ro",
+      "width": 320,
+      "route": "portfolio/",
+      "accounts": 9
+    },
+    {
+      "locale": "ro",
+      "width": 320,
+      "route": "portfolio/erp/",
+      "accounts": 6
+    },
+    {
+      "locale": "ro",
+      "width": 320,
+      "route": "portfolio/crm/",
+      "accounts": 3
+    },
+    {
+      "locale": "ro",
+      "width": 320,
+      "route": "",
+      "accounts": 9
+    }
+  ],
+  "copies": 18,
+  "errors": [],
+  "interactions": {
+    "manualFallback": true,
+    "roleRace": true,
+    "astroCleanup": true,
+    "locale": true,
+    "noJavaScript": true
+  }
+}
