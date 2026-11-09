@@ -83,13 +83,13 @@ export const portfolio: Record<Locale, PortfolioCopy> = {
 };
 
 export function modulePath(locale: Locale, slug: ModuleSlug): string {
-  return `${locale === 'en' ? '' : `/${locale}`}/solutions/${slug}/`;
+  return `/${locale}/solutions/${slug}/`;
 }
 
 export function demoPath(locale: Locale): string {
-  return `${locale === 'en' ? '' : `/${locale}`}/demo/procurement/`;
+  return `/${locale}/demo/procurement/`;
 }
 
 export function projectPath(locale: Locale): string {
-  return `${locale === 'en' ? '' : `/${locale}`}/projects/procurement/`;
+  return `/${locale}/projects/procurement/`;
 }

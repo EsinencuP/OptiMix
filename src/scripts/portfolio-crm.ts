@@ -46,8 +46,4 @@ function initCrmMotion() {
   cleanup = () => media.revert();
 }
 
-initCrmMotion();
-document.addEventListener('astro:page-load', initCrmMotion);
-document.addEventListener('astro:before-swap', disposeCrmMotion);
-window.addEventListener('pagehide', disposeCrmMotion);
-window.addEventListener('pageshow', event => { if (event.persisted) initCrmMotion(); });
+export function mountCrmMotion(){initCrmMotion();return()=>{disposeCrmMotion();};}

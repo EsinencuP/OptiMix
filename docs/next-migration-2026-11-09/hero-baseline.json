@@ -1,0 +1,36 @@
+{
+  "commit": "03e217fd4670cfa76bf953e04e1e7b8e61c1fe64",
+  "source": "Astro production preview before migration",
+  "locale": "ru",
+  "viewport": {
+    "width": 1440,
+    "height": 960
+  },
+  "reducedMotion": "reduce",
+  "boxes": {
+    "#ox-hero-title": {
+      "x": 56,
+      "y": 265.140625,
+      "width": 597.078125,
+      "height": 201.5625
+    },
+    ".ox-hero-intro": {
+      "x": 56,
+      "y": 494.703125,
+      "width": 577.015625,
+      "height": 63.34375
+    },
+    ".ox-hero-actions": {
+      "x": 56,
+      "y": 734.046875,
+      "width": 597.078125,
+      "height": 72
+    },
+    ".ox-hero-scene": {
+      "x": 683.078125,
+      "y": 177.984375,
+      "width": 700.921875,
+      "height": 664.03125
+    }
+  }
+}

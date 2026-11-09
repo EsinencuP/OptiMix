@@ -1,6 +1,24 @@
 # Гид проекта Optimix
 
-Версия 3.14 · 9 ноября 2026 · действующий источник правил сайта.
+Версия **4.0 · 9 ноября 2026**. Владелец явно подтвердил перенос всего сайта на React + Next.js. Новое ТЗ: [OWNER_BRIEF](next-migration-2026-11-09/OWNER_BRIEF.md). Следующий раздел описывает текущую архитектуру; материалы v3.14 ниже сохранены как история.
+
+## Действующая архитектура v4.0
+
+- React 19.3.1, Next.js 16.4.5 App Router, TypeScript. Все страницы — native TSX/Server Components; интерактивные границы — SiteHeader, HomeFaq, GettingStarted, SiteRuntime и локализованный not-found. Astro-шаблонов, runtime-событий и зависимостей в активном src нет. Предыдущий baseline — Git-коммит 03e217fd4670cfa76bf953e04e1e7b8e61c1fe64.
+- `src/app/[locale]/layout.tsx`: html/lang, локальный Roboto, React ViewTransition, общий runtime. `src/app/[locale]/[[...segments]]/page.tsx`: предварительный рендер маршрутов и SEO. `src/lib/routes.ts`: 72 страницы (24 на язык) и метаданные. Next также создаёт служебные error-артефакты. BaseLayout.tsx задаёт skip link и контекст классов; SiteHeader/SiteFooter общие.
+- Все канонические URL имеют `/en/`, `/ro/` или `/ru/`. После префикса: `/`, `/contact/`, `/privacy/`, `/portfolio/`, `/portfolio/{pdf-editor,erp,commerce,founder,recruiting,crm}/`, `/services/{hr,documents,crm,erp,procurement,analytics}/`, `/projects/procurement/`, `/demo/procurement/`, `/solutions/{intake,budget,approval,erp,visibility}/`, `/404/`. Источники ссылок — pathFor/homeAnchor и хелперы portfolio.ts.
+- `next.config.ts` постоянно перенаправляет старые английские адреса на `/en/...`; `/404.html` → `/en/404/`. Языки сохраняют тип страницы, slug и валидный `?step=`. Canonical/hreflang используют префиксы, x-default — EN. Неизвестные страницы дают HTTP 404 с языком маршрута, неизвестный префикс — английский fallback. Главные якоря сохранены, кроме удалённого #value.
+- Services — Radix dropdown по hover/клику и мобильный accordion внутри native popover; отдельного обзора услуг нет. Остальная навигация ведёт к главным якорям. HomeFaq — Radix single/collapsible с пятью полными ответами, CTA и native no-JS fallback. Motion даёт whileInView/stagger шагов и перетасовку hero; только transform/opacity. Пауза, ручной выбор, viewport/visibility и reduced motion сохранены. При reduced motion/без JS все шаги сразу видимы. React ViewTransition/Next Link дают нативные переходы страниц с fallback.
+- `SiteRuntime.tsx` лениво загружает только контроллеры текущей страницы. Они экспортируют mount/dispose; React effect отменяет прошлый маршрут и запоздалую async-установку. Pagehide/pageshow поддерживают bfcache. GSAP сохранён для сложных схем CRM/ERP и не смешивается с Motion в одном компоненте. Canvas сохраняет доступные описания.
+- `src/app/site.css` задаёт единственный активный CSS-каскад; `next-migration.css` адаптирует Radix/Lucide, заглушки и transitions. Палитра, SVG-бренд, Roboto, физическая колода и hero-композиция сохранены. Основной акцент — бирюза; оливковый остаётся вторичным статусным/графическим цветом. Новые отступы используют 8px-шкалу; артборд сохраняет исходные дробные координаты. Legacy home.css/inner.css/portfolio.css не подключаются.
+- **Последний пакет отменил прежнюю карту направлений и продуктов.** Каждый service example — нейтральная заглушка до выбора по README. ProductExamples показывает два именованных слота PDF/ERP с коротким нейтральным текстом и ScreenshotPlaceholder вместо реальных экранов. Подтверждённые каталожные страницы PDF/CRM/ERP сохранены; Commerce/Founder/Recruiting остаются заготовками. Canonical URL всех шести продуктов хранит portfolio-catalog.ts; scope направлений — services.ts.
+- Demo access и runtime-реквизиты удалены. Требование к беспарольному переключению ролей в отдельных демо — [документ передачи](revision-2026-11-09/DEMO_PLATFORM_HANDOFF.md). Авторизация приложений этой миграцией не изменяется. Бриф скачивает локальный UTF-8 файл без сетевой отправки; прежний закупочный simulator сохраняет normal/exception, halt/review, completion/reset и deep links.
+- Node.js 24.x: `npm ci`, затем `npm run dev`. Production: `npm run check`, `npm run lint`, `npm run build`, `npm run start`. Браузерные проверки — `npm run test:site` в другом терминале (Google Chrome; SITE_QA_URL задаёт другой сервер). Отчёт с фактическими результатами/ограничениями: [REPORT](next-migration-2026-11-09/REPORT.md), JSON/скриншоты — qa/. Старые Astro acceptance scripts исторические.
+- Репозиторий EsinencuP/OptiMix, main, production https://opti-mix-three.vercel.app. Version-controlled vercel.json задаёт framework nextjs поверх прежнего Astro preset; домен и защита доступа не меняются. PUBLIC_SITE_URL задаёт origin; noindex сохранён. После push проверять статус точного SHA и основной домен, включая все языки.
+
+## История: версия 3.14 (Astro, до переноса)
+
+Следующие разделы не описывают действующий стек или маршрутизацию. Они сохраняют происхождение дизайна, решений и прошлых проверок.
 
 ## 1. Назначение и визуальный ориентир
 

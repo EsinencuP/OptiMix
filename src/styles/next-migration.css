@@ -1,0 +1,52 @@
+/* Native React primitives extend the approved palette and geometry. */
+:root { --space-1:8px; --space-2:16px; --space-3:24px; --space-4:32px; --space-5:40px; --space-6:48px; --space-8:64px; }
+body { font-family:'Optimix Roboto',Arial,sans-serif; }
+.ox-home .ox-hero-message { --palette-muted:#eef3f1; }
+.ox-home .ox-hero-message :is(.ox-eyebrow,h1 span:last-child) { color:#c1e8df; }
+.ox-icon { flex-shrink:0; color:#508179; }
+.ox-home * { transition-property:transform,opacity!important; }
+.ox-home details::details-content { transition:none!important; }
+.ox-screenshot-placeholder { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:var(--space-3); min-height:360px; padding:var(--space-4); text-align:center; border:1px dashed #90b2a6; border-radius:16px; background:#e7eeeb; color:#345e57; }
+.ox-screenshot-placeholder figcaption { display:grid; gap:var(--space-1); line-height:1.5; }
+.ox-screenshot-placeholder strong { font-size:24px; }.ox-screenshot-placeholder span { font-size:16px; color:#52655d; }
+.ox-real-copy>p { margin:var(--space-3) 0; color:#e0e9e6; font-size:19px; line-height:1.6; }
+.ox-real-example:nth-child(even)>.ox-screenshot-placeholder { order:2; }
+.ox-nav-list { display:flex; align-items:center; gap:32px; padding:0; margin:0; list-style:none; }
+.ox-services-trigger { display:flex; align-items:center; justify-content:space-between; gap:8px; border:0; background:transparent; color:inherit; padding:16px 0; font:inherit; font-size:16px; cursor:pointer; }
+.ox-services-trigger[data-state="open"]>.ox-icon { transform:rotate(180deg); }
+.ox-home .ox-desktop-nav .ox-services-dropdown a { padding:16px; }
+.ox-services-dropdown a { display:flex; align-items:center; }
+.ox-mobile-services .ox-services-trigger { width:100%; padding:16px 8px; border-bottom:1px solid #cedbd6; }
+.ox-mobile-services .ox-services-dropdown { position:static; width:100%; box-shadow:none; border:0; background:#e2ede8; padding:6px 0; }
+.ox-mobile-services .ox-services-dropdown a { gap:16px; padding:16px; font-size:15px; }
+.ox-home .ox-faq-question { font-size:inherit; margin:0; }
+.ox-faq-item+.ox-faq-item { border-top:1px solid #cedbd6; }
+.ox-faq-trigger { width:100%; display:flex; align-items:center; gap:16px; min-height:96px; padding:24px 32px; border:0; color:#293c37; background:transparent; font:inherit; font-size:22px; text-align:left; cursor:pointer; }
+.ox-faq-trigger>span:nth-child(2) { flex:1; }
+.ox-faq-item:nth-child(even) .ox-faq-marker { background:#485949; }
+.ox-faq-item[data-state="open"],.ox-faq-trigger:hover { background:#dcebe4; }
+.ox-faq-trigger[data-state="open"] { font-weight:650; }
+.ox-faq-trigger .ox-icon { color:#345e57; transition:transform 200ms; }
+.ox-faq-trigger[data-state="open"] .ox-icon { transform:rotate(45deg); }
+.ox-faq-answer { overflow:hidden; }
+.ox-faq-answer p { padding:0 72px 32px 56px; font-size:18px; line-height:1.6; color:#43594f; max-width:100ch; }
+.ox-faq-answer[data-state="open"] { animation:faq-enter 220ms ease-out; }
+@keyframes faq-enter { from { opacity:0; transform:translateY(-8px); } to { opacity:1; transform:translateY(0); } }
+.ox-nojs-services { padding:12px 0; }.ox-nojs-services a { display:block; padding:8px 0; }
+.ox-home .ox-services-dropdown :focus-visible,.ox-home .ox-faq-list :focus-visible { outline-color:#345e57; }
+.ox-workflow-details { grid-template-columns:minmax(0,1fr); }
+.ox-home .ox-start-expanded { padding-block:80px; }
+.ox-home .ox-start-expanded .ox-start-grid { margin-top:40px; }
+.ox-home .ox-start-expanded .ox-start-grid>li { padding:32px 24px; gap:24px; min-height:264px; }
+.ox-home .ox-start-expanded .ox-step-number { width:56px; height:56px; }
+.ox-home .ox-start-expanded .ox-step-arrow { width:40px; height:40px; top:40px; }
+.ox-product-examples { padding-block:48px 64px; gap:48px; }
+.ox-service-proof>.ox-container { gap:48px; }
+::view-transition-old(optimix-page) { animation:page-out 140ms ease both; }
+::view-transition-new(optimix-page) { animation:page-in 180ms ease both; }
+@keyframes page-out { to {opacity:0;} } @keyframes page-in { from {opacity:0;} }
+@media(max-width:1200px) { .ox-nav-list{gap:20px}.ox-services-trigger{font-size:14px} }
+@media(max-width:960px) { .ox-screenshot-placeholder{min-height:300px}.ox-desktop-nav.ox-navigation-radix{display:none}.ox-home .ox-start-expanded .ox-step-arrow{top:auto;bottom:-35px;right:calc(50% - 20px)} }
+@media(max-width:640px) { .ox-screenshot-placeholder { min-height:240px; padding:24px; }.ox-faq-trigger{padding:24px 16px;min-height:96px;font-size:19px;gap:16px}.ox-faq-answer p{padding:0 24px 24px 40px;font-size:17px}.ox-real-copy>p{font-size:17px}.ox-real-example:nth-child(even)>.ox-screenshot-placeholder{order:0}.ox-home .ox-start-expanded{padding-block:48px}.ox-home .ox-start-expanded .ox-start-grid>li{min-height:0}.ox-product-examples{padding-block:32px 48px} }
+@media(prefers-reduced-motion:reduce) { .ox-start-grid>li{opacity:1!important;transform:none!important}.ox-faq-answer,.ox-faq-trigger .ox-icon,::view-transition-old(optimix-page),::view-transition-new(optimix-page){animation:none!important;transition:none!important} }
+@media(prefers-reduced-motion:reduce) { ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*) { animation:none!important; } }

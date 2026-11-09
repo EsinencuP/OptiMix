@@ -58,6 +58,4 @@ function setupDemo(): () => void {
 }
 
 function sync() { dispose?.(); dispose = setupDemo(); }
-sync();
-document.addEventListener('astro:page-load', sync);
-document.addEventListener('astro:before-swap', () => { dispose?.(); dispose = undefined; });
+export function mountProcessDemo(){sync();return()=>{dispose?.(); dispose=undefined;};}

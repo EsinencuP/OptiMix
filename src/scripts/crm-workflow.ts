@@ -40,12 +40,6 @@ function initWorkflow() {
   let panelTween: gsap.core.Tween | undefined;
   let progressTween: gsap.core.Tween | undefined;
 
-  // With non-scaling strokes, dash lengths are screen pixels, even in a scaled SVG.
-  const pathLength = (path: SVGPathElement) => {
-    const rect = path.getBoundingClientRect();
-    return Math.hypot(rect.width, rect.height) || path.getTotalLength();
-  };
-
   const stopTimer = () => {
     window.clearInterval(interval);
     interval = undefined;
@@ -59,17 +53,8 @@ function initWorkflow() {
 
   function updateProgress(animate: boolean) {
     progressTween?.kill();
-    paths.forEach(path => { path.style.strokeDasharray = String(pathLength(path)); });
-    if (animate && !reduced.matches) {
-      progressTween = gsap.to(paths, {
-        strokeDashoffset: (_order: number, path: SVGPathElement) => Number(path.dataset.workflowSegment) < index ? 0 : pathLength(path),
-        duration: 0.48,
-        ease: 'power2.out',
-        overwrite: true,
-      });
-    } else {
-      paths.forEach(path => { path.style.strokeDashoffset = Number(path.dataset.workflowSegment) < index ? '0' : String(pathLength(path)); });
-    }
+    if(animate&&!reduced.matches)progressTween=gsap.to(paths,{opacity:(_order:number,path:SVGPathElement)=>Number(path.dataset.workflowSegment)<index?1:0,duration:.48,ease:'power2.out',overwrite:true});
+    else paths.forEach(path=>{path.style.opacity=Number(path.dataset.workflowSegment)<index?'1':'0';});
   }
 
   const select = (next: number, manual = false) => {
@@ -161,13 +146,12 @@ function initWorkflow() {
   const media = gsap.matchMedia();
   media.add('(prefers-reduced-motion: no-preference)', () => {
     gsap.fromTo(root.querySelectorAll('[data-workflow-route]'), {
-      strokeDasharray: (_order: number, path: SVGPathElement) => pathLength(path),
-      strokeDashoffset: (_order: number, path: SVGPathElement) => pathLength(path),
+      opacity: 0,
     }, {
-      strokeDashoffset: 0,
+      opacity: 1,
       duration: 1.02,
       ease: 'power2.out',
-      clearProps: 'strokeDasharray,strokeDashoffset',
+      clearProps: 'opacity',
       scrollTrigger: { trigger: root, start: 'top 88%', once: true },
     });
   }, root);
@@ -185,7 +169,7 @@ function initWorkflow() {
     panelTween?.kill();
     progressTween?.kill();
     media.revert();
-    paths.forEach(path => { path.style.removeProperty('stroke-dashoffset'); path.style.removeProperty('stroke-dasharray'); });
+    paths.forEach(path => { path.style.removeProperty('opacity'); });
     tabs.forEach((tab, position) => {
       tab.classList.toggle('is-active', position === 0);
       ['role', 'aria-selected', 'aria-controls', 'tabindex'].forEach(attribute => tab.removeAttribute(attribute));
@@ -202,8 +186,4 @@ function initWorkflow() {
   };
 }
 
-initWorkflow();
-document.addEventListener('astro:page-load', initWorkflow);
-document.addEventListener('astro:before-swap', disposeWorkflow);
-window.addEventListener('pagehide', disposeWorkflow);
-window.addEventListener('pageshow', event => { if (event.persisted) initWorkflow(); });
+export function mountCrmWorkflow(){initWorkflow();return()=>{disposeWorkflow();};}

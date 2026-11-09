@@ -1,0 +1,30 @@
+import type { Locale } from '../content';
+import { crmSupplementContent } from '../content/portfolio-pages';
+import Icon from './Icon';
+interface Props {
+    locale: Locale;
+}
+export default function CrmModuleGrid(props: Props) {
+    const { locale } = props;
+    const t = crmSupplementContent[locale].modules;
+    return (<>
+    <section className="ox-crm-modules ox-container" id="crm-modules" aria-labelledby="crm-modules-title">
+  <div className="ox-crm-section-heading">
+    <p className="ox-page-kicker">{t.eyebrow}</p>
+    <h2 id="crm-modules-title">{t.title}</h2>
+    <p>{t.intro}</p>
+  </div>
+  <div className="ox-crm-module-grid">
+    {t.items.map((module, _index) => <article key={_index} className="ox-crm-module-card" data-crm-feature>
+      <span className="ox-feature-icon" aria-hidden="true">
+        {module.icon === 'phone' || module.icon === 'shield' ? <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          {module.icon === 'phone' ? <path d="M5 3h4l2 5-3 2a12 12 0 0 0 6 6l2-3 5 2v4C12 20 4 12 5 3Z"/> : <><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><path d="m8 12 3 3 5-6"/></>}
+        </svg> : <Icon name={module.icon} size={28}/>}
+      </span>
+      <h3>{module.title}</h3>
+      <p>{module.description}</p>
+    </article>)}
+  </div>
+    </section>
+    </>);
+}

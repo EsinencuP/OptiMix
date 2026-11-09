@@ -1,33 +1,33 @@
-# Optimix website prototype
+# Optimix — React + Next.js
 
-An Astro site in English, Romanian and Russian. The redesigned site presents business process automation across HR, documents, CRM, ERP, procurement, forecasting and analytics. It follows the approved desktop and mobile mockups in `docs/redesign-2026-10-06/mockups/`. One illustrative procurement request shows five handoffs. Each handoff opens a separate module page that explains the manual task, proposed mechanism, human responsibility, inputs, exception path and recorded result. A local interactive demo shows the normal route and a missing-budget-code exception.
+React 19.3.1 + Next.js 16.4.5 App Router site in English, Romanian and Russian. The approved graphite/teal/olive palette, hosted Roboto, hero composition, six-product portfolio and illustrative procurement simulator are preserved. See [the current project guide](docs/PROJECT_GUIDE.md) and [migration report](docs/next-migration-2026-11-09/REPORT.md).
 
 ## Run locally
 
-Requires Node.js 22.12 or newer.
+Requires Node.js **24.x**. Local address: `http://127.0.0.1:4322/ru/`; other languages: `/en/`, `/ro/`.
 
 ```powershell
-npm install
+npm ci
 npm run dev
 ```
 
-For a static build:
+For a production build and preview:
 
 ```powershell
 npm run check
 npm run lint
 npm run build
-npm run preview
+npm run start
 ```
 
-EN routes: `/`, `/projects/procurement/`, `/solutions/{intake,budget,approval,erp,visibility}/`, `/demo/procurement/`, `/contact/`, `/privacy/`. RO and RU use `/ro/` and `/ru/` prefixes. The 33 built pages (30 main routes plus three 404 pages) are currently `noindex`. Copy shared by inner pages is in src/content/site-redesign.ts. Homepage copy is in `src/content/home-redesign.ts`; project, modules and demo copy is in `src/content/portfolio.ts`; contact and privacy copy remains in `src/content/en.ts`, `ro.ts` and `ru.ts`.
+Run `npm run test:site` in a second terminal against the production preview (Google Chrome required; SITE_QA_URL overrides the server). The suite covers all 72 localized pages at five widths and their interactive flows. All languages use `/en`, `/ro` or `/ru`; old English addresses permanently redirect to `/en`. The route manifest and metadata are in `src/lib/routes.ts`; page rendering is in `src/app/[locale]/[[...segments]]/page.tsx`. Canonical/hreflang include locale prefixes; noindex is preserved.
 
 The procurement and other homepage UI scenes and the browser demo are illustrative. They are not verified client work, measured outcomes or live ERP integration. The browser demo does not submit data. The contact page downloads a local text draft of a process brief; it does not submit or store the entered fields. The privacy pages are placeholders until the legal operator and policy are confirmed. Keep `noindex` until those facts, a real inquiry channel and verified portfolio material are supplied.
 
-All pages share the approved Roboto, white/mint/emerald design through BaseLayout, SiteHeader and SiteFooter. Active styles: tokens.css, global.css, home-redesign.css, site-pages.css and demo-projects.css. The old home.css, inner.css, portfolio.css and generated CSS are inactive historical sources; their build hooks have been removed. Current architecture, tokens, routes, states and acceptance rules are in [the project guide](./docs/PROJECT_GUIDE.md). Earlier browser scripts and reports describe the previous composition.
+Most components render on the server. BaseLayout.tsx, SiteHeader.tsx and SiteFooter.tsx share the graphite visual system. Radix owns Services/FAQ, Motion owns hero/step effects, Lucide supplies common icons and native React ViewTransition handles page changes. Complex CRM/ERP diagrams retain isolated GSAP. SiteRuntime effects mount and dispose route-specific enhancements; no Astro runtime remains. `src/app/site.css` defines the active stylesheet order. Legacy home.css/inner.css/portfolio.css remain inactive historical sources.
 
 When a production origin is confirmed, set `PUBLIC_SITE_URL` to emit absolute language alternates.
 
 Approved visual-fidelity rule: [AGENTS.md](./AGENTS.md), [design document](./docs/redesign-2026-10-06/DESIGN_DOCUMENT.md), [browser comparison report](./design-qa.md).
 
-Демо-проекты главной: Cherryli, Budget, Aprobery, ERP, Steer и All-in-one CRM. Компоненты `DemoProjectGallery.astro` и `DemoProjectPreview.astro`, локализованные тексты `src/content/demo-projects.ts`, стили `src/styles/demo-projects.css`. Ссылки на `/demo/procurement/?step=<module>` открывают выбранный шаг локального сценария. Последняя проверка и скриншоты: `docs/redesign-2026-10-06/demo-projects/`.
+Портфолио: AI PDF Editor, Evo ERP, Commerce Operations, Founder Workspace, Recruiting Workspace, CRM Portfolio; canonical demo/GitHub URL — в portfolio-catalog.ts. Примеры на главной и страницах услуг — заглушки до README, без прежнего сопоставления проектов направлениям. Опубликованных реквизитов нет; отдельным демо передано [требование беспарольного выбора ролей](docs/revision-2026-11-09/DEMO_PLATFORM_HANDOFF.md). vercel.json фиксирует preset nextjs поверх прежней настройки Astro, сохраняя домен.

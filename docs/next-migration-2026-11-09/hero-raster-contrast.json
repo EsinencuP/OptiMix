@@ -1,0 +1,302 @@
+[
+  {
+    "text": "Описать задачу",
+    "minimum": 4.736,
+    "point": {
+      "foreground": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "x": 92,
+      "background": [
+        75,
+        124,
+        116
+      ],
+      "y": 758
+    },
+    "locale": "ru",
+    "width": 1440
+  },
+  {
+    "text": "Описать задачу",
+    "minimum": 4.736,
+    "point": {
+      "foreground": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "x": 50,
+      "background": [
+        75,
+        124,
+        116
+      ],
+      "y": 611
+    },
+    "locale": "ru",
+    "width": 1024
+  },
+  {
+    "text": "Посмотреть пример",
+    "minimum": 4.525,
+    "point": {
+      "foreground": [
+        246.0,
+        248.0,
+        247.0
+      ],
+      "x": 376,
+      "background": [
+        99,
+        117,
+        121
+      ],
+      "y": 567
+    },
+    "locale": "ru",
+    "width": 768
+  },
+  {
+    "text": "между командами и системами",
+    "minimum": 4.724,
+    "point": {
+      "foreground": [
+        193.0,
+        232.0,
+        223.0
+      ],
+      "x": 176,
+      "background": [
+        87,
+        98,
+        106
+      ],
+      "y": 222
+    },
+    "locale": "ru",
+    "width": 390
+  },
+  {
+    "text": "между командами и системами",
+    "minimum": 4.614,
+    "point": {
+      "foreground": [
+        193.0,
+        232.0,
+        223.0
+      ],
+      "x": 100,
+      "background": [
+        87,
+        100,
+        107
+      ],
+      "y": 217
+    },
+    "locale": "ru",
+    "width": 320
+  },
+  {
+    "text": "Describe your task",
+    "minimum": 4.736,
+    "point": {
+      "foreground": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "x": 92,
+      "background": [
+        75,
+        124,
+        116
+      ],
+      "y": 758
+    },
+    "locale": "en",
+    "width": 1440
+  },
+  {
+    "text": "Describe your task",
+    "minimum": 4.736,
+    "point": {
+      "foreground": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "x": 50,
+      "background": [
+        75,
+        124,
+        116
+      ],
+      "y": 611
+    },
+    "locale": "en",
+    "width": 1024
+  },
+  {
+    "text": "See an example",
+    "minimum": 4.708,
+    "point": {
+      "foreground": [
+        246.0,
+        248.0,
+        247.0
+      ],
+      "x": 344,
+      "background": [
+        97,
+        114,
+        119
+      ],
+      "y": 504
+    },
+    "locale": "en",
+    "width": 768
+  },
+  {
+    "text": "between teams and systems",
+    "minimum": 4.614,
+    "point": {
+      "foreground": [
+        193.0,
+        232.0,
+        223.0
+      ],
+      "x": 128,
+      "background": [
+        87,
+        100,
+        107
+      ],
+      "y": 234
+    },
+    "locale": "en",
+    "width": 390
+  },
+  {
+    "text": "between teams and systems",
+    "minimum": 4.614,
+    "point": {
+      "foreground": [
+        193.0,
+        232.0,
+        223.0
+      ],
+      "x": 94,
+      "background": [
+        87,
+        100,
+        107
+      ],
+      "y": 217
+    },
+    "locale": "en",
+    "width": 320
+  },
+  {
+    "text": "Descrie sarcina",
+    "minimum": 4.736,
+    "point": {
+      "foreground": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "x": 92,
+      "background": [
+        75,
+        124,
+        116
+      ],
+      "y": 758
+    },
+    "locale": "ro",
+    "width": 1440
+  },
+  {
+    "text": "Descrie sarcina",
+    "minimum": 4.736,
+    "point": {
+      "foreground": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "x": 50,
+      "background": [
+        75,
+        124,
+        116
+      ],
+      "y": 587
+    },
+    "locale": "ro",
+    "width": 1024
+  },
+  {
+    "text": "Vezi un exemplu",
+    "minimum": 4.714,
+    "point": {
+      "foreground": [
+        246.0,
+        248.0,
+        247.0
+      ],
+      "x": 331,
+      "background": [
+        97,
+        114,
+        118
+      ],
+      "y": 504
+    },
+    "locale": "ro",
+    "width": 768
+  },
+  {
+    "text": "Descrie sarcina",
+    "minimum": 4.736,
+    "point": {
+      "foreground": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "x": 57,
+      "background": [
+        75,
+        124,
+        116
+      ],
+      "y": 860
+    },
+    "locale": "ro",
+    "width": 390
+  },
+  {
+    "text": "Descrie sarcina",
+    "minimum": 4.736,
+    "point": {
+      "foreground": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "x": 41,
+      "background": [
+        75,
+        124,
+        116
+      ],
+      "y": 787
+    },
+    "locale": "ro",
+    "width": 320
+  }
+]

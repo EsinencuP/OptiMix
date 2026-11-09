@@ -9,8 +9,8 @@ export const content = { en, ro, ru };
 export const locales: Locale[] = ['en', 'ro', 'ru'];
 
 export function pathFor(locale: Locale, page: PageKind, slug?: string): string {
-  const prefix = locale === 'en' ? '' : `/${locale}`;
-  if (page === 'not-found') return locale === 'en' ? '/404.html' : `${prefix}/404/`;
+  const prefix = `/${locale}`;
+  if (page === 'not-found') return `${prefix}/404/`;
   if (page === 'home') return `${prefix}/`;
   if (page === 'demo') return `${prefix}/demo/procurement/`;
   if (page === 'project') return `${prefix}/projects/procurement/`;

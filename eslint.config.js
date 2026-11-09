@@ -1,17 +1,10 @@
 import js from '@eslint/js';
-import astro from 'eslint-plugin-astro';
 import tseslint from 'typescript-eslint';
+import hooks from 'eslint-plugin-react-hooks';
 import globals from 'globals';
-
 export default [
-  { ignores: ['dist/**', '.astro/**', 'node_modules/**', 'artifacts/**'] },
-  {
-    ...js.configs.recommended,
-    files: ['astro.config.mjs', 'eslint.config.js', 'experiments/verify-motion.mjs', 'experiments/audit-hero-contrast.mjs', 'experiments/verify-css-delivery.mjs', 'scripts/split-home-css.mjs'],
-    languageOptions: { globals: { ...globals.browser, ...globals.node } },
-  },
-  ...tseslint.configs.recommended.map((config) => ({ ...config, files: ['src/**/*.ts'] })),
-  { files: ['src/**/*.ts'], languageOptions: { globals: globals.browser } },
-  ...astro.configs.recommended,
-  ...astro.configs['jsx-a11y-recommended'],
+ {ignores:['.next/**','.astro/**','dist/**','out/**','node_modules/**','artifacts/**']},
+ {...js.configs.recommended,files:['eslint.config.js'],languageOptions:{globals:globals.node}},
+ ...tseslint.configs.recommended.map(config=>({...config,files:['src/**/*.{ts,tsx}','next.config.ts']})),
+ {files:['src/**/*.{ts,tsx}','next.config.ts'],languageOptions:{globals:{...globals.browser,...globals.node}},plugins:{'react-hooks':hooks},rules:{...hooks.configs.recommended.rules,'@typescript-eslint/no-unused-vars':['error',{argsIgnorePattern:'^_',varsIgnorePattern:'^_'}]}},
 ];

@@ -1,4 +1,18 @@
-# Approved site-wide redesign
+# Current architecture — React + Next.js (2026-11-09)
+
+The owner explicitly confirmed migration of the **entire site to React + Next.js**. Active pages/components now use App Router and native TSX. The historical Astro file names and lifecycle instructions below are superseded; preserve their approved composition and behavior through the React implementation. Current architecture is documented in PROJECT_GUIDE v4.0 and docs/next-migration-2026-11-09/REPORT.md.
+
+Latest brief: docs/next-migration-2026-11-09/OWNER_BRIEF.md. Every language has an explicit /en, /ro or /ru prefix; preserve permanent redirects from earlier English URLs, canonical/hreflang and valid demo ?step= links. Use the centralized path helpers.
+
+Homepage example slots and **every service-page example** are now placeholders with neutral copy and a screenshot placeholder. This supersedes the former real PDF/ERP captures on the homepage and the former service/project mapping. Select and describe service projects later from README evidence. Preserve all six portfolio products, their existing detailed pages and canonical links; the three agreed catalogue drafts remain drafts.
+
+Use Radix Navigation Menu/Accordion for Services and FAQ, Motion for hero/step effects, Lucide for common icons and native React ViewTransition for page transitions. Existing complex CRM/ERP diagrams retain isolated GSAP. Respect reduced motion, keyboard/touch, no-JS fallbacks and the original physical portfolio deck. No new service overview page. Teal remains the primary action accent within the approved graphite/teal/olive palette; new spacing uses the 8px scale without changing approved fractional artboard geometry.
+
+Server Components are the default. BaseLayout.tsx, SiteHeader.tsx and SiteFooter.tsx remain common. SiteRuntime React effects own route-specific diagram/deck/chart mount/dispose, cancel stale async setup and handle pagehide/pageshow. Do not reconnect Astro runtime or legacy styles/scripts.
+
+Run npm run check, npm run lint, npm run build and npm run test:site against a running production preview. Browser screenshots and visual comparison remain required; a successful build alone is insufficient. The suite covers all 72 localized pages at five widths plus navigation, redirects, metadata, placeholders, physical deck, brief download, simulator, hero, reduced motion and no-JS. Record actual evidence and concrete limits. vercel.json sets framework nextjs and overrides the prior Astro project preset; verify exact-commit deployment status and the main domain after push.
+
+# Historical approved redesign decisions
 
 The owner approved the visual mockups on 2026-10-06 and requested that the homepage reproduce their composition 1:1. For all homepage work, treat the approved images as the visual source of truth:
 - `docs/redesign-2026-10-06/mockups/optimix-desktop-full.png`

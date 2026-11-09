@@ -1,0 +1,34 @@
+import Icon from './Icon';
+import { demoProjects, demoProjectNames } from '../content/demo-projects';
+import type { Locale } from '../content';
+import type { ModuleSlug } from '../content/portfolio';
+import { cx } from '../lib/ui';
+interface Props {
+    locale: Locale;
+    kind: ModuleSlug | 'crm';
+}
+export default function DemoProjectPreview(props: Props) {
+    const { locale, kind } = props;
+    const t = demoProjects(locale);
+    const u = t.ui;
+    const name = kind === 'crm' ? t.allInOne.name : demoProjectNames[kind];
+    const thousands = (amount: number) => {
+        const value = new Intl.NumberFormat({ ru: 'ru-RU', en: 'en-GB', ro: 'ro-RO' }[locale], {
+            maximumFractionDigits: 1,
+        }).format(amount / 1000);
+        return locale === 'en' ? `€${value}k` : `${value}\u00a0${locale === 'ru' ? 'тыс. €' : 'mii €'}`;
+    };
+    return (<>
+    <figure className={cx(['ox-project-preview', 'ox-project-preview-' + kind])} aria-label={name + ' — ' + t.demo}>
+  <div className="ox-preview-bar"><span className="ox-preview-app"><img src="/images/redesign/brand-mark-graphite.svg" alt="" width="14" height="14"/><strong translate="no">{name}</strong></span><span className="ox-preview-demo">{t.demo}</span><Icon name="dots-three-vertical" size={17}/></div>
+  <div className="ox-preview-body">
+    {kind === 'intake' && <><div className="ox-preview-heading"><Icon name="file-text" size={21}/><strong>{u.newRequest}</strong><span className="ox-preview-ref">#REQ-024</span></div><div className="ox-preview-form"><div><span>{u.department}</span><strong>{u.operations}</strong></div><div><span>{u.owner}</span><strong>{u.team}</strong></div></div><div className="ox-preview-file"><Icon name="file-pdf" size={23}/><span>Specification.pdf</span><Icon name="check-circle-fill" size={18}/></div><p className="ox-preview-status"><Icon name="check-circle" size={17}/>{u.ready}</p></>}
+    {kind === 'budget' && <><div className="ox-preview-heading"><Icon name="database" size={21}/><strong>{u.budget}</strong></div><dl className="ox-preview-budget"><div><dt>{u.available}</dt><dd>{thousands(24000)}</dd></div><div><dt>{u.amount}</dt><dd>− {thousands(8400)}</dd></div><div><dt>{u.balance}</dt><dd>{thousands(15600)}</dd></div></dl><p className="ox-preview-status"><Icon name="check-circle" size={17}/>{u.passed}</p></>}
+    {kind === 'approval' && <><div className="ox-preview-heading"><Icon name="check-square" size={21}/><strong>{u.approval}</strong></div><ol className="ox-preview-approvals">{[u.finance, u.manager, u.purchasing].map((label, i) => <li key={i} className={cx([i === 1 && 'is-current'])}><Icon name={i === 0 ? 'check-circle-fill' : i === 1 ? 'radio-button' : 'circle-muted'} size={24}/><div><strong>{label}</strong><span>{[u.approved, u.pending, u.next][i]}</span></div>{i === 1 && <span className="ox-preview-person">AM</span>}</li>)}</ol></>}
+    {kind === 'erp' && <><div className="ox-preview-heading"><Icon name="gear" size={21}/><strong>{u.transfer}</strong></div><div className="ox-preview-transfer"><div><span>{u.source}</span><strong>REQ-024</strong><small>{u.request}</small></div><Icon name="arrow-right" size={23}/><div><span>{u.order}</span><strong>ERP-1082</strong><small>{thousands(8400)}</small></div></div><ul className="ox-preview-checks"><li><Icon name="check-circle-fill" size={17}/>{u.matched}</li><li><Icon name="check-circle-fill" size={17}/>{u.linked}</li></ul></>}
+    {kind === 'visibility' && <><div className="ox-preview-heading"><Icon name="chart-bar" size={21}/><strong>{u.overview}</strong></div><p className="ox-preview-current"><span className="ox-preview-dot"></span>{u.current}</p><ol className="ox-preview-timeline">{u.timeline.map((event, i) => <li key={i}><span>{['09:00', '09:04', '09:10'][i]}</span><Icon name={i < 2 ? 'check-circle-fill' : 'radio-button'} size={18}/><strong>{event}</strong></li>)}</ol></>}
+    {kind === 'crm' && <div className="ox-preview-crm"><aside><strong>{u.crm}</strong><ul>{['Cherryli', 'Budget', 'Aprobery', 'ERP', 'Steer'].map((label, i) => <li key={i}><Icon name={['file-text', 'database', 'check-square', 'gear', 'chart-bar'][i]} size={17}/><span translate="no">{label}</span></li>)}</ul></aside><div className="ox-preview-crm-main"><div className="ox-preview-heading"><strong>{u.pipeline}</strong><Icon name="dots-three-vertical" size={17}/></div><table><thead><tr><th scope="col">{u.deal}</th><th scope="col">{u.status}</th><th scope="col">{u.responsible}</th></tr></thead><tbody>{u.items.map((item, i) => <tr key={i}><th scope="row">{item}</th><td><span className="ox-preview-table-status">{u.stages[i]}</span></td><td>{u.teams[i]}</td></tr>)}</tbody></table><p className="ox-preview-context"><Icon name="check-circle-fill" size={20}/><span><strong>{u.context}</strong>{u.connected}</span></p></div></div>}
+  </div>
+    </figure>
+    </>);
+}

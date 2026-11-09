@@ -1,11 +1,3 @@
-export {};
-
-declare global {
-  interface Window {
-    __optimixBriefDownloadBound?: boolean;
-  }
-}
-
 function downloadBrief(builder: HTMLElement) {
   const fields = [...builder.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[data-brief-field]')];
   const heading = builder.dataset.title ?? 'Process brief';
@@ -26,20 +18,11 @@ function downloadBrief(builder: HTMLElement) {
   if (status) status.textContent = builder.dataset.downloadNotice ?? '';
 }
 
-function enableBriefDownload() {
-  document.querySelectorAll<HTMLButtonElement>('[data-download-brief]').forEach((button) => {
-    if (button.dataset.briefDownloadReady === 'true') return;
-    const builder = button.closest<HTMLElement>('[data-brief-builder]');
-    if (!builder) return;
-    button.addEventListener('click', () => downloadBrief(builder));
-    button.dataset.briefDownloadReady = 'true';
-    button.disabled = false;
-  });
+export function mountBriefDownload() {
+ const controller=new AbortController();
+ document.querySelectorAll<HTMLButtonElement>('[data-download-brief]').forEach(button=>{
+  const builder=button.closest<HTMLElement>('[data-brief-builder]');if(!builder)return;
+  button.addEventListener('click',()=>downloadBrief(builder),{signal:controller.signal});button.disabled=false;
+ });
+ return()=>controller.abort();
 }
-
-if (!window.__optimixBriefDownloadBound) {
-  document.addEventListener('astro:after-swap', enableBriefDownload);
-  document.addEventListener('astro:page-load', enableBriefDownload);
-  window.__optimixBriefDownloadBound = true;
-}
-enableBriefDownload();

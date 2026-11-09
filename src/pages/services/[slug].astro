@@ -1,7 +1,0 @@
----
-import ServicePage from "../../components/ServicePage.astro";
-import {serviceSlugs} from "../../content/services";
-export function getStaticPaths() { return serviceSlugs.map(slug=>({params:{slug}})); }
-const {slug}=Astro.params;
----
-<ServicePage locale="en" slug={slug!}/>

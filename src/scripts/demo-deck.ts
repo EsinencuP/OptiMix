@@ -1,3 +1,4 @@
+import {animate,type AnimationPlaybackControls} from 'motion';
 type DeckCard = {
   element: HTMLElement;
   front: HTMLElement;
@@ -23,6 +24,17 @@ function setupDeck(root: HTMLElement): () => void {
   const controller = new AbortController();
   const options = { signal: controller.signal };
   const hover = window.matchMedia('(hover: hover) and (pointer: fine)');
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const resizes = new Map<HTMLElement,AnimationPlaybackControls>();
+  let renderedSelection: DeckCard | undefined;
+  const measure = (element:HTMLElement) => {
+    const style=getComputedStyle(element),rect=element.getBoundingClientRect();
+    return {width:parseFloat(style.width),height:parseFloat(style.height),x:rect.x+rect.width/2,y:rect.y+rect.height/2,matrix:new DOMMatrix(style.transform)};
+  };
+  const clearResize = (element:HTMLElement) => {
+    resizes.get(element)?.cancel();resizes.delete(element);
+    element.style.removeProperty('transform');element.style.removeProperty('transition');
+  };
   const revealControls = [...root.querySelectorAll<HTMLButtonElement>('[data-deck-reveal]')];
   const selectors = [...root.querySelectorAll<HTMLButtonElement>('[data-deck-select]')];
   const originalVisibility = new Map<HTMLElement, { hidden: HTMLElement['hidden']; inert: boolean; ariaHidden: string | null }>();
@@ -42,6 +54,12 @@ function setupDeck(root: HTMLElement): () => void {
   };
 
   const render = () => {
+    const changing = renderedSelection !== selected;
+    const before = changing ? new Map(cards.map(card=>[card.element,measure(card.element)])) : undefined;
+    if(changing){
+      renderedSelection=selected;
+      cards.forEach(({element})=>{clearResize(element);element.style.transition='none';});
+    }
     const expanded = pointerInside || focusInside || Boolean(selected);
     root.classList.toggle('is-expanded', expanded);
     root.classList.toggle('has-open-card', Boolean(selected));
@@ -66,6 +84,20 @@ function setupDeck(root: HTMLElement): () => void {
         show(control, open);
         if (control.hasAttribute('data-deck-flip')) control.setAttribute('aria-pressed', String(reverse));
       });
+    });
+    if(before)cards.forEach(({element})=>{
+      const old=before.get(element)!,next=measure(element);
+      if(reduced.matches||(old.width===next.width&&old.height===next.height)){
+        element.style.removeProperty('transition');return;
+      }
+      // FLIP preserves the visual rectangle while layout takes its final size.
+      // Only the transform matrix interpolates; width/height never animate.
+      const sx=old.width/next.width,sy=old.height/next.height,m=old.matrix,n=next.matrix;
+      const initial=`matrix(${m.a*sx},${m.b*sx},${m.c*sy},${m.d*sy},${old.x-next.x+n.e},${old.y-next.y+n.f})`;
+      const target=n.toString();
+      const animation=animate(element,{transform:[initial,target]},{duration:.42,ease:[.22,.8,.25,1]});
+      resizes.set(element,animation);
+      void animation.finished.then(()=>{if(resizes.get(element)===animation)clearResize(element);},()=>{});
     });
   };
 
@@ -192,6 +224,7 @@ function setupDeck(root: HTMLElement): () => void {
   render();
   return () => {
     controller.abort();
+    cards.forEach(({element})=>clearResize(element));
     root.classList.remove('is-ready', 'is-expanded', 'has-open-card');
     cards.forEach((card) => {
       card.element.classList.remove('is-open', 'is-flipped');
@@ -214,6 +247,4 @@ function initDecks() {
   cleanup = () => disposers.forEach((dispose) => dispose());
 }
 
-initDecks();
-document.addEventListener('astro:page-load', initDecks);
-document.addEventListener('astro:before-swap', () => { cleanup?.(); cleanup = undefined; });
+export function mountDecks(){initDecks();return()=>{cleanup?.(); cleanup=undefined;};}

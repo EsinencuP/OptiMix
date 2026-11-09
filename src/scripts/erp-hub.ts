@@ -185,8 +185,4 @@ function initHub() {
     delete root.dataset.hubEnhanced;
   };
 }
-initHub();
-document.addEventListener('astro:page-load', initHub);
-document.addEventListener('astro:before-swap', disposeHub);
-window.addEventListener('pagehide', disposeHub);
-window.addEventListener('pageshow', event => { if (event.persisted) initHub(); });
+export function mountErpHub(){initHub();return()=>{disposeHub();};}

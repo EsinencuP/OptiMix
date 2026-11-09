@@ -19,8 +19,4 @@ function initErpMotion() {
   }, root);
   cleanup = () => media.revert();
 }
-initErpMotion();
-document.addEventListener('astro:page-load', initErpMotion);
-document.addEventListener('astro:before-swap', disposeErpMotion);
-window.addEventListener('pagehide', disposeErpMotion);
-window.addEventListener('pageshow', event => { if (event.persisted) initErpMotion(); });
+export function mountErpMotion(){initErpMotion();return()=>{disposeErpMotion();};}
