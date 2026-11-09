@@ -4,7 +4,6 @@ import SiteHeader from './SiteHeader.astro';
 import SiteFooter from './SiteFooter.astro';
 import Visual from './CatalogVisual.astro';
 import Icon from './RedesignIcon.astro';
-import DemoAccess from './DemoAccess.astro';
 import {portfolioCatalog,portfolioUI} from '../content/portfolio-catalog';
 import type {Locale} from '../content';
 import '../styles/portfolio-pages.css';
@@ -18,9 +17,9 @@ const projects=portfolioCatalog(locale),t=portfolioUI(locale);
   <main id="main" class="ox-catalog">
     <section class="ox-catalog-index-hero" id="top"><div class="ox-container"><p class="ox-page-kicker">{t.count}</p><h1>{t.title}</h1><p>{t.intro}</p></div></section>
     <div class="ox-container ox-catalog-index-grid">
-      {projects.map((project,index)=><article class="ox-catalog-index-card" data-portfolio-project={project.slug}>
+      {projects.map(project=><article class="ox-catalog-index-card" data-portfolio-project={project.slug}>
         <a class="ox-catalog-index-visual-link" href={project.projectHref} aria-label={`${t.open} — ${project.fullName}`}><Visual project={project} locale={locale} compact /></a>
-        <div class="ox-catalog-index-copy"><p class="ox-catalog-index-category"><span>{project.category}</span><span>0{index+1}</span></p><h2 translate="no"><a href={project.projectHref}>{project.name}</a></h2><p>{project.headline}</p>{project.draft && <span class="ox-catalog-status">{t.draft}</span>}<DemoAccess locale={locale} slug={project.slug} idPrefix={`catalog-access-${project.slug}`} compact /><div class="ox-catalog-index-links"><a href={project.projectHref}>{t.open}<Icon name="arrow-right" size={17} /></a><a href={project.demo}>{t.demo}</a><a href={project.github}>GitHub</a></div></div>
+        <div class="ox-catalog-index-copy"><p class="ox-catalog-index-category"><span>{project.category}</span></p><h2 translate="no"><a href={project.projectHref}>{project.name}</a></h2><p>{project.headline}</p>{project.draft && <span class="ox-catalog-status">{t.draft}</span>}<div class="ox-catalog-index-links"><a href={project.projectHref}>{t.open}<Icon name="arrow-right" size={17} /></a><a href={project.demo}>{t.demo}</a><a href={project.github}>GitHub</a></div></div>
       </article>)}
     </div>
   </main>

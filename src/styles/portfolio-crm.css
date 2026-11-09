@@ -132,7 +132,6 @@
 .ox-feature-card-top { display: flex; align-items: center; justify-content: space-between; gap: var(--portfolio-space-3); }
 .ox-feature-icon { display: inline-flex; align-items: center; justify-content: center; width: var(--portfolio-space-6); height: var(--portfolio-space-6); border-radius: var(--radius-control); background: var(--color-wash); color: var(--color-accent); }
 .ox-feature-card:first-child .ox-feature-icon { background: var(--color-paper); }
-.ox-feature-number { color: var(--color-muted); font-size: var(--portfolio-caption-size); font-variant-numeric: tabular-nums; }
 .ox-crm-page .ox-feature-card h3 { margin-top: var(--portfolio-space-4); font-size: var(--portfolio-card-title-size); line-height: 1.2; }
 .ox-feature-card > p { margin-top: var(--portfolio-space-2); max-width: 60ch; font-size: var(--portfolio-body-size); color: var(--color-muted); line-height: 1.6; }
 .ox-crm-page > .ox-page-content { padding-block: var(--portfolio-space-6); }
@@ -143,8 +142,6 @@
 .ox-crm-page .ox-crm-module-card h3 { margin-top: var(--portfolio-space-4); font-size: var(--portfolio-card-title-size); line-height: 1.25; }
 .ox-crm-module-card > p { margin-top: var(--portfolio-space-2); color: var(--color-muted); font-size: var(--portfolio-body-size); line-height: 1.6; }
 
-.ox-crm-demo-access { padding: var(--portfolio-space-5); border: var(--border-hairline); border-radius: var(--portfolio-card-radius); background: var(--color-paper); box-shadow: var(--shadow-subtle); }
-.ox-crm-page .ox-crm-demo-access h3 { font-size: var(--portfolio-card-title-size); line-height: 1.25; }
 .ox-crm-access-intro { margin-top: var(--portfolio-space-2); font-size: var(--portfolio-body-size); color: var(--color-muted); line-height: 1.5; }
 .ox-crm-access-fields { display: grid; gap: var(--portfolio-space-3); margin-top: var(--portfolio-space-4); }
 .ox-crm-access-field label { display: block; font-size: var(--portfolio-label-size); font-weight: 650; }
@@ -191,7 +188,7 @@
 
 @media (max-width: 640px) {
   .ox-crm-module-grid { grid-template-columns: minmax(0, 1fr); gap: var(--portfolio-space-3); margin-top: var(--portfolio-space-5); }
-  .ox-crm-module-card, .ox-crm-demo-access { padding: var(--portfolio-space-4); }
+  .ox-crm-module-card { padding: var(--portfolio-space-4); }
   .ox-crm-access-value button { width: var(--portfolio-space-6); }
   .ox-crm-access-value button span { display: none; }
   .ox-crm-cta { padding: var(--portfolio-space-4); }

@@ -1,0 +1,15 @@
+---
+import {type Locale} from '../content';
+import {portfolioCatalog} from '../content/portfolio-catalog';
+import {serviceUI} from '../content/services';
+import Icon from './RedesignIcon.astro';
+interface Props {locale:Locale}
+const {locale}=Astro.props;
+const s=(ru:string,en:string,ro:string)=>({ru,en,ro})[locale];
+const products=portfolioCatalog(locale);
+const examples=[
+  {id:'people-documents',slug:'pdf-editor',image:'pdf-workspace',title:s('Правки в документе — с проверкой результата','Edit a document. Review the result.','Editează documentul. Verifică rezultatul.'),points:[s('Текст и изображения в одном PDF-редакторе','Text and images in one PDF editor','Text și imagini într-un singur editor PDF'),s('Предпросмотр изменений до скачивания','Review changes before downloading','Verifică modificările înainte de descărcare'),s('Ручное редактирование локально в браузере','Manual editing locally in your browser','Editare manuală locală în browser')]},
+  {id:'planning-analytics',slug:'erp',image:'erp',title:s('Операции и показатели в Evo ERP','Operations and metrics in Evo ERP','Operațiuni și indicatori în Evo ERP'),points:[s('Dashboard с операционными показателями','Dashboard with operational metrics','Dashboard cu indicatori operaționali'),s('Финансы, склад и CRM в одном продукте','Finance, inventory and CRM in one product','Finanțe, stocuri și CRM într-un produs'),s('Отдельные модули HR и Projects','Dedicated HR and Projects modules','Module dedicate HR și Projects')]},
+];
+---
+<div class="ox-product-examples">{examples.map(example=>{const project=products.find(item=>item.slug===example.slug)!;return <article id={example.id} class="ox-real-example"><a class="ox-real-screen" href={project.projectHref} aria-label={project.name}><img src={`/images/portfolio/${example.image}.webp`} width="1440" height="1000" loading="lazy" alt={s('Реальный интерфейс','Actual interface','Interfața reală')+' — '+project.name}/><span translate="no">{project.name}</span></a><div class="ox-real-copy"><h2>{example.title}</h2><ul>{example.points.map(point=><li><Icon name="check-circle-fill" size={20}/>{point}</li>)}</ul><a class="ox-text-link" href={project.projectHref}>{serviceUI(locale).open}<Icon name="arrow-right" size={20}/></a></div></article>})}</div>

@@ -4,10 +4,9 @@ import type { PortfolioFeature } from '../content/portfolio-pages';
 
 interface Props {
   feature: PortfolioFeature;
-  index: number;
   wide?: boolean;
 }
-const { feature, index, wide = false } = Astro.props;
+const { feature, wide = false } = Astro.props;
 ---
 
 <article class:list={['ox-feature-card', wide && 'ox-feature-card-wide']} data-crm-feature>
@@ -20,7 +19,6 @@ const { feature, index, wide = false } = Astro.props;
         </svg>
       ) : <Icon name={feature.icon} size={28} />}
     </span>
-    <span class="ox-feature-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
   </div>
   <h3>{feature.title}</h3>
   <p>{feature.description}</p>

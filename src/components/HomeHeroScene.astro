@@ -3,20 +3,21 @@ import Icon from './RedesignIcon.astro';
 import { homeRedesign } from '../content/home-redesign';
 import type { Locale } from '../content';
 import '../styles/hero-scene.css';
+import {heroSheets} from '../content/hero-sheets';
 
 interface Props { locale: Locale }
 const { locale } = Astro.props;
 const t = homeRedesign(locale);
 const scene = t.heroScene;
 const shares = [45, 30, 15, 10];
-const layerIcons = ['database', 'gear', 'users'];
+const sheets=heroSheets(locale);
 ---
-<figure class="ox-hero-scene" aria-label={scene.chartLabel} data-hero-charts>
+<figure class="ox-hero-scene ox-hero-shuffle" aria-label={scene.chartLabel} data-hero-charts data-hero-shuffle>
   <div class="ox-hero-artboard">
     <div class="ox-hero-layers">
-      {scene.layers.map((label, i) => <div class={`ox-hero-layer ox-hero-layer-${i}`}><div class="ox-hero-layer-label"><Icon name={layerIcons[i]} size={24} /><span>{label}</span></div></div>)}
+      {[...sheets.sheets].reverse().map((sheet,i)=><div class={`ox-hero-layer ox-hero-layer-${i}`} data-hero-sheet={sheet.key} data-sheet-order={3-i} data-depth={3-i} aria-hidden="true"><div class="ox-hero-layer-label"><Icon name={sheet.icon} size={24}/><span>{sheet.title}</span></div><div class="ox-sheet-face"><p class="ox-sheet-subtitle">{sheet.subtitle}</p><ul>{sheet.rows.map((row,index)=><li><span class="ox-sheet-symbol"><Icon name={sheet.key==='people'?'users':sheet.key==='processes'?'check-circle-fill':index===0?'circle':index===1?'database':'chart-line-up'} size={28}/></span><span>{row}</span>{index<2&&sheet.key!=='people'&&<Icon class="ox-sheet-connector" name="arrow-right" size={20}/>}</li>)}</ul><p class="ox-sheet-footer"><Icon name="check-circle-fill" size={20}/>{sheet.footer}</p></div></div>)}
     </div>
-    <div class="ox-hero-process">
+    <div class="ox-hero-process" data-hero-sheet="crm" data-sheet-order="0" data-depth="0">
       <div class="ox-hero-process-bar"><p>{t.processLabel}</p><div class="ox-hero-process-dots" aria-hidden="true"><Icon name="circle-muted" class="is-current" size={14} /><Icon name="circle-muted" size={14} /><Icon name="circle-muted" size={14} /></div></div>
       <div class="ox-hero-process-body">
         <div class="ox-hero-crm">
@@ -35,10 +36,12 @@ const layerIcons = ['database', 'gear', 'users'];
       </div>
     </div>
   </div>
+  <div class="ox-hero-switcher" role="group" aria-label={sheets.choose}><button type="button" data-hero-choose="0" aria-pressed="true">CRM</button>{sheets.sheets.map((sheet,i)=><button type="button" data-hero-choose={i+1} aria-pressed="false">{sheet.title}</button>)}<button type="button" data-hero-pause data-pause-label={sheets.pause} data-play-label={sheets.play} aria-label={sheets.pause}><span aria-hidden="true">Ⅱ</span></button></div>
   <figcaption class="ox-hero-chart-a11y">{scene.chartCaption}</figcaption>
 </figure>
 
 <script>
+  import '../scripts/hero-shuffle';
   const chartColors = ['#508179', '#7fa79b', '#485949', '#b3d2c7'];
   let disposeHeroCharts: (() => void) | undefined;
 

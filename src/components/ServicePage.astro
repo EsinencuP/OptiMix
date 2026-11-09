@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SiteHeader from './SiteHeader.astro';
+import SiteFooter from './SiteFooter.astro';
+import GettingStarted from './GettingStarted.astro';
+import Icon from './RedesignIcon.astro';
+import Visual from './CatalogVisual.astro';
+import {servicesFor,serviceUI,type ServiceSlug} from '../content/services';
+import {portfolioCatalog} from '../content/portfolio-catalog';
+import {homeRedesign} from '../content/home-redesign';
+import {pathFor,type Locale} from '../content';
+import '../styles/portfolio-catalog.css';
+interface Props {locale:Locale;slug:ServiceSlug}
+const {locale,slug}=Astro.props;
+const service=servicesFor(locale).find(item=>item.slug===slug)!;
+const project=portfolioCatalog(locale).find(item=>item.slug===service.project)!;
+const t=serviceUI(locale),home=homeRedesign(locale);
+---
+<BaseLayout title={`${service.title} — Optimix`} description={service.description} locale={locale} page="service" slug={slug}>
+<SiteHeader locale={locale} page="service" slug={slug}/>
+<main id="main" class="ox-service-page">
+  <section class="ox-service-hero ox-section" id="top"><div class="ox-container"><a class="ox-text-link" href={pathFor(locale,'home')+'#services'}>{t.label}</a><Icon name={service.icon} size={52}/><h1>{service.title}</h1><p>{service.description}</p><a class="ox-button" href={pathFor(locale,'contact')}>{home.action}<Icon name="arrow-right" size={20}/></a></div></section>
+  <section class="ox-service-scope ox-section"><div class="ox-container"><h2>{t.processes}</h2><p>{t.scope}</p><ul>{service.processes.map(item=><li><Icon name="check-circle-fill" size={26}/><h3>{item}</h3></li>)}</ul></div></section>
+  <section class="ox-service-proof ox-section"><div class="ox-container"><div><p class="ox-eyebrow">{t.example}</p><h2 translate="no">{project.name}</h2><p>{service.exampleNote}</p><a class="ox-button" href={project.projectHref}>{t.open}<Icon name="arrow-right" size={20}/></a></div><Visual project={project} locale={locale}/></div></section>
+  <GettingStarted locale={locale}/>
+  <nav class="ox-service-related ox-container" aria-label={t.related}><h2>{t.related}</h2><div>{servicesFor(locale).filter(item=>item.slug!==slug).map(item=><a href={item.href}>{item.title}<Icon name="arrow-right" size={18}/></a>)}</div></nav>
+  <section class="ox-final ox-section"><div class="ox-container"><h2>{t.cta}</h2><p>{home.startIntro}</p><a class="ox-button" href={pathFor(locale,'contact')}>{home.action}</a></div></section>
+</main><SiteFooter locale={locale} page="service" slug={slug}/>
+</BaseLayout>

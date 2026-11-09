@@ -3,7 +3,7 @@ import { ro } from './ro';
 import { ru } from './ru';
 
 export type Locale = 'en' | 'ro' | 'ru';
-export type PageKind = 'home' | 'contact' | 'privacy' | 'solution' | 'demo' | 'project' | 'portfolio' | 'not-found';
+export type PageKind = 'home' | 'contact' | 'privacy' | 'solution' | 'service' | 'demo' | 'project' | 'portfolio' | 'not-found';
 
 export const content = { en, ro, ru };
 export const locales: Locale[] = ['en', 'ro', 'ru'];
@@ -16,6 +16,10 @@ export function pathFor(locale: Locale, page: PageKind, slug?: string): string {
   if (page === 'project') return `${prefix}/projects/procurement/`;
   if (page === 'portfolio') {
     return slug ? `${prefix}/portfolio/${slug}/` : `${prefix}/portfolio/`;
+  }
+  if (page === 'service') {
+    if (!slug) throw new Error('A service slug is required.');
+    return `${prefix}/services/${slug}/`;
   }
   if (page === 'solution') {
     if (!slug) throw new Error('A solution slug is required.');

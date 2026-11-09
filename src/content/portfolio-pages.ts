@@ -218,7 +218,6 @@ export const erpPageContent: Record<Locale, ErpPageCopy> = {
   },
 };
 
-export const crmDemoCredentials = { email: 'admin@demo.com', password: 'admin123' } as const;
 
 interface CrmSupplementCopy {
   modules: {
@@ -226,11 +225,6 @@ interface CrmSupplementCopy {
     title: string;
     intro: string;
     items: { title: string; description: string; icon: 'file-text' | 'phone' | 'eye' | 'users' | 'clock' | 'shield' }[];
-  };
-  access: {
-    title: string; intro: string; email: string; password: string; copy: string;
-    copyEmail: string; copyPassword: string; copiedEmail: string; copiedPassword: string;
-    copying: string; failed: string; noScript: string;
   };
   cta: { eyebrow: string; title: string; intro: string };
 }
@@ -249,12 +243,6 @@ export const crmSupplementContent: Record<Locale, CrmSupplementCopy> = {
         { icon: 'shield', title: 'Role-Based Access', description: 'Assign roles and define who can access sections and perform actions.' },
       ],
     },
-    access: {
-      title: 'Demo access', intro: 'Use this account to sign in to the CRM demo.', email: 'Email', password: 'Password', copy: 'Copy',
-      copyEmail: 'Copy demo email', copyPassword: 'Copy demo password', copiedEmail: 'Demo email copied.', copiedPassword: 'Demo password copied.',
-      copying: 'Copying…', failed: 'Automatic copying is unavailable. Copy the selected text manually.',
-      noScript: 'Select and copy the details manually. Automatic copying requires JavaScript.',
-    },
     cta: { eyebrow: 'Explore the demo', title: 'Try the CRM in action.', intro: 'Explore the pipeline, contacts and workflows in the demo, or browse the source code.' },
   },
   ru: {
@@ -270,12 +258,6 @@ export const crmSupplementContent: Record<Locale, CrmSupplementCopy> = {
         { icon: 'shield', title: 'Доступ по ролям', description: 'Назначайте роли и определяйте доступ к разделам и действиям.' },
       ],
     },
-    access: {
-      title: 'Доступ к демо', intro: 'Используйте эту учётную запись для входа в демо CRM.', email: 'Логин', password: 'Пароль', copy: 'Копировать',
-      copyEmail: 'Скопировать логин демо', copyPassword: 'Скопировать пароль демо', copiedEmail: 'Логин демо скопирован.', copiedPassword: 'Пароль демо скопирован.',
-      copying: 'Копирование…', failed: 'Не удалось скопировать автоматически. Скопируйте выделенный текст вручную.',
-      noScript: 'Выделите и скопируйте данные вручную. Автоматическое копирование требует JavaScript.',
-    },
     cta: { eyebrow: 'Знакомство с демо', title: 'Попробуйте CRM в деле.', intro: 'Изучите воронку, контакты и процессы в демо или откройте исходный код проекта.' },
   },
   ro: {
@@ -290,12 +272,6 @@ export const crmSupplementContent: Record<Locale, CrmSupplementCopy> = {
         { icon: 'clock', title: 'Jurnal de audit', description: 'Consultă istoricul acțiunilor și al modificărilor efectuate în CRM.' },
         { icon: 'shield', title: 'Acces pe bază de roluri', description: 'Atribuie roluri și stabilește accesul la secțiuni și acțiuni.' },
       ],
-    },
-    access: {
-      title: 'Acces la demonstrație', intro: 'Folosește acest cont pentru a te autentifica în demonstrația CRM.', email: 'Email', password: 'Parolă', copy: 'Copiază',
-      copyEmail: 'Copiază emailul demo', copyPassword: 'Copiază parola demo', copiedEmail: 'Emailul demo a fost copiat.', copiedPassword: 'Parola demo a fost copiată.',
-      copying: 'Se copiază…', failed: 'Copierea automată nu este disponibilă. Copiază manual textul selectat.',
-      noScript: 'Selectează și copiază manual datele. Copierea automată necesită JavaScript.',
     },
     cta: { eyebrow: 'Explorează demonstrația', title: 'Încearcă CRM în acțiune.', intro: 'Explorează fluxul, contactele și procesele în demonstrație sau consultă codul sursă.' },
   },

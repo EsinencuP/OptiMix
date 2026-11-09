@@ -2,7 +2,6 @@
 import type { Locale } from '../content';
 import { crmWorkflowContent } from '../content/portfolio-pages';
 import Icon from './RedesignIcon.astro';
-import CrmDemoAccess from './CrmDemoAccess.astro';
 
 interface Props { locale: Locale }
 const { locale } = Astro.props;
@@ -50,7 +49,7 @@ const segments = [0, 1, 2, 3];
       </section>
     ))}
   </div>
-  <CrmDemoAccess locale={locale} />
+
   </div>
   <noscript><p class="ox-workflow-no-script">{t.noScript}</p></noscript>
 </section>

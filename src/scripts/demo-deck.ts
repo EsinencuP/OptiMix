@@ -104,8 +104,6 @@ function setupDeck(root: HTMLElement): () => void {
   const click = (event: MouseEvent) => {
     if (!(event.target instanceof Element)) return;
     const target = event.target;
-    // Selecting a demo role, selecting text or copying credentials must never flip a card.
-    if (target.closest('[data-demo-access]')) return;
     if (target.closest('[data-deck-reveal]')) {
       cards[Math.floor(cards.length / 2)].hit.focus({ preventScroll: true });
       return;

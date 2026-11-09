@@ -71,12 +71,6 @@ export function homeRedesign(locale: Locale) {
     workflowTitle:[s('Рутина движется автоматически.','Routine moves automatically.','Rutina avansează automat.'),s('Решения остаются под контролем.','Decisions stay under control.','Deciziile rămân sub control.')],
     exception:s('Нет кода бюджета — проверка ответственным','Missing budget code — owner review','Lipsește codul bugetului — verifică responsabilul'),
     demoAction:s('Посмотреть демо закупки','Explore the procurement demo','Vezi demonstrația de achiziții'),
-    valueTitle:s('Результат начинается с понимания процесса','Results begin with understanding the process','Rezultatul începe cu înțelegerea procesului'),
-    values:[
-      {icon:'clock',title:s('Время выполнения','Completion time','Timp de execuție'),description:s('Убираем лишние шаги и ускоряем согласования.','Remove unnecessary steps and speed up approvals.','Eliminăm pașii inutili și accelerăm aprobările.')},
-      {icon:'file-text',title:s('Ручные действия и ошибки','Manual work and errors','Muncă manuală și erori'),description:s('Автоматизируем рутину и снижаем риск ошибок.','Automate routine work and reduce the risk of errors.','Automatizăm rutina și reducem riscul erorilor.')},
-      {icon:'eye',title:s('Прозрачность и ответственность','Visibility and responsibility','Transparență și responsabilitate'),description:s('Видно, кто за что отвечает и на каком этапе процесс.','See who owns each task and where the process stands.','Se vede cine răspunde și în ce etapă este procesul.')},
-    ],
     startTitle:s('Как начать','Getting started','Cum începem'),startIntro:s('Достаточно описать задачу, людей и системы.','Describe the task, people and systems.','Descrie sarcina, oamenii și sistemele.'),
     steps:[
       {title:s('Опишите процесс','Describe the process','Descrie procesul'),description:s('Расскажите, что нужно автоматизировать.','Tell us what needs to be automated.','Spune-ne ce trebuie automatizat.')},

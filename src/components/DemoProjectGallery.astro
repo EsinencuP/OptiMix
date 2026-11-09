@@ -1,8 +1,6 @@
 ---
 import Icon from './RedesignIcon.astro';
 import Visual from './CatalogVisual.astro';
-import DemoAccess from './DemoAccess.astro';
-import {demoAccessFor} from '../content/demo-access';
 import { demoProjects } from '../content/demo-projects';
 import { portfolioCatalog, portfolioUI } from '../content/portfolio-catalog';
 import { pathFor, type Locale } from '../content';
@@ -20,12 +18,12 @@ const crm=catalog.find(project=>project.slug==='crm')!;
     <div class="ox-section-heading"><p class="ox-projects-eyebrow">{t.eyebrow}</p><h2 id="ox-projects-title">{t.title}</h2><p>{t.intro}</p><a class="ox-catalog-collection-link" href={pathFor(locale,'portfolio')}>{t.all}<Icon name="arrow-right" size={18} /></a></div>
     <div class="ox-deck" data-demo-deck>
       <div class="ox-deck-stage">
-        {projects.map((project,i) => <article class="ox-deck-card" data-deck-card={project.slug} data-has-demo-accounts={demoAccessFor(project.slug,locale).mode==='accounts'?'true':undefined} id={'demo-' + project.slug} aria-label={project.name} style={`--card-index:${i-2};--card-layer:${i+1};--fan-y:${[52,20,0,20,52][i]}px;--fan-angle:${[-12,-5,0,5,12][i]}deg;--fan-scale:${[.9,.94,1,.94,.9][i]};`}>
+        {projects.map((project,i) => <article class="ox-deck-card" data-deck-card={project.slug} id={'demo-' + project.slug} aria-label={project.name} style={`--card-index:${i-2};--card-layer:${i+1};--fan-y:${[52,20,0,20,52][i]}px;--fan-angle:${[-12,-5,0,5,12][i]}deg;--fan-scale:${[.9,.94,1,.94,.9][i]};`}>
           <button class="ox-deck-close" type="button" data-deck-close data-deck-detail aria-label={deck.close + ' — ' + project.name}><Icon name="x" size={22} /></button>
           <div class="ox-deck-inner">
             <div class="ox-deck-front" id={'deck-content-' + project.slug}>
               <button class="ox-deck-hit" data-deck-hit data-deck-open-label={deck.open + ' — ' + project.name} data-deck-flip-label={deck.flip + ' — ' + project.name} type="button" aria-expanded="false" aria-controls={'deck-content-' + project.slug} aria-label={deck.open + ' — ' + project.name}></button>
-              <span class="ox-deck-number" aria-hidden="true">0{i+1}</span>
+
               <div class="ox-deck-emblem"><Icon name={project.icon} size={54} /></div>
               <h3 id={'project-' + project.slug} translate="no">{project.name}</h3>
               <p class="ox-deck-category">{project.category}</p>
@@ -33,16 +31,16 @@ const crm=catalog.find(project=>project.slug==='crm')!;
               <div class="ox-deck-detail" data-deck-detail><p class="ox-deck-description">{project.description}</p><Visual project={project} locale={locale} compact /></div>
               <ul class="ox-deck-tags">{project.tags.map(tag => <li>{tag}</li>)}</ul>
               <button class="ox-deck-flip" data-deck-flip data-deck-detail type="button">{deck.flip}<Icon name="arrow-clockwise" size={17} /></button>
-              <span class="ox-deck-number ox-deck-number-bottom" aria-hidden="true">0{i+1}</span>
+
             </div>
             <div class="ox-deck-back">
-              <span class="ox-deck-number" aria-hidden="true">0{i+1}</span>
+
               <p class="ox-deck-kicker">{project.draft ? t.draft : t.overview}</p>
               <h4 translate="no">{project.name}</h4>
               <p class="ox-deck-back-title">{project.headline}</p>
               <p class="ox-deck-description">{project.description}</p>
               <ul class="ox-deck-back-tags">{project.tags.map(tag => <li><Icon name="check-circle-fill" size={21} />{tag}</li>)}</ul>
-              <DemoAccess locale={locale} slug={project.slug} idPrefix={`home-access-${project.slug}`} compact />
+
               <div class="ox-deck-links">
                 <a class="ox-button" href={project.projectHref} aria-label={t.open + ' — ' + project.name}>{t.open}<Icon name="arrow-right" size={19} /></a>
                 <a class="ox-button ox-button-secondary" href={project.demo} aria-label={t.demo + ' — ' + project.name}>{t.demo}<Icon name="arrow-right" size={19} /></a>
@@ -61,7 +59,7 @@ const crm=catalog.find(project=>project.slug==='crm')!;
       <p class="ox-deck-hint"><span class="ox-deck-pointer-hint">{deck.hint}</span><span class="ox-deck-touch-hint">{deck.touchHint}</span></p>
       <div class="ox-deck-picker" role="group" aria-label={deck.choose}>{projects.map(project => <button type="button" data-deck-select={project.slug} aria-pressed="false" translate="no">{project.name}</button>)}</div>
     </div>
-    <article class="ox-project-card ox-project-all" aria-labelledby="project-crm"><div class="ox-project-copy"><div class="ox-project-category"><Icon name={crm.icon} size={19} /><span>{crm.category}</span><span class="ox-project-number">06</span></div><h3 id="project-crm" translate="no">{crm.name}</h3><p class="ox-project-headline">{crm.headline}</p><p class="ox-project-description">{crm.description}</p><ul class="ox-project-tags">{crm.tags.map(tag => <li>{tag}</li>)}</ul><DemoAccess locale={locale} slug="crm" idPrefix="home-access-crm" compact /><a class="ox-button" href={crm.projectHref}>{t.open}<Icon name="arrow-right" size={20} /></a><div class="ox-project-links"><a class="ox-project-open" href={crm.demo}>{t.demo}<Icon name="arrow-right" size={18} /></a><a class="ox-project-demo-link" href={crm.github}>{t.github}</a></div></div><Visual project={crm} locale={locale} /></article>
+    <article class="ox-project-card ox-project-all" aria-labelledby="project-crm"><div class="ox-project-copy"><div class="ox-project-category"><Icon name={crm.icon} size={19} /><span>{crm.category}</span></div><h3 id="project-crm" translate="no">{crm.name}</h3><p class="ox-project-headline">{crm.headline}</p><p class="ox-project-description">{crm.description}</p><ul class="ox-project-tags">{crm.tags.map(tag => <li>{tag}</li>)}</ul><a class="ox-button" href={crm.projectHref}>{t.open}<Icon name="arrow-right" size={20} /></a><div class="ox-project-links"><a class="ox-project-open" href={crm.demo}>{t.demo}<Icon name="arrow-right" size={18} /></a><a class="ox-project-demo-link" href={crm.github}>{t.github}</a></div></div><Visual project={crm} locale={locale} /></article>
   </div>
 </section>
 <script>import '../scripts/demo-deck';</script>

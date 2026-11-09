@@ -88,6 +88,6 @@ export function portfolioUI(locale: Locale) {
     screenshot:s('Снимок работающего приложения','Live application capture','Captură din aplicație'),
     ask:s('Обсудим похожую задачу?','Have a similar challenge?','Ai o nevoie similară?'),
     action:s('Описать задачу','Describe your task','Descrie sarcina'),
-    count:s('06 продуктов','06 products','06 produse'),
+    count:s('6 продуктов','6 products','6 produse'),
   };
 }

@@ -9,7 +9,6 @@
 .ox-project-card:nth-child(-n+2) { grid-column:span 3; }
 .ox-project-copy { display:flex; flex:1; flex-direction:column; padding:24px; }
 .ox-project-category { display:flex; align-items:center; gap:8px; font-size:12px; font-weight:600; color:var(--ox-muted); }
-.ox-project-number { margin-left:auto; font-size:12px; font-weight:500; color:var(--ox-muted); }
 .ox-project-copy h3 { margin-top:12px; font-size:32px; font-weight:790; letter-spacing:-.025em; line-height:1.05; }
 .ox-project-headline { font-size:18px; font-weight:680; line-height:1.25; margin-top:10px; letter-spacing:-.02em; }
 .ox-project-description { color:var(--ox-muted); font-size:15px; line-height:1.5; margin-top:12px; }

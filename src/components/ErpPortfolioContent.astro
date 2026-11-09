@@ -5,7 +5,6 @@ import Icon from './RedesignIcon.astro';
 import ErpHubDiagram from './ErpHubDiagram.astro';
 import ErpModuleGrid from './ErpModuleGrid.astro';
 import ErpDemoCta from './ErpDemoCta.astro';
-import DemoAccess from './DemoAccess.astro';
 import '../styles/portfolio-erp.css';
 interface Props { locale: Locale }
 const { locale } = Astro.props;
@@ -24,7 +23,7 @@ const previewIds = ['finance', 'inventory', 'team'] as const;
         <a class="ox-button" href={portfolioPageLinks.erp.demo}>{common.openDemo}<Icon name="arrow-right" size={20} /></a>
         <a class="ox-button ox-button-secondary" href={portfolioPageLinks.erp.github}>{common.github}<Icon name="arrow-right" size={20} /></a>
       </div>
-      <DemoAccess locale={locale} slug="erp" idPrefix="product-access-erp" />
+
     </div>
     <figure class="ox-erp-preview" data-erp-entrance aria-label={t.previewLabel}>
       <div class="ox-erp-window">

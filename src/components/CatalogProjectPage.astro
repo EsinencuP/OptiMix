@@ -5,7 +5,6 @@ import SiteFooter from './SiteFooter.astro';
 import Icon from './RedesignIcon.astro';
 import Visual from './CatalogVisual.astro';
 import Related from './CatalogRelated.astro';
-import DemoAccess from './DemoAccess.astro';
 import { portfolioCatalog, portfolioUI, type CatalogSlug } from '../content/portfolio-catalog';
 import { pathFor, type Locale } from '../content';
 import '../styles/portfolio-pages.css';
@@ -27,7 +26,7 @@ const t=portfolioUI(locale);
         <p class="ox-catalog-lead">{project.description}</p>
         <ul class="ox-catalog-tags">{project.tags.map(tag=><li>{tag}</li>)}</ul>
         <div class="ox-catalog-actions"><a class="ox-button" href={project.demo}>{t.demo}<Icon name="arrow-right" size={20} /></a><a class="ox-button ox-button-secondary" href={project.github}>{t.github}<Icon name="arrow-right" size={20} /></a></div>
-        <DemoAccess locale={locale} slug={slug} idPrefix={`product-access-${slug}`} />
+
       </div>
       <Visual project={project} locale={locale} />
     </div></section>

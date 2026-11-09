@@ -77,7 +77,7 @@ body:has(.ox-home), body .ox-home {
  .brief-status,.brief-builder,.ox-privacy-card,.ox-route-nav a,.module-overview article,
  .mechanism-grid>div,.project-status,.project-prerequisites,.ox-project-module-grid>li,
  .demo-controls,.demo-steps>li,.ox-crm-window,.ox-feature-card,.ox-crm-module-card,
- .ox-crm-demo-access,.ox-workflow-panel,.ox-erp-window,.ox-erp-core,.ox-erp-hub-node,
+ .ox-workflow-panel,.ox-erp-window,.ox-erp-core,.ox-erp-hub-node,
  .ox-erp-hub-tooltip,.ox-erp-hub-panel,.ox-erp-module-card) {
   --ox-ink:var(--palette-ink); --ox-muted:#5a6570; --ox-green:#345e57;
   --ox-mint:#e5efeb; --ox-line:#cedbd6; --color-ink:var(--palette-ink);
@@ -89,7 +89,7 @@ body:has(.ox-home), body .ox-home {
  .brief-status,.brief-builder,.ox-privacy-card,.ox-route-nav,.module-overview,
  .mechanism-grid,.project-status,.project-prerequisites,.ox-project-module-grid,
  .demo-controls,.demo-steps,.ox-crm-window,.ox-feature-cards,.ox-crm-modules,
- .ox-crm-demo-access,.ox-workflow-panel,.ox-erp-window,.ox-erp-core,.ox-erp-hub-node,
+ .ox-workflow-panel,.ox-erp-window,.ox-erp-core,.ox-erp-hub-node,
  .ox-erp-hub-tooltip,.ox-erp-hub-panel,.ox-erp-module-card)
  :is(a,button,summary,input,textarea):focus-visible { outline-color:#345e57; }
 .ox-home :is(.ox-deck-card,.ox-project-all,.brief-builder,.ox-mobile-nav,.demo-controls) .ox-button-secondary {
@@ -127,7 +127,7 @@ body:has(.ox-home), body .ox-home {
 .ox-home :is(.ox-crm-hero,.ox-erp-hero) .ox-page-kicker { color:var(--palette-mint); }
 .ox-home :is(.ox-crm-tags,.ox-erp-tags) li { background:#ffffff0a; border-color:#96aaa5; }
 .ox-home :is(.ox-crm-window,.ox-erp-window) { color:var(--palette-ink); }
-.ox-home :is(.ox-feature-card,.ox-crm-module-card,.ox-crm-demo-access,.ox-workflow-panel,
+.ox-home :is(.ox-feature-card,.ox-crm-module-card,.ox-workflow-panel,
  .ox-erp-hub-panel,.ox-erp-module-card) { background:var(--palette-surface); }
 .ox-home :is(.ox-crm-page,.ox-erp-page) .ox-button { color:#fff; background:var(--palette-button); border-color:#8bb5ac; }
 .ox-home :is(.ox-crm-page,.ox-erp-page) .ox-button:hover { background:#416e66; }

@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 const require=createRequire(import.meta.url);
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE_PATH||'playwright');
 const base=process.env.PORTFOLIO_QA_URL||'http://127.0.0.1:4322';
-const output=path.resolve('docs/portfolio-release-2026-10-29/qa');
+const output=path.resolve(process.env.PORTFOLIO_QA_OUTPUT||'docs/portfolio-release-2026-10-29/qa');
 await fs.mkdir(output,{recursive:true});
 const slugs=['pdf-editor','erp','commerce','founder','recruiting','crm'];
 const names=['AI PDF Editor','Evo ERP','Commerce Operations','Founder Workspace','Recruiting Workspace','CRM Portfolio'];

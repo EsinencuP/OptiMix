@@ -3,6 +3,7 @@ import '../styles/global.css';
 import '../styles/home-redesign.css';
 import '../styles/site-pages.css';
 import '../styles/palette-graphite.css';
+import '../styles/revision-november.css';
 import { ClientRouter } from 'astro:transitions';
 import { content, locales, pathFor, type Locale, type PageKind } from '../content';
 
@@ -17,7 +18,7 @@ interface Props {
 
 const { title, description, locale, page, slug, preloadImage } = Astro.props;
 const ogLocale = locale === 'ro' ? 'ro_RO' : locale === 'ru' ? 'ru_RU' : 'en_GB';
-const canonicalURL = page === 'portfolio' && Astro.site ? new URL(pathFor(locale, page, slug), Astro.site).href : undefined;
+const canonicalURL = (page === 'portfolio' || page === 'service') && Astro.site ? new URL(pathFor(locale, page, slug), Astro.site).href : undefined;
 ---
 
 <!doctype html>

@@ -17,8 +17,6 @@
 .ox-deck-description { font-size:14px; line-height:1.5; color:var(--ox-muted); }
 .ox-deck-tags { display:flex; flex-wrap:wrap; justify-content:center; gap:6px; margin-top:22px !important; }
 .ox-deck-tags li { font-size:11px; line-height:1.3; padding:5px 9px; color:#345e57; background:#edf3ef; border-radius:5px; }
-.ox-deck-number { position:absolute; left:20px; top:16px; font-size:14px; line-height:1; color:#5a6570; font-variant-numeric:tabular-nums; }
-.ox-deck-number-bottom { left:auto; top:auto; right:20px; bottom:16px; }
 .ox-deck-front .ox-project-preview { margin:14px 0 0 !important; text-align:left; }
 .ox-deck-back h4 { font-size:28px; font-weight:800; line-height:1.1; margin:10px 0 0; }
 .ox-deck-kicker { font-size:12px; font-weight:700; color:#345e57; text-transform:uppercase; letter-spacing:.06em; }

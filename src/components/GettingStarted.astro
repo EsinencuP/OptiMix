@@ -1,0 +1,13 @@
+---
+import { homeRedesign } from '../content/home-redesign';
+import { pathFor, type Locale } from '../content';
+import Icon from './RedesignIcon.astro';
+interface Props { locale: Locale; id?: string }
+const {locale,id='approach'}=Astro.props;
+const t=homeRedesign(locale);
+---
+<section class="ox-start ox-start-expanded ox-section" id={id} aria-labelledby={`${id}-title`}><div class="ox-container">
+  <div class="ox-section-heading"><h2 id={`${id}-title`}>{t.startTitle}</h2><p>{t.startIntro}</p></div>
+  <ol class="ox-start-grid">{t.steps.map((step,i)=><li><span class="ox-step-number">{i+1}</span><div><h3>{step.title}</h3><p>{step.description}</p></div>{i<3&&<Icon name="arrow-right" class="ox-step-arrow" size={28}/>}</li>)}</ol>
+  <div class="ox-section-cta"><a class="ox-button" href={pathFor(locale,'contact')}>{t.action}<Icon name="arrow-right" size={20}/></a></div>
+</div></section>
