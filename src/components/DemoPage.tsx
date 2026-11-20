@@ -1,3 +1,4 @@
+import { siteName } from '../lib/brand';
 import BaseLayout from '../layouts/BaseLayout';
 import SiteHeader from './SiteHeader';
 import SiteFooter from './SiteFooter';
@@ -16,7 +17,7 @@ export default function DemoPage(props: Props) {
     const { locale } = props;
     const t = portfolio[locale];
     return (<>
-    <BaseLayout title={`${t.demo.title} — Optimix`} description={t.demo.intro} locale={locale} page="demo">
+    <BaseLayout title={`${t.demo.title} — ${siteName}`} description={t.demo.intro} locale={locale} page="demo">
   <SiteHeader locale={locale} page="demo"/>
   <main id="main" className="demo-page-main" data-demo data-active-label={t.demo.active} data-halted={t.demo.halted} data-complete={t.demo.complete}><section className="ox-page-hero" id="top"><div className="ox-container ox-page-heading"><p className="ox-page-kicker">{siteRedesign(locale).demo}</p><h1>{t.demo.title}</h1><p className="ox-page-lead">{t.demo.intro}</p><Route locale={locale} mode="demo" current="intake"/></div></section>
     <div className="ox-container demo-shell"><section className="demo-controls" aria-label={t.demo.scenarioLabel}><fieldset><legend>{t.demo.scenarioLabel}</legend><label><input type="radio" name="demo-scenario" value="normal" defaultChecked/><Icon name="check-circle" size={23}/><span>{t.demo.normal}</span></label><label><input type="radio" name="demo-scenario" value="exception"/><Icon name="warning" size={23}/><span>{t.demo.exception}</span></label></fieldset><div className="ox-demo-buttons"><button className="ox-button" type="button" data-demo-next>{t.demo.next}<Icon name="arrow-right" size={20}/></button><button className="ox-button" type="button" data-demo-resolve hidden>{t.demo.resolve}<Icon name="arrow-right" size={20}/></button><button className="ox-button ox-button-secondary" type="button" data-demo-restart>{t.demo.restart}</button></div><p className="demo-state" role="status" data-demo-status>{t.demo.active}: {t.modules[0].title}</p><p className="demo-disclosure">{t.demo.disclosure}</p><noscript><p className="ox-alert">{siteRedesign(locale).noScript}</p></noscript></section>

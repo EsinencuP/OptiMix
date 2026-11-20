@@ -1,0 +1,297 @@
+{
+  "390": [
+    {
+      "title": "scutilabs — Автоматизация бизнес-процессов",
+      "lcp": 576,
+      "cls": 0.04672554117179792,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v2.webp",
+          10228
+        ]
+      ],
+      "initialJsBytes": 239951,
+      "targets": [
+        [
+          "CRM",
+          40,
+          34
+        ],
+        [
+          "Люди",
+          46,
+          34
+        ],
+        [
+          "Процессы",
+          69,
+          34
+        ],
+        [
+          "Системы",
+          63,
+          34
+        ]
+      ],
+      "overflow": 0,
+      "decorativeAnimations": 0,
+      "errors": []
+    },
+    {
+      "title": "scutilabs — Автоматизация бизнес-процессов",
+      "lcp": 596,
+      "cls": 0.04672554117179792,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v2.webp",
+          10228
+        ]
+      ],
+      "initialJsBytes": 239951,
+      "targets": [
+        [
+          "CRM",
+          40,
+          34
+        ],
+        [
+          "Люди",
+          46,
+          34
+        ],
+        [
+          "Процессы",
+          69,
+          34
+        ],
+        [
+          "Системы",
+          63,
+          34
+        ]
+      ],
+      "overflow": 0,
+      "decorativeAnimations": 0,
+      "errors": []
+    },
+    {
+      "title": "scutilabs — Автоматизация бизнес-процессов",
+      "lcp": 568,
+      "cls": 0.04672554117179792,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v2.webp",
+          10228
+        ]
+      ],
+      "initialJsBytes": 239951,
+      "targets": [
+        [
+          "CRM",
+          40,
+          34
+        ],
+        [
+          "Люди",
+          46,
+          34
+        ],
+        [
+          "Процессы",
+          69,
+          34
+        ],
+        [
+          "Системы",
+          63,
+          34
+        ]
+      ],
+      "overflow": 0,
+      "decorativeAnimations": 0,
+      "errors": []
+    }
+  ],
+  "1440": [
+    {
+      "title": "scutilabs — Автоматизация бизнес-процессов",
+      "lcp": 2144,
+      "cls": 0.002109375,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v3.webp",
+          19182
+        ]
+      ],
+      "initialJsBytes": 239951,
+      "targets": [
+        [
+          "EN",
+          28,
+          36
+        ],
+        [
+          "RO",
+          28,
+          36
+        ],
+        [
+          "RU",
+          28,
+          36
+        ],
+        [
+          "CRM",
+          50,
+          34
+        ],
+        [
+          "Люди",
+          56,
+          34
+        ],
+        [
+          "Процессы",
+          82,
+          34
+        ],
+        [
+          "Системы",
+          75,
+          34
+        ]
+      ],
+      "overflow": 0,
+      "decorativeAnimations": 0,
+      "errors": []
+    },
+    {
+      "title": "scutilabs — Автоматизация бизнес-процессов",
+      "lcp": 640,
+      "cls": 0.040140552191086754,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v3.webp",
+          19182
+        ]
+      ],
+      "initialJsBytes": 239951,
+      "targets": [
+        [
+          "EN",
+          28,
+          36
+        ],
+        [
+          "RO",
+          28,
+          36
+        ],
+        [
+          "RU",
+          28,
+          36
+        ],
+        [
+          "CRM",
+          50,
+          34
+        ],
+        [
+          "Люди",
+          56,
+          34
+        ],
+        [
+          "Процессы",
+          82,
+          34
+        ],
+        [
+          "Системы",
+          75,
+          34
+        ]
+      ],
+      "overflow": 0,
+      "decorativeAnimations": 0,
+      "errors": []
+    },
+    {
+      "title": "scutilabs — Автоматизация бизнес-процессов",
+      "lcp": 632,
+      "cls": 0.040140552191086754,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v3.webp",
+          19182
+        ]
+      ],
+      "initialJsBytes": 239951,
+      "targets": [
+        [
+          "EN",
+          28,
+          36
+        ],
+        [
+          "RO",
+          28,
+          36
+        ],
+        [
+          "RU",
+          28,
+          36
+        ],
+        [
+          "CRM",
+          50,
+          34
+        ],
+        [
+          "Люди",
+          56,
+          34
+        ],
+        [
+          "Процессы",
+          82,
+          34
+        ],
+        [
+          "Системы",
+          75,
+          34
+        ]
+      ],
+      "overflow": 0,
+      "decorativeAnimations": 0,
+      "errors": []
+    }
+  ]
+}

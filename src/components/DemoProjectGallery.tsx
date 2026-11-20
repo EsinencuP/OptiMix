@@ -1,3 +1,5 @@
+import { siteName } from '../lib/brand';
+import { Sparkle } from 'lucide-react';
 import Icon from './Icon';
 import Visual from './CatalogVisual';
 import { demoProjects } from '../content/demo-projects';
@@ -53,7 +55,8 @@ export default function DemoProjectGallery(props: Props) {
           </div>
         </article>)}
         <button className="ox-deck-cover" type="button" data-deck-reveal aria-expanded="false">
-          <span className="ox-brand"><img src="/images/redesign/brand-mark-graphite.svg" width="18" height="18" alt=""/><span translate="no">OPTIMIX</span></span>
+          <Sparkle className="ox-deck-cover-star" size={16} aria-hidden="true" focusable="false"/>
+          <span className="ox-brand"><img src="/images/redesign/brand-mark-graphite.svg" width="18" height="18" alt=""/><span translate="no">{siteName}</span></span>
           <span className="ox-deck-emblem"><Icon name="table" size={54}/></span>
           <strong>{t.eyebrow}</strong><span>{deck.reveal}</span>
         </button>

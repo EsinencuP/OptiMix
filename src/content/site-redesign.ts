@@ -1,3 +1,4 @@
+import { siteName } from '../lib/brand';
 import type { Locale } from './index';
 export function siteRedesign(locale: Locale) {
   const s = (ru: string, en: string, ro: string) => ({ru,en,ro})[locale];
@@ -7,7 +8,7 @@ export function siteRedesign(locale: Locale) {
     notFoundIntro:s('Ссылка могла измениться. Вернитесь на главную или выберите нужный раздел в меню.','The link may have changed. Return to the homepage or choose a section from the menu.','Este posibil ca adresa să se fi schimbat. Revino la pagina principală sau alege o secțiune din meniu.'),
     brief:s('Начнём с вашей задачи','Start with your task','Începem cu sarcina ta'),
     privacy:s('Данные и конфиденциальность','Data and privacy','Date și confidențialitate'),
-    project:s('Демо-проект Optimix','Optimix demo project','Proiect demo Optimix'),
+    project:s(`Демо-проект ${siteName}`,`${siteName} demo project`,`Proiect demo ${siteName}`),
     demo:s('Интерактивный демо-сценарий','Interactive demo scenario','Scenariu demo interactiv'),
     route:s('Модули процесса','Process modules','Modulele procesului'),
     home:s('На главную','Back to home','Înapoi la pagina principală'),

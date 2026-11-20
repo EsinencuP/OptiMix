@@ -1,0 +1,192 @@
+{
+  "390": [
+    {
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "lcp": 1908,
+      "cls": 0.04672554117179792,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v2.png",
+          1357630
+        ],
+        [
+          "/fonts/redesign/Roboto-Variable.ttf",
+          283035
+        ]
+      ],
+      "initialJsBytes": 239882,
+      "targets": [],
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "lcp": 1928,
+      "cls": 0.04672554117179792,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v2.png",
+          1357630
+        ],
+        [
+          "/fonts/redesign/Roboto-Variable.ttf",
+          283035
+        ]
+      ],
+      "initialJsBytes": 239882,
+      "targets": [],
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "lcp": 1900,
+      "cls": 0.04672554117179792,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v2.png",
+          1357630
+        ],
+        [
+          "/fonts/redesign/Roboto-Variable.ttf",
+          283035
+        ]
+      ],
+      "initialJsBytes": 239882,
+      "targets": [],
+      "overflow": 0,
+      "errors": []
+    }
+  ],
+  "1440": [
+    {
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "lcp": 0,
+      "cls": 0,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v3.png",
+          1429338
+        ],
+        [
+          "/fonts/redesign/Roboto-Variable.ttf",
+          283035
+        ]
+      ],
+      "initialJsBytes": 239882,
+      "targets": [
+        [
+          "EN",
+          19,
+          36
+        ],
+        [
+          "RO",
+          20,
+          36
+        ],
+        [
+          "RU",
+          19,
+          36
+        ]
+      ],
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "lcp": 1980,
+      "cls": 0.04009517961666907,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v3.png",
+          1429338
+        ],
+        [
+          "/fonts/redesign/Roboto-Variable.ttf",
+          283035
+        ]
+      ],
+      "initialJsBytes": 239882,
+      "targets": [
+        [
+          "EN",
+          19,
+          36
+        ],
+        [
+          "RO",
+          20,
+          36
+        ],
+        [
+          "RU",
+          19,
+          36
+        ]
+      ],
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "title": "Optimix — Автоматизация бизнес-процессов",
+      "lcp": 1976,
+      "cls": 0.04009517961666907,
+      "assets": [
+        [
+          "/fonts/redesign/Roboto-Variable.woff2",
+          222656
+        ],
+        [
+          "/images/redesign/hero-flow-v3.png",
+          1429338
+        ],
+        [
+          "/fonts/redesign/Roboto-Variable.ttf",
+          283035
+        ]
+      ],
+      "initialJsBytes": 239882,
+      "targets": [
+        [
+          "EN",
+          19,
+          36
+        ],
+        [
+          "RO",
+          20,
+          36
+        ],
+        [
+          "RU",
+          19,
+          36
+        ]
+      ],
+      "overflow": 0,
+      "errors": []
+    }
+  ]
+}

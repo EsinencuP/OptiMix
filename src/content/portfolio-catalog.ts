@@ -1,3 +1,4 @@
+import { siteName } from '../lib/brand';
 import { pathFor, type Locale } from './index';
 
 /** Owner's complete portfolio. Keep URLs here; product copy is intentionally local. */
@@ -48,17 +49,17 @@ export function portfolioCatalog(locale: Locale): CatalogProject[] {
     { slug:'commerce', name:'Commerce Operations', fullName:'Commerce Operations Workspace', icon:'shopping-cart',
       category:s('Торговые операции','Commerce operations','Operațiuni comerciale'),
       headline:s('Рабочее пространство торговых операций.','A workspace for commerce operations.','Un spațiu pentru operațiuni comerciale.'),
-      description:s('Проект в портфолио Optimix. Здесь появится подробный обзор Commerce Operations Workspace.','An Optimix portfolio project. A detailed overview of Commerce Operations Workspace will be added here.','Un proiect din portofoliul Optimix. Aici va fi adăugată prezentarea detaliată a Commerce Operations Workspace.'),
+      description:s(`Проект в портфолио ${siteName}. Здесь появится подробный обзор Commerce Operations Workspace.`,`A ${siteName} portfolio project. A detailed overview of Commerce Operations Workspace will be added here.`,`Un proiect din portofoliul ${siteName}. Aici va fi adăugată prezentarea detaliată a Commerce Operations Workspace.`),
       tags:[s('Торговые операции','Commerce','Comerț'),s('Рабочее пространство','Workspace','Spațiu de lucru')], draft:true,features:[] },
     { slug:'founder', name:'Founder Workspace', fullName:'Founder Workspace', icon:'house',
       category:s('Управление бизнесом','Business management','Managementul afacerii'),
       headline:s('Рабочее пространство основателя.','A founder’s workspace.','Spațiul de lucru al fondatorului.'),
-      description:s('Проект в портфолио Optimix. Страница подготовлена для будущего обзора Founder Workspace.','An Optimix portfolio project. This page is prepared for a future overview of Founder Workspace.','Un proiect din portofoliul Optimix. Pagina este pregătită pentru viitoarea prezentare a Founder Workspace.'),
+      description:s(`Проект в портфолио ${siteName}. Страница подготовлена для будущего обзора Founder Workspace.`,`A ${siteName} portfolio project. This page is prepared for a future overview of Founder Workspace.`,`Un proiect din portofoliul ${siteName}. Pagina este pregătită pentru viitoarea prezentare a Founder Workspace.`),
       tags:[s('Основатель','Founder','Fondator'),s('Рабочее пространство','Workspace','Spațiu de lucru')], draft:true,features:[] },
     { slug:'recruiting', name:'Recruiting Workspace', fullName:'Recruiting Automation Workspace', icon:'users',
       category:s('HR и рекрутинг','HR & recruiting','HR și recrutare'),
       headline:s('Рабочее пространство для рекрутинга.','A workspace for recruiting.','Un spațiu pentru recrutare.'),
-      description:s('Проект в портфолио Optimix. Подробный обзор Recruiting Automation Workspace будет добавлен на эту страницу.','An Optimix portfolio project. A detailed overview of Recruiting Automation Workspace will be added to this page.','Un proiect din portofoliul Optimix. Prezentarea detaliată a Recruiting Automation Workspace va fi adăugată pe această pagină.'),
+      description:s(`Проект в портфолио ${siteName}. Подробный обзор Recruiting Automation Workspace будет добавлен на эту страницу.`,`A ${siteName} portfolio project. A detailed overview of Recruiting Automation Workspace will be added to this page.`,`Un proiect din portofoliul ${siteName}. Prezentarea detaliată a Recruiting Automation Workspace va fi adăugată pe această pagină.`),
       tags:[s('Рекрутинг','Recruiting','Recrutare'),'HR'], draft:true,features:[] },
     { slug:'crm', name:'CRM Portfolio', fullName:'CRM Portfolio', icon:'address-book', category:s('CRM и продажи','CRM & sales','CRM și vânzări'),
       headline:s('Клиенты, сделки и следующие шаги — вместе.','Customers, deals and next steps, together.','Clienți, tranzacții și pașii următori, împreună.'),
@@ -71,8 +72,8 @@ export function portfolioCatalog(locale: Locale): CatalogProject[] {
 export function portfolioUI(locale: Locale) {
   const s=(ru:string,en:string,ro:string)=>({ru,en,ro})[locale];
   return {
-    eyebrow:s('Портфолио Optimix','Optimix portfolio','Portofoliu Optimix'),
-    title:s('Шесть продуктов. Разные задачи бизнеса.','Six products. Different business challenges.','Șase produse. Nevoi diferite ale afacerii.'),
+    eyebrow:s(`Портфолио ${siteName}`,`${siteName} portfolio`,`Portofoliu ${siteName}`),
+    title:s('Шесть продуктов: от PDF-редактора до CRM','Six products, from a PDF editor to a CRM','Șase produse, de la editor PDF la CRM'),
     intro:s('Документы, продажи, операции, управление и рекрутинг — весь текущий состав портфолио.','Documents, sales, operations, management and recruiting — our complete current portfolio.','Documente, vânzări, operațiuni, management și recrutare — întregul portofoliu actual.'),
     open:s('О проекте','Explore project','Despre proiect'), demo:s('Открыть демо','Open demo','Deschide demonstrația'), github:s('Код на GitHub','Code on GitHub','Cod pe GitHub'),
     all:s('Все проекты','All projects','Toate proiectele'), overview:s('Обзор продукта','Product overview','Prezentarea produsului'),

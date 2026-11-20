@@ -1,6 +1,8 @@
-# Optimix — React + Next.js
+# scutilabs — React + Next.js
 
 React 19.3.1 + Next.js 16.4.5 App Router site in English, Romanian and Russian. The approved graphite/teal/olive palette, hosted Roboto, hero composition, six-product portfolio and illustrative procurement simulator are preserved. See [the current project guide](docs/PROJECT_GUIDE.md) and [migration report](docs/next-migration-2026-11-09/REPORT.md).
+
+See the [scutilabs design and performance audit](docs/scutilabs-2026-11-20/REPORT.md) for screenshots and measurements.
 
 ## Run locally
 

@@ -39,8 +39,8 @@ export function homeRedesign(locale: Locale) {
     stages:[s('Заявка','Request','Cerere'),s('Бюджет','Budget','Buget'),s('Согласование','Approval','Aprobare'),'ERP',s('Статус','Status','Stare')],
     states:[s('Подготовка','Prepared','Pregătită'),s('Проверено','Checked','Verificat'),s('На согласовании','Awaiting approval','În aprobare'),s('Ожидает','Waiting','În așteptare'),s('Ожидает','Waiting','În așteptare')],
     approveAction:s('Подтвердить и передать дальше','Confirm and move forward','Confirmă și continuă'),
-    servicesTitle:s('Автоматизация там, где работает ваш бизнес','Automation wherever your business works','Automatizare acolo unde lucrează afacerea ta'),
-    servicesIntro:s('От отдельной операции до связанной системы','From a single operation to a connected system','De la o operație la un sistem conectat'),
+    servicesTitle:s('Шесть направлений автоматизации','Six areas of automation','Șase direcții de automatizare'),
+    servicesIntro:s('От кадровых процессов до аналитики, с общим контекстом данных','From HR processes to analytics, on one shared data context','De la procese HR la analiză, cu un context comun al datelor'),
     learn:s('Узнать больше','Learn more','Află mai multe'),
     services:[
       {icon:'users',title:s('HR и команда','HR and teams','HR și echipă'),description:s('Автоматизация кадровых процессов и внутренних запросов.','Automate HR processes and internal requests.','Automatizarea proceselor HR și a cererilor interne.'),anchor:'people-documents'},

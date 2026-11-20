@@ -1,11 +1,12 @@
+import { siteName } from '../lib/brand';
 export const en = {
   meta: {
-    homeTitle: 'Optimix — Business process optimization',
-    homeDescription: 'Optimix helps operations teams redesign repeated handoffs into controlled workflows, with people responsible for approvals and exceptions.',
-    contactTitle: 'Prepare a process brief — Optimix',
+    homeTitle: `${siteName} — Business process optimization`,
+    homeDescription: `${siteName} helps operations teams redesign repeated handoffs into controlled workflows, with people responsible for approvals and exceptions.`,
+    contactTitle: `Prepare a process brief — ${siteName}`,
     contactDescription: 'Describe one repeated business process, the people and systems involved, and where work slows down.',
-    privacyTitle: 'Privacy information — Optimix',
-    privacyDescription: 'Information about the current status of the Optimix inquiry form and privacy notice.',
+    privacyTitle: `Privacy information — ${siteName}`,
+    privacyDescription: `Information about the current status of the ${siteName} inquiry form and privacy notice.`,
   },
   ui: {
     skip: 'Skip to content',
@@ -22,17 +23,17 @@ export const en = {
     footerLine: 'Business process improvement through controlled digital workflows.',
     footerIndex: 'Explore',
     footerLanguages: 'Languages',
-    footerNote: 'Optimix · 2026',
+    footerNote: `${siteName} · 2026`,
     previous: 'Previous step', next: 'Next step',
   },
   hero: {
     lines: ['Every handoff', 'should move work', 'forward.'],
-    intro: 'Optimix helps growing teams turn repeated manual handoffs into controlled workflows. Systems handle routine steps; people retain approvals and exceptions.',
+    intro: `${siteName} helps growing teams turn repeated manual handoffs into controlled workflows. Systems handle routine steps; people retain approvals and exceptions.`,
     secondary: 'See a process example',
     previewLabel: 'Illustrative procurement sequence',
     preview: ['Request received', 'Rules checked', 'Person approves', 'Decision recorded'],
     credit: 'Concept image for design evaluation. Not a client project.',
-    artAlt: 'Illustrative procurement desk with people reviewing documents; generated concept image, not an Optimix client project.',
+    artAlt: `Illustrative procurement desk with people reviewing documents; generated concept image, not an ${siteName} client project.`,
   },
   quotes: {
     first: 'Routine steps move. People decide.',
@@ -72,7 +73,7 @@ export const en = {
   workflow: {
     title: 'Follow one request.',
     lead: 'A purchase request gives the route a concrete shape: input, validation, human decisions, system actions and a recorded outcome.',
-    disclosure: 'Illustrative reference flow. It is not a client case or a verified depiction of Optimix’s existing demonstration. Actual steps depend on the organisation.',
+    disclosure: `Illustrative reference flow. It is not a client case or a verified depiction of ${siteName}’s existing demonstration. Actual steps depend on the organisation.`,
     human: 'Human',
     system: 'System',
     checkpoint: 'Checkpoint',
@@ -132,7 +133,7 @@ export const en = {
   contactPage: {
     title: 'Start with one process.',
     lead: 'A technical specification is not needed. Describe the work, the people involved and where the route slows down.',
-    status: 'Prepare a process brief you can save on your device. Nothing you enter here is sent to Optimix.',
+    status: `Prepare a process brief you can save on your device. Nothing you enter here is sent to ${siteName}.`,
     details: 'The inquiry channel is not configured yet. Do not include confidential documents or sensitive personal information.',
     builderTitle: 'Your process brief',
     builderIntro: 'Use the prompts below to draft the essentials. You can leave fields blank and complete the file later.',
@@ -142,12 +143,12 @@ export const en = {
     problem: 'Main problem or bottleneck',
     frequency: 'Approximate frequency',
     download: 'Download draft brief',
-    downloadNotice: 'Your browser should download the draft. Nothing was sent to Optimix.',
+    downloadNotice: `Your browser should download the draft. Nothing was sent to ${siteName}.`,
     privacyLink: 'Privacy information',
   },
   privacyPage: {
     title: 'Privacy information is being prepared.',
-    lead: 'The brief builder creates a text file in your browser. This site does not submit the fields you enter to Optimix.',
+    lead: `The brief builder creates a text file in your browser. This site does not submit the fields you enter to ${siteName}.`,
     detail: 'The inquiry channel is not active. The legal operator, contact, processing purposes, recipients, retention period and applicable rights will be published after they are confirmed. This page is not a final privacy notice.',
     back: 'Return to the process brief',
   },

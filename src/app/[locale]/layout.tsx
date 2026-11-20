@@ -1,10 +1,11 @@
 import type {ReactNode} from 'react';
 import {ViewTransition,Suspense} from 'react';
 import {locales,type Locale} from '../../content';
+import {siteName} from '../../lib/brand';
 import SiteRuntime from '../../components/SiteRuntime';
 import '../site.css';
 export function generateStaticParams(){return locales.map(locale=>({locale}));}
-export const metadata={title:'404 — Optimix',robots:{index:false,follow:false}};
+export const metadata={title:`404 — ${siteName}`,robots:{index:false,follow:false}};
 export default async function RootLayout({children,params}:{children:ReactNode;params:Promise<{locale:string}>}){
  const {locale}=await params;
  const language=locales.includes(locale as Locale)?locale:'en';

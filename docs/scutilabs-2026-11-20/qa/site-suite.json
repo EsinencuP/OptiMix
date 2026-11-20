@@ -1,0 +1,69 @@
+{
+  "buildId": "SKvZE0cIk_q9_UW05c3jA",
+  "localizedRoutes": 72,
+  "viewportWidths": [
+    1440,
+    1024,
+    768,
+    390,
+    320
+  ],
+  "pageStates": 360,
+  "interactions": {
+    "links": {
+      "routes": 72,
+      "anchors": 120
+    },
+    "legacyRedirects": 24,
+    "heroGeometryDelta": 0,
+    "radixDesktopMenu": true,
+    "radixFaq": true,
+    "mobileMenuAndLocale": true,
+    "mobileDeckFaces": 30,
+    "deckHover": {
+      "before": {
+        "a": 0.880333,
+        "b": 0.187121,
+        "c": -0.187121,
+        "d": 0.880333,
+        "y": 52,
+        "z": "5"
+      },
+      "after": {
+        "a": 0.880333,
+        "b": 0.187121,
+        "c": -0.187121,
+        "d": 0.880333,
+        "y": -12,
+        "z": "5"
+      }
+    },
+    "compositorDeckResize": true,
+    "deckKeyboardAndNestedLink": true,
+    "briefDownload": "scutilabs-process-brief-en.txt",
+    "crmWorkflow": true,
+    "erpHub": true,
+    "processSimulator": true,
+    "heroOrder": [
+      "crm",
+      "people",
+      "processes",
+      "systems",
+      "crm"
+    ],
+    "heroPause": true,
+    "mobileMotion": true,
+    "backgroundTabFocusPause": true,
+    "reducedMotion": true,
+    "reducedMotionStar": true,
+    "nextClientNavigation": true,
+    "nativeViewTransition": true,
+    "noJavaScript": true,
+    "localized404": true,
+    "credentialFreeHtml": 72,
+    "scutilabsMetadata": 72
+  },
+  "errors": [],
+  "warnings": [],
+  "failure": null
+}

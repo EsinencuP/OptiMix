@@ -1,6 +1,6 @@
 :root {
-  /* Approved site-wide Optimix design. See docs/PROJECT_GUIDE.md. */
-  --font-sans: 'Optimix Roboto', Arial, sans-serif;
+  /* Approved site-wide design. See docs/PROJECT_GUIDE.md. */
+  --font-sans: 'Roboto', Arial, sans-serif;
 
   --color-paper: #ffffff;
   --color-white: #ffffff;

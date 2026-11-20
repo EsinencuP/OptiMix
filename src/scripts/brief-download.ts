@@ -1,3 +1,5 @@
+import { siteName } from '../lib/brand';
+
 function downloadBrief(builder: HTMLElement) {
   const fields = [...builder.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[data-brief-field]')];
   const heading = builder.dataset.title ?? 'Process brief';
@@ -9,7 +11,7 @@ function downloadBrief(builder: HTMLElement) {
   const url = URL.createObjectURL(file);
   const link = document.createElement('a');
   link.href = url;
-  link.download = builder.dataset.filename ?? 'optimix-process-brief.txt';
+  link.download = builder.dataset.filename ?? `${siteName}-process-brief.txt`;
   document.body.append(link);
   link.click();
   link.remove();

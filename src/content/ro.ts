@@ -1,29 +1,30 @@
+import { siteName } from '../lib/brand';
 import type { en } from './en';
 
 export const ro: typeof en = {
   meta: {
-    homeTitle: 'Optimix — Optimizarea proceselor de afaceri',
-    homeDescription: 'Optimix ajută echipele să transforme transferurile manuale repetate în fluxuri controlate, păstrând deciziile și excepțiile la oameni.',
-    contactTitle: 'Pregătește descrierea unui proces — Optimix',
+    homeTitle: `${siteName} — Optimizarea proceselor de afaceri`,
+    homeDescription: `${siteName} ajută echipele să transforme transferurile manuale repetate în fluxuri controlate, păstrând deciziile și excepțiile la oameni.`,
+    contactTitle: `Pregătește descrierea unui proces — ${siteName}`,
     contactDescription: 'Descrie un proces repetitiv, persoanele și sistemele implicate și locurile unde activitatea încetinește.',
-    privacyTitle: 'Informații privind confidențialitatea — Optimix',
-    privacyDescription: 'Stadiul formularului de contact și al informării privind confidențialitatea Optimix.',
+    privacyTitle: `Informații privind confidențialitatea — ${siteName}`,
+    privacyDescription: `Stadiul formularului de contact și al informării privind confidențialitatea ${siteName}.`,
   },
   ui: {
     skip: 'Sari la conținut', process: 'Proces', approach: 'Abordare', contact: 'Contact',
     brief: 'Descrie un proces', briefShort: 'Descrie procesul', menu: 'Meniu', language: 'Limbă',
     backTop: 'Înapoi sus', home: 'Acasă', privacy: 'Confidențialitate',
     footerLine: 'Îmbunătățirea proceselor prin fluxuri digitale controlate.',
-    footerIndex: 'Explorează', footerLanguages: 'Limbi', footerNote: 'Optimix · 2026',
+    footerIndex: 'Explorează', footerLanguages: 'Limbi', footerNote: `${siteName} · 2026`,
     previous: 'Pasul anterior', next: 'Pasul următor',
   },
   hero: {
     lines: ['Fiecare transfer', 'trebuie să ducă', 'lucrurile înainte.'],
-    intro: 'Optimix ajută echipele în creștere să transforme transferurile manuale repetate în fluxuri controlate. Sistemele gestionează rutina; oamenii păstrează aprobările și excepțiile.',
+    intro: `${siteName} ajută echipele în creștere să transforme transferurile manuale repetate în fluxuri controlate. Sistemele gestionează rutina; oamenii păstrează aprobările și excepțiile.`,
     secondary: 'Vezi un exemplu de proces', previewLabel: 'Secvență ilustrativă de achiziții',
     preview: ['Cerere primită', 'Reguli verificate', 'Persoană aprobă', 'Decizie înregistrată'],
     credit: 'Imagine conceptuală pentru evaluarea designului. Nu este un proiect al unui client.',
-    artAlt: 'Birou de achiziții ilustrativ, cu persoane care analizează documente; imagine generată, nu un proiect al unui client Optimix.',
+    artAlt: `Birou de achiziții ilustrativ, cu persoane care analizează documente; imagine generată, nu un proiect al unui client ${siteName}.`,
   },
   quotes: {
     first: 'Pașii de rutină avansează. Oamenii decid.',
@@ -61,7 +62,7 @@ export const ro: typeof en = {
   workflow: {
     title: 'Urmărește o cerere.',
     lead: 'O cerere de achiziție face traseul concret: intrare, validare, decizii umane, acțiuni ale sistemului și rezultat înregistrat.',
-    disclosure: 'Flux ilustrativ de referință. Nu este un caz al unui client și nici o prezentare verificată a demonstrației Optimix existente. Pașii reali depind de organizație.',
+    disclosure: `Flux ilustrativ de referință. Nu este un caz al unui client și nici o prezentare verificată a demonstrației ${siteName} existente. Pașii reali depind de organizație.`,
     human: 'Om', system: 'Sistem', checkpoint: 'Punct de control', routePosition: 'Poziția pe traseu',
     bottomline: 'O verificare nereușită trebuie să ducă la o decizie, nu la un transfer invizibil.',
     steps: [
@@ -116,19 +117,19 @@ export const ro: typeof en = {
   contactPage: {
     title: 'Începe cu un singur proces.',
     lead: 'Nu este nevoie de o specificație tehnică. Descrie activitatea, persoanele implicate și locurile unde traseul încetinește.',
-    status: 'Pregătește o descriere a procesului pe care o poți salva pe dispozitiv. Nimic din ce introduci aici nu este trimis către Optimix.',
+    status: `Pregătește o descriere a procesului pe care o poți salva pe dispozitiv. Nimic din ce introduci aici nu este trimis către ${siteName}.`,
     details: 'Canalul de contact nu este configurat încă. Nu include documente confidențiale sau date personale sensibile.',
     builderTitle: 'Descrierea procesului tău',
     builderIntro: 'Folosește întrebările de mai jos pentru a pregăti informațiile esențiale. Poți lăsa câmpuri necompletate și finaliza fișierul mai târziu.',
     process: 'Numele procesului',
     description: 'Descrie procesul', systems: 'Sistemele actuale', problem: 'Problema principală',
     frequency: 'Frecvența aproximativă', download: 'Descarcă descrierea',
-    downloadNotice: 'Browserul ar trebui să descarce fișierul. Nimic nu a fost trimis către Optimix.',
+    downloadNotice: `Browserul ar trebui să descarce fișierul. Nimic nu a fost trimis către ${siteName}.`,
     privacyLink: 'Informații privind confidențialitatea',
   },
   privacyPage: {
     title: 'Informațiile privind confidențialitatea sunt în pregătire.',
-    lead: 'Instrumentul de descriere creează un fișier text în browser. Site-ul nu trimite către Optimix câmpurile completate.',
+    lead: `Instrumentul de descriere creează un fișier text în browser. Site-ul nu trimite către ${siteName} câmpurile completate.`,
     detail: 'Canalul de contact nu este activ. Operatorul legal, datele de contact, scopurile prelucrării, destinatarii, perioada de păstrare și drepturile aplicabile vor fi publicate după confirmare. Această pagină nu este o informare finală privind confidențialitatea.',
     back: 'Înapoi la descrierea procesului',
   },

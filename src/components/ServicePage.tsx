@@ -1,3 +1,4 @@
+import { siteName } from '../lib/brand';
 import BaseLayout from '../layouts/BaseLayout';
 import SiteHeader from './SiteHeader';
 import SiteFooter from './SiteFooter';
@@ -17,7 +18,7 @@ export default function ServicePage(props: Props) {
     const service = servicesFor(locale).find(item => item.slug === slug)!;
     const t = serviceUI(locale), home = homeRedesign(locale);
     return (<>
-    <BaseLayout title={`${service.title} — Optimix`} description={service.description} locale={locale} page="service" slug={slug}>
+    <BaseLayout title={`${service.title} — ${siteName}`} description={service.description} locale={locale} page="service" slug={slug}>
     <SiteHeader locale={locale} page="service" slug={slug}/>
     <main id="main" className="ox-service-page">
   <section className="ox-service-hero ox-section" id="top"><div className="ox-container"><SiteLink className="ox-text-link" href={pathFor(locale, 'home') + '#services'}>{t.label}</SiteLink><Icon name={service.icon} size={52}/><h1>{service.title}</h1><p>{service.description}</p><SiteLink className="ox-button" href={pathFor(locale, 'contact')}>{home.action}<Icon name="arrow-right" size={20}/></SiteLink></div></section>

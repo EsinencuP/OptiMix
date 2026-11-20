@@ -1,3 +1,5 @@
+import { siteName } from '../lib/brand';
+import { Sparkle } from 'lucide-react';
 import HomeFaq from './HomeFaq';
 import BaseLayout from '../layouts/BaseLayout';
 import SiteHeader from './SiteHeader';
@@ -21,11 +23,15 @@ export default function HomePage(props: Props) {
     const contact = pathFor(locale, 'contact');
     const leadScene = t.scenes[1];
     return (<>
-    <BaseLayout title={`Optimix — ${t.eyebrow}`} description={t.intro} locale={locale} page="home">
+    <BaseLayout title={`${siteName} — ${t.eyebrow}`} description={t.intro} locale={locale} page="home">
     <SiteHeader locale={locale} page="home"/>
   <main id="main">
     <section className="ox-hero ox-hero-examples ox-hero-v2" id="top" aria-labelledby="ox-hero-title">
-      <div className="ox-hero-stage"><div className="ox-container" id="examples">
+      <div className="ox-hero-stage">
+        <div className="ox-hero-constellation" aria-hidden="true">
+          <span className="ox-hero-star"><Sparkle size={24} focusable="false"/></span>
+        </div>
+        <div className="ox-container" id="examples">
         <span id="workflow" aria-hidden="true"></span>
         <article className="ox-hero-primary" id={leadScene.id} aria-labelledby="ox-hero-title">
           <div className="ox-hero-message">
@@ -51,7 +57,9 @@ export default function HomePage(props: Props) {
     <DemoProjects locale={locale}/>
     <GettingStarted locale={locale}/>
     <HomeFaq locale={locale}/>
-    <section className="ox-final ox-section" id="contact" aria-labelledby="ox-final-title"><div className="ox-container"><h2 id="ox-final-title">{t.finalTitle}</h2><p>{t.finalIntro}</p><SiteLink className="ox-button" href={contact}>{t.action}</SiteLink><p className="ox-note">{t.savedNote}</p></div></section>
+    <section className="ox-final ox-section" id="contact" aria-labelledby="ox-final-title">
+      <div className="ox-container"><h2 id="ox-final-title">{t.finalTitle}</h2><p>{t.finalIntro}</p><SiteLink className="ox-button" href={contact}>{t.action}</SiteLink><p className="ox-note">{t.savedNote}</p></div>
+    </section>
   </main>
   <SiteFooter locale={locale} page="home"/>
     </BaseLayout>

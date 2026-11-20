@@ -48,7 +48,7 @@ body:has(.ox-home), body .ox-home {
 }
 .ox-home .ox-hero-v2 .ox-hero-stage::before {
   content:''; position:absolute; inset:0; z-index:-1; pointer-events:none;
-  background:url('/images/redesign/hero-flow-v3.png') center / cover no-repeat;
+  background:url('/images/redesign/hero-flow-v3.webp') center / cover no-repeat;
   filter:grayscale(1) invert(1) brightness(2) sepia(.65) hue-rotate(105deg) saturate(1.6);
   mix-blend-mode:screen; opacity:.6;
 }
@@ -141,7 +141,7 @@ body:has(.ox-home), body .ox-home {
 .ox-home :is(.ox-workflow-toggle,.ox-erp-hub-controls button) { color:#345e57; }
 @media(max-width:960px) {
   .ox-home .ox-hero-layer { background:#52685eaa; }
-  .ox-home .ox-hero-v2 .ox-hero-stage::before { background-image:url('/images/redesign/hero-flow-v2.png'); background-position:65% center; }
+  .ox-home .ox-hero-v2 .ox-hero-stage::before { background-image:url('/images/redesign/hero-flow-v2.webp'); background-position:65% center; }
 }
 @media(max-width:640px) {
   .ox-home .ox-hero-v2 .ox-hero-stage::before { background-position:60% center; }

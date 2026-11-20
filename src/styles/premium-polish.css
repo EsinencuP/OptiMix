@@ -1,0 +1,48 @@
+/* Premium refinement layer, 2026-11-20.
+   Type, surfaces and details only. Hero scene geometry, deck physics, routes,
+   palette and copy stay as approved. Loaded last so it can be removed in one step. */
+
+:root {
+  --polish-band: #505860;
+  --polish-hairline: rgb(246 248 247 / 10%);
+}
+
+/* Type: lighter weights, softer tracking, balanced wraps. The hero h1 is excluded because its geometry is baselined. */
+.ox-home :is(h2, h3, h4) { font-weight: 600; letter-spacing: -.02em; text-wrap: balance; }
+.ox-home .ox-service-card h3 { font-weight: 600; letter-spacing: -.01em; }
+.ox-home :is(.ox-deck-front h3, .ox-deck-back h4) { font-weight: 650; letter-spacing: -.02em; }
+.ox-home :is(.ox-section-heading, .ox-faq-grid) > :is(p, div > p) { text-wrap: pretty; }
+
+/* Eyebrows and kickers: sentence case instead of tracked capitals. */
+.ox-home :is(.ox-eyebrow, .ox-page-kicker, .ox-projects-eyebrow, .ox-deck-kicker) {
+  text-transform: none;
+  letter-spacing: .01em;
+  font-weight: 500;
+}
+.ox-home :is(.ox-page-kicker, .ox-projects .ox-projects-eyebrow, .ox-projects-deck .ox-section-heading .ox-projects-eyebrow) { font-size: 15px; }
+.ox-home .ox-footer > .ox-container { width: min(1200px, calc(100% - 112px)); }
+.ox-home .ox-deck-kicker { font-size: 13px; }
+
+/* Surfaces: four near-identical grey bands become one band tone with hairline joins. */
+.ox-home :is(.ox-projects.ox-projects-deck, .ox-start, .ox-service-scope) { background: var(--polish-band); }
+.ox-home :is(.ox-services, .ox-projects, .ox-start, .ox-faq, .ox-service-scope) { border-top: 1px solid var(--polish-hairline); }
+.ox-home .ox-faq { background: var(--polish-band); }
+.ox-home .ox-final { background: #485653; background-image: none; }
+
+/* Left edges: every home band and the service hero share the 1200px column. */
+.ox-home .ox-faq > .ox-container { width: min(1200px, calc(100% - 112px)); }
+.ox-service-hero .ox-container { width: min(1200px, calc(100% - 112px)); max-width: none; }
+.ox-service-hero h1 { max-width: 1000px; }
+
+/* Service cards: text gets the full column and the link pins to the bottom edge, so a row reads as one line. */
+.ox-home .ox-service-card > div { display: flex; flex: 1; flex-direction: column; }
+.ox-home .ox-service-card p { max-width: none; }
+.ox-home .ox-service-card .ox-learn { margin-top: auto; padding-top: 12px; }
+
+/* FAQ: one marker colour, thinner, quieter question weight. */
+.ox-faq-marker,
+.ox-faq-item:nth-child(even) .ox-faq-marker { width: 3px; height: 24px; border-radius: 2px; background: #508179; }
+.ox-faq-trigger { font-weight: 500; }
+
+/* ERP hub core: hairline ring instead of a 40px glow. */
+.ox-erp-core { box-shadow: 0 0 0 6px color-mix(in oklch, var(--color-signal), transparent 70%); }

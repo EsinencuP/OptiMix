@@ -1,0 +1,41 @@
+/* scutilabs mark: one four-point star in the hero and one on the deck cover.
+   No glow, no colour wash, no scattered dots. */
+.ox-hero-constellation {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.ox-hero-constellation svg {
+  display: block;
+  color: var(--palette-mint);
+  fill: currentColor;
+}
+
+.ox-hero-star {
+  position: absolute;
+  inset: 14% 13% auto auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ox-hero-star { animation: ox-star-enter 1.2s ease-out both; }
+}
+
+@keyframes ox-star-enter {
+  from { transform: scale(.65); opacity: .12; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.ox-deck-cover-star {
+  position: absolute;
+  inset: 24px 24px auto auto;
+  color: #508179;
+  fill: currentColor;
+  pointer-events: none;
+}
+
+@media (max-width: 960px) {
+  .ox-hero-star { inset: 16px 8% auto auto; }
+  .ox-hero-star svg { width: 16px; height: 16px; }
+}

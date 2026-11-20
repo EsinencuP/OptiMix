@@ -1,5 +1,14 @@
 @import './tokens.css';
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/redesign/Roboto-Variable.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after { box-sizing: border-box; }

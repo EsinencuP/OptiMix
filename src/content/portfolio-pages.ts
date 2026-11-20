@@ -1,3 +1,4 @@
+import { siteName } from '../lib/brand';
 import type { Locale } from './index';
 import { catalogLinks } from './portfolio-catalog';
 
@@ -23,19 +24,19 @@ export const portfolioPageLinks: Record<PortfolioPageSlug, { demo: string; githu
 
 export const portfolioPages: Record<Locale, PortfolioPagesCopy> = {
   en: {
-    eyebrow: 'OptiMix portfolio',
+    eyebrow: `${siteName} portfolio`,
     openDemo: 'Open demo',
     github: 'GitHub',
     back: 'All demo projects',
     projects: {
       crm: {
-        metaTitle: 'CRM Platform — OptiMix Portfolio',
+        metaTitle: `CRM Platform — ${siteName} Portfolio`,
         description: 'Explore a CRM platform for contacts, deals and sales workflows. Open the demo or browse the source code on GitHub.',
         title: 'CRM Portfolio',
         intro: 'Contacts, deals and sales workflows in one workspace.',
       },
       erp: {
-        metaTitle: 'ERP System — OptiMix Portfolio',
+        metaTitle: `ERP System — ${siteName} Portfolio`,
         description: 'Explore Evo ERP for finance, inventory and team operations. Open the demo or browse the source code on GitHub.',
         title: 'Evo ERP',
         intro: 'Finance, inventory and team operations in one system.',
@@ -43,19 +44,19 @@ export const portfolioPages: Record<Locale, PortfolioPagesCopy> = {
     },
   },
   ru: {
-    eyebrow: 'Портфолио OptiMix',
+    eyebrow: `Портфолио ${siteName}`,
     openDemo: 'Открыть демо',
     github: 'GitHub',
     back: 'Все демо-проекты',
     projects: {
       crm: {
-        metaTitle: 'CRM-платформа — Портфолио OptiMix',
+        metaTitle: `CRM-платформа — Портфолио ${siteName}`,
         description: 'CRM-платформа для контактов, сделок и процессов продаж. Откройте демо или изучите исходный код на GitHub.',
         title: 'CRM Portfolio',
         intro: 'Контакты, сделки и процессы продаж в одном рабочем пространстве.',
       },
       erp: {
-        metaTitle: 'ERP-система — Портфолио OptiMix',
+        metaTitle: `ERP-система — Портфолио ${siteName}`,
         description: 'Evo ERP для финансов, склада и работы команды. Откройте демо или изучите исходный код на GitHub.',
         title: 'Evo ERP',
         intro: 'Финансы, склад и работа команды в одной системе.',
@@ -63,19 +64,19 @@ export const portfolioPages: Record<Locale, PortfolioPagesCopy> = {
     },
   },
   ro: {
-    eyebrow: 'Portofoliu OptiMix',
+    eyebrow: `Portofoliu ${siteName}`,
     openDemo: 'Deschide demonstrația',
     github: 'GitHub',
     back: 'Toate proiectele demo',
     projects: {
       crm: {
-        metaTitle: 'Platformă CRM — Portofoliu OptiMix',
+        metaTitle: `Platformă CRM — Portofoliu ${siteName}`,
         description: 'O platformă CRM pentru contacte, tranzacții și procese de vânzări. Deschide demonstrația sau consultă codul sursă pe GitHub.',
         title: 'CRM Portfolio',
         intro: 'Contacte, tranzacții și procese de vânzări într-un singur spațiu de lucru.',
       },
       erp: {
-        metaTitle: 'Sistem ERP — Portofoliu OptiMix',
+        metaTitle: `Sistem ERP — Portofoliu ${siteName}`,
         description: 'Evo ERP pentru finanțe, stocuri și activitatea echipei. Deschide demonstrația sau consultă codul sursă pe GitHub.',
         title: 'Evo ERP',
         intro: 'Finanțe, stocuri și activitatea echipei într-un singur sistem.',

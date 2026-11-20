@@ -1,3 +1,4 @@
+import { siteName } from '../lib/brand';
 import Icon from './Icon';
 import { portfolioUI, type CatalogProject } from '../content/portfolio-catalog';
 import type { Locale } from '../content';
@@ -21,7 +22,7 @@ export default function CatalogVisual(props: Props) {
     <span className="ox-catalog-art-symbol"><Icon name={project.icon} size={compact ? 42 : 72}/></span>
     <span className="ox-catalog-art-category">{project.category}</span>
     <strong translate="no">{project.fullName}</strong>
-    <span className="ox-catalog-art-brand" translate="no">OPTIMIX / PORTFOLIO</span>
+    <span className="ox-catalog-art-brand" translate="no">{siteName} / PORTFOLIO</span>
   </div>}
     </figure>
     </>);

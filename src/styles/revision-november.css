@@ -52,7 +52,7 @@
 .ox-real-copy li { display:flex; align-items:flex-start; gap:12px; font-size:18px; line-height:1.5; color:#e0e9e6; }
 .ox-real-copy li .ox-icon { flex-shrink:0; margin-top:4px; }
 .ox-service-hero .ox-container { max-width:1100px; }
-.ox-service-hero .ox-container>.ox-icon { display:block; margin-block:36px 20px; }
+.ox-service-hero .ox-container>.ox-icon { display:block; margin-block:36px 20px; color:var(--palette-mint); }
 .ox-service-page h1 { font-size:clamp(38px,5vw,72px); line-height:1.05; max-width:1000px; letter-spacing:-.035em; }
 .ox-service-hero p { max-width:740px; margin:26px 0; font-size:24px; line-height:1.5; }
 .ox-service-page h2 { font-size:clamp(28px,3vw,42px); line-height:1.15; }
@@ -96,7 +96,7 @@
 .ox-sheet-footer { display:flex; align-items:center; gap:1.5cqw; font-size:2.2cqw; color:#3c6659; }
 .ox-sheet-footer .ox-icon { width:2.8cqw; height:2.8cqw; flex-shrink:0; }
 .ox-hero-switcher { position:absolute; top:102%; left:0; right:0; display:flex; flex-wrap:wrap; gap:6px; justify-content:center; }
-.ox-hero-switcher button { border:1px solid #a4bfb6; color:#e5f2ed; background:#454f52; padding:7px 11px; font-size:12px; border-radius:7px; min-height:34px; cursor:pointer; }
+.ox-hero-switcher button { border:1px solid #a4bfb6; color:#e5f2ed; background:#454f52; padding:7px 11px; font-size:12px; border-radius:7px; min-width:36px; min-height:34px; cursor:pointer; }
 .ox-hero-switcher button[aria-pressed=true] { background:#c6e4da; color:#293c37; }
 .ox-hero-shuffle:not(.is-shuffling) .ox-hero-switcher { display:none; }
 @media(min-width:961px) { .ox-hero-shuffle { margin-bottom:40px; } }

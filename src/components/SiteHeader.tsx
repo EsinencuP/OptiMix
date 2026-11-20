@@ -1,4 +1,5 @@
 'use client';
+import { siteName } from '../lib/brand';
 import { useEffect, useRef, useState } from 'react';
 import * as NavigationMenu from '@radix-ui/react-navigation-menu';
 import * as Accordion from '@radix-ui/react-accordion';
@@ -23,7 +24,7 @@ export default function SiteHeader({ locale, page, slug }: Props) {
     const close = () => { popover.current?.hidePopover(); setValue(''); };
     const localeLinks = <div className="ox-languages" aria-label={language}>{locales.map(target => <a key={target} data-locale-link href={pathFor(target, page, slug)} lang={target} hrefLang={target} aria-current={target === locale ? 'page' : undefined}>{target.toUpperCase()}</a>)}</div>;
     return <header className="ox-header"><div className="ox-container ox-header-inner">
-  <SiteLink className="ox-brand" href={page === 'home' ? '#top' : pathFor(locale, 'home')} aria-label="Optimix"><img src="/images/redesign/brand-mark-graphite.svg" width="22" height="22" alt=""/><span translate="no">OPTIMIX</span></SiteLink>
+  <SiteLink className="ox-brand" href={page === 'home' ? '#top' : pathFor(locale, 'home')} aria-label={siteName}><img src="/images/redesign/brand-mark-graphite.svg" width="22" height="22" alt=""/><span translate="no">{siteName}</span></SiteLink>
   <NavigationMenu.Root className="ox-desktop-nav ox-navigation-radix" aria-label={t.menu} value={value} onValueChange={setValue} delayDuration={80}><NavigationMenu.List className="ox-nav-list">
    <NavigationMenu.Item className="ox-services-menu" value="services"><NavigationMenu.Trigger className="ox-services-trigger">{t.nav[0]}<Icon name="caret-down" size={14}/></NavigationMenu.Trigger><NavigationMenu.Content className="ox-services-dropdown" data-services-dropdown>{services.map(service => <NavigationMenu.Link key={service.slug} asChild active={page === 'service' && slug === service.slug}><SiteLink href={service.href} onClick={() => setValue('')}><Icon name={service.icon} size={24}/><span>{service.title}</span><Icon name="arrow-right" size={16}/></SiteLink></NavigationMenu.Link>)}</NavigationMenu.Content></NavigationMenu.Item>
    {t.nav.slice(1).map((label, index) => <NavigationMenu.Item key={label}><NavigationMenu.Link asChild><SiteLink href={anchor(anchors[index])}>{label}</SiteLink></NavigationMenu.Link></NavigationMenu.Item>)}

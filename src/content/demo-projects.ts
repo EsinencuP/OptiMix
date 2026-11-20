@@ -1,3 +1,4 @@
+import { siteName } from '../lib/brand';
 import { pathFor, type Locale } from './index';
 import { modulePath, type ModuleSlug } from './portfolio';
 
@@ -8,7 +9,7 @@ export const demoProjectNames: Record<ModuleSlug, string> = {
 export function demoProjects(locale: Locale) {
   const s = (ru: string, en: string, ro: string) => ({ ru, en, ro })[locale];
   return {
-    eyebrow: s('Демо-проекты Optimix', 'Optimix demo projects', 'Proiecte demo Optimix'),
+    eyebrow: s(`Демо-проекты ${siteName}`, `${siteName} demo projects`, `Proiecte demo ${siteName}`),
     title: s('Один процесс. Своя система для каждого шага.', 'One process. A system for every step.', 'Un proces. Un sistem pentru fiecare pas.'),
     intro: s('Посмотрите, как выглядит автоматизация в работе — от первой заявки до общей картины бизнеса.', 'See automation at work — from the first request to a shared view of your business.', 'Vezi automatizarea în lucru — de la prima cerere la imaginea de ansamblu a afacerii.'),
     demo: s('Демо-сценарий', 'Demo scenario', 'Scenariu demo'),

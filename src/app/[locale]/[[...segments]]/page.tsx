@@ -12,6 +12,7 @@ import PortfolioEntry from '../../../components/PortfolioEntry';
 import NotFoundPage from '../../../components/NotFoundPage';
 import {locales,pathFor,type Locale} from '../../../content';
 import {routeManifest,findRoute,pageMeta} from '../../../lib/routes';
+import {siteName} from '../../../lib/brand';
 import type {ModuleSlug} from '../../../content/portfolio';
 import type {CatalogSlug} from '../../../content/portfolio-catalog';
 import type {ServiceSlug} from '../../../content/services';
@@ -23,7 +24,7 @@ export async function generateMetadata({params}:{params:Promise<Params>}):Promis
  const {locale,segments}=await params,route=findRoute(segments);
  if(!locales.includes(locale)||!route)notFound();
  const meta=pageMeta(locale,route),site=process.env.PUBLIC_SITE_URL||'https://opti-mix-three.vercel.app';
- return {metadataBase:new URL(site),title:meta.title,description:meta.description,robots:{index:false,follow:false},alternates:{canonical:meta.path,languages:{...Object.fromEntries(locales.map(target=>[target,pathFor(target,route.page,route.slug)])),'x-default':pathFor('en',route.page,route.slug)}},openGraph:{title:meta.title,description:meta.description,url:meta.path,type:'website',siteName:'OptiMix',locale:locale==='ro'?'ro_RO':locale==='ru'?'ru_RU':'en_GB'},twitter:{card:'summary',title:meta.title,description:meta.description}};
+ return {metadataBase:new URL(site),title:meta.title,description:meta.description,robots:{index:false,follow:false},alternates:{canonical:meta.path,languages:{...Object.fromEntries(locales.map(target=>[target,pathFor(target,route.page,route.slug)])),'x-default':pathFor('en',route.page,route.slug)}},openGraph:{title:meta.title,description:meta.description,url:meta.path,type:'website',siteName,locale:locale==='ro'?'ro_RO':locale==='ru'?'ru_RU':'en_GB'},twitter:{card:'summary',title:meta.title,description:meta.description}};
 }
 export default async function Page({params}:{params:Promise<Params>}){
  const {locale,segments}=await params,route=findRoute(segments);

@@ -1,5 +1,5 @@
 {
-  "buildId": "Jn3hMw1DqjJQlqdRHVdBG",
+  "buildId": "jqppfj3mVBfyuD3Xmw8J8",
   "pages": [
     {
       "url": "/en/",
@@ -25428,7 +25428,7 @@
     },
     "compositorDeckResize": true,
     "deckKeyboardAndNestedLink": true,
-    "briefDownload": "optimix-process-brief-en.txt",
+    "briefDownload": "scutilabs-process-brief-en.txt",
     "crmWorkflow": true,
     "erpHub": true,
     "processSimulator": true,
@@ -25443,11 +25443,13 @@
     "mobileMotion": true,
     "backgroundTabFocusPause": true,
     "reducedMotion": true,
+    "reducedMotionStar": true,
     "nextClientNavigation": true,
     "nativeViewTransition": true,
     "noJavaScript": true,
     "localized404": true,
-    "credentialFreeHtml": 72
+    "credentialFreeHtml": 72,
+    "scutilabsMetadata": 72
   },
   "errors": [],
   "warnings": []
